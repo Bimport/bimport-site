@@ -1,0 +1,768 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>岡山の輸入車買取相談なら Bimport（運営：Bgroup株式会社）</title>
+<meta name="description" content="岡山を拠点に、輸入車の相場・グレード・装備を見極める専門査定。国産車の買取にも対応。公式LINEで無料相談を受け付けています。">
+
+<!-- OGP -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Bimport">
+<meta property="og:title" content="岡山の輸入車買取相談なら Bimport（運営：Bgroup株式会社）">
+<meta property="og:description" content="岡山を拠点に、輸入車の相場・グレード・装備を見極める専門査定。国産車の買取にも対応。公式LINEで無料相談を受け付けています。">
+<meta property="og:locale" content="ja_JP">
+<!-- TODO: ドメイン確定後に og:url、canonical、og:image（正方形/1200x630pxの実写真かロゴ）を追加してください -->
+
+{% include "fonts.njk" %}
+
+<!-- Google tag (gtag.js) -->
+<!-- TODO: G-XXXXXXXXXX を実際のGA4測定IDに差し替えてください -->
+{% include "ga4.njk" %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutomotiveBusiness",
+  "name": "Bimport",
+  "alternateName": "Bgroup株式会社",
+  "description": "岡山を拠点とする輸入車・国産車の査定・買取専門店。",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{{ site.officeStreetAddress }}",
+    "addressLocality": "{{ site.officeLocality }}",
+    "addressRegion": "{{ site.officeRegion }}",
+    "postalCode": "{{ site.officePostalCode }}",
+    "addressCountry": "JP"
+  },
+  "telephone": "{{ site.phoneE164 }}",
+  "areaServed": ["岡山県", "広島県", "鳥取県", "島根県", "四国地方"]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "国産車でも相談できますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "はい。国産車も買取対象です。" }
+    },
+    {
+      "@type": "Question",
+      "name": "岡山県外に住んでいますが相談できますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "車両情報・写真・移動条件を確認したうえで、対応可否を個別にご案内します。" }
+    },
+    {
+      "@type": "Question",
+      "name": "修復歴があっても売れますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "修復歴の有無にかかわらず、まずはご相談ください。" }
+    },
+    {
+      "@type": "Question",
+      "name": "相談後に断ることはできますか？",
+      "acceptedAnswer": { "@type": "Answer", "text": "もちろん可能です。契約前であればいつでもお断りいただけます。" }
+    }
+  ]
+}
+</script>
+
+<style>
+  body { margin: 0; font-family: "Noto Sans JP", system-ui, sans-serif; background: #F5F2EA; color: #1C1A16; }
+  a { color: inherit; text-decoration: none; }
+  .serif { font-family: "Shippori Mincho", serif; }
+  .case-panel-scroll { scrollbar-width: none; -ms-overflow-style: none; }
+  .case-panel-scroll::-webkit-scrollbar { display: none; }
+  .bar-light::before {
+    content: "";
+    position: absolute;
+    top: -110px;
+    right: -30px;
+    width: 130px;
+    height: 260px;
+    background: linear-gradient(135deg, rgba(245,242,234,0) 0%, rgba(201,169,97,0.35) 40%, rgba(245,242,234,0.85) 52%, rgba(201,169,97,0.3) 64%, rgba(245,242,234,0) 100%);
+    transform: rotate(-18deg);
+    pointer-events: none;
+    z-index: 0;
+  }
+  .accent-light::before {
+    content: "";
+    position: absolute;
+    top: -60%;
+    right: -20%;
+    width: 75%;
+    height: 220%;
+    background: linear-gradient(135deg, rgba(201,169,97,0) 0%, rgba(201,169,97,0.18) 38%, rgba(255,255,255,0.45) 52%, rgba(201,169,97,0.14) 64%, rgba(201,169,97,0) 100%);
+    transform: rotate(-18deg);
+    pointer-events: none;
+    z-index: 0;
+  }
+  .accent-light-soft::before {
+    content: "";
+    position: absolute;
+    top: -60%;
+    right: -20%;
+    width: 75%;
+    height: 220%;
+    background: linear-gradient(135deg, rgba(201,169,97,0) 0%, rgba(201,169,97,0.08) 38%, rgba(255,255,255,0.18) 52%, rgba(201,169,97,0.06) 64%, rgba(201,169,97,0) 100%);
+    transform: rotate(-18deg);
+    pointer-events: none;
+    z-index: 0;
+  }
+  .gold-stroke { -webkit-text-stroke: 0.5px #8A6F3E; text-shadow: 0 1px 3px rgba(0,0,0,0.3); }
+  .price-amount {
+    font-family: "Shippori Mincho", serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #C9A961;
+    -webkit-text-stroke: 1.2px #6B5527;
+  }
+  .badge-ring {
+    width: 76px;
+    height: 76px;
+    border-radius: 999px;
+    padding: 3px;
+    box-sizing: border-box;
+    background: conic-gradient(from 200deg, #C9A961, #F5E7C0, #C9A961, #8A6F3E, #C9A961);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .badge-inner {
+    width: 100%;
+    height: 100%;
+    border-radius: 999px;
+    background: #FFFFFF;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .badge-inner::before {
+    content: "";
+    position: absolute;
+    top: -30%;
+    left: -30%;
+    width: 160%;
+    height: 60%;
+    background: linear-gradient(180deg, rgba(255,255,255,0.65) 0%, rgba(255,255,255,0) 100%);
+    transform: rotate(-8deg);
+    pointer-events: none;
+  }
+  .badge-gold-num {
+    background: linear-gradient(180deg, #F0DFA8 0%, #C9A961 45%, #8A6F3E 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 800;
+  }
+</style>
+</head>
+<body>
+
+<div style="width: 100%; max-width: 480px; margin: 0 auto; box-sizing: border-box; display: flex; flex-direction: column; background: #F5F2EA; position: relative;">
+
+  <!-- ============ 会員バー ============ -->
+  <div class="bar-light" style="background: #3A3226; color: #F5F2EA; padding: 8px 20px; display: flex; align-items: center; justify-content: space-between; font-size: 11px; letter-spacing: 0.06em; position: relative; overflow: hidden;">
+    <span style="z-index: 1;">輸入車買取専門 ── Bimport</span>
+    <span style="z-index: 1;">岡山</span>
+  </div>
+
+  <!-- ============ 1. ファーストビュー ============ -->
+  <div style="padding: 40px 24px 36px; background: #FFFFFF; color: #1C1A16; display: flex; flex-direction: column; gap: 16px; position: relative; overflow: hidden;">
+    <div style="position: absolute; top: -60px; right: -60px; width: 200px; height: 200px; border: 1px solid rgba(201,169,97,0.25); border-radius: 999px;"></div>
+    <div style="position: absolute; top: -20px; right: -20px; width: 200px; height: 200px; border: 1px solid rgba(201,169,97,0.18); border-radius: 999px;"></div>
+
+    <div class="serif" style="font-size: 24px; font-weight: 700; letter-spacing: 0.06em; color: #C9A961; z-index: 1;">Bimport</div>
+    <div style="font-size: 12px; color: #1C1A16; z-index: 1;">運営：Bgroup株式会社</div>
+
+    <h1 class="serif" style="margin: 8px 0 0; font-size: 27px; line-height: 1.65; font-weight: 700; color: #1C1A16; z-index: 1;">輸入車の価値を、<br>見誤らない査定を。</h1>
+    <p style="margin: 0; font-size: 14.5px; line-height: 1.9; color: #1C1A16; z-index: 1;">岡山を拠点に、輸入車の相場・グレード・装備を見極める専門査定。国産車の買取にも対応しています。</p>
+
+    <div style="margin-top: 8px; height: 1px; background: linear-gradient(90deg, rgba(201,169,97,0.7), rgba(201,169,97,0));"></div>
+
+    <div style="display: flex; gap: 18px; z-index: 1;">
+      <div>
+        <div class="serif" style="font-size: 20px; font-weight: 700; color: #C9A961;">無料</div>
+        <div style="font-size: 11px; color: #1C1A16; margin-top: 2px;">相談・概算査定</div>
+      </div>
+      <div>
+        <div class="serif" style="font-size: 20px; font-weight: 700; color: #C9A961;">輸入車</div>
+        <div style="font-size: 11px; color: #1C1A16; margin-top: 2px;">専門の相場判断</div>
+      </div>
+      <div>
+        <div class="serif" style="font-size: 20px; font-weight: 700; color: #C9A961;">国産車</div>
+        <div style="font-size: 11px; color: #1C1A16; margin-top: 2px;">もあわせて対応</div>
+      </div>
+    </div>
+
+    <div style="margin-top: 14px; display: flex; flex-direction: column; gap: 10px; z-index: 1;">
+      <a href="{{ site.lineUrl }}" data-cta="hero" data-cta-type="line" style="display: flex; align-items: center; justify-content: center; gap: 8px; background: #06C755; color: #FFFFFF; font-weight: 700; font-size: 16px; padding: 17px 20px; border-radius: 8px;">
+        公式LINEで無料相談する
+      </a>
+      <a href="{{ site.phoneHref }}" data-cta="hero" data-cta-type="tel" style="display: flex; align-items: center; justify-content: center; gap: 8px; background: transparent; color: #1C1A16; font-weight: 600; font-size: 14px; padding: 14px 20px; border-radius: 8px; border: 1px solid #D8CFB8;">
+        電話で相談する（{{ site.phoneDisplay }}）
+      </a>
+      <div style="font-size: 11.5px; color: #1C1A16; text-align: center;">友だち追加後、車種・年式・写真を送るだけ</div>
+    </div>
+  </div>
+
+  <!-- ============ 写真：対応ブランドイメージ ============ -->
+  <img src="assets/images/photos/brand-lineup.jpg" alt="Bimportが買取対応する輸入車・国産車のイメージ" style="width: 100%; height: auto; display: block;">
+
+  <!-- ============ 対応ブランド帯 ============ -->
+  <div style="padding: 16px 24px; background: #FFFFFF; border-bottom: 1px solid #E7E1D2; display: flex; flex-direction: column; gap: 10px;">
+    <div style="font-size: 11px; color: #8D8270; text-align: center; letter-spacing: 0.05em;">対応ブランド（一例）</div>
+    <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;">
+      <span style="font-size: 12px; border: 1px solid #D8CFB8; border-radius: 4px; padding: 5px 11px; color: #4A4536;">Porsche</span>
+      <span style="font-size: 12px; border: 1px solid #D8CFB8; border-radius: 4px; padding: 5px 11px; color: #4A4536;">Mercedes-Benz</span>
+      <span style="font-size: 12px; border: 1px solid #D8CFB8; border-radius: 4px; padding: 5px 11px; color: #4A4536;">BMW</span>
+      <span style="font-size: 12px; border: 1px solid #D8CFB8; border-radius: 4px; padding: 5px 11px; color: #4A4536;">Land Rover</span>
+      <span style="font-size: 12px; border: 1px solid #D8CFB8; border-radius: 4px; padding: 5px 11px; color: #4A4536;">Maserati</span>
+      <span style="font-size: 12px; border: 1px solid #D8CFB8; border-radius: 4px; padding: 5px 11px; color: #4A4536;">Peugeot</span>
+      <span style="font-size: 12px; border: 1px solid #D8CFB8; border-radius: 4px; padding: 5px 11px; color: #4A4536;">MINI</span>
+      <span style="font-size: 12px; border: 1px solid #D8CFB8; border-radius: 4px; padding: 5px 11px; color: #4A4536;">Jaguar</span>
+      <span style="font-size: 12px; border: 1px solid #D8CFB8; border-radius: 4px; padding: 5px 11px; color: #4A4536;">アメ車全般</span>
+    </div>
+  </div>
+
+  <!-- ============ 2. 対応可否 ============ -->
+  <div style="padding: 36px 24px; display: flex; flex-direction: column; gap: 16px; border-bottom: 1px solid #E7E1D2;">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <div style="width: 24px; height: 1px; background: #C9A961;"></div>
+      <div style="font-size: 11px; color: #8D8270; letter-spacing: 0.1em;">CONSULTATION</div>
+    </div>
+    <h2 class="serif" style="margin: 0; font-size: 20px; font-weight: 700; color: #1C1A16;">こんなご相談をお受けしています</h2>
+
+    <div style="display: flex; flex-direction: column; gap: 0;">
+      <div style="display: flex; gap: 12px; align-items: flex-start; padding: 12px 0; border-bottom: 1px solid #EDE8DB;">
+        <span class="serif" style="color: #C9A961; font-size: 15px; font-weight: 700;">01</span>
+        <span style="font-size: 14px; line-height: 1.7; padding-top: 1px;">輸入車・国産車を問わず、車種にかかわらずご相談いただけます</span>
+      </div>
+      <div style="display: flex; gap: 12px; align-items: flex-start; padding: 12px 0; border-bottom: 1px solid #EDE8DB;">
+        <span class="serif" style="color: #C9A961; font-size: 15px; font-weight: 700;">02</span>
+        <span style="font-size: 14px; line-height: 1.7; padding-top: 1px;">年式が古い、走行距離が多い車</span>
+      </div>
+      <div style="display: flex; gap: 12px; align-items: flex-start; padding: 12px 0; border-bottom: 1px solid #EDE8DB;">
+        <span class="serif" style="color: #C9A961; font-size: 15px; font-weight: 700;">03</span>
+        <span style="font-size: 14px; line-height: 1.7; padding-top: 1px;">一括査定やディーラー下取りで希望額が出なかった車</span>
+      </div>
+      <div style="display: flex; gap: 12px; align-items: flex-start; padding: 12px 0;">
+        <span class="serif" style="color: #C9A961; font-size: 15px; font-weight: 700;">04</span>
+        <span style="font-size: 14px; line-height: 1.7; padding-top: 1px;">修復歴や不具合があり、売れるか不安な車</span>
+      </div>
+    </div>
+
+    <div class="accent-light-soft" style="background: linear-gradient(135deg, #3A3226 0%, #14120E 100%); border-radius: 10px; padding: 18px; display: flex; flex-direction: column; gap: 8px; position: relative; overflow: hidden;">
+      <div class="serif gold-stroke" style="font-size: 14px; font-weight: 700; color: #C9A961; z-index: 1;">対応エリアについて</div>
+      <p style="margin: 0; font-size: 13px; line-height: 1.85; color: #D8D0C0; z-index: 1;">岡山県を拠点に、広島・鳥取・島根・四国など周辺エリアへの出張査定にも対応しています。それ以外の遠方の方も、車両情報・写真・売却のご意向を確認したうえで、個別に対応可否を判断します。</p>
+      <p style="margin: 0; font-size: 12px; line-height: 1.7; color: #8D8270; z-index: 1;">「全国どこでも無料出張」といった一律のお約束はしておりません。ご相談内容に応じて都度ご案内します。</p>
+    </div>
+  </div>
+
+  <!-- ============ 3. 選ばれる理由 ============ -->
+  <div style="padding: 36px 24px; display: flex; flex-direction: column; gap: 18px; border-bottom: 1px solid #E7E1D2; background: #FFFFFF;">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <div style="width: 24px; height: 1px; background: #C9A961;"></div>
+      <div style="font-size: 11px; color: #8D8270; letter-spacing: 0.1em;">WHY BIMPORT</div>
+    </div>
+    <h2 class="serif" style="margin: 0; font-size: 20px; font-weight: 700; color: #1C1A16;">なぜBimportに相談する価値があるか</h2>
+    <p style="margin: 0; font-size: 13.5px; line-height: 1.85;">運営会社はBgroup株式会社です。輸入車の仕入れ・販売・査定を中心に扱ってきた経験をもとに、車種ごとの相場観と装備・グレードの見極めに強みがあります。</p>
+
+    <div style="display: flex; flex-direction: column; gap: 14px;">
+      <div style="display: flex; gap: 14px; align-items: flex-start; background: #F5F2EA; border-radius: 10px; padding: 16px;">
+        <div class="serif" style="width: 34px; height: 34px; border: 1px solid #C9A961; border-radius: 999px; color: #C9A961; font-size: 14px; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">1</div>
+        <div>
+          <div style="font-size: 14px; font-weight: 700; color: #1C1A16;">オークション相場に基づく判断</div>
+          <div style="font-size: 12.5px; line-height: 1.75; color: #5A5343; margin-top: 4px;">USSなど、実際に成約しているオークション相場を確認したうえで金額を検討します。相場観だけに頼らず、直近の成約データを見ます。</div>
+        </div>
+      </div>
+      <div style="display: flex; gap: 14px; align-items: flex-start; background: #F5F2EA; border-radius: 10px; padding: 16px;">
+        <div class="serif" style="width: 34px; height: 34px; border: 1px solid #C9A961; border-radius: 999px; color: #C9A961; font-size: 14px; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">2</div>
+        <div>
+          <div style="font-size: 14px; font-weight: 700; color: #1C1A16;">装備・グレードの見極め</div>
+          <div style="font-size: 12.5px; line-height: 1.75; color: #5A5343; margin-top: 4px;">エンジン仕様、地域限定パッケージ、内外装オプションなど、金額に影響する装備差を確認したうえで判断します。</div>
+        </div>
+      </div>
+      <div style="display: flex; gap: 14px; align-items: flex-start; background: #F5F2EA; border-radius: 10px; padding: 16px;">
+        <div class="serif" style="width: 34px; height: 34px; border: 1px solid #C9A961; border-radius: 999px; color: #C9A961; font-size: 14px; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">3</div>
+        <div>
+          <div style="font-size: 14px; font-weight: 700; color: #1C1A16;">担当者が直接、最初から最後まで対応</div>
+          <div style="font-size: 12.5px; line-height: 1.75; color: #5A5343; margin-top: 4px;">金額の確認・提示はすべて担当者が行います。AIが自動で確定額を出す仕組みではありません。</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ 写真：査定リサーチイメージ ============ -->
+  <img src="assets/images/photos/research-laptop-blurred.jpg" alt="相場をリサーチする様子のイメージ写真" style="width: 100%; height: auto; display: block;">
+
+  <!-- ============ 4. 他社との違い ============ -->
+  <div style="padding: 36px 24px; display: flex; flex-direction: column; gap: 16px; border-bottom: 1px solid #E7E1D2;">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <div style="width: 24px; height: 1px; background: #C9A961;"></div>
+      <div style="font-size: 11px; color: #8D8270; letter-spacing: 0.1em;">COMPARISON</div>
+    </div>
+    <h2 class="serif" style="margin: 0; font-size: 20px; font-weight: 700; color: #1C1A16;">一括査定サイトとの違い</h2>
+
+    <div style="background: #FFFFFF; border-radius: 12px; overflow: hidden; border: 1px solid #E7E1D2;">
+      <div style="display: grid; grid-template-columns: 1.4fr 1fr 1fr;">
+        <div style="padding: 12px 10px; font-size: 11.5px; color: #8D8270;"></div>
+        <div style="padding: 12px 10px; font-size: 12px; font-weight: 700; text-align: center; color: #8D8270;">一括査定</div>
+        <div class="serif" style="padding: 12px 10px; font-size: 12.5px; font-weight: 700; text-align: center; background: #14120E; color: #C9A961;">Bimport</div>
+      </div>
+      <div style="display: grid; grid-template-columns: 1.4fr 1fr 1fr; border-top: 1px solid #EDE8DB;">
+        <div style="padding: 12px 10px; font-size: 12.5px; color: #4A4536;">複数社からの連絡</div>
+        <div style="padding: 12px 10px; font-size: 12px; text-align: center; color: #8D8270;">同時に多数</div>
+        <div style="padding: 12px 10px; font-size: 12px; text-align: center; color: #1C1A16; font-weight: 600;">窓口は1つ</div>
+      </div>
+      <div style="display: grid; grid-template-columns: 1.4fr 1fr 1fr; border-top: 1px solid #EDE8DB;">
+        <div style="padding: 12px 10px; font-size: 12.5px; color: #4A4536;">対応の専門性</div>
+        <div style="padding: 12px 10px; font-size: 12px; text-align: center; color: #8D8270;">業者による</div>
+        <div style="padding: 12px 10px; font-size: 12px; text-align: center; color: #1C1A16; font-weight: 600;">輸入車に強い</div>
+      </div>
+      <div style="display: grid; grid-template-columns: 1.4fr 1fr 1fr; border-top: 1px solid #EDE8DB;">
+        <div style="padding: 12px 10px; font-size: 12.5px; color: #4A4536;">担当者の一貫性</div>
+        <div style="padding: 12px 10px; font-size: 12px; text-align: center; color: #8D8270;">都度変わることも</div>
+        <div style="padding: 12px 10px; font-size: 12px; text-align: center; color: #1C1A16; font-weight: 600;">最初から最後まで同じ担当</div>
+      </div>
+    </div>
+    <p style="margin: 0; font-size: 11.5px; line-height: 1.7; color: #8D8270;">一括査定を否定するものではありません。「まずは1社に、じっくり相談したい」という方に向いています。</p>
+  </div>
+
+  <!-- ============ 5. 買取事例 ============ -->
+  <div style="padding: 36px 24px; display: flex; flex-direction: column; gap: 16px; border-bottom: 1px solid #E7E1D2; background: #FFFFFF;">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <div style="width: 24px; height: 1px; background: #C9A961;"></div>
+      <div style="font-size: 11px; color: #8D8270; letter-spacing: 0.1em;">CASE</div>
+    </div>
+    <h2 class="serif" style="margin: 0; font-size: 20px; font-weight: 700; color: #1C1A16;">買取事例</h2>
+    <p style="margin: 0; font-size: 12px; line-height: 1.7; color: #8D8270;">実際の買取事例です。お客様のプライバシーに配慮し、個人が特定される情報は掲載していません。</p>
+
+    <div class="case-panel-scroll" style="margin: 0 -24px; padding: 0 24px; display: flex; overflow-x: auto; scroll-snap-type: x mandatory;">
+      <div style="flex: 0 0 100%; scroll-snap-align: center; background: #EAE8E2; border-radius: 10px; overflow: hidden; display: flex; flex-direction: column;">
+        <div style="padding: 16px; background: #EAE8E2; box-sizing: border-box; height: 190px; display: flex; align-items: center; justify-content: center;">
+          <img src="assets/images/cases/case-porsche-911-gts.jpg" alt="買取事例：Porsche 911 カレラ4 GTS PDK" style="max-width: 100%; max-height: 100%; object-fit: contain; display: block;">
+        </div>
+        <div style="padding: 16px; display: flex; flex-direction: column; gap: 8px;">
+          <div style="display: flex; align-items: center; justify-content: space-between; gap: 10px;">
+            <div style="flex: 1; min-width: 0;">
+              <div style="font-size: 13.5px; font-weight: 700; color: #1C1A16;">Porsche 911 カレラ4 GTS PDK（2022年）</div>
+              <div style="font-size: 12px; color: #8D8270; margin-top: 2px;">走行距離 23,784km ／ 買取時期：2026年9月 ／ 地域：徳島県</div>
+            </div>
+            <div class="badge-ring">
+              <div class="badge-inner">
+                <span class="serif" style="font-size: 9px; font-weight: 700; color: #1C1A16; z-index: 1;">他社より</span>
+                <div style="width: 22px; height: 1px; background: #1C1A16; margin: 3px 0; z-index: 1;"></div>
+                <div style="display: flex; align-items: baseline; gap: 2px; z-index: 1;">
+                  <span class="serif badge-gold-num" style="font-size: 16px;">15万</span>
+                  <span class="serif" style="font-size: 11px; font-weight: 700; color: #1C1A16;">高く</span>
+                </div>
+                <span class="serif" style="font-size: 12px; font-weight: 700; color: #1C1A16; z-index: 1;">買取</span>
+              </div>
+            </div>
+          </div>
+          <div style="display: flex; align-items: baseline; gap: 6px;"><span class="serif" style="font-size: 14px; font-weight: 700; color: #1C1A16;">買取価格</span><span class="price-amount">550万円</span></div>
+          <div style="font-size: 12.5px; color: #5A5343; line-height: 1.85;">
+            ・外装クレヨン<br>
+            ・セラミックコンポジットブレーキ<br>
+            ・レザーインテリア<br>
+            ・インテリアトリムパッケージ<br>
+            ・フロントアクスルリフトシステム
+          </div>
+        </div>
+      </div>
+      <div style="flex: 0 0 100%; scroll-snap-align: center; background: #EAE8E2; border-radius: 10px; overflow: hidden; display: flex; flex-direction: column; margin-left: 12px;">
+        <div style="padding: 16px; background: #EAE8E2; box-sizing: border-box; height: 190px; display: flex; align-items: center; justify-content: center;">
+          <img src="assets/images/cases/case-jeep-grand-cherokee.jpg" alt="買取事例：Jeep グランドチェロキー アルティテュード" style="max-width: 100%; max-height: 100%; object-fit: contain; display: block;">
+        </div>
+        <div style="padding: 16px; display: flex; flex-direction: column; gap: 8px;">
+          <div style="display: flex; align-items: center; justify-content: space-between; gap: 10px;">
+            <div style="flex: 1; min-width: 0;">
+              <div style="font-size: 13.5px; font-weight: 700; color: #1C1A16;">Jeep グランドチェロキー アルティテュード（2019年）</div>
+              <div style="font-size: 12px; color: #8D8270; margin-top: 2px;">走行距離 29,800km ／ 買取時期：2026年8月 ／ 地域：岡山県</div>
+            </div>
+            <div class="badge-ring">
+              <div class="badge-inner">
+                <span class="serif" style="font-size: 9px; font-weight: 700; color: #1C1A16; z-index: 1;">他社より</span>
+                <div style="width: 22px; height: 1px; background: #1C1A16; margin: 3px 0; z-index: 1;"></div>
+                <div style="display: flex; align-items: baseline; gap: 2px; z-index: 1;">
+                  <span class="serif badge-gold-num" style="font-size: 19px;">5万</span>
+                  <span class="serif" style="font-size: 12px; font-weight: 700; color: #1C1A16;">高く</span>
+                </div>
+                <span class="serif" style="font-size: 12px; font-weight: 700; color: #1C1A16; z-index: 1;">買取</span>
+              </div>
+            </div>
+          </div>
+          <div style="display: flex; align-items: baseline; gap: 6px;"><span class="serif" style="font-size: 14px; font-weight: 700; color: #1C1A16;">買取価格</span><span class="price-amount">260万円</span></div>
+          <div style="font-size: 12.5px; color: #5A5343; line-height: 1.85;">
+            ・ワンオーナー<br>
+            ・200台限定車<br>
+            ・内装スレ<br>
+            ・下回りサビあり
+          </div>
+          <div style="font-size: 12.5px; color: #5A5343;">売却理由：乗り換え</div>
+        </div>
+      </div>
+      <div style="flex: 0 0 100%; scroll-snap-align: center; background: #EAE8E2; border-radius: 10px; overflow: hidden; display: flex; flex-direction: column; margin-left: 12px;">
+        <div style="padding: 16px; background: #EAE8E2; box-sizing: border-box; height: 190px; display: flex; align-items: center; justify-content: center;">
+          <img src="assets/images/cases/case-landrover-defender.jpg" alt="買取事例：Land Rover ディフェンダー 90 イースナーエディション" style="max-width: 100%; max-height: 100%; object-fit: contain; display: block;">
+        </div>
+        <div style="padding: 16px; display: flex; flex-direction: column; gap: 8px;">
+          <div>
+            <div style="font-size: 13.5px; font-weight: 700; color: #1C1A16;">Land Rover ディフェンダー 90 イースナーエディション（2023年）</div>
+            <div style="font-size: 12px; color: #8D8270; margin-top: 2px;">走行距離 17,780km ／ 買取時期：2026年8月 ／ 地域：東京都</div>
+          </div>
+          <div style="display: flex; align-items: baseline; gap: 6px;"><span class="serif" style="font-size: 14px; font-weight: 700; color: #1C1A16;">買取価格</span><span class="price-amount">2115万円</span></div>
+          <div style="font-size: 12.5px; color: #5A5343; line-height: 1.85;">
+            ・エアサスペンション<br>
+            ・マットブラックラッピング<br>
+            ・MERIDIANサウンド<br>
+            ・純正20AW<br>
+            ・ルーム内うす汚れ・小傷あり
+          </div>
+        </div>
+      </div>
+      <div style="flex: 0 0 100%; scroll-snap-align: center; background: #EAE8E2; border-radius: 10px; overflow: hidden; display: flex; flex-direction: column; margin-left: 12px;">
+        <div style="padding: 16px; background: #EAE8E2; box-sizing: border-box; height: 190px; display: flex; align-items: center; justify-content: center;">
+          <img src="assets/images/cases/case-renault-kangoo.jpg" alt="買取事例：ルノー カングー プルミエール エディション" style="max-width: 100%; max-height: 100%; object-fit: contain; display: block;">
+        </div>
+        <div style="padding: 16px; display: flex; flex-direction: column; gap: 8px;">
+          <div style="display: flex; align-items: center; justify-content: space-between; gap: 10px;">
+            <div style="flex: 1; min-width: 0;">
+              <div style="font-size: 13.5px; font-weight: 700; color: #1C1A16;">ルノー カングー プルミエール エディション（2023年）</div>
+              <div style="font-size: 12px; color: #8D8270; margin-top: 2px;">走行距離 44,000km ／ 買取時期：2026年8月 ／ 地域：高知県</div>
+            </div>
+            <div class="badge-ring">
+              <div class="badge-inner">
+                <span class="serif" style="font-size: 9px; font-weight: 700; color: #1C1A16; z-index: 1;">他社より</span>
+                <div style="width: 22px; height: 1px; background: #1C1A16; margin: 3px 0; z-index: 1;"></div>
+                <div style="display: flex; align-items: baseline; gap: 2px; z-index: 1;">
+                  <span class="serif badge-gold-num" style="font-size: 19px;">3万</span>
+                  <span class="serif" style="font-size: 12px; font-weight: 700; color: #1C1A16;">高く</span>
+                </div>
+                <span class="serif" style="font-size: 12px; font-weight: 700; color: #1C1A16; z-index: 1;">買取</span>
+              </div>
+            </div>
+          </div>
+          <div style="display: flex; align-items: baseline; gap: 6px;"><span class="serif" style="font-size: 14px; font-weight: 700; color: #1C1A16;">買取価格</span><span class="price-amount">197万円</span></div>
+          <div style="font-size: 12.5px; color: #5A5343; line-height: 1.85;">
+            ・ワンオーナー<br>
+            ・純正ディスプレイオーディオ<br>
+            ・左面修復歴あり<br>
+            ・ルーム内うす汚れ、動物の毛あり
+          </div>
+          <div style="font-size: 12.5px; color: #5A5343;">売却理由：乗り換え</div>
+        </div>
+      </div>
+      <div style="flex: 0 0 100%; scroll-snap-align: center; background: #EAE8E2; border-radius: 10px; overflow: hidden; display: flex; flex-direction: column; margin-left: 12px;">
+        <div style="padding: 16px; background: #EAE8E2; box-sizing: border-box; height: 190px; display: flex; align-items: center; justify-content: center;">
+          <img src="assets/images/cases/case-mercedes-eclass.jpg" alt="買取事例：Mercedes-Benz Eクラス E450 4マチック エクスクルーシブ" style="max-width: 100%; max-height: 100%; object-fit: contain; display: block;">
+        </div>
+        <div style="padding: 16px; display: flex; flex-direction: column; gap: 8px;">
+          <div>
+            <div style="font-size: 13.5px; font-weight: 700; color: #1C1A16;">Mercedes-Benz Eクラス E450 4マチック エクスクルーシブ（2018年）</div>
+            <div style="font-size: 12px; color: #8D8270; margin-top: 2px;">走行距離 34,696km ／ 買取時期：2026年9月 ／ 地域：広島県</div>
+          </div>
+          <div style="display: flex; align-items: baseline; gap: 6px;"><span class="serif" style="font-size: 14px; font-weight: 700; color: #1C1A16;">買取価格</span><span class="price-amount">250万円</span></div>
+          <div style="font-size: 12.5px; color: #5A5343; line-height: 1.85;">
+            ・セレナイトグレーメタリック<br>
+            ・レーダーセーフティパッケージ<br>
+            ・ブルメスターサウンド<br>
+            ・パノラミックスライディングルーフ
+          </div>
+          <div style="font-size: 12px; color: #8D8270; border-top: 1px solid #E7E1D2; padding-top: 8px;">次の納車まで1ヶ月間、査定金額を保証してお買取りしました。</div>
+        </div>
+      </div>
+      <div style="flex: 0 0 100%; scroll-snap-align: center; background: #EAE8E2; border-radius: 10px; overflow: hidden; display: flex; flex-direction: column; margin-left: 12px;">
+        <div style="padding: 16px; background: #EAE8E2; box-sizing: border-box; height: 190px; display: flex; align-items: center; justify-content: center;">
+          <img src="assets/images/cases/case-peugeot-408.jpg" alt="買取事例：Peugeot 408 GT フレンチ タッチ" style="max-width: 100%; max-height: 100%; object-fit: contain; display: block;">
+        </div>
+        <div style="padding: 16px; display: flex; flex-direction: column; gap: 8px;">
+          <div style="display: flex; align-items: center; justify-content: space-between; gap: 10px;">
+            <div style="flex: 1; min-width: 0;">
+              <div style="font-size: 13.5px; font-weight: 700; color: #1C1A16;">Peugeot 408 GT フレンチ タッチ（2024年）</div>
+              <div style="font-size: 12px; color: #8D8270; margin-top: 2px;">走行距離 9,700km ／ 買取時期：2026年7月 ／ 地域：岡山県</div>
+            </div>
+            <div class="badge-ring">
+              <div class="badge-inner">
+                <span class="serif" style="font-size: 9px; font-weight: 700; color: #1C1A16; z-index: 1;">他社より</span>
+                <div style="width: 22px; height: 1px; background: #1C1A16; margin: 3px 0; z-index: 1;"></div>
+                <div style="display: flex; align-items: baseline; gap: 2px; z-index: 1;">
+                  <span class="serif badge-gold-num" style="font-size: 19px;">3万</span>
+                  <span class="serif" style="font-size: 12px; font-weight: 700; color: #1C1A16;">高く</span>
+                </div>
+                <span class="serif" style="font-size: 12px; font-weight: 700; color: #1C1A16; z-index: 1;">買取</span>
+              </div>
+            </div>
+          </div>
+          <div style="display: flex; align-items: baseline; gap: 6px;"><span class="serif" style="font-size: 14px; font-weight: 700; color: #1C1A16;">買取価格</span><span class="price-amount">344万円</span></div>
+          <div style="font-size: 12.5px; color: #5A5343; line-height: 1.85;">
+            ・ワンオーナー<br>
+            ・ルーム内スレ・キズ
+          </div>
+          <div style="font-size: 12.5px; color: #5A5343;">売却理由：引っ越し</div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display: flex; align-items: center; justify-content: center; gap: 12px;">
+      <div style="display: flex; gap: 6px;">
+        <div style="width: 6px; height: 6px; border-radius: 999px; background: #C9A961;"></div>
+        <div style="width: 6px; height: 6px; border-radius: 999px; background: #D8CFB8;"></div>
+        <div style="width: 6px; height: 6px; border-radius: 999px; background: #D8CFB8;"></div>
+        <div style="width: 6px; height: 6px; border-radius: 999px; background: #D8CFB8;"></div>
+        <div style="width: 6px; height: 6px; border-radius: 999px; background: #D8CFB8;"></div>
+        <div style="width: 6px; height: 6px; border-radius: 999px; background: #D8CFB8;"></div>
+      </div>
+      <div style="font-size: 11px; color: #8D8270;">← スワイプで他の事例を見る →</div>
+    </div>
+  </div>
+
+  <!-- ============ 6. 相談〜売却の流れ ============ -->
+  <div style="padding: 36px 24px; display: flex; flex-direction: column; gap: 18px; border-bottom: 1px solid #E7E1D2;">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <div style="width: 24px; height: 1px; background: #C9A961;"></div>
+      <div style="font-size: 11px; color: #8D8270; letter-spacing: 0.1em;">FLOW</div>
+    </div>
+    <h2 class="serif" style="margin: 0; font-size: 20px; font-weight: 700; color: #1C1A16;">相談から売却までの流れ</h2>
+
+    <div style="display: flex; flex-direction: column;">
+      <div style="display: flex; gap: 16px;">
+        <div style="display: flex; flex-direction: column; align-items: center;">
+          <div class="serif" style="width: 30px; height: 30px; border-radius: 999px; background: #14120E; color: #C9A961; font-size: 13px; font-weight: 700; display: flex; align-items: center; justify-content: center;">1</div>
+          <div style="width: 1px; flex-grow: 1; background: #D8CFB8;"></div>
+        </div>
+        <div style="padding-bottom: 22px;">
+          <div style="font-size: 14px; font-weight: 700;">公式LINEで車両情報・写真を送る</div>
+          <div style="font-size: 12.5px; color: #5A5343; margin-top: 4px; line-height: 1.75;">車種・年式・走行距離・写真など、わかる範囲で送ってください。</div>
+        </div>
+      </div>
+      <div style="display: flex; gap: 16px;">
+        <div style="display: flex; flex-direction: column; align-items: center;">
+          <div class="serif" style="width: 30px; height: 30px; border-radius: 999px; background: #14120E; color: #C9A961; font-size: 13px; font-weight: 700; display: flex; align-items: center; justify-content: center;">2</div>
+          <div style="width: 1px; flex-grow: 1; background: #D8CFB8;"></div>
+        </div>
+        <div style="padding-bottom: 22px;">
+          <div style="font-size: 14px; font-weight: 700;">相場を確認し、概算額を提示</div>
+          <div style="font-size: 12.5px; color: #5A5343; margin-top: 4px; line-height: 1.75;">オークション相場をもとに、前提条件つきで概算額をお伝えします。</div>
+        </div>
+      </div>
+      <div style="display: flex; gap: 16px;">
+        <div style="display: flex; flex-direction: column; align-items: center;">
+          <div class="serif" style="width: 30px; height: 30px; border-radius: 999px; background: #14120E; color: #C9A961; font-size: 13px; font-weight: 700; display: flex; align-items: center; justify-content: center;">3</div>
+          <div style="width: 1px; flex-grow: 1; background: #D8CFB8;"></div>
+        </div>
+        <div style="padding-bottom: 22px;">
+          <div style="font-size: 14px; font-weight: 700;">金額感・売却のご意向を確認</div>
+          <div style="font-size: 12.5px; color: #5A5343; margin-top: 4px; line-height: 1.75;">この時点でお断りいただいても問題ありません。</div>
+        </div>
+      </div>
+      <div style="display: flex; gap: 16px;">
+        <div style="display: flex; flex-direction: column; align-items: center;">
+          <div class="serif" style="width: 30px; height: 30px; border-radius: 999px; background: #14120E; color: #C9A961; font-size: 13px; font-weight: 700; display: flex; align-items: center; justify-content: center;">4</div>
+          <div style="width: 1px; flex-grow: 1; background: #D8CFB8;"></div>
+        </div>
+        <div style="padding-bottom: 22px;">
+          <div style="font-size: 14px; font-weight: 700;">訪問日程の調整</div>
+          <div style="font-size: 12.5px; color: #5A5343; margin-top: 4px; line-height: 1.75;">場所・日程を踏まえて訪問可否をご案内します。</div>
+        </div>
+      </div>
+      <div style="display: flex; gap: 16px;">
+        <div style="display: flex; flex-direction: column; align-items: center;">
+          <div class="serif" style="width: 30px; height: 30px; border-radius: 999px; background: #14120E; color: #C9A961; font-size: 13px; font-weight: 700; display: flex; align-items: center; justify-content: center;">5</div>
+          <div style="width: 1px; flex-grow: 1; background: #D8CFB8;"></div>
+        </div>
+        <div style="padding-bottom: 22px;">
+          <div style="font-size: 14px; font-weight: 700;">現車確認・正式な買取額のご提示</div>
+          <div style="font-size: 12.5px; color: #5A5343; margin-top: 4px; line-height: 1.75;">実車を確認したうえで、正式な金額をお伝えします。</div>
+        </div>
+      </div>
+      <div style="display: flex; gap: 16px;">
+        <div style="display: flex; flex-direction: column; align-items: center;">
+          <div class="serif" style="width: 30px; height: 30px; border-radius: 999px; background: #14120E; color: #C9A961; font-size: 13px; font-weight: 700; display: flex; align-items: center; justify-content: center;">6</div>
+        </div>
+        <div>
+          <div style="font-size: 14px; font-weight: 700;">契約・入金・引き渡し</div>
+          <div style="font-size: 12.5px; color: #5A5343; margin-top: 4px; line-height: 1.75;">内容にご納得いただいたうえで手続きを進めます。</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ 写真：ご成約イメージ ============ -->
+  <img src="assets/images/photos/handshake-contract.jpg" alt="ご成約時のイメージ写真" style="width: 100%; height: auto; display: block;">
+
+  <!-- ============ 7. LINEで送ってほしい情報 ============ -->
+  <div style="padding: 36px 24px; display: flex; flex-direction: column; gap: 16px; border-bottom: 1px solid #E7E1D2; background: #FFFFFF;">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <div style="width: 24px; height: 1px; background: #C9A961;"></div>
+      <div style="font-size: 11px; color: #8D8270; letter-spacing: 0.1em;">CHECKLIST</div>
+    </div>
+    <h2 class="serif" style="margin: 0; font-size: 20px; font-weight: 700; color: #1C1A16;">LINEで送っていただきたい情報</h2>
+    <p style="margin: 0; font-size: 13.5px; line-height: 1.85;">お車の写真や車両情報をLINEで送っていただければ、まずは概算額についてご相談いただけます。</p>
+    <div style="background: #F5F2EA; border-radius: 10px; padding: 18px; display: flex; flex-direction: column; gap: 11px;">
+      <div style="display: flex; gap: 10px; align-items: center;"><div style="width: 5px; height: 5px; background: #C9A961;"></div><span style="font-size: 13.5px;">車種</span></div>
+      <div style="display: flex; gap: 10px; align-items: center;"><div style="width: 5px; height: 5px; background: #C9A961;"></div><span style="font-size: 13.5px;">年式</span></div>
+      <div style="display: flex; gap: 10px; align-items: center;"><div style="width: 5px; height: 5px; background: #C9A961;"></div><span style="font-size: 13.5px;">走行距離</span></div>
+      <div style="display: flex; gap: 10px; align-items: center;"><div style="width: 5px; height: 5px; background: #C9A961;"></div><span style="font-size: 13.5px;">グレード（わからなければ「不明」でOK）</span></div>
+      <div style="display: flex; gap: 10px; align-items: center;"><div style="width: 5px; height: 5px; background: #C9A961;"></div><span style="font-size: 13.5px;">お住まいの地域</span></div>
+      <div style="display: flex; gap: 10px; align-items: center;"><div style="width: 5px; height: 5px; background: #C9A961;"></div><span style="font-size: 13.5px;">売却希望時期</span></div>
+      <div style="display: flex; gap: 10px; align-items: center;"><div style="width: 5px; height: 5px; background: #C9A961;"></div><span style="font-size: 13.5px;">写真（外装・内装・メーターなど、わかる範囲で）</span></div>
+      <div style="display: flex; gap: 10px; align-items: center;"><div style="width: 5px; height: 5px; background: #C9A961;"></div><span style="font-size: 13.5px;">傷・不具合・修復歴（わかる範囲で）</span></div>
+    </div>
+    <p style="margin: 0; font-size: 12.5px; line-height: 1.75; color: #5A5343;">グレードや状態が正確にわからなくても構いません。わかる範囲で送っていただければ相談を進められます。</p>
+  </div>
+
+  <!-- ============ 8. 概算額と正式な買取額の違い ============ -->
+  <div style="padding: 36px 24px; display: flex; flex-direction: column; gap: 14px; border-bottom: 1px solid #E7E1D2;">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <div style="width: 24px; height: 1px; background: #C9A961;"></div>
+      <div style="font-size: 11px; color: #8D8270; letter-spacing: 0.1em;">ESTIMATE</div>
+    </div>
+    <h2 class="serif" style="margin: 0; font-size: 20px; font-weight: 700; color: #1C1A16;">概算額と正式な買取額の違い</h2>
+    <p style="margin: 0; font-size: 13.5px; line-height: 1.85;">LINEでお伝えする概算額は、送っていただいた情報をもとにした参考の金額です。正式な買取額は、現車を確認したうえで決まります。</p>
+
+    <div style="background: #FFFFFF; border: 1px solid #E7E1D2; border-radius: 10px; padding: 16px; display: flex; flex-direction: column; gap: 8px;">
+      <div style="font-size: 13px; font-weight: 700; color: #1C1A16;">金額が変わることがある主なケース</div>
+      <div style="font-size: 12.5px; line-height: 1.85; color: #5A5343;">
+        ・写真だけではわからない傷・不具合が見つかった場合<br>
+        ・走行距離やグレードが申告内容と実車で異なる場合<br>
+        ・査定までの間にオークション相場が大きく変動した場合
+      </div>
+    </div>
+    <p style="margin: 0; font-size: 11.5px; line-height: 1.7; color: #8D8270;">金額の確認・提示は担当者が行います。AIが自動で買取額を確定するサービスではありません。</p>
+  </div>
+
+  <!-- ============ 9. 費用・出張条件 ============ -->
+  <div style="padding: 36px 24px; display: flex; flex-direction: column; gap: 14px; border-bottom: 1px solid #E7E1D2; background: #FFFFFF;">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <div style="width: 24px; height: 1px; background: #C9A961;"></div>
+      <div style="font-size: 11px; color: #8D8270; letter-spacing: 0.1em;">COST</div>
+    </div>
+    <h2 class="serif" style="margin: 0; font-size: 20px; font-weight: 700; color: #1C1A16;">費用・出張条件について</h2>
+    <div style="display: flex; flex-direction: column; gap: 12px;">
+      <div style="display: flex; gap: 10px; align-items: flex-start;">
+        <span style="color: #C9A961; font-weight: 700;">・</span>
+        <span style="font-size: 13.5px; line-height: 1.75;">LINEでのご相談・概算額のご提示は無料です</span>
+      </div>
+      <div style="display: flex; gap: 10px; align-items: flex-start;">
+        <span style="color: #C9A961; font-weight: 700;">・</span>
+        <span style="font-size: 13.5px; line-height: 1.75;">岡山県を中心に、広島・鳥取・島根・四国など周辺エリアへの出張査定にも対応しています</span>
+      </div>
+      <div style="display: flex; gap: 10px; align-items: flex-start;">
+        <span style="color: #C9A961; font-weight: 700;">・</span>
+        <span style="font-size: 13.5px; line-height: 1.75;">遠方の場合も、まずはお気軽にご相談ください。距離や車両情報などを確認のうえ、対応についてご案内します</span>
+      </div>
+      <div style="display: flex; gap: 10px; align-items: flex-start;">
+        <span style="color: #C9A961; font-weight: 700;">・</span>
+        <span style="font-size: 13.5px; line-height: 1.75;">ご契約前であれば、いつでもお断りいただけます</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ 10. 相談のハードルを下げる ============ -->
+  <div class="accent-light" style="padding: 36px 24px; background: linear-gradient(135deg, #3A3226 0%, #14120E 100%); border-bottom: 1px solid #E7E1D2; display: flex; flex-direction: column; gap: 10px; position: relative; overflow: hidden;">
+    <h2 class="serif gold-stroke" style="margin: 0; font-size: 20px; font-weight: 700; color: #C9A961; z-index: 1;">売ると決めていなくてもご相談ください</h2>
+    <p style="margin: 0; font-size: 13.5px; line-height: 1.9; color: #D8D0C0; z-index: 1;">「今すぐ売るか迷っている」「他社の見積もりと比べたい」という段階でも問題ありません。金額感を知るためだけのご相談も歓迎します。</p>
+  </div>
+
+  <!-- ============ 11. FAQ ============ -->
+  <div style="padding: 36px 24px; display: flex; flex-direction: column; gap: 16px; border-bottom: 1px solid #E7E1D2; background: #FFFFFF;">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <div style="width: 24px; height: 1px; background: #C9A961;"></div>
+      <div style="font-size: 11px; color: #8D8270; letter-spacing: 0.1em;">FAQ</div>
+    </div>
+    <h2 class="serif" style="margin: 0; font-size: 20px; font-weight: 700; color: #1C1A16;">よくあるご質問</h2>
+
+    <div style="display: flex; flex-direction: column; gap: 16px;">
+      <div style="border-top: 1px solid #EDE8DB; padding-top: 14px;">
+        <div style="font-size: 13.5px; font-weight: 700; color: #1C1A16;">Q. 国産車でも相談できますか？</div>
+        <div style="font-size: 12.5px; color: #5A5343; margin-top: 5px; line-height: 1.75;">A. はい。国産車も買取対象です。</div>
+      </div>
+      <div style="border-top: 1px solid #EDE8DB; padding-top: 14px;">
+        <div style="font-size: 13.5px; font-weight: 700; color: #1C1A16;">Q. 岡山県外に住んでいますが相談できますか？</div>
+        <div style="font-size: 12.5px; color: #5A5343; margin-top: 5px; line-height: 1.75;">A. 車両情報・写真・移動条件を確認したうえで、対応可否を個別にご案内します。</div>
+      </div>
+      <div style="border-top: 1px solid #EDE8DB; padding-top: 14px;">
+        <div style="font-size: 13.5px; font-weight: 700; color: #1C1A16;">Q. 修復歴があっても売れますか？</div>
+        <div style="font-size: 12.5px; color: #5A5343; margin-top: 5px; line-height: 1.75;">A. 修復歴の有無にかかわらず、まずはご相談ください。</div>
+      </div>
+      <div style="border-top: 1px solid #EDE8DB; padding-top: 14px;">
+        <div style="font-size: 13.5px; font-weight: 700; color: #1C1A16;">Q. 相談後に断ることはできますか？</div>
+        <div style="font-size: 12.5px; color: #5A5343; margin-top: 5px; line-height: 1.75;">A. もちろん可能です。契約前であればいつでもお断りいただけます。</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ 12. アクセス・会社情報 ============ -->
+  <div style="padding: 36px 24px; display: flex; flex-direction: column; gap: 18px; border-bottom: 1px solid #E7E1D2;">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <div style="width: 24px; height: 1px; background: #C9A961;"></div>
+      <div style="font-size: 11px; color: #8D8270; letter-spacing: 0.1em;">ACCESS &amp; COMPANY</div>
+    </div>
+    <h2 class="serif" style="margin: 0; font-size: 18px; font-weight: 700; color: #1C1A16;">アクセス・会社情報</h2>
+
+    <div style="background: #FFFFFF; border: 1px solid #E7E1D2; border-radius: 10px; padding: 18px; display: flex; flex-direction: column; gap: 10px;">
+      <div class="serif" style="font-size: 14px; font-weight: 700; color: #1C1A16;">Bimport 岡山オフィス</div>
+      <div style="font-size: 12.5px; line-height: 2; color: #4A4536;">
+        〒{{ site.officePostalCode }}　{{ site.officeRegion }}{{ site.officeLocality }}{{ site.officeStreetAddress }}<br>
+        TEL：<a href="{{ site.phoneHref }}" style="color: #16324F; text-decoration: underline;">{{ site.phoneDisplay }}</a>　／　FAX：{{ site.faxDisplay }}
+      </div>
+      <a href="{{ site.mapsUrl }}" style="display: inline-block; font-size: 12px; color: #16324F; text-decoration: underline; margin-top: 2px;">Google マップで見る</a>
+    </div>
+
+    <div style="font-size: 12px; line-height: 2; color: #5A5343;">
+      運営会社（登記上本店）：Bgroup株式会社<br>
+      本店所在地：{{ site.hqAddressDisplay }}　／　TEL：{{ site.hqPhoneDisplay }}<br>
+      事業内容：中古車の査定・買取・販売<br>
+      古物商許可：{{ site.license }}<br>
+      <a href="privacy.html" style="color: #16324F; text-decoration: underline;">プライバシーポリシー</a>
+    </div>
+  </div>
+
+  <!-- ============ 13. 最終CTA ============ -->
+  <div style="padding: 36px 24px 90px; background: #FFFFFF; display: flex; flex-direction: column; gap: 12px; align-items: stretch;">
+    <div class="serif" style="color: #1C1A16; font-size: 17px; font-weight: 700; text-align: center;">まずは無料相談から</div>
+    <div style="color: #1C1A16; font-size: 12.5px; text-align: center; line-height: 1.75;">友だち追加後、車の情報と写真を送るだけです</div>
+    <a href="{{ site.lineUrl }}" data-cta="final" data-cta-type="line" style="display: flex; align-items: center; justify-content: center; gap: 8px; background: #06C755; color: #FFFFFF; font-weight: 700; font-size: 16px; padding: 17px 20px; border-radius: 8px;">
+      公式LINEで無料相談する
+    </a>
+    <a href="{{ site.phoneHref }}" data-cta="final" data-cta-type="tel" style="display: flex; align-items: center; justify-content: center; gap: 8px; background: transparent; color: #1C1A16; font-weight: 600; font-size: 13.5px; padding: 13px 20px; border-radius: 8px; border: 1px solid #D8CFB8;">
+      電話で相談する（{{ site.phoneDisplay }}）
+    </a>
+  </div>
+
+  <!-- ============ 追従CTAバー ============ -->
+  <div style="position: sticky; bottom: 0; left: 0; right: 0; background: #FFFFFF; border-top: 1px solid #E7E1D2; padding: 10px 16px; display: flex; gap: 8px; box-shadow: 0 -4px 16px rgba(0,0,0,0.08);">
+    <a href="{{ site.phoneHref }}" data-cta="sticky" data-cta-type="tel" style="flex: 1; display: flex; align-items: center; justify-content: center; gap: 6px; background: #FFFFFF; color: #1C1A16; font-weight: 700; font-size: 13px; padding: 13px 10px; border-radius: 8px; border: 1px solid #D8CFB8;">
+      電話で相談
+    </a>
+    <a href="{{ site.lineUrl }}" data-cta="sticky" data-cta-type="line" style="flex: 1.4; display: flex; align-items: center; justify-content: center; gap: 6px; background: #06C755; color: #FFFFFF; font-weight: 700; font-size: 13px; padding: 13px 10px; border-radius: 8px;">
+      LINEで無料相談
+    </a>
+  </div>
+
+</div>
+
+<script>
+  document.querySelectorAll('[data-cta]').forEach(function (el) {
+    el.addEventListener('click', function () {
+      if (typeof gtag === 'function') {
+        gtag('event', 'cta_click', {
+          cta_location: el.getAttribute('data-cta'),
+          cta_type: el.getAttribute('data-cta-type')
+        });
+      }
+    });
+  });
+</script>
+</body>
+</html>
