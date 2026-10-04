@@ -144,6 +144,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    line-height: 1.1;
   }
   .badge-inner::before {
     content: "";
@@ -155,6 +156,15 @@
     background: linear-gradient(180deg, rgba(255,255,255,0.65) 0%, rgba(255,255,255,0) 100%);
     transform: rotate(-8deg);
     pointer-events: none;
+  }
+  .badge-top {
+    font-size: 7px;
+    font-weight: 700;
+    color: #1C1A16;
+    letter-spacing: -0.02em;
+    white-space: nowrap;
+    line-height: 1.2;
+    z-index: 1;
   }
   .badge-gold-num {
     background: linear-gradient(180deg, #F0DFA8 0%, #C9A961 45%, #8A6F3E 100%);
@@ -359,7 +369,7 @@
             </div>
             <div class="badge-ring">
               <div class="badge-inner">
-                <span class="serif" style="font-size: 9px; font-weight: 700; color: #1C1A16; z-index: 1;">他社より</span>
+                <span class="serif badge-top">2位の会社より</span>
                 <div style="width: 22px; height: 1px; background: #1C1A16; margin: 3px 0; z-index: 1;"></div>
                 <div style="display: flex; align-items: baseline; gap: 2px; z-index: 1;">
                   <span class="serif badge-gold-num" style="font-size: 16px;">15万</span>
@@ -369,7 +379,7 @@
               </div>
             </div>
           </div>
-          <div style="display: flex; align-items: baseline; gap: 6px;"><span class="serif" style="font-size: 14px; font-weight: 700; color: #1C1A16;">買取価格</span><span class="price-amount">550万円</span></div>
+          <div style="display: flex; align-items: baseline; gap: 6px;"><span class="serif" style="font-size: 14px; font-weight: 700; color: #1C1A16;">買取価格</span><span class="price-amount">2,115万円</span></div>
           <div style="font-size: 12.5px; color: #5A5343; line-height: 1.85;">
             ・外装クレヨン<br>
             ・セラミックコンポジットブレーキ<br>
@@ -391,7 +401,7 @@
             </div>
             <div class="badge-ring">
               <div class="badge-inner">
-                <span class="serif" style="font-size: 9px; font-weight: 700; color: #1C1A16; z-index: 1;">他社より</span>
+                <span class="serif badge-top">2位の会社より</span>
                 <div style="width: 22px; height: 1px; background: #1C1A16; margin: 3px 0; z-index: 1;"></div>
                 <div style="display: flex; align-items: baseline; gap: 2px; z-index: 1;">
                   <span class="serif badge-gold-num" style="font-size: 19px;">5万</span>
@@ -417,10 +427,10 @@
         </div>
         <div style="padding: 16px; display: flex; flex-direction: column; gap: 8px;">
           <div>
-            <div style="font-size: 13.5px; font-weight: 700; color: #1C1A16;">Land Rover ディフェンダー 90 イースナーエディション（2023年）</div>
-            <div style="font-size: 12px; color: #8D8270; margin-top: 2px;">走行距離 17,780km ／ 買取時期：2026年8月 ／ 地域：東京都</div>
+            <div style="font-size: 13.5px; font-weight: 700; color: #1C1A16;">Land Rover ディフェンダー 90 イースナーエディション</div>
+            <div style="font-size: 12px; color: #8D8270; margin-top: 2px;">年式：R.5（2023）年 ／ 走行距離 17,780km ／ 買取時期：令和8年08月 ／ 地域：東京</div>
           </div>
-          <div style="display: flex; align-items: baseline; gap: 6px;"><span class="serif" style="font-size: 14px; font-weight: 700; color: #1C1A16;">買取価格</span><span class="price-amount">2115万円</span></div>
+          <div style="display: flex; align-items: baseline; gap: 6px;"><span class="serif" style="font-size: 14px; font-weight: 700; color: #1C1A16;">買取価格</span><span class="price-amount">550万円</span></div>
           <div style="font-size: 12.5px; color: #5A5343; line-height: 1.85;">
             ・エアサスペンション<br>
             ・マットブラックラッピング<br>
@@ -442,7 +452,7 @@
             </div>
             <div class="badge-ring">
               <div class="badge-inner">
-                <span class="serif" style="font-size: 9px; font-weight: 700; color: #1C1A16; z-index: 1;">他社より</span>
+                <span class="serif badge-top">2位の会社より</span>
                 <div style="width: 22px; height: 1px; background: #1C1A16; margin: 3px 0; z-index: 1;"></div>
                 <div style="display: flex; align-items: baseline; gap: 2px; z-index: 1;">
                   <span class="serif badge-gold-num" style="font-size: 19px;">3万</span>
@@ -468,17 +478,17 @@
         </div>
         <div style="padding: 16px; display: flex; flex-direction: column; gap: 8px;">
           <div>
-            <div style="font-size: 13.5px; font-weight: 700; color: #1C1A16;">Mercedes-Benz Eクラス E450 4マチック エクスクルーシブ（2018年）</div>
-            <div style="font-size: 12px; color: #8D8270; margin-top: 2px;">走行距離 34,696km ／ 買取時期：2026年9月 ／ 地域：広島県</div>
+            <div style="font-size: 13.5px; font-weight: 700; color: #1C1A16;">Mercedes-Benz Eクラス E450 4マチック エクスクルーシブ</div>
+            <div style="font-size: 12px; color: #8D8270; margin-top: 2px;">年式：H.30（2018）年 ／ 走行距離 34,696km ／ 買取時期：令和8年09月 ／ 地域：広島</div>
           </div>
           <div style="display: flex; align-items: baseline; gap: 6px;"><span class="serif" style="font-size: 14px; font-weight: 700; color: #1C1A16;">買取価格</span><span class="price-amount">250万円</span></div>
+          <div><span class="serif" style="display: inline-block; font-size: 11px; font-weight: 700; color: #6B5527; letter-spacing: 0.04em; border: 1px solid #C9A961; border-radius: 3px; padding: 3px 9px; background: #F5F2EA;">次の納車まで1ヶ月 金額保証付きで買取</span></div>
           <div style="font-size: 12.5px; color: #5A5343; line-height: 1.85;">
             ・セレナイトグレーメタリック<br>
             ・レーダーセーフティパッケージ<br>
             ・ブルメスターサウンド<br>
             ・パノラミックスライディングルーフ
           </div>
-          <div style="font-size: 12px; color: #8D8270; border-top: 1px solid #E7E1D2; padding-top: 8px;">次の納車まで1ヶ月間、査定金額を保証してお買取りしました。</div>
         </div>
       </div>
       <div style="flex: 0 0 100%; scroll-snap-align: center; background: #EAE8E2; border-radius: 10px; overflow: hidden; display: flex; flex-direction: column; margin-left: 12px;">
@@ -493,7 +503,7 @@
             </div>
             <div class="badge-ring">
               <div class="badge-inner">
-                <span class="serif" style="font-size: 9px; font-weight: 700; color: #1C1A16; z-index: 1;">他社より</span>
+                <span class="serif badge-top">2位の会社より</span>
                 <div style="width: 22px; height: 1px; background: #1C1A16; margin: 3px 0; z-index: 1;"></div>
                 <div style="display: flex; align-items: baseline; gap: 2px; z-index: 1;">
                   <span class="serif badge-gold-num" style="font-size: 19px;">3万</span>
