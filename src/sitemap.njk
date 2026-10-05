@@ -1,0 +1,25 @@
+---
+# XMLサイトマップ（https://bimport.jp/sitemap.xml）。手作業での編集は不要
+# - トップページ ＋ 公開中（draft: false）の車種別LPを自動で掲載する
+# - 車種LPのURLは、各ページの canonical と同じ式（site.siteUrl + "/" + slug + "/"）で作る
+# - draft: true の車種は、確認用ビルド（LP_PREVIEW=1）でも掲載しない
+# - プライバシーポリシーは検索流入を狙わないページのため掲載しない
+permalink: "sitemap.xml"
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>{{ site.siteUrl }}/</loc>
+  </url>
+{%- for v in vehiclePages %}
+{%- if not v.draft %}
+  <url>
+    <loc>{{ site.siteUrl }}/{{ v.slug }}/</loc>
+    {%- if v.sitemap and v.sitemap.lastmod %}
+    <lastmod>{{ v.sitemap.lastmod }}</lastmod>
+    {%- endif %}
+  </url>
+{%- endif %}
+{%- endfor %}
+</urlset>

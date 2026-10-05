@@ -1,0 +1,59 @@
+{
+  "slug": "porsche-911",
+  "draft": true,
+  "maker": "PORSCHE",
+  "makerJa": "ポルシェ",
+  "model": "911",
+  "modelShort": "911",
+  "nameJa": "911",
+  "seo": {
+    "title": "ポルシェ911買取・査定｜売却未定でも概算価格がわかる｜Bimport",
+    "description": "ポルシェ 911 の買取・査定ならBimport。（120文字前後で、車種名・グレードの見極め・概算査定・査定無料・全国対応などを自然に入れる）"
+  },
+  "images": {
+    "hero": { "src": "assets/images/porsche-911/hero.jpg", "alt": "ポルシェ 911", "width": 1200, "height": 896 },
+    "line": {
+      "webp": [
+        { "src": "assets/images/porsche-911/line-photo-1000.webp", "width": 1000 },
+        { "src": "assets/images/porsche-911/line-photo-1672.webp", "width": 1672 }
+      ],
+      "fallback": "assets/images/porsche-911/line-photo-1672.jpg",
+      "alt": "（写真の説明）",
+      "width": 1672,
+      "height": 941
+    },
+    "final": { "src": "assets/images/porsche-911/hero.jpg" }
+  },
+  "hero": {
+    "label": "ポルシェ 911買取・査定",
+    "catch": "今の愛車、いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  },
+  "form": {
+    "bodyTypeLabel": "型式",
+    "bodyTypes": [
+      { "value": "992", "label": "992型", "grades": ["カレラ", "カレラS", "カレラ4S", "GTS", "ターボ", "ターボS", "限定車・特別仕様車"] },
+      { "value": "991", "label": "991型", "grades": ["カレラ", "カレラS", "GTS", "ターボ", "限定車・特別仕様車"] },
+      { "value": "unknown", "label": "わからない", "grades": [] }
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 2012,
+    "yearOlderLabel": "2011年以前"
+  },
+  "cases": [],
+  "points": {
+    "lead": "仕様によって価値が大きく変わる911。<br>詳しいスタッフが、1台ごとに確認して査定します。",
+    "items": [
+      { "key": "generation", "title": "型式（世代）", "text": "（短い説明）", "image": null, "icon": "car", "placeholderLabel": "GENERATION" },
+      { "key": "interior", "title": "内装・オプション", "text": "（短い説明）", "image": null, "icon": "seat", "tone": "dark" }
+    ],
+    "more": ["グレード", "年式", "走行距離", "ボディカラー", "純正装備", "カスタム内容"]
+  },
+  "faq": [
+    { "q": "（車種固有の質問）", "a": "（回答）" }
+  ],
+  "line": {
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {}
+}

@@ -23,6 +23,10 @@
 
   var app = document.getElementById("estimate-app");
   var gradeSelect = document.getElementById("f-grade");
+  // ボディタイプ欄は車種データに bodyTypes がある場合だけ表示される（見出しは車種ごとに変更可）
+  var bodyTypeField = form.querySelector('[data-field="bodyType"]');
+  var hasBodyType = !!bodyTypeField;
+  var bodyTypeLabel = hasBodyType ? bodyTypeField.querySelector(".lp-label").firstChild.textContent : "";
   var stepNum = document.getElementById("estimate-step-num");
   var yearSelect = document.getElementById("f-year");
   var confirmBox = document.getElementById("estimate-confirm");
@@ -59,7 +63,8 @@
   function renderGrades(bodyKey) {
     var body = null;
     config.bodyTypes.forEach(function (b) { if (b.value === bodyKey) body = b; });
-    var grades = (body && body.grades ? body.grades.slice() : []);
+    var grades = body && body.grades ? body.grades.slice()
+      : (!hasBodyType && config.grades ? config.grades.slice() : []);
     grades.push(config.gradeFallback);
 
     gradeSelect.innerHTML = "";
@@ -70,6 +75,8 @@
     gradeSelect.value = grades.length === 1 ? grades[0] : "";
     if (grades.length === 1) clearError(fieldEl("grade"));
   }
+
+  if (!hasBodyType) renderGrades(null);
 
   // 選択式は change、テキスト入力は input のタイミングでエラー表示を消す
   // （テキストの change はボタン押下後に遅れて発火することがあり、直後のエラー表示を消してしまうため）
@@ -114,8 +121,8 @@
     var errors = [];
     form.querySelectorAll('[data-step="' + step + '"] .lp-field').forEach(clearError);
     if (step === 1) {
-      if (!val("bodyType")) errors.push(["bodyType", "ボディタイプを選択してください"]);
-      if (!val("grade")) errors.push(["grade", val("bodyType") ? "グレードを選択してください" : "ボディタイプを選択すると、グレードを選べます"]);
+      if (hasBodyType && !val("bodyType")) errors.push(["bodyType", bodyTypeLabel + "を選択してください"]);
+      if (!val("grade")) errors.push(["grade", (!hasBodyType || val("bodyType")) ? "グレードを選択してください" : bodyTypeLabel + "を選択すると、グレードを選べます"]);
       if (!val("year")) errors.push(["year", "年式を選択してください（不明な場合は「わからない」）"]);
       if (!val("mileage")) errors.push(["mileage", "走行距離を選択してください"]);
     }
@@ -177,7 +184,7 @@
     return {
       maker: config.maker,
       model: config.model,
-      bodyType: val("bodyType"),
+      bodyType: hasBodyType ? val("bodyType") : "指定なし",
       grade: val("grade"),
       year: val("year"),
       mileage: val("mileage"),
@@ -192,7 +199,7 @@
     var rows = [
       { group: "お車について", step: 1 },
       ["車種", d.maker + " " + d.model],
-      ["ボディタイプ", d.bodyType],
+      hasBodyType ? [bodyTypeLabel, d.bodyType] : null,
       ["グレード", d.grade],
       ["年式", d.year],
       ["走行距離", d.mileage],
@@ -202,7 +209,7 @@
       ["都道府県", d.prefecture || "未選択"]
     ];
     confirmBox.innerHTML = "";
-    rows.forEach(function (r) {
+    rows.filter(Boolean).forEach(function (r) {
       var row = document.createElement("div");
       if (r.group) {
         row.className = "lp-confirm__group";

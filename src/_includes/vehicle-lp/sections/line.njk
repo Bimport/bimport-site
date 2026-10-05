@@ -1,0 +1,28 @@
+{%- from "vehicle-lp/macros.njk" import lineMark -%}
+{%- set line = v.line or {} -%}
+{%- set lineImg = v.images.line if (v.images and v.images.line) else null -%}
+{%- set heroImg = v.images.hero if (v.images and v.images.hero) else null -%}
+  <!-- ============ LINE写真査定 ============ -->
+  <section class="lp-line{% if not lineImg and not heroImg %} lp-line--nophoto{% endif %}" id="line">
+    {%- if lineImg %}
+    <picture class="lp-line__photo">
+      {%- if lineImg.webp and lineImg.webp.length %}
+      <source type="image/webp" srcset="{% for s in lineImg.webp %}../{{ s.src }} {{ s.width }}w{% if not loop.last %}, {% endif %}{% endfor %}" sizes="100vw">
+      {%- endif %}
+      <img src="../{{ lineImg.fallback }}" alt="{{ lineImg.alt or (v.makerJa + ' ' + v.nameJa) }}" width="{{ lineImg.width }}" height="{{ lineImg.height }}" loading="lazy" decoding="async">
+    </picture>
+    {%- elif heroImg %}
+    <picture class="lp-line__photo">
+      <img src="../{{ heroImg.src }}" alt="{{ heroImg.alt or (v.makerJa + ' ' + v.nameJa) }}" width="{{ heroImg.width }}" height="{{ heroImg.height }}" loading="lazy" decoding="async">
+    </picture>
+    {%- endif %}
+    <div class="lp-container lp-line__inner">
+      <div class="lp-line__text">
+        <h2 class="lp-line__title">{% if line.title %}{{ line.title | safe }}{% else %}あなたの<span class="lp-en">{{ v.modelShort or v.model }}</span>、<br>まずは写真で概算査定。{% endif %}</h2>
+        <p class="lp-line__lead">{{ (line.lead or "LINEで写真を送るだけ。<br>売却未定でもお気軽にご相談ください。") | safe }}</p>
+      </div>
+      <div class="lp-line__cta">
+        <a class="lp-btn lp-btn--gold lp-btn--line-gold" href="{{ site.lineUrl }}" data-cta="line-section" data-cta-type="line">{{ lineMark() }}{{ line.ctaText or "LINEで写真査定する" }}</a>
+      </div>
+    </div>
+  </section>

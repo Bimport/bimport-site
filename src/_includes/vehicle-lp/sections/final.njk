@@ -1,0 +1,20 @@
+{%- from "vehicle-lp/macros.njk" import lineMark -%}
+{%- set fin = v.final or {} -%}
+{%- set finalImg = v.images.final if (v.images and v.images.final) else (v.images.hero if (v.images and v.images.hero) else null) -%}
+  <!-- ============ 最終CTA ============ -->
+  <section class="lp-final">
+    <div class="lp-final__bg" aria-hidden="true">
+      {%- if finalImg %}
+      <img src="../{{ finalImg.src }}" alt="" loading="lazy" decoding="async">
+      {%- endif %}
+    </div>
+    <div class="lp-container lp-final__inner">
+      <p class="lp-final__label">{{ fin.label or (v.maker + " " + v.model) }}</p>
+      <h2 class="lp-final__title">{% if fin.title %}{{ fin.title | safe }}{% else %}今の{{ v.nameJa }}、<br>いくらになる？{% endif %}</h2>
+      <p class="lp-final__lead">{{ (fin.lead or "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。") | safe }}</p>
+      <div class="lp-final__actions">
+        <a class="lp-btn lp-btn--gold lp-btn--lg lp-btn--next" href="#estimate" data-cta="final">60秒で概算査定</a>
+        <a class="lp-btn lp-btn--line-outline" href="{{ site.lineUrl }}" data-cta="final" data-cta-type="line">{{ lineMark() }}{{ fin.lineText or "LINEで写真査定" }}</a>
+      </div>
+    </div>
+  </section>

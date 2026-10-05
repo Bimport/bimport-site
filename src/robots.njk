@@ -1,0 +1,9 @@
+---
+# robots.txt（https://bimport.jp/robots.txt）。サイトマップのURLは site.json の siteUrl から自動で作る
+permalink: "robots.txt"
+eleventyExcludeFromCollections: true
+---
+User-agent: *
+Allow: /
+
+Sitemap: {{ site.siteUrl }}/sitemap.xml

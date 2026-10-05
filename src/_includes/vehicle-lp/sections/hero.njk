@@ -1,0 +1,29 @@
+{%- from "vehicle-lp/macros.njk" import icon -%}
+{%- set hero = v.hero or {} -%}
+{%- set heroImg = v.images.hero if (v.images and v.images.hero) else null -%}
+  <!-- ============ ファーストビュー ============ -->
+  <section class="lp-hero{% if not heroImg %} lp-hero--nophoto{% endif %}">
+    <div class="lp-hero__bg" aria-hidden="true"></div>
+    <div class="lp-container lp-hero__inner">
+      <div class="lp-hero__copy">
+        <p class="lp-hero__label">{{ hero.label or (v.makerJa + " " + v.nameJa + "買取・査定") }}</p>
+        <h1 class="lp-hero__title">
+          <span class="lp-hero__maker">{{ v.maker }}</span>
+          <span class="lp-hero__model{% if v.model.length > 10 %} lp-hero__model--long{% endif %}">{{ v.model }}</span>
+          <span class="lp-hero__buy">{{ hero.buy or "高価買取" }}</span>
+        </h1>
+        <p class="lp-hero__catch">{{ hero.catch or "今の愛車、いくらになる？" }}</p>
+        <p class="lp-hero__lead">{{ (hero.lead or "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。") | safe }}</p>
+      </div>
+      {%- if heroImg %}
+      <div class="lp-hero__photo">
+        <img src="../{{ heroImg.src }}" alt="{{ heroImg.alt or (v.makerJa + ' ' + v.nameJa) }}" width="{{ heroImg.width }}" height="{{ heroImg.height }}" fetchpriority="high">
+      </div>
+      {%- endif %}
+      <ul class="lp-hero__badges">
+        <li>{{ icon("yen") }}<span>査定<br>無料</span></li>
+        <li>{{ icon("truck") }}<span>全国<br>対応</span></li>
+        <li>{{ icon("doc") }}<span>概算だけ<br>でもOK</span></li>
+      </ul>
+    </div>
+  </section>

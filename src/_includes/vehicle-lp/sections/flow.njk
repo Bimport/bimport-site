@@ -1,0 +1,31 @@
+{%- from "vehicle-lp/macros.njk" import icon -%}
+  <!-- ============ 買取の流れ ============ -->
+  <section class="lp-section lp-section--light" id="flow">
+    <div class="lp-container lp-container--mid">
+      <h2 class="lp-h2">買取の流れ</h2>
+      <p class="lp-h2__sub">はじめての方でも安心。かんたん4ステップ。</p>
+      <ol class="lp-flow">
+        <li>
+          <span class="lp-flow__num">01</span>
+          <span class="lp-flow__icon">{{ icon("form") }}</span>
+          <div><p class="lp-flow__title">概算査定を依頼<em class="lp-flow__tag">概算査定</em></p><p class="lp-flow__text">フォームまたはLINEからご依頼（最短60秒）</p></div>
+        </li>
+        <li>
+          <span class="lp-flow__num">02</span>
+          <span class="lp-flow__icon">{{ icon("chat") }}</span>
+          <div><p class="lp-flow__title">担当者から概算金額をご案内<em class="lp-flow__tag">概算査定</em></p><p class="lp-flow__text">車両情報をもとに、目安となる金額をお伝えします</p></div>
+        </li>
+        <li>
+          <span class="lp-flow__num">03</span>
+          <span class="lp-flow__icon">{{ icon("car") }}</span>
+          <div><p class="lp-flow__title">実車査定<em class="lp-flow__tag lp-flow__tag--dark">正式査定</em></p><p class="lp-flow__text">ご希望の方のみ。実際のお車の装備や状態を確認します</p></div>
+        </li>
+        <li>
+          <span class="lp-flow__num">04</span>
+          <span class="lp-flow__icon">{{ icon("check") }}</span>
+          <div><p class="lp-flow__title">正式な買取金額をご提示<em class="lp-flow__tag lp-flow__tag--dark">正式査定</em></p><p class="lp-flow__text">査定結果をもとに、正式な買取金額をご提示します</p></div>
+        </li>
+      </ol>
+      <p class="lp-flow__note">STEP 2までは無料。概算金額をご確認いただいた後、実車査定に進むかどうかはお客様がお決めいただけます。</p>
+    </div>
+  </section>

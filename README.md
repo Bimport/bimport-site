@@ -62,3 +62,11 @@ bimport-site/
 代わりに、`scripts/dev-render.js` という、このプロジェクトのテンプレートで使っている機能（`{% include %}` と `{{ site.xxx }}` の2つだけ）を再現した、ごく小さい検証専用のスクリプトを作り、それで `dist/` を生成して、現在のLP（index.html・privacy.html）と1バイトも違わず一致することを確認しました。
 
 `npm install` が使えるパソコンやサーバーで `npm run build` を実行すれば、本物の Eleventy が同じ2つの機能だけを使ってビルドするため、`dev-render.js` で確認したものと同じ出力になります。今後の本番ビルドでは `dev-render.js` ではなく、必ず `npm run build`（package.jsonの本来のビルドコマンド）を使ってください。
+
+## 車種別買取LP（/defender/ など）
+
+車種別の買取LPは、共通テンプレート（`src/_includes/vehicle-lp/`）と車種データ（`src/_data/vehicles/<slug>.json`）から自動生成されます。
+新しい車種を追加する手順やデータの項目は [docs/vehicle-lp.md](docs/vehicle-lp.md) を参照してください。
+
+- `npm run build` … 本番用ビルド（`draft: true` の車種は出力しない）
+- `npm run build:preview` … 下書きの車種も含めた確認用ビルド
