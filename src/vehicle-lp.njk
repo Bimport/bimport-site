@@ -1,0 +1,11 @@
+---
+# 車種別買取LP：src/_data/vehicles/*.json の1車種につき1ページ（/<slug>/）を生成する
+# 共通テンプレート本体は src/_includes/vehicle-lp/ 以下
+pagination:
+  data: vehiclePages
+  size: 1
+  alias: v
+permalink: "{{ v.slug }}/index.html"
+eleventyExcludeFromCollections: true
+---
+{% include "vehicle-lp/page.njk" %}

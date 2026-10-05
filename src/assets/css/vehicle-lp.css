@@ -162,6 +162,10 @@ ul, ol { padding: 0; list-style: none; }
   mask-image: linear-gradient(180deg, transparent 0%, #000 26%, #000 72%, transparent 100%);
 }
 .lp-hero__badges { position: relative; z-index: 3; display: flex; justify-content: center; gap: 14px; margin-top: -58px; }
+/* 英字車種名が長い車種（11文字以上）は一段小さくする */
+.lp-hero__model--long { font-size: clamp(36px, 10.6vw, 76px); line-height: 1.05; }
+/* ファーストビュー画像がない車種 */
+.lp-hero--nophoto .lp-hero__badges { margin-top: 28px; }
 .lp-hero__badges li {
   width: 90px; height: 90px; border-radius: 50%;
   background: var(--c-white); color: var(--c-text);
@@ -323,6 +327,9 @@ select.lp-input:disabled { background-color: #F7F7F5; color: var(--c-mute); }
 .lp-case__row { display: grid; grid-template-columns: 112px minmax(0, 1fr); grid-template-areas: "photo info" "photo price"; column-gap: 12px; align-items: center; }
 .lp-case__photo { grid-area: photo; border-radius: 4px; overflow: hidden; aspect-ratio: 4 / 3; align-self: start; }
 .lp-case__photo img { width: 100%; height: 100%; object-fit: cover; }
+/* 買取実績の写真がない場合 */
+.lp-case__photo--empty { display: flex; align-items: center; justify-content: center; background: linear-gradient(160deg, #F4F3F0 0%, #DEDCD6 100%); color: var(--c-text); }
+.lp-case__photo--empty .lp-icon { width: 40%; height: 40%; stroke-width: 1.2; }
 .lp-case__info { grid-area: info; min-width: 0; }
 .lp-case__maker { font-family: var(--font-en); font-size: 10px; font-weight: 700; letter-spacing: .14em; color: var(--c-mute); line-height: 1.4; }
 .lp-case__name { font-family: var(--font-en); font-size: 15px; font-weight: 800; line-height: 1.3; }
@@ -354,6 +361,9 @@ select.lp-input:disabled { background-color: #F7F7F5; color: var(--c-mute); }
   content: ""; position: absolute; inset: 0; pointer-events: none;
   background: linear-gradient(180deg, #0E0E0E 0%, rgba(14, 14, 14, .45) 16%, rgba(14, 14, 14, 0) 34%, rgba(14, 14, 14, 0) 70%, rgba(14, 14, 14, .55) 88%, #0E0E0E 100%);
 }
+/* LINE写真査定：写真がない車種 */
+.lp-line--nophoto .lp-line__text { padding-bottom: 22px; }
+.lp-line--nophoto .lp-line__cta { margin-top: 0; }
 .lp-line__cta { grid-area: cta; position: relative; z-index: 2; padding: 0 20px 46px; margin-top: -30px; }
 .lp-line__title { font-family: var(--font-display); font-weight: 900; font-size: 26px; line-height: 1.4; letter-spacing: .01em; }
 .lp-line__title .lp-en { font-weight: 800; letter-spacing: .01em; }
@@ -370,7 +380,7 @@ select.lp-input:disabled { background-color: #F7F7F5; color: var(--c-mute); }
   color: var(--c-text);
 }
 .lp-point__img img { width: 100%; height: 100%; object-fit: cover; }
-.lp-point__img--interior, .lp-point__img--wheel, .lp-point__img--limited { background: radial-gradient(90% 90% at 30% 20%, #3A3A38 0%, #141414 75%); color: var(--c-gold-light); }
+.lp-point__img--dark { background: radial-gradient(90% 90% at 30% 20%, #3A3A38 0%, #141414 75%); color: var(--c-gold-light); }
 .lp-point__img .lp-icon { width: 44%; height: 44%; stroke-width: 1.2; }
 .lp-point__img { flex-direction: column; gap: 4px; }
 .lp-point__ph { font-family: var(--font-en); font-size: 9.5px; font-weight: 700; letter-spacing: .14em; color: var(--c-gold-text); border-top: 1px solid var(--c-gold); padding-top: 3px; }
@@ -420,9 +430,10 @@ select.lp-input:disabled { background-color: #F7F7F5; color: var(--c-mute); }
 /* ---------- 最終CTA ---------- */
 .lp-final { position: relative; overflow: hidden; background: var(--c-black); color: var(--c-white); padding: 52px 0 56px; }
 .lp-final__bg { position: absolute; inset: 0; }
-.lp-final__bg::before {
-  content: ""; position: absolute; right: -35%; bottom: -8%; width: 95%; height: 80%;
-  background: url("../images/cases/case-landrover-defender.jpg") 40% 60% / cover no-repeat;
+/* 背景写真は車種データ（images.final → 未指定なら images.hero）の <img> を使う */
+.lp-final__bg img {
+  position: absolute; right: -35%; bottom: -8%; width: 95%; height: 80%; max-width: none;
+  object-fit: cover; object-position: 40% 60%;
   filter: brightness(.45) contrast(1.2) saturate(.8);
 }
 .lp-final__bg::after { content: ""; position: absolute; inset: 0; background: linear-gradient(100deg, #0E0E0E 35%, rgba(14, 14, 14, .75) 65%, rgba(14, 14, 14, .45) 100%), linear-gradient(0deg, rgba(14, 14, 14, .6), rgba(14, 14, 14, 0) 40%); }
@@ -612,7 +623,7 @@ select.lp-input:disabled { background-color: #F7F7F5; color: var(--c-mute); }
   .lp-faq details p { padding: 0 24px 20px 60px; font-size: 14.5px; }
 
   .lp-final { padding: 110px 0; }
-  .lp-final__bg::before { right: -5%; bottom: -10%; width: 65%; height: 110%; }
+  .lp-final__bg img { right: -5%; bottom: -10%; width: 65%; height: 110%; }
   .lp-final__lead { font-size: 16px; }
   .lp-final__actions { grid-template-columns: 1.3fr 1fr; max-width: 600px; }
 
@@ -632,6 +643,13 @@ select.lp-input:disabled { background-color: #F7F7F5; color: var(--c-mute); }
   .lp-line__title { font-size: 34px; }
   .lp-line__lead { font-size: 15.5px; }
   .lp-line .lp-btn--gold { font-size: 17px; min-height: 60px; }
+}
+
+@media (min-width: 900px) {
+  .lp-hero--nophoto .lp-hero__inner { grid-template-columns: 1fr; grid-template-areas: "copy" "badges"; }
+}
+@media (min-width: 1200px) {
+  .lp-line--nophoto, .lp-line--nophoto .lp-line__inner { min-height: 0; }
 }
 
 /* ---------- 動きを減らす設定 ---------- */

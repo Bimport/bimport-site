@@ -1,8 +1,44 @@
 {
   "slug": "defender",
+  "draft": false,
   "maker": "LAND ROVER",
+  "makerJa": "ランドローバー",
   "model": "DEFENDER",
   "nameJa": "ディフェンダー",
+  "seo": {
+    "title": "ディフェンダー買取・査定｜売却未定でも概算価格がわかる｜Bimport",
+    "description": "ランドローバー ディフェンダー（90 / 110 / 130）の買取・査定ならBimport。グレードや装備、カスタム内容まで見て評価します。売却が決まっていなくても、60秒の入力で概算査定額をご案内。査定無料・全国対応。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/cases/case-landrover-defender.jpg",
+      "alt": "ランドローバー ディフェンダー 90",
+      "width": 1200,
+      "height": 896
+    },
+    "line": {
+      "webp": [
+        {
+          "src": "assets/images/defender/line-photo-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/defender/line-photo-1672.webp",
+          "width": 1672
+        }
+      ],
+      "fallback": "assets/images/defender/line-photo-1672.jpg",
+      "alt": "海沿いの道を走る白いランドローバー ディフェンダー",
+      "width": 1672,
+      "height": 941
+    },
+    "final": {
+      "src": "assets/images/cases/case-landrover-defender.jpg"
+    }
+  },
+  "hero": {
+    "label": "ランドローバー ディフェンダー買取・査定"
+  },
   "form": {
     "bodyTypes": [
       {
@@ -79,57 +115,72 @@
         "MERIDIANサウンド",
         "純正20AW",
         "ルーム内うす汚れ・小傷あり"
-      ]
+      ],
+      "imageWidth": 1200,
+      "imageHeight": 896
     }
   ],
-  "checkPoints": [
-    {
-      "key": "90",
-      "title": "90",
-      "text": "コンパクトで人気の高いショートボディ",
-      "placeholderLabel": "SHORT BODY",
-      "image": null
-    },
-    {
-      "key": "110",
-      "title": "110",
-      "text": "需要が高く、相場の動きも大きい5ドア",
-      "placeholderLabel": "5-DOOR",
-      "image": null
-    },
-    {
-      "key": "130",
-      "title": "130",
-      "text": "3列シートの希少なロングボディ",
-      "placeholderLabel": "LONG BODY",
-      "image": null
-    },
-    {
-      "key": "interior",
-      "title": "内装・オプション",
-      "text": "状態や装備の充実度を細かく確認",
-      "image": null
-    },
-    {
-      "key": "wheel",
-      "title": "ホイール・外装",
-      "text": "純正オプションやカラーも評価",
-      "image": null
-    },
-    {
-      "key": "limited",
-      "title": "限定モデル",
-      "text": "特別仕様車・限定車も適正に評価",
-      "image": null
-    }
-  ],
-  "checkPointsMore": [
-    "グレード",
-    "年式",
-    "走行距離",
-    "エンジン / パワートレイン",
-    "ボディカラー",
-    "純正装備",
-    "カスタム内容"
-  ]
+  "points": {
+    "lead": "仕様によって価値が大きく変わるディフェンダー。<br>詳しいスタッフが、1台ごとに確認して査定します。",
+    "items": [
+      {
+        "key": "90",
+        "title": "90",
+        "text": "コンパクトで人気の高いショートボディ",
+        "placeholderLabel": "SHORT BODY",
+        "image": null,
+        "icon": "car"
+      },
+      {
+        "key": "110",
+        "title": "110",
+        "text": "需要が高く、相場の動きも大きい5ドア",
+        "placeholderLabel": "5-DOOR",
+        "image": null,
+        "icon": "car"
+      },
+      {
+        "key": "130",
+        "title": "130",
+        "text": "3列シートの希少なロングボディ",
+        "placeholderLabel": "LONG BODY",
+        "image": null,
+        "icon": "car"
+      },
+      {
+        "key": "interior",
+        "title": "内装・オプション",
+        "text": "状態や装備の充実度を細かく確認",
+        "image": null,
+        "icon": "seat",
+        "tone": "dark"
+      },
+      {
+        "key": "wheel",
+        "title": "ホイール・外装",
+        "text": "純正オプションやカラーも評価",
+        "image": null,
+        "icon": "wheel",
+        "tone": "dark"
+      },
+      {
+        "key": "limited",
+        "title": "限定モデル",
+        "text": "特別仕様車・限定車も適正に評価",
+        "image": null,
+        "icon": "badge",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "グレード",
+      "年式",
+      "走行距離",
+      "エンジン / パワートレイン",
+      "ボディカラー",
+      "純正装備",
+      "カスタム内容"
+    ]
+  },
+  "faq": []
 }

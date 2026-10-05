@@ -1,0 +1,21 @@
+  <!-- ============ お客様の声（Google口コミ） ============ -->
+  <section class="lp-section lp-section--light" id="reviews">
+    <div class="lp-container lp-container--mid">
+      <h2 class="lp-h2">お客様の声</h2>
+      <div class="lp-rating">
+        <p class="lp-rating__label">Google口コミより{% if site.googleRating %} <strong>{{ site.googleRating }}</strong> / 5{% endif %}</p>
+        <p class="lp-rating__stars" aria-hidden="true">★★★★★</p>
+      </div>
+      <div class="lp-reviews">
+        {%- for r in reviews %}
+        <article class="lp-review">
+          <p class="lp-review__stars" aria-label="{{ r.stars }}つ星">{% for i in range(0, r.stars) %}★{% endfor %}</p>
+          <h3 class="lp-review__title">「{{ r.title }}」</h3>
+          <p class="lp-review__vehicle">{{ r.vehicle }}</p>
+          <p class="lp-review__body">{{ r.body }}</p>
+        </article>
+        {%- endfor %}
+      </div>
+      <p class="lp-center"><a class="lp-btn lp-btn--outline" href="{{ site.googleReviewsUrl }}" target="_blank" rel="noopener">Google口コミをもっと見る</a></p>
+    </div>
+  </section>

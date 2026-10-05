@@ -1,0 +1,168 @@
+{%- from "vehicle-lp/macros.njk" import lineMark -%}
+{%- set bodyTypes = v.form.bodyTypes or [] -%}
+{%- set hasBodyType = bodyTypes.length > 0 -%}
+{%- set bodyTypeLabel = v.form.bodyTypeLabel or "ボディタイプ" -%}
+  <!-- ============ 60秒概算査定フォーム ============ -->
+  <section class="lp-estimate" id="estimate">
+    <div class="lp-container">
+      {%- set formConfig = {
+        maker: v.maker,
+        model: v.model,
+        bodyTypes: bodyTypes,
+        grades: v.form.grades,
+        gradeFallback: v.form.gradeFallback,
+        yearFrom: v.form.yearFrom,
+        yearOlderLabel: v.form.yearOlderLabel,
+        unknownLabel: estimateForm.unknownLabel,
+        endpoint: site.estimateEndpoint
+      } %}
+      <script type="application/json" id="estimate-config">{{ formConfig | dump | safe }}</script>
+
+      <div class="lp-form-card" id="estimate-app">
+        <h2 class="lp-form-card__title">かんたん<em>60</em><small>秒</small>で概算査定</h2>
+        <div class="lp-form-card__meta">
+          <p class="lp-form-card__vehicle"><span>対象車種</span>{{ v.maker }} {{ v.model }}</p>
+          <p class="lp-form-card__easy">お車の情報{{ 4 if hasBodyType else 3 }}項目＋お名前・電話番号だけ</p>
+        </div>
+
+        <div class="lp-progress" aria-label="入力ステップ">
+          <p class="lp-progress__label">STEP <span id="estimate-step-num">1</span>/3</p>
+          <ol class="lp-progress__steps">
+            <li class="is-current" data-step-indicator="1"><i></i>お車について</li>
+            <li data-step-indicator="2"><i></i>お客様情報</li>
+            <li data-step-indicator="3"><i></i>確認</li>
+          </ol>
+        </div>
+
+        <form id="estimate-form" novalidate>
+          <!-- 迷惑送信対策（人には見えない欄。入力があった送信は受け付け側で破棄する） -->
+          <div class="lp-hp" aria-hidden="true">
+            <label>Website<input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+          </div>
+          <!-- STEP 1 -->
+          <fieldset class="lp-step" data-step="1">
+            <legend class="lp-visually-hidden">STEP 1｜お車について</legend>
+
+            {%- if hasBodyType %}
+            <div class="lp-field" data-field="bodyType">
+              <p class="lp-label">{{ bodyTypeLabel }}<span class="lp-req">必須</span></p>
+              <div class="lp-choices" role="radiogroup">
+                {%- for b in bodyTypes %}
+                <label class="lp-choice"><input type="radio" name="bodyType" value="{{ b.label }}" data-body="{{ b.value }}"><span>{{ b.label }}</span></label>
+                {%- endfor %}
+              </div>
+              <p class="lp-error" aria-live="polite"></p>
+            </div>
+            {%- endif %}
+
+            <div class="lp-field" data-field="grade">
+              <label class="lp-label" for="f-grade">グレード<span class="lp-req">必須</span></label>
+              {%- if hasBodyType %}
+              <select class="lp-input" id="f-grade" name="grade" disabled>
+                <option value="">{{ bodyTypeLabel }}を先に選択</option>
+              </select>
+              {%- else %}
+              <select class="lp-input" id="f-grade" name="grade">
+                <option value="">選択してください</option>
+              </select>
+              {%- endif %}
+              <p class="lp-error" aria-live="polite"></p>
+            </div>
+
+            <div class="lp-field" data-field="year">
+              <label class="lp-label" for="f-year">年式<span class="lp-req">必須</span></label>
+              <select class="lp-input" id="f-year" name="year">
+                <option value="">選択してください</option>
+              </select>
+              <p class="lp-error" aria-live="polite"></p>
+            </div>
+
+            <div class="lp-field" data-field="mileage">
+              <label class="lp-label" for="f-mileage">走行距離<span class="lp-req">必須</span></label>
+              <select class="lp-input" id="f-mileage" name="mileage">
+                <option value="">選択してください</option>
+                {%- for m in (v.form.mileageOptions or estimateForm.mileageOptions) %}
+                <option value="{{ m }}">{{ m }}</option>
+                {%- endfor %}
+              </select>
+              <p class="lp-error" aria-live="polite"></p>
+            </div>
+
+            <div class="lp-step__actions">
+              <button type="button" class="lp-btn lp-btn--gold lp-btn--block lp-btn--next" data-next>次へ</button>
+            </div>
+          </fieldset>
+
+          <!-- STEP 2 -->
+          <fieldset class="lp-step" data-step="2" hidden>
+            <legend class="lp-visually-hidden">STEP 2｜お客様情報</legend>
+
+            <div class="lp-field" data-field="name">
+              <label class="lp-label" for="f-name">お名前<span class="lp-req">必須</span></label>
+              <input class="lp-input" id="f-name" name="name" type="text" autocomplete="name" maxlength="40" placeholder="例）山田">
+              <p class="lp-note">名字だけでも大丈夫です</p>
+              <p class="lp-error" aria-live="polite"></p>
+            </div>
+
+            <div class="lp-field" data-field="phone">
+              <label class="lp-label" for="f-phone">電話番号<span class="lp-req">必須</span></label>
+              <input class="lp-input" id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" maxlength="16" placeholder="例）090-1234-5678">
+              <p class="lp-note">概算査定額のご案内に使用します</p>
+              <p class="lp-error" aria-live="polite"></p>
+            </div>
+
+            <div class="lp-field" data-field="prefecture">
+              <label class="lp-label" for="f-pref">都道府県<span class="lp-opt">任意</span></label>
+              <select class="lp-input" id="f-pref" name="prefecture" autocomplete="address-level1">
+                <option value="">選択してください</option>
+                {%- for p in estimateForm.prefectures %}
+                <option value="{{ p }}">{{ p }}</option>
+                {%- endfor %}
+              </select>
+            </div>
+
+            <div class="lp-step__actions lp-step__actions--split">
+              <button type="button" class="lp-btn lp-btn--ghost" data-prev>戻る</button>
+              <button type="button" class="lp-btn lp-btn--gold lp-btn--next" data-next>確認へ</button>
+            </div>
+          </fieldset>
+
+          <!-- STEP 3 -->
+          <fieldset class="lp-step" data-step="3" hidden>
+            <legend class="lp-visually-hidden">STEP 3｜入力内容の確認</legend>
+            <p class="lp-step__lead">入力内容をご確認ください</p>
+            <dl class="lp-confirm" id="estimate-confirm"></dl>
+            <div class="lp-step__actions lp-step__actions--confirm">
+              <button type="submit" class="lp-btn lp-btn--gold lp-btn--block lp-btn--next" id="estimate-submit">無料で概算査定を依頼する</button>
+              <button type="button" class="lp-btn lp-btn--ghost lp-btn--block" data-prev>入力内容を修正する</button>
+            </div>
+            <p class="lp-note lp-note--center">送信いただいた内容は<a href="../privacy.html">プライバシーポリシー</a>に基づき取り扱います。</p>
+            <p class="lp-error lp-error--submit" aria-live="polite"></p>
+          </fieldset>
+        </form>
+
+        <!-- 送信完了 -->
+        <div class="lp-done" id="estimate-done" hidden tabindex="-1">
+          <p class="lp-done__mark" aria-hidden="true">✓</p>
+          <p class="lp-done__title">査定依頼を受け付けました</p>
+          <p class="lp-done__text">担当者よりご連絡のうえ、<br>概算査定額をご案内します。</p>
+          <div class="lp-done__line">
+            <p class="lp-done__line-lead">より詳しい概算査定をご希望の場合は、<br>LINEでお車の写真を送ってください。</p>
+            <ul class="lp-photo-list">
+              <li>車全体</li>
+              <li>内装</li>
+              <li>メーター</li>
+              <li>車検証<small>（任意）</small></li>
+            </ul>
+            <a class="lp-btn lp-btn--line lp-btn--block" href="{{ site.lineUrl }}" data-cta="done" data-cta-type="line">{{ lineMark() }}LINEで写真を送る</a>
+          </div>
+        </div>
+
+        <noscript>
+          <p class="lp-noscript">フォームのご利用にはJavaScriptを有効にしてください。<a href="{{ site.lineUrl }}">公式LINE</a>からもご相談いただけます。</p>
+        </noscript>
+
+        <p class="lp-form-notice">※ ご入力いただいた車両情報をもとに、担当者より概算査定額をご案内します。正式な買取金額は実車査定後にご提示いたします。</p>
+      </div>
+    </div>
+  </section>

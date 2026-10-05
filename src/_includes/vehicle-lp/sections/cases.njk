@@ -1,0 +1,43 @@
+{%- from "vehicle-lp/macros.njk" import icon -%}
+{%- if v.cases and v.cases.length %}
+  <!-- ============ 買取実績 ============ -->
+  <section class="lp-section" id="cases">
+    <div class="lp-container lp-container--mid">
+      <h2 class="lp-h2"><span class="lp-en">{{ v.modelShort or v.model }}</span>の買取実績</h2>
+      <p class="lp-h2__sub">実際の買取事例をご紹介します。</p>
+      <div class="lp-cases">
+        {%- for c in v.cases %}
+        <article class="lp-case">
+          <div class="lp-case__row">
+            <div class="lp-case__photo{% if not c.image %} lp-case__photo--empty{% endif %}">
+              {%- if c.image %}
+              <img src="../{{ c.image }}" alt="買取実績：{{ c.maker }} {{ c.model }} {{ c.grade }}" width="{{ c.imageWidth or 1200 }}" height="{{ c.imageHeight or 896 }}" loading="lazy">
+              {%- else %}
+              {{ icon("car") }}
+              {%- endif %}
+            </div>
+            <div class="lp-case__info">
+              <p class="lp-case__maker">{{ c.maker }}</p>
+              <h3 class="lp-case__name">{{ c.model }}<span>{{ c.grade }}</span></h3>
+              <p class="lp-case__meta"><span>{{ c.year }}</span><span>走行 {{ c.mileage }}</span></p>
+            </div>
+            <p class="lp-case__price"><span class="lp-case__price-label">買取金額</span><span class="lp-case__price-num">{{ c.price }}</span><span class="lp-case__price-unit">{{ c.priceUnit or "万円" }}</span></p>
+          </div>
+          <dl class="lp-case__spec">
+            <div><dt>買取時期</dt><dd>{{ c.purchasedAt }}</dd></div>
+            <div><dt>地域</dt><dd>{{ c.area }}</dd></div>
+          </dl>
+          {%- if c.details and c.details.length %}
+          <ul class="lp-case__details">
+            {%- for d in c.details %}
+            <li>{{ d }}</li>
+            {%- endfor %}
+          </ul>
+          {%- endif %}
+        </article>
+        {%- endfor %}
+      </div>
+      <p class="lp-center"><a class="lp-btn lp-btn--outline lp-btn--small" href="../">その他の車種の買取実績を見る</a></p>
+    </div>
+  </section>
+{%- endif %}

@@ -1,0 +1,36 @@
+{%- from "vehicle-lp/macros.njk" import icon -%}
+{%- set points = v.points or {} -%}
+  <!-- ============ 車種の査定ポイント ============ -->
+  <section class="lp-section" id="points">
+    <div class="lp-container">
+      <h2 class="lp-h2"><span class="lp-en">{{ v.modelShort or v.model }}</span>の査定ポイント</h2>
+      <p class="lp-h2__sub">{{ (points.lead or ("仕様によって価値が大きく変わる" + v.nameJa + "。<br>詳しいスタッフが、1台ごとに確認して査定します。")) | safe }}</p>
+      {%- if points.items and points.items.length %}
+      <ul class="lp-points">
+        {%- for p in points.items %}
+        <li class="lp-point">
+          <div class="lp-point__img lp-point__img--{{ p.key }}{% if p.tone == 'dark' %} lp-point__img--dark{% endif %}">
+            {%- if p.image %}
+            <img src="../{{ p.image }}" alt="{{ p.title }}" loading="lazy">
+            {%- else %}{{ icon(p.icon or "car") }}{% if p.placeholderLabel %}<span class="lp-point__ph">{{ p.placeholderLabel }}</span>{% endif %}
+            {%- endif %}
+          </div>
+          <h3 class="lp-point__title">{{ p.title }}</h3>
+          <p class="lp-point__text">{{ p.text }}</p>
+        </li>
+        {%- endfor %}
+      </ul>
+      {%- endif %}
+      {%- if points.more and points.more.length %}
+      <div class="lp-points__more">
+        <p class="lp-points__more-title">そのほかにも、ここまで確認します</p>
+        <ul>
+          {%- for m in points.more %}
+          <li>{{ m }}</li>
+          {%- endfor %}
+        </ul>
+      </div>
+      {%- endif %}
+      <p class="lp-points__close">{% if points.close %}{{ points.close | safe }}{% else %}同じ{{ v.nameJa }}でも、仕様の見極め次第で査定額は変わります。<br class="pc-only">だからこそ、<strong>車種に詳しい査定</strong>が大切です。{% endif %}</p>
+    </div>
+  </section>
