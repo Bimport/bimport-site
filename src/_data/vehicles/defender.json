@@ -1,0 +1,135 @@
+{
+  "slug": "defender",
+  "maker": "LAND ROVER",
+  "model": "DEFENDER",
+  "nameJa": "ディフェンダー",
+  "form": {
+    "bodyTypes": [
+      {
+        "value": "90",
+        "label": "90",
+        "grades": [
+          "S",
+          "SE",
+          "HSE",
+          "X-Dynamic SE",
+          "X-Dynamic HSE",
+          "X",
+          "V8",
+          "First Edition",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "110",
+        "label": "110",
+        "grades": [
+          "S",
+          "SE",
+          "HSE",
+          "X-Dynamic SE",
+          "X-Dynamic HSE",
+          "X",
+          "V8",
+          "OCTA",
+          "First Edition",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "130",
+        "label": "130",
+        "grades": [
+          "SE",
+          "HSE",
+          "X-Dynamic SE",
+          "X-Dynamic HSE",
+          "X",
+          "Outbound",
+          "V8",
+          "First Edition",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 2020,
+    "yearOlderLabel": "2019年以前（旧型を含む）"
+  },
+  "cases": [
+    {
+      "image": "assets/images/cases/case-landrover-defender.jpg",
+      "maker": "LAND ROVER",
+      "model": "DEFENDER 90",
+      "grade": "イースナーエディション",
+      "year": "R.5（2023）年",
+      "mileage": "17,780km",
+      "price": "550",
+      "priceUnit": "万円",
+      "purchasedAt": "令和8年08月",
+      "area": "東京",
+      "details": [
+        "エアサスペンション",
+        "マットブラックラッピング",
+        "MERIDIANサウンド",
+        "純正20AW",
+        "ルーム内うす汚れ・小傷あり"
+      ]
+    }
+  ],
+  "checkPoints": [
+    {
+      "key": "90",
+      "title": "90",
+      "text": "コンパクトで人気の高いショートボディ",
+      "placeholderLabel": "SHORT BODY",
+      "image": null
+    },
+    {
+      "key": "110",
+      "title": "110",
+      "text": "需要が高く、相場の動きも大きい5ドア",
+      "placeholderLabel": "5-DOOR",
+      "image": null
+    },
+    {
+      "key": "130",
+      "title": "130",
+      "text": "3列シートの希少なロングボディ",
+      "placeholderLabel": "LONG BODY",
+      "image": null
+    },
+    {
+      "key": "interior",
+      "title": "内装・オプション",
+      "text": "状態や装備の充実度を細かく確認",
+      "image": null
+    },
+    {
+      "key": "wheel",
+      "title": "ホイール・外装",
+      "text": "純正オプションやカラーも評価",
+      "image": null
+    },
+    {
+      "key": "limited",
+      "title": "限定モデル",
+      "text": "特別仕様車・限定車も適正に評価",
+      "image": null
+    }
+  ],
+  "checkPointsMore": [
+    "グレード",
+    "年式",
+    "走行距離",
+    "エンジン / パワートレイン",
+    "ボディカラー",
+    "純正装備",
+    "カスタム内容"
+  ]
+}

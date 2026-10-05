@@ -14,5 +14,8 @@
   "hqPhoneDisplay": "03-6455-9565",
   "hqPhoneHref": "tel:0364559565",
   "license": "東京都公安委員会　第303272005192号",
-  "ga4Id": "G-XXXXXXXXXX"
+  "ga4Id": "G-XXXXXXXXXX",
+  "googleReviewsUrl": "https://maps.app.goo.gl/87ga9kHTRH8Cpysi6?g_st=ipc",
+  "siteUrl": "https://bimport.jp",
+  "estimateEndpoint": "https://script.google.com/macros/s/AKfycbz7bcbtAzPeU_TigwjPaRIA7kmAakSFKurvso6PppETKyEN_snDtDTxvoyqAqcUdXA/exec"
 }
