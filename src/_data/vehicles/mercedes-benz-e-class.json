@@ -1,0 +1,253 @@
+{
+  "slug": "mercedes-benz-e-class",
+  "draft": false,
+  "theme": "platinum",
+  "maker": "MERCEDES-BENZ",
+  "makerJa": "メルセデス・ベンツ",
+  "model": "E-CLASS",
+  "modelShort": "Eクラス",
+  "nameJa": "Eクラス",
+  "seo": {
+    "title": "メルセデス・ベンツEクラスの買取・高価査定ならBimport｜輸入車専門",
+    "description": "メルセデス・ベンツEクラスの買取・査定ならBimport。W214・W213・W212など型式やグレード、4MATIC・AMGモデル、パノラミックスライディングルーフなどの装備まで確認して評価します。売却未定でも60秒の入力で概算査定額をご案内。査定無料・全国対応。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/mercedes-benz-e-class/hero-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/mercedes-benz-e-class/hero-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/mercedes-benz-e-class/hero-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "邸宅の前に停まる黒のメルセデス・ベンツ Eクラス",
+      "width": 1536,
+      "height": 1024,
+      "position": "62% 60%",
+      "positionPc": "60% 58%"
+    },
+    "line": {
+      "webp": [
+        {
+          "src": "assets/images/mercedes-benz-e-class/line-photo-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/mercedes-benz-e-class/line-photo-1536.webp",
+          "width": 1536
+        }
+      ],
+      "fallback": "assets/images/mercedes-benz-e-class/line-photo-1536.jpg",
+      "alt": "Bimportのショールームに並ぶメルセデス・ベンツ Eクラス",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "final": {
+      "src": "assets/images/mercedes-benz-e-class/hero-1536.jpg"
+    }
+  },
+  "hero": {
+    "label": "メルセデス・ベンツ Eクラス 買取・査定",
+    "catch": "そのEクラス、本当の価値まで<br>評価されていますか？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "bodyTypeLabel": "型式",
+    "bodyTypes": [
+      {
+        "value": "W214",
+        "label": "W214",
+        "grades": [
+          "E200",
+          "E220d",
+          "E350e",
+          "Mercedes-AMG E53 HYBRID",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "W213",
+        "label": "W213",
+        "grades": [
+          "E200",
+          "E200 4MATIC",
+          "E220d",
+          "E250",
+          "E300",
+          "E350e",
+          "E350de",
+          "E400 4MATIC",
+          "E450 4MATIC",
+          "Mercedes-AMG E43",
+          "Mercedes-AMG E53",
+          "Mercedes-AMG E63 S",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "W212",
+        "label": "W212",
+        "grades": [
+          "E250",
+          "E300",
+          "E350",
+          "E350 BlueTEC",
+          "E350 4MATIC",
+          "E550",
+          "E63 AMG",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "W211",
+        "label": "W211",
+        "grades": [
+          "E240",
+          "E250",
+          "E300",
+          "E320",
+          "E320 CDI",
+          "E350",
+          "E350 4MATIC",
+          "E500",
+          "E550",
+          "E55 AMG",
+          "E63 AMG",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "older",
+        "label": "それ以前",
+        "grades": []
+      },
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 2002,
+    "yearOlderLabel": "2001年以前"
+  },
+  "cases": [
+    {
+      "image": "assets/images/cases/case-mercedes-eclass.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 919,
+      "maker": "MERCEDES-BENZ",
+      "model": "Eクラス",
+      "grade": "E450 4マチック エクスクルーシブ",
+      "year": "2018年",
+      "mileage": "34,696km",
+      "price": "250",
+      "priceUnit": "万円",
+      "compare": "次の納車まで1ヶ月 金額保証付きで買取",
+      "purchasedAt": "2026年9月",
+      "area": "広島",
+      "details": [
+        "セレナイトグレーメタリック",
+        "レーダーセーフティパッケージ",
+        "ブルメスターサウンド",
+        "パノラミックスライディングルーフ"
+      ]
+    }
+  ],
+  "points": {
+    "lead": "型式・グレード・装備で価値が変わるEクラス。<br>詳しいスタッフが1台ずつ確認して査定します。",
+    "items": [
+      {
+        "key": "model-code",
+        "title": "型式",
+        "text": "W214・W213・W212など、型式ごとの相場を確認",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "MODEL CODE"
+      },
+      {
+        "key": "grade",
+        "title": "グレード",
+        "text": "E200・E220d・E450・AMGなど仕様の違いを確認",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "GRADE"
+      },
+      {
+        "key": "body",
+        "title": "ボディ・駆動",
+        "text": "セダン・ステーションワゴンなどのボディと4MATICの有無を確認",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "BODY / 4MATIC"
+      },
+      {
+        "key": "package",
+        "title": "パッケージ",
+        "text": "エクスクルーシブ・AMGラインなどの内外装仕様を確認",
+        "image": null,
+        "icon": "star",
+        "tone": "dark"
+      },
+      {
+        "key": "safety",
+        "title": "安全装備",
+        "text": "レーダーセーフティパッケージなどの装備を確認",
+        "image": null,
+        "icon": "check",
+        "tone": "dark"
+      },
+      {
+        "key": "options",
+        "title": "純正オプション",
+        "text": "サンルーフ・サウンドシステムなどの純正装備を確認",
+        "image": null,
+        "icon": "seat",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "ボディカラー",
+      "走行距離",
+      "整備記録",
+      "車両コンディション",
+      "カスタム内容"
+    ],
+    "close": "同じEクラスでも、仕様の見極め次第で査定額は変わります。<br class=\"pc-only\">だからこそ、<strong>Eクラスに詳しい査定</strong>が大切です。"
+  },
+  "faq": [
+    {
+      "q": "自分のEクラスの型式（W213など）がわかりません。",
+      "a": "わからない場合は、フォームで「わからない」をお選びください。年式や車検証の情報から、担当者が確認してご案内します。"
+    },
+    {
+      "q": "ステーションワゴンやクーペも査定できますか？",
+      "a": "はい、ご相談いただけます。セダン以外のボディも、年式や仕様を確認したうえで査定します。フォームでは近い年式の型式をお選びいただくか、「わからない」をお選びください。"
+    },
+    {
+      "q": "AMGラインやエクスクルーシブなどの仕様は査定額に影響しますか？",
+      "a": "仕様や装備の内容によっては評価の対象になります。どの程度影響するかは、車両の状態や相場によって異なるため、実際の内容を確認したうえでご案内します。"
+    },
+    {
+      "q": "次の車の納車まで乗り続けたいのですが、相談できますか？",
+      "a": "はい、ご相談いただけます。お引き渡しの時期や条件は、車両や状況によって異なるため、査定の際にご希望をお聞かせください。"
+    }
+  ],
+  "line": {
+    "title": "あなたのEクラス、<br>まずは写真で概算査定。",
+    "lead": "LINEで写真を送るだけ。<br>売却未定でもお気軽にご相談ください。",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "MERCEDES-BENZ E-CLASS",
+    "title": "今のEクラス、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  }
+}
