@@ -4,6 +4,9 @@
 **共通テンプレート ＋ 車種データ（JSON） ＋ 車種画像** から自動生成されます。
 新しい車種を追加するときに、HTML／Nunjucks を書く必要はありません。
 
+この文書は**技術仕様**（ファイル構成・車種データの項目・テンプレートの動き）です。
+制作の進め方・確認項目・公開手順は [docs/vehicle-lp-workflow.md](vehicle-lp-workflow.md)（制作・公開運用ガイド）を参照してください。
+
 ## ファイル構成
 
 ```
@@ -15,7 +18,8 @@ src/
 │   ├── site.json                     ← 共通設定（LINE URL・Google口コミURL・サイトURL・GAS送信先・店舗情報など）
 │   ├── vehiclePages.js               ← 車種データの読み込み・必須項目チェック・下書き(draft)の除外
 │   ├── vehicles/
-│   │   └── defender.json             ← 車種データ（1車種1ファイル。ファイル名は slug と同じにする）
+│   │   ├── defender.json             ← 車種データ（1車種1ファイル。ファイル名は slug と同じにする）
+│   │   └── porsche-911.json
 │   ├── reviews.json                  ← Google口コミ3件（全車種共通）
 │   └── estimateForm.json             ← フォーム共通の選択肢（走行距離・都道府県）
 ├── _includes/vehicle-lp/
@@ -36,15 +40,19 @@ src/
 │       └── footer.njk                    フッター・スマホ固定CTA（共通）
 └── assets/
     ├── css/vehicle-lp.css            ← 全車種共通のCSS（レスポンシブ含む）
+    ├── css/themes/<theme>.css        ← 車種専用の配色・装飾（車種データの "theme" で読み込む。例：porsche.css）
     ├── js/estimate-form.js           ← フォーム（STEP切り替え・入力チェック・GAS送信・GA4イベント）
     ├── js/vehicle-lp.js              ← スマホメニュー・固定CTA
     └── images/<slug>/                ← 車種ごとの画像（新しい車種はこの形で置く）
 docs/
-├── vehicle-lp.md                     ← この説明書
+├── vehicle-lp.md                     ← この説明書（技術仕様）
+├── vehicle-lp-workflow.md            ← 制作・公開運用ガイド
 └── vehicle-template.json             ← 車種データのひな形（ビルド対象外）
 ```
 
 ## 新しい車種LPを追加する手順
+
+（技術的な最小手順です。コピー・SEO・写真・確認項目・公開手順のルールは [vehicle-lp-workflow.md](vehicle-lp-workflow.md) に従います）
 
 1. **車種データを作る**
    `docs/vehicle-template.json` をコピーして `src/_data/vehicles/<slug>.json` を作ります（例：`porsche-911.json`）。

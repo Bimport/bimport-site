@@ -29,8 +29,13 @@ npm run serve
 npm run build
 ```
 
-`dist/` フォルダに、本番にアップロードする最終的な HTML 一式が生成されます。
-**本番サーバーにアップロードするのは `dist/` フォルダの中身だけです。** `src/` は編集用のソースで、サーバーには置きません。
+`dist/` フォルダに、公開される HTML 一式が生成されます（`dist/` は Git 管理外）。
+`src/` は編集用のソースです。
+
+## 公開（デプロイ）
+
+`main` ブランチに push（PR をマージ）すると、GitHub Actions「Deploy B import LP」（`.github/workflows/deploy.yml`）が
+`npm run build` を実行し、`dist/` を GitHub Pages（https://bimport.jp/）へ自動でデプロイします。手作業でのアップロードは不要です。
 
 ## ファイル構成
 
@@ -43,30 +48,27 @@ bimport-site/
 │   │   └── topbar.njk        ← 上部の黒いバー「輸入車買取専門 ── Bimport／岡山」（共通）
 │   ├── _data/
 │   │   └── site.json         ← 電話番号・LINE URL・住所・古物商許可番号などの一括管理データ
-│   ├── assets/                ← 今後、CSS/JS/画像を分離する場合の置き場所（現時点は空）
+│   ├── assets/                ← CSS・JS・画像（車種別LP用など）
 │   ├── index.njk              ← TOPページ（売却相談LP）
 │   └── privacy.njk            ← プライバシーポリシー（permalinkで privacy.html として出力）
-├── dist/                      ← ビルド結果。本番にアップロードするのはこのフォルダの中身だけ
+├── dist/                      ← ビルド結果（Git管理外。GitHub Actions が同じものを作って公開する）
 ├── scripts/
-│   ├── dev-render.js          ← このサンドボックス内でのみ使った検証用の簡易レンダラー（下記「重要な注記」参照）
+│   ├── dev-render.js          ← 初期の移行時に使った簡易レンダラー（記録用。ビルドには使わない）
 │   └── one-time-migration.py  ← 元のindex.html/privacy.htmlから今回の構成へ機械的に変換した際の記録用スクリプト（再実行不要）
 ├── .eleventy.js               ← Eleventyのビルド設定
 └── package.json
 ```
 
-## 重要な注記（このサンドボックス環境について）
+## 注記
 
-このセッションが動いているサンドボックス環境は、セキュリティ上の理由で npm のパッケージレジストリ（registry.npmjs.org）に外部接続できないように制限されていました。
-そのため、この環境の中では実際に `npm install` で本物の Eleventy をインストールして `npm run build` を実行することができませんでした。
-
-代わりに、`scripts/dev-render.js` という、このプロジェクトのテンプレートで使っている機能（`{% include %}` と `{{ site.xxx }}` の2つだけ）を再現した、ごく小さい検証専用のスクリプトを作り、それで `dist/` を生成して、現在のLP（index.html・privacy.html）と1バイトも違わず一致することを確認しました。
-
-`npm install` が使えるパソコンやサーバーで `npm run build` を実行すれば、本物の Eleventy が同じ2つの機能だけを使ってビルドするため、`dev-render.js` で確認したものと同じ出力になります。今後の本番ビルドでは `dev-render.js` ではなく、必ず `npm run build`（package.jsonの本来のビルドコマンド）を使ってください。
+- ビルド・確認には必ず本物の Eleventy（`npm run build` / `npm run build:preview`）を使います。`scripts/` のファイルは初期移行時の記録で、ビルドには使いません。
+- クラウドの作業環境は、ネットワーク設定によって公開サイト（bimport.jp）に接続できないことがあります。その場合の確認方法は [docs/vehicle-lp-workflow.md](docs/vehicle-lp-workflow.md) の「公開手順」を参照してください。
 
 ## 車種別買取LP（/defender/ など）
 
 車種別の買取LPは、共通テンプレート（`src/_includes/vehicle-lp/`）と車種データ（`src/_data/vehicles/<slug>.json`）から自動生成されます。
-新しい車種を追加する手順やデータの項目は [docs/vehicle-lp.md](docs/vehicle-lp.md) を参照してください。
+- 制作・確認・公開の進め方（運用ルール）… [docs/vehicle-lp-workflow.md](docs/vehicle-lp-workflow.md)
+- テンプレートと車種データの技術仕様 … [docs/vehicle-lp.md](docs/vehicle-lp.md)
 
 - `npm run build` … 本番用ビルド（`draft: true` の車種は出力しない）
 - `npm run build:preview` … 下書きの車種も含めた確認用ビルド
