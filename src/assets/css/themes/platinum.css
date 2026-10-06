@@ -1,0 +1,78 @@
+/* =========================================================
+   車種別LPテーマ：プラチナ（車種データ "theme": "platinum" のページだけで読み込む）
+   メルセデス・ベンツ Eクラス用。黒・白を基本に、アクセントを落ち着いたプラチナシルバーにする
+   共通CSS（vehicle-lp.css）の色トークンを上書きし、レイアウト・部品構造は共通のまま使う
+   ========================================================= */
+.lp-theme-platinum {
+  --c-platinum: #9AA1AA;
+  --c-platinum-deep: #565D66;
+  --c-platinum-grad: linear-gradient(180deg, #F6F7F9 0%, #D3D7DC 48%, #AAB1B9 100%);
+  /* 共通CSSで「アクセント（ゴールド）」として使っている箇所をプラチナシルバーに置き換える */
+  --c-gold: #9AA1AA;
+  --c-gold-text: #565D66;
+  --c-gold-light: #D6DADF;
+  --c-gold-grad: var(--c-platinum-grad);
+}
+
+/* ---------- ボタン（シルバー地に黒文字） ---------- */
+.lp-theme-platinum .lp-btn--gold { color: var(--c-black); box-shadow: 0 3px 12px rgba(40, 46, 54, .28), inset 0 1px 0 rgba(255, 255, 255, .7); }
+.lp-theme-platinum .lp-btn--gold:hover { filter: brightness(1.05); }
+
+/* ---------- ファーストビュー ---------- */
+.lp-theme-platinum .lp-hero__label { border-bottom-color: rgba(214, 218, 223, .5); }
+.lp-theme-platinum .lp-hero__maker { letter-spacing: .3em; }
+.lp-theme-platinum .lp-hero__maker::after { content: ""; display: block; width: 44px; height: 2px; margin-top: 12px; background: var(--c-platinum-grad); }
+.lp-theme-platinum .lp-hero__buy { background: linear-gradient(180deg, #FFFFFF 0%, #F1F3F5 42%, #C3C9D0 100%); -webkit-background-clip: text; background-clip: text; color: transparent;
+  /* 文字が透明なので、共通の text-shadow が透けて灰色に見えないよう drop-shadow に置き換える */
+  text-shadow: none; filter: drop-shadow(0 2px 10px rgba(0, 0, 0, .55)); }
+.lp-theme-platinum .lp-hero__photo img { object-position: var(--hero-pos, 50% 50%); }
+
+/* ---------- 見出しの車種名 ---------- */
+/* 車種名が日本語（Eクラス）なので、英字用フォントにせず見出しと同じフォントで表示する（「クラス」だけ書体が変わるのを防ぐ） */
+.lp-theme-platinum .lp-h2 .lp-en { font-family: inherit; font-weight: inherit; letter-spacing: inherit; }
+
+/* ---------- フォーム・各セクションの小さなアクセント ---------- */
+/* 型式は6択なので3列×2段にそろえる */
+.lp-theme-platinum .lp-choices { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.lp-theme-platinum .lp-form-card { border-top: 3px solid var(--c-platinum); }
+.lp-theme-platinum .lp-input:focus { box-shadow: 0 0 0 3px rgba(154, 161, 170, .3); }
+/* 白地の上の大きな数字（「60秒」・買取金額）は、淡いシルバーだと読みにくいので濃いメタリックグレーにする */
+.lp-theme-platinum .lp-form-card__title em,
+.lp-theme-platinum .lp-form-card__title small,
+.lp-theme-platinum .lp-case__price-num { background: linear-gradient(180deg, #7C848E 0%, #4A5058 55%, #2A2E34 100%); -webkit-background-clip: text; background-clip: text; }
+.lp-theme-platinum .lp-case__price { color: var(--c-black); }
+/* 白いフォームカードの中のボタンは、目立つよう黒地に白文字にする */
+.lp-theme-platinum .lp-form-card .lp-btn--gold { background: linear-gradient(180deg, #3A3F46 0%, #16181B 100%); color: var(--c-white); box-shadow: 0 3px 12px rgba(0, 0, 0, .25); }
+.lp-theme-platinum .lp-case__compare { background: var(--c-black); color: var(--c-white); }
+.lp-theme-platinum .lp-points__close { border-left: 3px solid var(--c-platinum); }
+.lp-theme-platinum .lp-point__img--dark { color: #F2F3F5; }
+.lp-theme-platinum .lp-point__img--dark .lp-icon { color: var(--c-white); }
+
+/* ---------- スマホ：写真を横幅いっぱいに収め、車両の前後が切れないようにする ---------- */
+@media (max-width: 899px) {
+  .lp-theme-platinum .lp-hero__photo { margin-top: -44px; }
+  .lp-theme-platinum .lp-hero__photo img { width: 100%; margin-left: 0; }
+  /* 丸いバッジがホイールに重ならないよう、写真との重なりを小さくする */
+  .lp-theme-platinum .lp-hero__badges { margin-top: -20px; }
+}
+
+/* ---------- PC：黒いボディが沈まないよう、写真を暗くしすぎない ---------- */
+@media (min-width: 900px) {
+  .lp-theme-platinum .lp-hero__photo img { object-position: var(--hero-pos-pc, var(--hero-pos, 50% 50%)); filter: brightness(.86) contrast(1.06) saturate(.95); }
+}
+
+/* ---------- LINE写真査定：写真（3:2）を切り抜きすぎず、車両全体と余白を見せる ---------- */
+/* スマホ・タブレット：写真枠を写真と同じ比率にし、壁のロゴが説明文に重ならないようにする */
+@media (max-width: 1199px) {
+  .lp-theme-platinum .lp-line__photo { aspect-ratio: 1536 / 1024; margin-top: -12px; }
+  .lp-theme-platinum .lp-line__cta { margin-top: -4px; }
+}
+/* PC：写真を右側に置き、左は黒地に溶け込ませる */
+@media (min-width: 1200px) {
+  .lp-theme-platinum .lp-line__photo { left: auto; width: 62%; }
+  .lp-theme-platinum .lp-line__photo::after {
+    background:
+      linear-gradient(90deg, #0E0E0E 0%, rgba(14, 14, 14, .6) 14%, rgba(14, 14, 14, 0) 34%),
+      linear-gradient(180deg, rgba(14, 14, 14, .35) 0%, rgba(14, 14, 14, 0) 16%, rgba(14, 14, 14, 0) 80%, rgba(14, 14, 14, .45) 100%);
+  }
+}
