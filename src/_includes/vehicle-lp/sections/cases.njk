@@ -23,6 +23,9 @@
             </div>
             <p class="lp-case__price"><span class="lp-case__price-label">買取金額</span><span class="lp-case__price-num">{{ c.price }}</span><span class="lp-case__price-unit">{{ c.priceUnit or "万円" }}</span></p>
           </div>
+          {%- if c.compare %}
+          <p class="lp-case__compare">{{ c.compare }}</p>
+          {%- endif %}
           <dl class="lp-case__spec">
             <div><dt>買取時期</dt><dd>{{ c.purchasedAt }}</dd></div>
             <div><dt>地域</dt><dd>{{ c.area }}</dd></div>

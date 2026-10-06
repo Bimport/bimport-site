@@ -1,0 +1,80 @@
+/* =========================================================
+   車種別LPテーマ：PORSCHE 911（車種データ "theme": "porsche" のページだけで読み込む）
+   黒・白・深い赤を基本に、ゴールドはラベルなどごく一部だけに残す
+   共通CSS（vehicle-lp.css）の色トークンを上書きし、レイアウト・部品構造は共通のまま使う
+   ========================================================= */
+.lp-theme-porsche {
+  --c-red: #B3121E;
+  --c-red-deep: #7A0A13;
+  --c-red-grad: linear-gradient(180deg, #CF1B27 0%, #A20F1A 100%);
+  /* 共通CSSで「アクセント（ゴールド）」として使っている箇所を深い赤に置き換える */
+  --c-gold: #B3121E;
+  --c-gold-text: #B3121E;
+  --c-gold-grad: var(--c-red-grad);
+  /* --c-gold-light（小さなラベル類）はごく少量のゴールドとして残す */
+}
+
+/* ---------- ボタン（赤地に白文字） ---------- */
+.lp-theme-porsche .lp-btn--gold { color: var(--c-white); box-shadow: 0 3px 12px rgba(140, 12, 22, .3); }
+.lp-theme-porsche .lp-btn--gold:hover { filter: brightness(1.08); }
+.lp-theme-porsche .lp-btn--gold .lp-linemark { box-shadow: 0 0 0 2px rgba(255, 255, 255, .9); }
+
+/* ---------- ファーストビュー：英字「911」を大きく ---------- */
+.lp-theme-porsche .lp-hero__maker { letter-spacing: .34em; font-size: clamp(15px, 4.4vw, 20px); }
+.lp-theme-porsche .lp-hero__maker::after { content: ""; display: block; width: 44px; height: 3px; margin-top: 12px; background: var(--c-red); }
+.lp-theme-porsche .lp-hero__model { font-size: clamp(112px, 40vw, 200px); line-height: .86; letter-spacing: -.045em; margin-top: 4px; margin-left: -.04em; }
+.lp-theme-porsche .lp-hero__buy {
+  background: linear-gradient(180deg, #FF4F58 0%, #D11A27 55%, #A8101B 100%);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+  font-size: clamp(46px, 14.4vw, 88px); margin-top: 12px;
+}
+.lp-theme-porsche .lp-hero__catch { font-size: clamp(18px, 5.3vw, 28px); line-height: 1.45; }
+
+/* 写真は暗くしすぎず、車両の位置は車種データの position（スマホ）/ positionPc（PC）で調整する */
+.lp-theme-porsche .lp-hero__photo img { object-position: var(--hero-pos, 50% 50%); }
+
+/* ---------- フォーム・各セクションの小さなアクセント ---------- */
+/* 世代は6択なので3列×2段にそろえる */
+.lp-theme-porsche .lp-choices { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.lp-theme-porsche .lp-form-card { border-top: 4px solid var(--c-red); }
+.lp-theme-porsche .lp-done__mark,
+.lp-theme-porsche .lp-flow__tag,
+.lp-theme-porsche .lp-faq details p::before { color: var(--c-white); }
+.lp-theme-porsche .lp-flow__tag--dark { color: var(--c-white); background: var(--c-black); }
+.lp-theme-porsche .lp-case__compare { background: var(--c-red); }
+.lp-theme-porsche .lp-reasons__list .lp-icon { border-color: rgba(207, 27, 39, .55); }
+.lp-theme-porsche .lp-points__close { border-left: 4px solid var(--c-red); }
+.lp-theme-porsche .lp-point__ph { color: var(--c-red); border-top-color: var(--c-red); }
+.lp-theme-porsche .lp-point__img--dark { color: #F2F2F2; }
+.lp-theme-porsche .lp-point__img--dark .lp-icon { color: var(--c-white); }
+.lp-theme-porsche .lp-sticky__line { border-color: rgba(255, 255, 255, .5); }
+
+/* ---------- スマホ：写真を大きく、車両が切れないように ---------- */
+@media (max-width: 899px) {
+  .lp-theme-porsche .lp-hero__photo { margin-top: -40px; }
+  .lp-theme-porsche .lp-hero__photo img { width: 100%; margin-left: 0; aspect-ratio: 4 / 3; object-fit: cover; }
+}
+
+/* ---------- PC ---------- */
+@media (min-width: 900px) {
+  .lp-theme-porsche .lp-hero__model { font-size: 200px; }
+  .lp-theme-porsche .lp-hero__buy { font-size: 84px; }
+  .lp-theme-porsche .lp-hero__photo img { object-position: var(--hero-pos-pc, var(--hero-pos, 50% 50%)); filter: brightness(.82) contrast(1.08) saturate(1); }
+}
+
+/* ---------- LINE写真査定：実車写真（4:3）を切り抜きすぎず、少し引いて車両全体を見せる ---------- */
+/* スマホ・タブレット：写真枠を写真と同じ比率にして、フロント・ルーフが切れないようにする */
+@media (max-width: 1199px) {
+  .lp-theme-porsche .lp-line__photo { aspect-ratio: 1200 / 897; margin-top: -20px; }
+  /* ボタンが車両のフロント下部に重ならないよう、重なり幅を小さくする */
+  .lp-theme-porsche .lp-line__cta { margin-top: -4px; }
+}
+/* PC：横長の全面背景にすると車が大きくなりすぎるため、写真を右側に置き、左は黒地に溶け込ませる */
+@media (min-width: 1200px) {
+  .lp-theme-porsche .lp-line__photo { left: auto; width: 60%; }
+  .lp-theme-porsche .lp-line__photo::after {
+    background:
+      linear-gradient(90deg, #0E0E0E 0%, rgba(14, 14, 14, .6) 14%, rgba(14, 14, 14, 0) 34%),
+      linear-gradient(180deg, rgba(14, 14, 14, .35) 0%, rgba(14, 14, 14, 0) 16%, rgba(14, 14, 14, 0) 80%, rgba(14, 14, 14, .45) 100%);
+  }
+}

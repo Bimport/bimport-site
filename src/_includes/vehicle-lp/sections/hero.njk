@@ -12,12 +12,22 @@
           <span class="lp-hero__model{% if v.model.length > 10 %} lp-hero__model--long{% endif %}">{{ v.model }}</span>
           <span class="lp-hero__buy">{{ hero.buy or "高価買取" }}</span>
         </h1>
-        <p class="lp-hero__catch">{{ hero.catch or "今の愛車、いくらになる？" }}</p>
+        <p class="lp-hero__catch">{{ (hero.catch or "今の愛車、いくらになる？") | safe }}</p>
         <p class="lp-hero__lead">{{ (hero.lead or "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。") | safe }}</p>
+        {%- if hero.cta %}
+        <a class="lp-btn lp-btn--gold lp-btn--next lp-hero__cta" href="#estimate" data-cta="hero">{{ hero.cta }}</a>
+        {%- endif %}
       </div>
       {%- if heroImg %}
       <div class="lp-hero__photo">
-        <img src="../{{ heroImg.src }}" alt="{{ heroImg.alt or (v.makerJa + ' ' + v.nameJa) }}" width="{{ heroImg.width }}" height="{{ heroImg.height }}" fetchpriority="high">
+        {%- if heroImg.webp and heroImg.webp.length %}
+        <picture>
+          <source type="image/webp" srcset="{% for s in heroImg.webp %}../{{ s.src }} {{ s.width }}w{% if not loop.last %}, {% endif %}{% endfor %}" sizes="(min-width: 900px) 60vw, 100vw">
+        {%- endif %}
+        <img src="../{{ heroImg.src }}" alt="{{ heroImg.alt or (v.makerJa + ' ' + v.nameJa) }}" width="{{ heroImg.width }}" height="{{ heroImg.height }}" fetchpriority="high"{% if heroImg.position or heroImg.positionPc %} style="{% if heroImg.position %}--hero-pos: {{ heroImg.position }};{% endif %}{% if heroImg.positionPc %} --hero-pos-pc: {{ heroImg.positionPc }};{% endif %}"{% endif %}>
+        {%- if heroImg.webp and heroImg.webp.length %}
+        </picture>
+        {%- endif %}
       </div>
       {%- endif %}
       <ul class="lp-hero__badges">

@@ -9,7 +9,7 @@
       {%- if lineImg.webp and lineImg.webp.length %}
       <source type="image/webp" srcset="{% for s in lineImg.webp %}../{{ s.src }} {{ s.width }}w{% if not loop.last %}, {% endif %}{% endfor %}" sizes="100vw">
       {%- endif %}
-      <img src="../{{ lineImg.fallback }}" alt="{{ lineImg.alt or (v.makerJa + ' ' + v.nameJa) }}" width="{{ lineImg.width }}" height="{{ lineImg.height }}" loading="lazy" decoding="async">
+      <img src="../{{ lineImg.fallback }}" alt="{{ lineImg.alt or (v.makerJa + ' ' + v.nameJa) }}" width="{{ lineImg.width }}" height="{{ lineImg.height }}" loading="lazy" decoding="async"{% if lineImg.position or lineImg.positionPc %} style="{% if lineImg.position %}--line-pos: {{ lineImg.position }};{% endif %}{% if lineImg.positionPc %} --line-pos-pc: {{ lineImg.positionPc }};{% endif %}"{% endif %}>
     </picture>
     {%- elif heroImg %}
     <picture class="lp-line__photo">
