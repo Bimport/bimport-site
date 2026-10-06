@@ -1,59 +1,81 @@
 {
-  "slug": "porsche-911",
+  "slug": "maker-model",
   "draft": true,
-  "maker": "PORSCHE",
-  "makerJa": "ポルシェ",
-  "model": "911",
-  "modelShort": "911",
-  "nameJa": "911",
+  "maker": "MAKER",
+  "makerJa": "（メーカーの日本語表記）",
+  "model": "MODEL",
+  "nameJa": "（日本語の車種名。例 ポルシェ911）",
   "seo": {
-    "title": "ポルシェ911買取・査定｜売却未定でも概算価格がわかる｜Bimport",
-    "description": "ポルシェ 911 の買取・査定ならBimport。（120文字前後で、車種名・グレードの見極め・概算査定・査定無料・全国対応などを自然に入れる）"
+    "title": "（makerJa＋車種名）の買取・高価査定ならBimport｜輸入車専門",
+    "description": "（110〜130文字。車種名・代表的な世代や型式・査定で見るポイント・売却未定でも60秒の入力で概算査定額をご案内・査定無料・全国対応）"
   },
   "images": {
-    "hero": { "src": "assets/images/porsche-911/hero.jpg", "alt": "ポルシェ 911", "width": 1200, "height": 896 },
+    "hero": {
+      "src": "assets/images/maker-model/hero-1672.jpg",
+      "webp": [
+        { "src": "assets/images/maker-model/hero-1000.webp", "width": 1000 },
+        { "src": "assets/images/maker-model/hero-1672.webp", "width": 1672 }
+      ],
+      "alt": "（写真の説明）",
+      "width": 1672,
+      "height": 941,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
     "line": {
       "webp": [
-        { "src": "assets/images/porsche-911/line-photo-1000.webp", "width": 1000 },
-        { "src": "assets/images/porsche-911/line-photo-1672.webp", "width": 1672 }
+        { "src": "assets/images/maker-model/line-photo-1000.webp", "width": 1000 },
+        { "src": "assets/images/maker-model/line-photo-1672.webp", "width": 1672 }
       ],
-      "fallback": "assets/images/porsche-911/line-photo-1672.jpg",
+      "fallback": "assets/images/maker-model/line-photo-1672.jpg",
       "alt": "（写真の説明）",
       "width": 1672,
       "height": 941
     },
-    "final": { "src": "assets/images/porsche-911/hero.jpg" }
+    "final": { "src": "assets/images/maker-model/hero-1672.jpg" }
   },
   "hero": {
-    "label": "ポルシェ 911買取・査定",
-    "catch": "今の愛車、いくらになる？",
-    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+    "label": "（車種名） 買取・査定",
+    "catch": "その（MODEL）、本当の価値まで<br>評価されていますか？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。",
+    "cta": "60秒で概算査定"
   },
   "form": {
-    "bodyTypeLabel": "型式",
+    "bodyTypeLabel": "（世代／型式／ボディタイプ など）",
     "bodyTypes": [
-      { "value": "992", "label": "992型", "grades": ["カレラ", "カレラS", "カレラ4S", "GTS", "ターボ", "ターボS", "限定車・特別仕様車"] },
-      { "value": "991", "label": "991型", "grades": ["カレラ", "カレラS", "GTS", "ターボ", "限定車・特別仕様車"] },
+      { "value": "（分類A）", "label": "（分類A）", "grades": ["（グレード）", "（グレード）", "限定車・特別仕様車"] },
+      { "value": "（分類B）", "label": "（分類B）", "grades": ["（グレード）", "限定車・特別仕様車"] },
       { "value": "unknown", "label": "わからない", "grades": [] }
     ],
     "gradeFallback": "その他・わからない",
-    "yearFrom": 2012,
-    "yearOlderLabel": "2011年以前"
+    "yearFrom": 2010,
+    "yearOlderLabel": "2009年以前"
   },
   "cases": [],
   "points": {
-    "lead": "仕様によって価値が大きく変わる911。<br>詳しいスタッフが、1台ごとに確認して査定します。",
+    "lead": "（車種名）は仕様で価値が変わる車。<br>詳しいスタッフが1台ずつ確認して査定します。",
     "items": [
-      { "key": "generation", "title": "型式（世代）", "text": "（短い説明）", "image": null, "icon": "car", "placeholderLabel": "GENERATION" },
-      { "key": "interior", "title": "内装・オプション", "text": "（短い説明）", "image": null, "icon": "seat", "tone": "dark" }
+      { "key": "generation", "title": "（世代・型式など）", "text": "（短い説明）", "image": null, "icon": "car", "placeholderLabel": "GENERATION" },
+      { "key": "grade", "title": "グレード", "text": "（短い説明）", "image": null, "icon": "badge", "placeholderLabel": "GRADE" },
+      { "key": "spec", "title": "（仕様）", "text": "（短い説明）", "image": null, "icon": "form", "placeholderLabel": "SPEC" },
+      { "key": "option1", "title": "（装備）", "text": "（短い説明）", "image": null, "icon": "chart", "tone": "dark" },
+      { "key": "option2", "title": "（装備）", "text": "（短い説明）", "image": null, "icon": "wheel", "tone": "dark" },
+      { "key": "options", "title": "純正オプション", "text": "内外装の純正オプションを細かく確認", "image": null, "icon": "seat", "tone": "dark" }
     ],
-    "more": ["グレード", "年式", "走行距離", "ボディカラー", "純正装備", "カスタム内容"]
+    "more": ["駆動方式", "ボディカラー", "走行距離", "車両コンディション", "カスタム内容"],
+    "close": "同じ（MODEL）でも、仕様の見極め次第で査定額は変わります。<br class=\"pc-only\">だからこそ、<strong>（MODEL）に詳しい査定</strong>が大切です。"
   },
   "faq": [
-    { "q": "（車種固有の質問）", "a": "（回答）" }
+    { "q": "（車種固有の質問）", "a": "（回答。金額や断定は書かない）" }
   ],
   "line": {
+    "title": "あなたの<span class=\"lp-en\">（MODEL）</span>、<br>まずは写真で概算査定。",
+    "lead": "LINEで写真を送るだけ。<br>売却未定でもお気軽にご相談ください。",
     "ctaText": "LINEで写真査定する"
   },
-  "final": {}
+  "final": {
+    "label": "MAKER MODEL",
+    "title": "今の<span class=\"lp-en\">（MODEL）</span>、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  }
 }

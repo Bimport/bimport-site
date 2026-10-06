@@ -1,0 +1,12 @@
+# Bimport サイト：作業ルール
+
+- 車種別買取LPの制作・確認・公開は、必ず [docs/vehicle-lp-workflow.md](docs/vehicle-lp-workflow.md) の運用ルールに従う。
+  技術仕様は [docs/vehicle-lp.md](docs/vehicle-lp.md)、車種データのひな形は [docs/vehicle-template.json](docs/vehicle-template.json)。
+- 「○○の買取LPを作って」程度の依頼でも、上記ルールに従って `"draft": true` の下書き完成まで自分で進める。
+  確認質問は、事実情報が不足していて推測すると危険な場合だけにする。
+- 買取価格・年式・走行距離・地域・他社との差額・Google評価点・口コミ件数などの実績の数字は、捏造しない。
+- 通知先メールアドレスなどの秘密情報を、リポジトリや公開HTMLに書かない（GASのスクリプトプロパティで管理）。
+- 本番の査定フォーム（GAS）への送信は、ユーザーが承認した公開時の確認の1件だけ。二重送信・再送はしない。
+- トップページ・プライバシーポリシー・公開中の車種LPに意図しない変更を入れない。
+- ブランド表記は「Bimport」。
+- ビルド：`npm run build`（本番）／`npm run build:preview`（下書きも含めた確認用）。
