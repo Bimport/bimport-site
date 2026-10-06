@@ -1,0 +1,270 @@
+{
+  "slug": "porsche-911",
+  "draft": false,
+  "theme": "porsche",
+  "maker": "PORSCHE",
+  "makerJa": "ポルシェ",
+  "model": "911",
+  "nameJa": "ポルシェ911",
+  "seo": {
+    "title": "ポルシェ911の買取・高価査定ならBimport｜輸入車専門",
+    "description": "ポルシェ911の買取・査定ならBimport。992・991・997・996など世代やグレード、PDK／MT、スポーツクロノやPCCBなどの純正オプションまで確認して評価します。売却未定でも60秒の入力で概算査定額をご案内。査定無料・全国対応。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/porsche-911/hero-1672.jpg",
+      "webp": [
+        {
+          "src": "assets/images/porsche-911/hero-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/porsche-911/hero-1672.webp",
+          "width": 1672
+        }
+      ],
+      "alt": "夕暮れの山岳道路を走る赤いポルシェ911",
+      "width": 1672,
+      "height": 941,
+      "position": "96% 55%",
+      "positionPc": "70% 50%"
+    },
+    "line": {
+      "fallback": "assets/images/cases/case-porsche-911-gts.jpg",
+      "alt": "ポルシェ911 カレラ4 GTS",
+      "width": 1200,
+      "height": 897,
+      "position": "45% 60%",
+      "positionPc": "50% 62%"
+    },
+    "final": {
+      "src": "assets/images/porsche-911/hero-1672.jpg"
+    }
+  },
+  "hero": {
+    "label": "ポルシェ911 買取・査定",
+    "catch": "その911、本当の価値まで<br>評価されていますか？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "bodyTypeLabel": "世代",
+    "bodyTypes": [
+      {
+        "value": "992",
+        "label": "992",
+        "grades": [
+          "Carrera",
+          "Carrera S",
+          "Carrera 4",
+          "Carrera 4S",
+          "Carrera T",
+          "Carrera GTS",
+          "Carrera 4 GTS",
+          "Targa 4",
+          "Targa 4S",
+          "Targa 4 GTS",
+          "Turbo",
+          "Turbo S",
+          "GT3（ツーリング含む）",
+          "GT3 RS",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "991",
+        "label": "991",
+        "grades": [
+          "Carrera",
+          "Carrera S",
+          "Carrera 4",
+          "Carrera 4S",
+          "Carrera T",
+          "Carrera GTS",
+          "Carrera 4 GTS",
+          "Targa 4",
+          "Targa 4S",
+          "Targa 4 GTS",
+          "Turbo",
+          "Turbo S",
+          "GT3（ツーリング含む）",
+          "GT3 RS",
+          "GT2 RS",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "997",
+        "label": "997",
+        "grades": [
+          "Carrera",
+          "Carrera S",
+          "Carrera 4",
+          "Carrera 4S",
+          "Carrera GTS",
+          "Carrera 4 GTS",
+          "Targa 4",
+          "Targa 4S",
+          "Turbo",
+          "Turbo S",
+          "GT3",
+          "GT3 RS",
+          "GT2",
+          "GT2 RS",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "996",
+        "label": "996",
+        "grades": [
+          "Carrera",
+          "Carrera 4",
+          "Carrera 4S",
+          "Targa",
+          "Turbo",
+          "Turbo S",
+          "GT3",
+          "GT3 RS",
+          "GT2",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "993-or-older",
+        "label": "993以前",
+        "grades": [
+          "Carrera",
+          "Carrera 4",
+          "Carrera S",
+          "Carrera 4S",
+          "Targa",
+          "Turbo",
+          "RS（Carrera RSなど）",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 1998,
+    "yearOlderLabel": "1997年以前"
+  },
+  "cases": [
+    {
+      "image": "assets/images/cases/case-porsche-911-gts.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 897,
+      "maker": "PORSCHE",
+      "model": "911",
+      "grade": "Carrera 4 GTS PDK",
+      "year": "2022年",
+      "mileage": "23,784km",
+      "price": "2,115",
+      "priceUnit": "万円",
+      "compare": "2位の会社より15万円高く買取",
+      "purchasedAt": "2026年9月",
+      "area": "徳島県",
+      "details": [
+        "クレヨン",
+        "セラミックコンポジットブレーキ",
+        "レザーインテリア",
+        "インテリアトリムパッケージ",
+        "フロントアクスルリフトシステム"
+      ]
+    }
+  ],
+  "points": {
+    "lead": "世代・グレード・装備で価値が変わる911。<br>詳しいスタッフが1台ずつ確認して査定します。",
+    "items": [
+      {
+        "key": "generation",
+        "title": "世代",
+        "text": "992から空冷モデルまで、世代ごとの相場を確認",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "GENERATION"
+      },
+      {
+        "key": "grade",
+        "title": "グレード",
+        "text": "Carrera・GTS・Turbo・GT3など仕様の違いを確認",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "GRADE"
+      },
+      {
+        "key": "transmission",
+        "title": "PDK / MT",
+        "text": "トランスミッションの種類を確認",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "PDK / MT"
+      },
+      {
+        "key": "chrono",
+        "title": "スポーツクロノ",
+        "text": "人気の高い純正パッケージの有無を確認",
+        "image": null,
+        "icon": "chart",
+        "tone": "dark"
+      },
+      {
+        "key": "pccb",
+        "title": "PCCB",
+        "text": "セラミックコンポジットブレーキの装着を確認",
+        "image": null,
+        "icon": "wheel",
+        "tone": "dark"
+      },
+      {
+        "key": "options",
+        "title": "純正オプション",
+        "text": "内外装の純正オプションを細かく確認",
+        "image": null,
+        "icon": "seat",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "駆動方式",
+      "ボディカラー",
+      "走行距離",
+      "車両コンディション",
+      "カスタム内容"
+    ],
+    "close": "同じ911でも、仕様の見極め次第で査定額は変わります。<br class=\"pc-only\">だからこそ、<strong>911に詳しい査定</strong>が大切です。"
+  },
+  "faq": [
+    {
+      "q": "古い世代の911でも査定できますか？",
+      "a": "はい、ご相談いただけます。空冷モデルを含む古い世代の911も、年式・状態・整備の記録などを確認したうえで査定します。"
+    },
+    {
+      "q": "MT車や限定モデルも査定できますか？",
+      "a": "はい、ご相談いただけます。トランスミッションや限定モデルの仕様も確認して査定します。フォームでグレードがわからない場合は「その他・わからない」をお選びください。"
+    },
+    {
+      "q": "純正オプションは査定額に影響しますか？",
+      "a": "装備の内容によっては評価の対象になります。どの程度影響するかは、車両の状態や相場によって異なるため、実際の装備を確認したうえでご案内します。"
+    },
+    {
+      "q": "社外パーツが付いていても査定できますか？",
+      "a": "はい、査定できます。パーツの内容によって評価は異なりますので、純正部品の有無もあわせてお知らせください。"
+    }
+  ],
+  "line": {
+    "title": "あなたの<span class=\"lp-en\">911</span>、<br>まずは写真で概算査定。",
+    "lead": "LINEで写真を送るだけ。<br>売却未定でもお気軽にご相談ください。",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "PORSCHE 911",
+    "title": "今の<span class=\"lp-en\">911</span>、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  }
+}

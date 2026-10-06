@@ -81,7 +81,7 @@ docs/
 | `images.final` | | 最終CTAの背景画像 `{src}`（未指定ならファーストビュー画像） |
 | `hero.label` / `hero.catch` / `hero.lead` / `hero.buy` | | ファーストビューの文言（未指定なら共通の文言） |
 | `form.bodyTypes` | | ボディタイプ（型式など）とグレード一覧。未指定ならボディタイプ欄は出さない |
-| `form.bodyTypeLabel` | | ボディタイプ欄の見出し（例：「型式」）。既定は「ボディタイプ」 |
+| `form.bodyTypeLabel` | | ボディタイプ欄の見出し（例：「世代」「型式」）。既定は「ボディタイプ」。通知メールの項目名にも使われる（20文字まで） |
 | `form.grades` | | ボディタイプがない車種のグレード一覧 |
 | `form.gradeFallback` | ○ | グレードの最後の選択肢（例：「その他・わからない」） |
 | `form.yearFrom` / `form.yearOlderLabel` | ○ / | 年式の選択肢（今年〜yearFrom、＋それ以前、＋わからない） |
@@ -91,11 +91,17 @@ docs/
 | `faq` | | 車種固有FAQ `[{q, a}]`（共通5問の後に表示） |
 | `line.title` / `line.lead` / `line.ctaText` | | LINE写真査定の文言 |
 | `final.label` / `final.title` / `final.lead` / `final.lineText` | | 最終CTAの文言 |
+| `theme` | | 車種専用の配色・装飾。`src/assets/css/themes/<theme>.css` を読み込み、`<body class="lp-theme-<theme>">` になる（例：`"porsche"`）。未指定なら共通デザイン |
+| `hero.cta` | | ファーストビュー内にCTAボタンを出す場合の文言（例：「60秒で概算査定」） |
+| `images.hero.position` / `positionPc` | | テーマ側でファーストビュー写真を切り抜く場合の `object-position`（スマホ／PC） |
+| `images.hero.webp` | | ファーストビュー画像のWebP版 `[{src, width}]`。指定すると `<picture>` で配信し、`src` はフォールバックになる |
+| `images.line.position` / `positionPc` | | LINE写真査定の画像の `object-position`（スマホ／PC）。未指定なら共通の位置 |
+| `cases[].compare` | | 実在の比較結果がある場合の表示（例：「2位の会社より15万円高く買取」） |
 | `sitemap.lastmod` | | サイトマップの最終更新日（例：`"2026-10-05"`）。内容を大きく更新したときだけ書く。未指定なら出力しない |
 
 - 査定ポイントの `icon` に使えるもの：`car` `seat` `wheel` `badge` `search` `star` `chart` `map` `form` `chat` `check` `camera` `yen` `truck` `doc`。
   `tone: "dark"` で黒いタイルになります。
-- `<br>` を使える項目：`hero.lead`、`points.lead`、`points.close`、`line.title`、`line.lead`、`final.title`、`final.lead`、`faq[].a`。
+- `<br>` を使える項目：`hero.catch`、`hero.lead`、`points.lead`、`points.close`、`line.title`、`line.lead`、`final.title`、`final.lead`、`faq[].a`。
 
 ## サイトマップ・robots.txt（手作業での編集は不要）
 
@@ -127,4 +133,6 @@ LINE URL・Google口コミURL・サイトURL・GAS送信先（`estimateEndpoint`
 
 通知メールには、メーカー・車種（件名と本文）と、送信元の「ページ」URL（例：`https://bimport.jp/defender/`）が入るので、
 どのLPからの依頼かが分かります。UTM・gclid・fbclid も「流入元」として入ります。
-ボディタイプ欄がない車種では、ボディタイプは「指定なし」として送信されます。
+ボディタイプ欄の項目名は `form.bodyTypeLabel`（未指定なら「ボディタイプ」）が LP の見出し・確認画面・通知メールで共通に使われます
+（例：DEFENDER は「ボディタイプ：90」、911 は「世代：992」、型式で分ける車種は「型式：○○」）。
+ボディタイプ欄がない車種では、「ボディタイプ：指定なし」として送信されます。

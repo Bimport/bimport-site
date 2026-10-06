@@ -26,7 +26,7 @@
   // ボディタイプ欄は車種データに bodyTypes がある場合だけ表示される（見出しは車種ごとに変更可）
   var bodyTypeField = form.querySelector('[data-field="bodyType"]');
   var hasBodyType = !!bodyTypeField;
-  var bodyTypeLabel = hasBodyType ? bodyTypeField.querySelector(".lp-label").firstChild.textContent : "";
+  var bodyTypeLabel = hasBodyType ? bodyTypeField.querySelector(".lp-label").firstChild.textContent.trim() : "";
   var stepNum = document.getElementById("estimate-step-num");
   var yearSelect = document.getElementById("f-year");
   var confirmBox = document.getElementById("estimate-confirm");
@@ -185,6 +185,8 @@
       maker: config.maker,
       model: config.model,
       bodyType: hasBodyType ? val("bodyType") : "指定なし",
+      // 通知メールの項目名（車種データの form.bodyTypeLabel。例：ボディタイプ／世代／型式）
+      bodyTypeLabel: bodyTypeLabel || "ボディタイプ",
       grade: val("grade"),
       year: val("year"),
       mileage: val("mileage"),

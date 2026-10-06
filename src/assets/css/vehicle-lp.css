@@ -155,6 +155,7 @@ ul, ol { padding: 0; list-style: none; }
 .lp-hero__catch { font-family: var(--font-display); font-size: clamp(20px, 5.8vw, 30px); font-weight: 900; line-height: 1.35; margin-top: 16px; letter-spacing: .01em; }
 .lp-hero__lead { font-size: 13.5px; color: #D5D4D0; margin-top: 6px; line-height: 1.8; }
 .lp-hero__photo { position: relative; z-index: 1; margin: -54px -20px 0; }
+.lp-hero__photo picture { display: block; }
 .lp-hero__photo img {
   width: 100%;
   filter: brightness(.58) contrast(1.18) saturate(.85);
@@ -164,6 +165,8 @@ ul, ol { padding: 0; list-style: none; }
 .lp-hero__badges { position: relative; z-index: 3; display: flex; justify-content: center; gap: 14px; margin-top: -58px; }
 /* 英字車種名が長い車種（11文字以上）は一段小さくする */
 .lp-hero__model--long { font-size: clamp(36px, 10.6vw, 76px); line-height: 1.05; }
+/* ファーストビュー内のCTAボタン（車種データの hero.cta がある場合のみ） */
+.lp-hero__cta { margin-top: 18px; min-height: 54px; font-size: 16px; padding-left: 28px; padding-right: 24px; }
 /* ファーストビュー画像がない車種 */
 .lp-hero--nophoto .lp-hero__badges { margin-top: 28px; }
 .lp-hero__badges li {
@@ -343,6 +346,8 @@ select.lp-input:disabled { background-color: #F7F7F5; color: var(--c-mute); }
   background: var(--c-gold-grad); -webkit-background-clip: text; background-clip: text; color: transparent;
 }
 .lp-case__price-unit { font-size: 14px; font-weight: 900; }
+/* 他社比較（実在の比較結果がある実績のみ） */
+.lp-case__compare { display: inline-block; margin-top: 10px; font-size: 12.5px; font-weight: 700; line-height: 1.5; color: var(--c-white); background: var(--c-black); border-radius: 4px; padding: 4px 10px; }
 .lp-case__spec { display: flex; gap: 16px; margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--c-line); font-size: 12.5px; }
 .lp-case__spec > div { display: flex; gap: 6px; }
 .lp-case__spec dt { color: var(--c-mute); }
@@ -356,7 +361,7 @@ select.lp-input:disabled { background-color: #F7F7F5; color: var(--c-mute); }
 .lp-line__inner { display: contents; }
 .lp-line__text { grid-area: text; position: relative; z-index: 2; padding: 44px 20px 0; text-shadow: 0 2px 10px rgba(0, 0, 0, .5); }
 .lp-line__photo { grid-area: photo; position: relative; z-index: 1; display: block; margin-top: -52px; aspect-ratio: 375 / 340; }
-.lp-line__photo img { width: 100%; height: 100%; object-fit: cover; object-position: 79% 50%; }
+.lp-line__photo img { width: 100%; height: 100%; object-fit: cover; object-position: var(--line-pos, 79% 50%); }
 .lp-line__photo::after {
   content: ""; position: absolute; inset: 0; pointer-events: none;
   background: linear-gradient(180deg, #0E0E0E 0%, rgba(14, 14, 14, .45) 16%, rgba(14, 14, 14, 0) 34%, rgba(14, 14, 14, 0) 70%, rgba(14, 14, 14, .55) 88%, #0E0E0E 100%);
@@ -519,7 +524,7 @@ select.lp-input:disabled { background-color: #F7F7F5; color: var(--c-mute); }
 @media (min-width: 600px) {
   .lp-reviews { grid-template-columns: repeat(3, 1fr); }
   .lp-line__photo { aspect-ratio: 1672 / 941; margin-top: -40px; }
-  .lp-line__photo img { object-position: 50% 50%; }
+  .lp-line__photo img { object-position: var(--line-pos-tab, 50% 50%); }
   .lp-line__text, .lp-line__cta { padding-left: 40px; padding-right: 40px; }
   .lp-line .lp-btn--gold { width: auto; padding-left: 14px; padding-right: 32px; }
   .lp-hero__photo { margin-left: 0; margin-right: 0; }
@@ -635,7 +640,7 @@ select.lp-input:disabled { background-color: #F7F7F5; color: var(--c-mute); }
 @media (min-width: 1200px) {
   .lp-line { display: block; min-height: max(640px, 44vw); }
   .lp-line__photo { position: absolute; inset: 0; margin: 0; aspect-ratio: auto; }
-  .lp-line__photo img { object-position: 50% 58%; }
+  .lp-line__photo img { object-position: var(--line-pos-pc, 50% 58%); }
   .lp-line__photo::after { background: linear-gradient(90deg, rgba(10, 10, 10, .62) 0%, rgba(10, 10, 10, .42) 24%, rgba(10, 10, 10, .12) 38%, rgba(10, 10, 10, 0) 48%), linear-gradient(0deg, rgba(10, 10, 10, .25) 0%, rgba(10, 10, 10, 0) 30%); }
   .lp-line__inner { display: flex; flex-direction: column; justify-content: center; gap: 30px; position: relative; z-index: 2; min-height: max(640px, 44vw); max-width: none; padding: 72px 0 72px 6vw; }
   .lp-line__text, .lp-line__cta { padding: 0; margin: 0; max-width: 430px; }
