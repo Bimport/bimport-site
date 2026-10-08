@@ -1,5 +1,7 @@
 # Bimport サイト：作業ルール
 
+- **作業を始める前に、必ずGitHubの最新の `main` を取り込む**（`git fetch origin main` → 最新の `main` から作業ブランチを作る、または `main` を取り込む）。
+  別のチャット・別のパソコンで公開した変更を含めた状態から始めるため。手元に未コミットの変更がある場合は、消さずにユーザーに確認する。
 - 車種別買取LPの制作・確認・公開は、必ず [docs/vehicle-lp-workflow.md](docs/vehicle-lp-workflow.md) の運用ルールに従う。
   技術仕様は [docs/vehicle-lp.md](docs/vehicle-lp.md)、車種データのひな形は [docs/vehicle-template.json](docs/vehicle-template.json)。
 - 「○○の買取LPを作って」程度の依頼でも、上記ルールに従って `"draft": true` の下書き完成まで自分で進める。
