@@ -1,0 +1,76 @@
+/* =========================================================
+   車種別LPテーマ：コバルト（車種データ "theme": "cobalt" のページだけで読み込む）
+   BMW 1シリーズ用。黒・白を基本に、アクセントを落ち着いたコバルトブルーにする
+   共通CSS（vehicle-lp.css）の色トークンを上書きし、レイアウト・部品構造は共通のまま使う
+   ========================================================= */
+.lp-theme-cobalt {
+  --c-cobalt: #3C6FB4;
+  --c-cobalt-deep: #24497E;
+  --c-cobalt-light: #A9C3E6;
+  --c-cobalt-grad: linear-gradient(180deg, #5B8ACB 0%, #3C6FB4 52%, #2A5491 100%);
+  /* 共通CSSで「アクセント（ゴールド）」として使っている箇所をコバルトブルーに置き換える */
+  --c-gold: #3C6FB4;
+  --c-gold-text: #24497E;
+  --c-gold-light: #A9C3E6;
+  --c-gold-grad: var(--c-cobalt-grad);
+}
+
+/* ---------- ボタン（青地に白文字） ---------- */
+.lp-theme-cobalt .lp-btn--gold { color: var(--c-white); box-shadow: 0 3px 12px rgba(20, 45, 85, .35), inset 0 1px 0 rgba(255, 255, 255, .25); }
+.lp-theme-cobalt .lp-btn--gold:hover { filter: brightness(1.08); }
+
+/* ---------- ファーストビュー ---------- */
+.lp-theme-cobalt .lp-hero__label { border-bottom-color: rgba(169, 195, 230, .5); }
+.lp-theme-cobalt .lp-hero__maker { letter-spacing: .3em; }
+.lp-theme-cobalt .lp-hero__maker::after { content: ""; display: block; width: 44px; height: 2px; margin-top: 12px; background: var(--c-cobalt-grad); }
+/* 黒地の上で沈まないよう、「高価買取」は明るい青のグラデーションにする */
+.lp-theme-cobalt .lp-hero__buy { background: linear-gradient(180deg, #F2F7FF 0%, #BFD5F3 45%, #7FA6DB 100%); -webkit-background-clip: text; background-clip: text; color: transparent;
+  text-shadow: none; filter: drop-shadow(0 2px 10px rgba(0, 0, 0, .55)); }
+.lp-theme-cobalt .lp-hero__photo img { object-position: var(--hero-pos, 50% 50%); }
+
+/* 狭いスマホ（320px）でキャッチの「まで」が1文字だけ次の行に落ちないよう、少しだけ小さくする */
+@media (max-width: 359px) {
+  .lp-theme-cobalt .lp-hero__catch { font-size: 18px; }
+}
+
+/* ---------- 見出しの車種名 ---------- */
+/* 車種名が日本語（1シリーズ）なので、英字用フォントにせず見出しと同じフォントで表示する */
+.lp-theme-cobalt .lp-h2 .lp-en { font-family: inherit; font-weight: inherit; letter-spacing: inherit; }
+
+/* ---------- フォーム・各セクションの小さなアクセント ---------- */
+.lp-theme-cobalt .lp-form-card { border-top: 3px solid var(--c-cobalt); }
+.lp-theme-cobalt .lp-input:focus { box-shadow: 0 0 0 3px rgba(60, 111, 180, .3); }
+/* 白地の上の大きな数字（「60秒」・買取金額）は濃い青にする */
+.lp-theme-cobalt .lp-form-card__title em,
+.lp-theme-cobalt .lp-form-card__title small,
+.lp-theme-cobalt .lp-case__price-num { background: linear-gradient(180deg, #3C6FB4 0%, #24497E 100%); -webkit-background-clip: text; background-clip: text; }
+.lp-theme-cobalt .lp-case__price { color: var(--c-black); }
+.lp-theme-cobalt .lp-case__compare { background: var(--c-black); color: var(--c-white); }
+.lp-theme-cobalt .lp-points__close { border-left: 3px solid var(--c-cobalt); }
+.lp-theme-cobalt .lp-point__img--dark { color: #EEF3FA; }
+.lp-theme-cobalt .lp-point__img--dark .lp-icon { color: var(--c-white); }
+
+/* ---------- スマホ：写真を横幅いっぱいに収め、車両の前後が切れないようにする ---------- */
+@media (max-width: 899px) {
+  .lp-theme-cobalt .lp-hero__photo { margin-top: -44px; }
+  .lp-theme-cobalt .lp-hero__photo img { width: 100%; margin-left: 0; }
+  .lp-theme-cobalt .lp-hero__badges { margin-top: -20px; }
+}
+
+@media (min-width: 900px) {
+  .lp-theme-cobalt .lp-hero__photo img { object-position: var(--hero-pos-pc, var(--hero-pos, 50% 50%)); filter: brightness(.88) contrast(1.05); }
+}
+
+/* ---------- LINE写真査定：写真（3:2）を切り抜きすぎず、車両全体と余白を見せる ---------- */
+@media (max-width: 1199px) {
+  .lp-theme-cobalt .lp-line__photo { aspect-ratio: 1536 / 1024; margin-top: -12px; }
+  .lp-theme-cobalt .lp-line__cta { margin-top: -4px; }
+}
+@media (min-width: 1200px) {
+  .lp-theme-cobalt .lp-line__photo { left: auto; width: 62%; }
+  .lp-theme-cobalt .lp-line__photo::after {
+    background:
+      linear-gradient(90deg, #0E0E0E 0%, rgba(14, 14, 14, .6) 14%, rgba(14, 14, 14, 0) 34%),
+      linear-gradient(180deg, rgba(14, 14, 14, .35) 0%, rgba(14, 14, 14, 0) 16%, rgba(14, 14, 14, 0) 80%, rgba(14, 14, 14, .45) 100%);
+  }
+}

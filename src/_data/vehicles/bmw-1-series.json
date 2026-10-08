@@ -1,0 +1,134 @@
+{
+  "slug": "bmw-1-series",
+  "draft": false,
+  "theme": "cobalt",
+  "maker": "BMW",
+  "makerJa": "BMW",
+  "model": "1 SERIES",
+  "modelShort": "1シリーズ",
+  "nameJa": "1シリーズ",
+  "seo": {
+    "title": "BMW 1シリーズの買取・高価査定ならBimport｜輸入車専門",
+    "description": "BMW 1シリーズの買取・査定ならBimport。F40・F20・E87/E82など世代やグレード、M135i・135iなどの上位モデルやMスポーツの装備まで確認して評価します。売却未定でも60秒の入力で概算査定額をご案内。査定無料・全国対応。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/bmw-1-series/hero-1536.jpg",
+      "webp": [
+        { "src": "assets/images/bmw-1-series/hero-1000.webp", "width": 1000 },
+        { "src": "assets/images/bmw-1-series/hero-1536.webp", "width": 1536 }
+      ],
+      "alt": "街中を走るグレーのBMW 1シリーズ クーペ",
+      "width": 1536,
+      "height": 1024,
+      "position": "62% 60%",
+      "positionPc": "60% 58%"
+    },
+    "line": {
+      "webp": [
+        { "src": "assets/images/bmw-1-series/line-photo-1000.webp", "width": 1000 },
+        { "src": "assets/images/bmw-1-series/line-photo-1536.webp", "width": 1536 }
+      ],
+      "fallback": "assets/images/bmw-1-series/line-photo-1536.jpg",
+      "alt": "Bimportのショールームに停まる白のBMW 1シリーズ クーペ",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "final": { "src": "assets/images/bmw-1-series/hero-1536.jpg" }
+  },
+  "hero": {
+    "label": "BMW 1シリーズ 買取・査定",
+    "catch": "その1シリーズ、本当の価値まで<br>評価されていますか？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "bodyTypeLabel": "世代",
+    "bodyTypes": [
+      {
+        "value": "F70",
+        "label": "F70",
+        "grades": ["120", "M135 xDrive", "限定車・特別仕様車"]
+      },
+      {
+        "value": "F40",
+        "label": "F40",
+        "grades": ["118i", "118d", "M135i xDrive", "限定車・特別仕様車"]
+      },
+      {
+        "value": "F20",
+        "label": "F20",
+        "grades": ["116i", "118i", "120i", "118d", "M135i", "M140i", "限定車・特別仕様車"]
+      },
+      {
+        "value": "E87/E82/E88",
+        "label": "E87・E82・E88",
+        "grades": ["116i", "118i", "120i（クーペ・カブリオレ含む）", "130i", "135i（クーペ・カブリオレ）", "限定車・特別仕様車"]
+      },
+      { "value": "unknown", "label": "わからない", "grades": [] }
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 2004,
+    "yearOlderLabel": "2003年以前"
+  },
+  "cases": [
+    {
+      "image": "assets/images/cases/case-bmw-1-series-135i.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "maker": "BMW",
+      "model": "1シリーズ",
+      "grade": "135i クーペ",
+      "year": "2011年",
+      "mileage": "95,000km",
+      "price": "465,440",
+      "priceUnit": "円",
+      "purchasedAt": "2026年9月",
+      "area": "福岡",
+      "details": ["パールホワイト", "ブラックレザーシート", "BBS 18インチホイール"]
+    }
+  ],
+  "points": {
+    "lead": "世代・グレード・装備で価値が変わる1シリーズ。<br>詳しいスタッフが1台ずつ確認して査定します。",
+    "items": [
+      { "key": "generation", "title": "世代", "text": "F40・F20・E87/E82など、世代ごとの相場を確認", "image": null, "icon": "car", "placeholderLabel": "GENERATION" },
+      { "key": "grade", "title": "グレード", "text": "118i・118d・M135iなど仕様の違いを確認", "image": null, "icon": "badge", "placeholderLabel": "GRADE" },
+      { "key": "body", "title": "ボディ・駆動", "text": "ハッチバック・クーペ・カブリオレとxDriveの有無を確認", "image": null, "icon": "form", "placeholderLabel": "BODY / xDRIVE" },
+      { "key": "m-sport", "title": "Mスポーツ", "text": "Mスポーツなどの内外装パッケージを確認", "image": null, "icon": "star", "tone": "dark" },
+      { "key": "safety", "title": "運転支援・安全装備", "text": "ドライビング・アシストなどの装備を確認", "image": null, "icon": "check", "tone": "dark" },
+      { "key": "options", "title": "純正オプション", "text": "レザーシート・サンルーフ・純正ホイールなどを確認", "image": null, "icon": "seat", "tone": "dark" }
+    ],
+    "more": ["ボディカラー", "走行距離", "整備記録", "車両コンディション", "カスタム内容"],
+    "close": "同じ1シリーズでも、仕様の見極め次第で査定額は変わります。<br class=\"pc-only\">だからこそ、<strong>1シリーズに詳しい査定</strong>が大切です。"
+  },
+  "faq": [
+    {
+      "q": "自分の1シリーズの世代（F40など）がわかりません。",
+      "a": "わからない場合は、フォームで「わからない」をお選びください。年式や車検証の情報から、担当者が確認してご案内します。"
+    },
+    {
+      "q": "クーペやカブリオレも査定できますか？",
+      "a": "はい、ご相談いただけます。ハッチバック以外のボディも、年式や仕様を確認したうえで査定します。"
+    },
+    {
+      "q": "M135iや135iなどのモデルは査定額に影響しますか？",
+      "a": "グレードや装備の内容によっては評価の対象になります。どの程度影響するかは、車両の状態や相場によって異なるため、実際の内容を確認したうえでご案内します。"
+    },
+    {
+      "q": "社外ホイールなどのカスタムをしていても査定できますか？",
+      "a": "はい、ご相談いただけます。カスタムの内容や、純正部品が残っているかどうかも確認したうえでご案内します。"
+    }
+  ],
+  "line": {
+    "title": "あなたの1シリーズ、<br>まずは写真で概算査定。",
+    "lead": "LINEで写真を送るだけ。<br>売却未定でもお気軽にご相談ください。",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "BMW 1 SERIES",
+    "title": "今の1シリーズ、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  }
+}
