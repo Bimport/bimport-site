@@ -190,7 +190,7 @@ convert 元画像 -strip -resize 1672x -quality 82 -define webp:method=6 $D/hero
 
 ### GAS（Google Apps Script）
 - 送信先は `src/_data/site.json` の `estimateEndpoint`（公開して問題のないURL）を全車種で共通に使う。
-- **GAS v2 が本番に反映済み**。`bodyTypeLabel`（20文字まで、なければ「ボディタイプ」）を受け取り、通知メールに「世代：992」「ボディタイプ：90」のように出す。
+- **GAS v3 が本番に反映済み**（v2 の機能＋公開確認テスト送信）。`bodyTypeLabel`（20文字まで、なければ「ボディタイプ」）を受け取り、通知メールに「世代：992」「ボディタイプ：90」のように出す。
 - 新しい車種を追加するだけなら **GASは変更しない**。
 - 公開確認テスト送信の判定（`testToken` とスクリプトプロパティ `TEST_SUBMIT_TOKEN` の照合、通知先の `TEST_NOTIFY_TO` への切り替え、件名の「【テスト送信】」）は GAS（v3）側で全車種共通に行う（→「10. 公開手順」の「本番フォームの確認」）。
 - 通知先メールアドレスなどの秘密情報は、GASのスクリプトプロパティだけで管理する。GitHub・公開HTML・車種データには絶対に書かない。
