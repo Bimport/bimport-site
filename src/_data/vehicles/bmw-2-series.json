@@ -1,0 +1,245 @@
+{
+  "slug": "bmw-2-series",
+  "draft": false,
+  "theme": "cobalt",
+  "maker": "BMW",
+  "makerJa": "BMW",
+  "model": "2 SERIES",
+  "modelShort": "2シリーズ",
+  "nameJa": "2シリーズ",
+  "seo": {
+    "title": "BMW 2シリーズの買取・高価査定ならBimport｜輸入車専門",
+    "description": "BMW 2シリーズの買取・査定ならBimport。クーペ・グランクーペ・アクティブツアラー・M2など型式やグレード、M240iなどの上位モデルやMスポーツの装備まで確認して評価します。売却未定でも60秒の入力で概算査定額をご案内。査定無料・全国対応。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/bmw-2-series/hero-1672.jpg",
+      "webp": [
+        {
+          "src": "assets/images/bmw-2-series/hero-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/bmw-2-series/hero-1672.webp",
+          "width": 1672
+        }
+      ],
+      "alt": "海沿いの道を走る紺色のBMW 2シリーズ グランクーペ",
+      "width": 1672,
+      "height": 941,
+      "position": "40% 60%",
+      "positionPc": "45% 58%"
+    },
+    "line": {
+      "webp": [
+        {
+          "src": "assets/images/bmw-2-series/line-photo-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/bmw-2-series/line-photo-1536.webp",
+          "width": 1536
+        }
+      ],
+      "fallback": "assets/images/bmw-2-series/line-photo-1536.jpg",
+      "alt": "Bimportのショールームに停まる白のBMW 2シリーズ クーペ",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "final": {
+      "src": "assets/images/bmw-2-series/hero-1672.jpg"
+    }
+  },
+  "hero": {
+    "label": "BMW 2シリーズ 買取・査定",
+    "catch": "その2シリーズ、本当の価値まで<br>評価されていますか？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "bodyTypeLabel": "型式",
+    "bodyTypes": [
+      {
+        "value": "G42",
+        "label": "G42",
+        "grades": [
+          "220i",
+          "M240i xDrive",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "F22/F23",
+        "label": "F22/F23",
+        "grades": [
+          "218i",
+          "220i",
+          "M235i",
+          "M240i",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "F44",
+        "label": "F44",
+        "grades": [
+          "218i",
+          "218d",
+          "M235i xDrive",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "U06",
+        "label": "U06",
+        "grades": [
+          "218i",
+          "218d",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "F45/F46",
+        "label": "F45/F46",
+        "grades": [
+          "218i",
+          "218d",
+          "220i",
+          "225i xDrive",
+          "225xe",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "M2",
+        "label": "M2",
+        "grades": [
+          "M2",
+          "M2 コンペティション",
+          "M2 CS",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 2014,
+    "yearOlderLabel": "2013年以前"
+  },
+  "cases": [
+    {
+      "image": "assets/images/cases/case-bmw-2-series-220i.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "maker": "BMW",
+      "model": "2シリーズ",
+      "grade": "220i クーペ スポーツ",
+      "year": "2015年",
+      "mileage": "77,906km",
+      "price": "250,000",
+      "priceUnit": "円",
+      "purchasedAt": "2026年9月",
+      "area": "愛知",
+      "details": [
+        "電動シート",
+        "モニター画面割れ",
+        "ホイール傷"
+      ]
+    }
+  ],
+  "points": {
+    "lead": "型式・グレード・装備で価値が変わる2シリーズ。<br>詳しいスタッフが1台ずつ確認して査定します。",
+    "items": [
+      {
+        "key": "model-code",
+        "title": "型式・ボディ",
+        "text": "クーペ・グランクーペ・アクティブツアラーなど型式ごとの相場を確認",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "MODEL CODE"
+      },
+      {
+        "key": "grade",
+        "title": "グレード",
+        "text": "218i・220i・M240i・M2など仕様の違いを確認",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "GRADE"
+      },
+      {
+        "key": "drive",
+        "title": "駆動・パワートレイン",
+        "text": "xDriveの有無やディーゼル・PHEVなどの違いを確認",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "xDRIVE"
+      },
+      {
+        "key": "m-sport",
+        "title": "Mスポーツ",
+        "text": "Mスポーツなどの内外装パッケージを確認",
+        "image": null,
+        "icon": "star",
+        "tone": "dark"
+      },
+      {
+        "key": "safety",
+        "title": "運転支援・安全装備",
+        "text": "ドライビング・アシストなどの装備を確認",
+        "image": null,
+        "icon": "check",
+        "tone": "dark"
+      },
+      {
+        "key": "options",
+        "title": "純正オプション",
+        "text": "電動シート・レザーシート・純正ホイールなどを確認",
+        "image": null,
+        "icon": "seat",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "ボディカラー",
+      "走行距離",
+      "整備記録",
+      "車両コンディション",
+      "カスタム内容"
+    ],
+    "close": "同じ2シリーズでも、仕様の見極め次第で査定額は変わります。<br class=\"pc-only\">だからこそ、<strong>2シリーズに詳しい査定</strong>が大切です。"
+  },
+  "faq": [
+    {
+      "q": "自分の2シリーズの型式（F44など）がわかりません。",
+      "a": "わからない場合は、フォームで「わからない」をお選びください。目安として、クーペはG42・F22、カブリオレはF23、グランクーペはF44、アクティブツアラーはU06・F45、グランツアラーはF46です。年式や車検証の情報から、担当者が確認してご案内します。"
+    },
+    {
+      "q": "アクティブツアラーやグランツアラーも査定できますか？",
+      "a": "はい、ご相談いただけます。クーペ以外のボディも、年式や仕様を確認したうえで査定します。"
+    },
+    {
+      "q": "M2やM240iなどのモデルは査定額に影響しますか？",
+      "a": "グレードや装備の内容によっては評価の対象になります。どの程度影響するかは、車両の状態や相場によって異なるため、実際の内容を確認したうえでご案内します。"
+    },
+    {
+      "q": "整備記録簿がなくても査定できますか？",
+      "a": "はい、ご相談いただけます。記録簿の有無も含めて車両の状態を確認したうえでご案内します。"
+    }
+  ],
+  "line": {
+    "title": "あなたの2シリーズ、<br>まずは写真で概算査定。",
+    "lead": "LINEで写真を送るだけ。<br>売却未定でもお気軽にご相談ください。",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "BMW 2 SERIES",
+    "title": "今の2シリーズ、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  }
+}
