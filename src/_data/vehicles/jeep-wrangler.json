@@ -15,8 +15,14 @@
     "hero": {
       "src": "assets/images/jeep-wrangler/hero-1536.jpg",
       "webp": [
-        { "src": "assets/images/jeep-wrangler/hero-1000.webp", "width": 1000 },
-        { "src": "assets/images/jeep-wrangler/hero-1536.webp", "width": 1536 }
+        {
+          "src": "assets/images/jeep-wrangler/hero-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/jeep-wrangler/hero-1536.webp",
+          "width": 1536
+        }
       ],
       "alt": "ジャングルのぬかるんだ道を走る青いジープ ラングラー アンリミテッド",
       "width": 1536,
@@ -26,8 +32,14 @@
     },
     "line": {
       "webp": [
-        { "src": "assets/images/jeep-wrangler/line-photo-1000.webp", "width": 1000 },
-        { "src": "assets/images/jeep-wrangler/line-photo-1536.webp", "width": 1536 }
+        {
+          "src": "assets/images/jeep-wrangler/line-photo-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/jeep-wrangler/line-photo-1536.webp",
+          "width": 1536
+        }
       ],
       "fallback": "assets/images/jeep-wrangler/line-photo-1536.jpg",
       "alt": "Bimportのショールームに停まる黒のジープ ラングラー アンリミテッド",
@@ -36,7 +48,9 @@
       "position": "50% 50%",
       "positionPc": "50% 50%"
     },
-    "final": { "src": "assets/images/jeep-wrangler/hero-1536.jpg" }
+    "final": {
+      "src": "assets/images/jeep-wrangler/hero-1536.jpg"
+    }
   },
   "hero": {
     "label": "ジープ ラングラー 買取・査定",
@@ -50,19 +64,44 @@
       {
         "value": "JL",
         "label": "JL（2018年〜）",
-        "grades": ["スポーツ", "サハラ", "ルビコン", "アンリミテッド スポーツ", "アンリミテッド サハラ", "アンリミテッド ルビコン", "ルビコン 4xe", "限定車・特別仕様車"]
+        "grades": [
+          "スポーツ",
+          "サハラ",
+          "ルビコン",
+          "アンリミテッド スポーツ",
+          "アンリミテッド サハラ",
+          "アンリミテッド ルビコン",
+          "ルビコン 4xe",
+          "限定車・特別仕様車"
+        ]
       },
       {
         "value": "JK",
         "label": "JK（2007〜2018年）",
-        "grades": ["スポーツ", "サハラ", "ルビコン", "アンリミテッド スポーツ", "アンリミテッド サハラ", "アンリミテッド ルビコン", "限定車・特別仕様車"]
+        "grades": [
+          "スポーツ",
+          "サハラ",
+          "ルビコン",
+          "アンリミテッド スポーツ",
+          "アンリミテッド サハラ",
+          "アンリミテッド ルビコン",
+          "限定車・特別仕様車"
+        ]
       },
       {
         "value": "TJ",
         "label": "TJ（1997〜2006年）",
-        "grades": ["スポーツ", "サハラ", "限定車・特別仕様車"]
+        "grades": [
+          "スポーツ",
+          "サハラ",
+          "限定車・特別仕様車"
+        ]
       },
-      { "value": "unknown", "label": "わからない", "grades": [] }
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
     ],
     "gradeFallback": "その他・わからない",
     "yearFrom": 1997,
@@ -70,16 +109,60 @@
   },
   "cases": [
     {
+      "image": "assets/images/cases/case-jeep-wrangler-sahara-2017.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "maker": "JEEP",
+      "model": "ラングラー",
+      "grade": "アンリミテッド サハラ",
+      "year": "2017年",
+      "mileage": "69,984km",
+      "price": "240",
+      "priceUnit": "万円",
+      "purchasedAt": "2026年9月",
+      "area": "岡山",
+      "details": [
+        "社外フロント・社外バンパー"
+      ]
+    },
+    {
+      "maker": "JEEP",
+      "model": "ラングラー",
+      "grade": "アンリミテッド スポーツ",
+      "year": "2015年",
+      "mileage": "62,242km",
+      "price": "187",
+      "priceUnit": "万円",
+      "purchasedAt": "2026年8月",
+      "area": "埼玉",
+      "details": [
+        "社外グリル（純正積込）",
+        "carrozzeriaナビ",
+        "サイドステップ",
+        "背面タイヤ",
+        "バックモニター",
+        "リフトアップ",
+        "下廻りサビ",
+        "ドアヒンジ周り塗装ハゲ"
+      ]
+    },
+    {
       "maker": "JEEP",
       "model": "ラングラー",
       "grade": "ルビコン ソフトトップ（100台限定車）",
       "year": "2021年",
       "mileage": "25,232km",
-      "price": "4,440,000",
-      "priceUnit": "円",
+      "price": "444",
+      "priceUnit": "万円",
       "purchasedAt": "2026年7月",
       "area": "東京",
-      "details": ["ワンオーナー", "100台限定車", "プレミアムサンライダートップ", "純正17インチAW", "ブラックレザーシート"]
+      "details": [
+        "ワンオーナー",
+        "100台限定車",
+        "プレミアムサンライダートップ",
+        "純正17インチAW",
+        "ブラックレザーシート"
+      ]
     },
     {
       "image": "assets/images/cases/case-jeep-wrangler-sahara-2020.jpg",
@@ -90,39 +173,75 @@
       "grade": "アンリミテッド サハラ",
       "year": "2020年",
       "mileage": "17,390km",
-      "price": "4,600,000",
-      "priceUnit": "円",
+      "price": "460",
+      "priceUnit": "万円",
       "purchasedAt": "2026年7月",
       "area": "千葉",
-      "details": ["アルパインサブスピーカー", "アップルカープレイ"]
-    },
-    {
-      "image": "assets/images/cases/case-jeep-wrangler-sahara-2017.jpg",
-      "imageWidth": 1200,
-      "imageHeight": 900,
-      "maker": "JEEP",
-      "model": "ラングラー",
-      "grade": "アンリミテッド サハラ",
-      "year": "2017年",
-      "mileage": "69,984km",
-      "price": "2,400,000",
-      "priceUnit": "円",
-      "purchasedAt": "2026年9月",
-      "area": "岡山",
-      "details": ["社外フロント・社外バンパー"]
+      "details": [
+        "アルパインサブスピーカー",
+        "アップルカープレイ"
+      ]
     }
   ],
   "points": {
     "lead": "世代・ボディ・カスタムで価値が変わるラングラー。<br>詳しいスタッフが1台ずつ確認して査定します。",
     "items": [
-      { "key": "generation", "title": "世代", "text": "JL・JK・TJなど、世代ごとの相場を確認", "image": null, "icon": "car", "placeholderLabel": "GENERATION" },
-      { "key": "grade", "title": "グレード", "text": "スポーツ・サハラ・ルビコンなど仕様の違いを確認", "image": null, "icon": "badge", "placeholderLabel": "GRADE" },
-      { "key": "body", "title": "ボディ・ルーフ", "text": "2ドア・アンリミテッド（4ドア）とハードトップ・ソフトトップを確認", "image": null, "icon": "form", "placeholderLabel": "BODY / TOP" },
-      { "key": "limited", "title": "限定車・特別仕様車", "text": "限定車や特別仕様車かどうかを確認", "image": null, "icon": "star", "tone": "dark" },
-      { "key": "custom", "title": "カスタム・社外パーツ", "text": "リフトアップ・社外バンパー・ホイールなどの内容を確認", "image": null, "icon": "check", "tone": "dark" },
-      { "key": "options", "title": "純正オプション", "text": "レザーシート・ナビ・純正ホイールなどを確認", "image": null, "icon": "seat", "tone": "dark" }
+      {
+        "key": "generation",
+        "title": "世代",
+        "text": "JL・JK・TJなど、世代ごとの相場を確認",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "GENERATION"
+      },
+      {
+        "key": "grade",
+        "title": "グレード",
+        "text": "スポーツ・サハラ・ルビコンなど仕様の違いを確認",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "GRADE"
+      },
+      {
+        "key": "body",
+        "title": "ボディ・ルーフ",
+        "text": "2ドア・アンリミテッド（4ドア）とハードトップ・ソフトトップを確認",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "BODY / TOP"
+      },
+      {
+        "key": "limited",
+        "title": "限定車・特別仕様車",
+        "text": "限定車や特別仕様車かどうかを確認",
+        "image": null,
+        "icon": "star",
+        "tone": "dark"
+      },
+      {
+        "key": "custom",
+        "title": "カスタム・社外パーツ",
+        "text": "リフトアップ・社外バンパー・ホイールなどの内容を確認",
+        "image": null,
+        "icon": "check",
+        "tone": "dark"
+      },
+      {
+        "key": "options",
+        "title": "純正オプション",
+        "text": "レザーシート・ナビ・純正ホイールなどを確認",
+        "image": null,
+        "icon": "seat",
+        "tone": "dark"
+      }
     ],
-    "more": ["ボディカラー", "走行距離", "整備記録", "下回りの状態", "純正部品の有無"],
+    "more": [
+      "ボディカラー",
+      "走行距離",
+      "整備記録",
+      "下回りの状態",
+      "純正部品の有無"
+    ],
     "close": "同じラングラーでも、仕様の見極め次第で査定額は変わります。<br class=\"pc-only\">だからこそ、<strong>ラングラーに詳しい査定</strong>が大切です。"
   },
   "faq": [
