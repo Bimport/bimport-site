@@ -63,7 +63,7 @@
     "bodyTypes": [
       {
         "value": "JL",
-        "label": "JL（2018年〜）",
+        "label": "JL",
         "grades": [
           "スポーツ",
           "サハラ",
@@ -77,7 +77,7 @@
       },
       {
         "value": "JK",
-        "label": "JK（2007〜2018年）",
+        "label": "JK",
         "grades": [
           "スポーツ",
           "サハラ",
@@ -90,7 +90,7 @@
       },
       {
         "value": "TJ",
-        "label": "TJ（1997〜2006年）",
+        "label": "TJ",
         "grades": [
           "スポーツ",
           "サハラ",
