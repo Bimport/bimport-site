@@ -1,5 +1,5 @@
 /*
- * 車種別LP 共通UI（ヘッダーメニュー・スマホ固定CTA）
+ * 車種別LP 共通UI（ヘッダーメニュー・スマホ固定CTA・買取実績のスライド）
  */
 (function () {
   "use strict";
@@ -46,4 +46,33 @@
       formVisible = entries[0].isIntersecting; update();
     }, { rootMargin: "-15% 0px -15% 0px" }).observe(formCard);
   }
+  /* ---------- 買取実績（2件以上）：横スライドのドット・前後ボタン ---------- */
+  document.querySelectorAll("[data-cases-slider]").forEach(function (track) {
+    var section = track.parentNode;
+    var cards = track.querySelectorAll(".lp-case");
+    var dots = section.querySelectorAll(".lp-cases__dots span");
+    var prev = section.querySelector("[data-cases-prev]");
+    var next = section.querySelector("[data-cases-next]");
+    var current = 0;
+    var go = function (i) {
+      i = Math.max(0, Math.min(cards.length - 1, i));
+      track.scrollTo({ left: cards[i].offsetLeft - cards[0].offsetLeft, behavior: "smooth" });
+    };
+    var sync = function () {
+      var x = track.scrollLeft, best = 0, bestD = Infinity;
+      cards.forEach(function (c, i) {
+        var d = Math.abs(c.offsetLeft - cards[0].offsetLeft - x);
+        if (d < bestD) { bestD = d; best = i; }
+      });
+      if (track.scrollLeft + track.clientWidth >= track.scrollWidth - 2) best = cards.length - 1;
+      current = best;
+      dots.forEach(function (d, i) { d.classList.toggle("is-active", i === best); });
+      if (prev) prev.disabled = best === 0;
+      if (next) next.disabled = best === cards.length - 1;
+    };
+    track.addEventListener("scroll", function () { window.requestAnimationFrame(sync); }, { passive: true });
+    if (prev) prev.addEventListener("click", function () { go(current - 1); });
+    if (next) next.addEventListener("click", function () { go(current + 1); });
+    sync();
+  });
 })();

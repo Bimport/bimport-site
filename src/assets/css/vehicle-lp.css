@@ -354,6 +354,20 @@ select.lp-input:disabled { background-color: #F7F7F5; color: var(--c-mute); }
 .lp-case__spec dd { font-weight: 700; }
 .lp-case__details { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
 .lp-case__details li { font-size: 12px; background: var(--c-light); border-radius: 4px; padding: 3px 9px; }
+/* 実績が2件以上：横にスライドするパネル（次のカードを少し見せる）。1件のときは従来どおり */
+.lp-cases--slider { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding: 0 20px; margin: 0 -20px 12px; padding: 4px 20px 18px; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+.lp-cases--slider::-webkit-scrollbar { display: none; }
+.lp-cases--slider .lp-case { flex: 0 0 86%; scroll-snap-align: start; }
+/* カード幅が狭くなるため、「買取金額」は金額の上の行に出す */
+.lp-cases--slider .lp-case__price { flex-wrap: wrap; }
+.lp-cases--slider .lp-case__price-label { flex-basis: 100%; margin: 0 0 4px; }
+.lp-cases--slider .lp-case__price-unit { white-space: nowrap; }
+.lp-cases__nav { display: flex; align-items: center; justify-content: center; gap: 14px; margin-bottom: 26px; }
+.lp-cases__dots { display: flex; gap: 8px; }
+.lp-cases__dots span { width: 8px; height: 8px; border-radius: 4px; background: var(--c-line); transition: width .2s, background .2s; }
+.lp-cases__dots span.is-active { width: 22px; background: var(--c-gold); }
+.lp-cases__arrow { width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--c-line); background: var(--c-white); color: var(--c-text); font-size: 22px; line-height: 1; cursor: pointer; display: flex; align-items: center; justify-content: center; padding: 0 0 3px; }
+.lp-cases__arrow:disabled { opacity: .35; cursor: default; }
 
 /* ---------- LINE写真査定 ---------- */
 /* スマホ・タブレット：見出し → 写真（横幅いっぱい） → ボタンの縦積み。写真の上下を背景色になじませて文字を重ねる */
@@ -493,6 +507,7 @@ select.lp-input:disabled { background-color: #F7F7F5; color: var(--c-mute); }
 /* ---------- 320px対策 ---------- */
 @media (max-width: 359px) {
   .lp-container { padding: 0 16px; }
+  .lp-cases--slider { margin: 0 -16px 12px; padding: 4px 16px 18px; scroll-padding: 0 16px; }
   .lp-hero__photo { margin-left: -16px; margin-right: -16px; }
   .lp-hero__badges { gap: 8px; }
   .lp-hero__badges li { width: 82px; height: 82px; }
@@ -535,6 +550,7 @@ select.lp-input:disabled { background-color: #F7F7F5; color: var(--c-mute); }
   body { font-size: 16px; }
   .pc-only { display: inline; }
   .lp-container { padding: 0 40px; }
+  .lp-cases--slider { margin: 0 -40px 12px; padding: 4px 40px 18px; scroll-padding: 0 40px; }
 
   .lp-header__inner { height: 84px; }
   .lp-logo__name { font-size: 29px; }
@@ -604,6 +620,7 @@ select.lp-input:disabled { background-color: #F7F7F5; color: var(--c-mute); }
   .lp-case__price-num { font-size: 64px; }
   .lp-case__price-unit { font-size: 18px; margin-top: 2px; }
   .lp-case__spec, .lp-case__details { margin-left: 244px; }
+  .lp-cases--slider .lp-case { flex-basis: calc(100% - 64px); }
 
 
   .lp-points { max-width: 880px; margin-left: auto; margin-right: auto; gap: 32px 20px; }

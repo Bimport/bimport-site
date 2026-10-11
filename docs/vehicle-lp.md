@@ -94,7 +94,7 @@ docs/
 | `form.gradeFallback` | ○ | グレードの最後の選択肢（例：「その他・わからない」） |
 | `form.yearFrom` / `form.yearOlderLabel` | ○ / | 年式の選択肢（今年〜yearFrom、＋それ以前、＋わからない） |
 | `form.mileageOptions` | | 走行距離の選択肢（未指定なら共通の選択肢） |
-| `cases` | | 買取実績（実在のもののみ）。`image` がなければ代わりのタイルを表示 |
+| `cases` | | 買取実績（実在のもののみ）。`image` がなければ代わりのタイルを表示。2件以上あると横にスライドするパネル（ドットと前後ボタン付き）になり、1件のときは従来どおりの表示 |
 | `points.lead` / `points.items` / `points.more` / `points.close` | | 査定ポイント。`items` は `{key, title, text, image, icon, tone, placeholderLabel}` |
 | `faq` | | 車種固有FAQ `[{q, a}]`（共通5問の後に表示） |
 | `line.title` / `line.lead` / `line.ctaText` | | LINE写真査定の文言 |
