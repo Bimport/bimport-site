@@ -126,6 +126,9 @@
       ]
     },
     {
+      "image": "assets/images/cases/case-jeep-wrangler-sport-2015.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900,
       "maker": "JEEP",
       "model": "ラングラー",
       "grade": "アンリミテッド スポーツ",
@@ -147,6 +150,9 @@
       ]
     },
     {
+      "image": "assets/images/cases/case-jeep-wrangler-rubicon-2021.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900,
       "maker": "JEEP",
       "model": "ラングラー",
       "grade": "ルビコン ソフトトップ（100台限定車）",
