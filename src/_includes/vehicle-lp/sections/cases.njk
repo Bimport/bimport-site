@@ -5,7 +5,8 @@
     <div class="lp-container lp-container--mid">
       <h2 class="lp-h2"><span class="lp-en">{{ v.modelShort or v.model }}</span>の買取実績</h2>
       <p class="lp-h2__sub">実際の買取事例をご紹介します。</p>
-      <div class="lp-cases">
+      {%- set slider = v.cases.length > 1 %}
+      <div class="lp-cases{% if slider %} lp-cases--slider{% endif %}"{% if slider %} data-cases-slider{% endif %}>
         {%- for c in v.cases %}
         <article class="lp-case">
           <div class="lp-case__row">
@@ -40,6 +41,15 @@
         </article>
         {%- endfor %}
       </div>
+      {%- if slider %}
+      <div class="lp-cases__nav">
+        <button type="button" class="lp-cases__arrow" data-cases-prev aria-label="前の買取実績">‹</button>
+        <div class="lp-cases__dots" aria-hidden="true">
+          {%- for c in v.cases %}<span{% if loop.first %} class="is-active"{% endif %}></span>{% endfor %}
+        </div>
+        <button type="button" class="lp-cases__arrow" data-cases-next aria-label="次の買取実績">›</button>
+      </div>
+      {%- endif %}
       <p class="lp-center"><a class="lp-btn lp-btn--outline lp-btn--small" href="../">その他の車種の買取実績を見る</a></p>
     </div>
   </section>
