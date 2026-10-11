@@ -1,0 +1,186 @@
+{
+  "slug": "bmw-m6",
+  "draft": true,
+  "theme": "cobalt",
+  "maker": "BMW",
+  "makerJa": "BMW",
+  "model": "M6",
+  "modelShort": "M6",
+  "nameJa": "M6",
+  "seo": {
+    "title": "BMW M6の買取・高価査定ならBimport｜輸入車専門",
+    "description": "BMW M6の買取・査定ならBimport。F12系・E63系など世代やグレード、装備・オプションまで確認して評価します。売却未定でも60秒の入力で概算査定額をご案内。査定無料・全国対応。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/bmw-m6/hero-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/bmw-m6/hero-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/bmw-m6/hero-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "砂漠のハイウェイに停まる青のBMW M6 クーペ",
+      "width": 1536,
+      "height": 1024,
+      "position": "35% 60%",
+      "positionPc": "40% 58%"
+    },
+    "final": {
+      "src": "assets/images/bmw-m6/hero-1536.jpg"
+    }
+  },
+  "hero": {
+    "label": "BMW M6 買取・査定",
+    "catch": "そのM6、本当の価値まで<br>評価されていますか？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "bodyTypeLabel": "世代",
+    "bodyTypes": [
+      {
+        "value": "F12系",
+        "label": "F12系",
+        "grades": [
+          "M6 クーペ",
+          "M6 カブリオレ",
+          "M6 グランクーペ",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "E63系",
+        "label": "E63系",
+        "grades": [
+          "M6 クーペ",
+          "M6 カブリオレ",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 2005,
+    "yearOlderLabel": "2004年以前"
+  },
+  "cases": [
+    {
+      "maker": "BMW",
+      "model": "M6",
+      "grade": "M6（V10）",
+      "year": "2008年",
+      "mileage": "41,026km",
+      "price": "450",
+      "priceUnit": "万円",
+      "purchasedAt": "2026年9月",
+      "area": "神奈川",
+      "details": [
+        "カーボンルーフ",
+        "アルカンターラルーフライニング",
+        "パドルシフト",
+        "純正19インチAW",
+        "V10エンジン",
+        "社外マフラー",
+        "ダッシュボード浮き"
+      ]
+    }
+  ],
+  "points": {
+    "lead": "仕様・装備・コンディションで価値が変わるM6。<br>詳しいスタッフが1台ずつ確認して査定します。",
+    "items": [
+      {
+        "key": "generation",
+        "title": "世代",
+        "text": "F12系・E63系など、世代ごとの相場を確認",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "GENERATION"
+      },
+      {
+        "key": "grade",
+        "title": "グレード",
+        "text": "コンペティションなど仕様の違いを確認",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "GRADE"
+      },
+      {
+        "key": "transmission",
+        "title": "ミッション",
+        "text": "SMG・DCT・ATなどの違いを確認",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "TRANSMISSION"
+      },
+      {
+        "key": "m-pkg",
+        "title": "パッケージ・内外装",
+        "text": "スポーツ系パッケージや内外装の仕様を確認",
+        "image": null,
+        "icon": "star",
+        "tone": "dark"
+      },
+      {
+        "key": "safety",
+        "title": "運転支援・快適装備",
+        "text": "ヘッドアップディスプレイなどの装備を確認",
+        "image": null,
+        "icon": "check",
+        "tone": "dark"
+      },
+      {
+        "key": "options",
+        "title": "純正オプション",
+        "text": "レザーシート・サンルーフ・純正ホイールなどを確認",
+        "image": null,
+        "icon": "seat",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "ボディカラー",
+      "走行距離",
+      "整備記録",
+      "車両コンディション",
+      "カスタム内容"
+    ],
+    "close": "同じM6でも、仕様の見極め次第で査定額は変わります。<br class=\"pc-only\">だからこそ、<strong>M6に詳しい査定</strong>が大切です。"
+  },
+  "faq": [
+    {
+      "q": "自分のM6の世代がわかりません。",
+      "a": "わからない場合は、フォームで「わからない」をお選びください。目安として、2012〜2018年ごろのクーペ（F13）・カブリオレ（F12）・グランクーペ（F06）がF12系、2005〜2010年ごろのクーペ（E63）・カブリオレ（E64）がE63系です。年式や車検証の情報から、担当者が確認してご案内します。"
+    },
+    {
+      "q": "グレードが選択肢にない場合はどうすればいいですか？",
+      "a": "「その他・わからない」をお選びください。車検証の情報などから、担当者が確認してご案内します。"
+    },
+    {
+      "q": "走行距離が多い・キズがあっても査定できますか？",
+      "a": "はい、ご相談いただけます。走行距離や車両の状態も含めて確認したうえでご案内します。"
+    },
+    {
+      "q": "社外パーツなどのカスタムをしていても査定できますか？",
+      "a": "はい、ご相談いただけます。カスタムの内容や、純正部品が残っているかどうかも確認したうえでご案内します。"
+    }
+  ],
+  "line": {
+    "title": "あなたのM6、<br>まずは写真で概算査定。",
+    "lead": "LINEで写真を送るだけ。<br>売却未定でもお気軽にご相談ください。",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "BMW M6",
+    "title": "今のM6、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  }
+}

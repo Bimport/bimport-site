@@ -1,0 +1,186 @@
+{
+  "slug": "audi-q3",
+  "draft": true,
+  "theme": "platinum",
+  "maker": "AUDI",
+  "makerJa": "アウディ",
+  "model": "Q3",
+  "modelShort": "Q3",
+  "nameJa": "Q3",
+  "seo": {
+    "title": "アウディ Q3の買取・高価査定ならBimport｜輸入車専門",
+    "description": "アウディ Q3の買取・査定ならBimport。F3・8Uなど世代やグレード、装備・オプションまで確認して評価します。売却未定でも60秒の入力で概算査定額をご案内。査定無料・全国対応。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/audi-q3/hero-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/audi-q3/hero-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/audi-q3/hero-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "丘の一本道に停まる白のアウディ Q3 スポーツバック",
+      "width": 1536,
+      "height": 1024,
+      "position": "35% 60%",
+      "positionPc": "40% 58%"
+    },
+    "final": {
+      "src": "assets/images/audi-q3/hero-1536.jpg"
+    }
+  },
+  "hero": {
+    "label": "アウディ Q3 買取・査定",
+    "catch": "そのQ3、本当の価値まで<br>評価されていますか？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "bodyTypeLabel": "世代",
+    "bodyTypes": [
+      {
+        "value": "F3",
+        "label": "F3",
+        "grades": [
+          "35 TFSI",
+          "35 TDI クワトロ",
+          "40 TFSI クワトロ",
+          "RS Q3",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "8U",
+        "label": "8U",
+        "grades": [
+          "1.4 TFSI",
+          "2.0 TFSI クワトロ",
+          "RS Q3",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 2012,
+    "yearOlderLabel": "2011年以前"
+  },
+  "cases": [
+    {
+      "maker": "AUDI",
+      "model": "Q3",
+      "grade": "Q3 スポーツバック 35 TDI クワトロ Sライン",
+      "year": "2021年",
+      "mileage": "40,679km",
+      "price": "333",
+      "priceUnit": "万円",
+      "purchasedAt": "2026年7月",
+      "area": "熊本",
+      "details": [
+        "パノラマサンルーフ",
+        "Bang & Olufsen 3Dサウンドシステム",
+        "アシスタンスパッケージ",
+        "プラスパッケージ",
+        "テクノロジーパッケージ"
+      ]
+    }
+  ],
+  "points": {
+    "lead": "仕様・装備・コンディションで価値が変わるQ3。<br>詳しいスタッフが1台ずつ確認して査定します。",
+    "items": [
+      {
+        "key": "generation",
+        "title": "世代",
+        "text": "F3・8Uなど、世代ごとの相場を確認",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "GENERATION"
+      },
+      {
+        "key": "grade",
+        "title": "グレード",
+        "text": "エンジンやクワトロなど仕様の違いを確認",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "GRADE"
+      },
+      {
+        "key": "sline",
+        "title": "Sライン・パッケージ",
+        "text": "Sラインや各種パッケージを確認",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "S LINE"
+      },
+      {
+        "key": "m-pkg",
+        "title": "パッケージ・内外装",
+        "text": "スポーツ系パッケージや内外装の仕様を確認",
+        "image": null,
+        "icon": "star",
+        "tone": "dark"
+      },
+      {
+        "key": "safety",
+        "title": "運転支援・快適装備",
+        "text": "ヘッドアップディスプレイなどの装備を確認",
+        "image": null,
+        "icon": "check",
+        "tone": "dark"
+      },
+      {
+        "key": "options",
+        "title": "純正オプション",
+        "text": "レザーシート・サンルーフ・純正ホイールなどを確認",
+        "image": null,
+        "icon": "seat",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "ボディカラー",
+      "走行距離",
+      "整備記録",
+      "車両コンディション",
+      "カスタム内容"
+    ],
+    "close": "同じQ3でも、仕様の見極め次第で査定額は変わります。<br class=\"pc-only\">だからこそ、<strong>Q3に詳しい査定</strong>が大切です。"
+  },
+  "faq": [
+    {
+      "q": "自分のQ3の世代がわかりません。",
+      "a": "わからない場合は、フォームで「わからない」をお選びください。目安として、2019年以降の現行型（Q3・Q3 スポーツバック）がF3、2012〜2018年ごろがF3より前の8Uです。年式や車検証の情報から、担当者が確認してご案内します。"
+    },
+    {
+      "q": "グレードが選択肢にない場合はどうすればいいですか？",
+      "a": "「その他・わからない」をお選びください。車検証の情報などから、担当者が確認してご案内します。"
+    },
+    {
+      "q": "走行距離が多い・キズがあっても査定できますか？",
+      "a": "はい、ご相談いただけます。走行距離や車両の状態も含めて確認したうえでご案内します。"
+    },
+    {
+      "q": "社外パーツなどのカスタムをしていても査定できますか？",
+      "a": "はい、ご相談いただけます。カスタムの内容や、純正部品が残っているかどうかも確認したうえでご案内します。"
+    }
+  ],
+  "line": {
+    "title": "あなたのQ3、<br>まずは写真で概算査定。",
+    "lead": "LINEで写真を送るだけ。<br>売却未定でもお気軽にご相談ください。",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "AUDI Q3",
+    "title": "今のQ3、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  }
+}

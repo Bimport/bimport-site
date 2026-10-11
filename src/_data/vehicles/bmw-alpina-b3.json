@@ -1,0 +1,218 @@
+{
+  "slug": "bmw-alpina-b3",
+  "draft": true,
+  "theme": "cobalt",
+  "maker": "BMW ALPINA",
+  "makerJa": "BMWアルピナ",
+  "model": "B3",
+  "modelShort": "B3",
+  "nameJa": "B3",
+  "seo": {
+    "title": "BMWアルピナ B3の買取・高価査定ならBimport｜輸入車専門",
+    "description": "BMWアルピナ B3の買取・査定ならBimport。G20/G21・F30/F31・E90系など世代やグレード、装備・オプションまで確認して評価します。売却未定でも60秒の入力で概算査定額をご案内。査定無料・全国対応。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/bmw-alpina-b3/hero-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/bmw-alpina-b3/hero-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/bmw-alpina-b3/hero-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "バイエルンの田舎道に停まる緑のBMWアルピナ B3",
+      "width": 1536,
+      "height": 1024,
+      "position": "35% 60%",
+      "positionPc": "40% 58%"
+    },
+    "final": {
+      "src": "assets/images/bmw-alpina-b3/hero-1536.jpg"
+    }
+  },
+  "hero": {
+    "label": "BMWアルピナ B3 買取・査定",
+    "catch": "そのB3、本当の価値まで<br>評価されていますか？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "bodyTypeLabel": "世代",
+    "bodyTypes": [
+      {
+        "value": "G20/G21",
+        "label": "G20/G21",
+        "grades": [
+          "B3 リムジン",
+          "B3 ツーリング",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "F30/F31",
+        "label": "F30/F31",
+        "grades": [
+          "B3 ビターボ リムジン",
+          "B3 ビターボ ツーリング",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "E90系",
+        "label": "E90系",
+        "grades": [
+          "B3 ビターボ",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "それ以前",
+        "label": "それ以前",
+        "grades": [
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 1988,
+    "yearOlderLabel": "1987年以前"
+  },
+  "cases": [
+    {
+      "maker": "BMW ALPINA",
+      "model": "B3",
+      "grade": "B3 3.0/1（E36）",
+      "year": "1995年",
+      "mileage": "96,904km",
+      "price": "445",
+      "priceUnit": "万円",
+      "purchasedAt": "2026年8月",
+      "area": "愛知",
+      "details": [
+        "グレード 3.0/1",
+        "エンジンオイルにじみ跡",
+        "ドアトリム浮き",
+        "リアスポイラー塗装ムラ",
+        "ホイールキズ"
+      ]
+    },
+    {
+      "maker": "BMW ALPINA",
+      "model": "B3",
+      "grade": "B3 リムジン",
+      "year": "2024年",
+      "mileage": "7,158km",
+      "price": "1100",
+      "priceUnit": "万円",
+      "purchasedAt": "2026年7月",
+      "area": "東京",
+      "details": [
+        "ワンオーナー",
+        "アルピナブルー",
+        "ハーマンカードンスピーカー",
+        "ラグジュアリーPKG",
+        "純正20インチAW",
+        "ステアリングヒーター",
+        "ブラウンフルレザーシート"
+      ]
+    }
+  ],
+  "points": {
+    "lead": "仕様・装備・コンディションで価値が変わるB3。<br>詳しいスタッフが1台ずつ確認して査定します。",
+    "items": [
+      {
+        "key": "generation",
+        "title": "世代",
+        "text": "G20/G21・F30/F31・E90系など、世代ごとの相場を確認",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "GENERATION"
+      },
+      {
+        "key": "body",
+        "title": "ボディ",
+        "text": "リムジン・ツーリングの違いを確認",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "BODY"
+      },
+      {
+        "key": "grade",
+        "title": "グレード",
+        "text": "エンジンや仕様の違いを確認",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "GRADE"
+      },
+      {
+        "key": "m-pkg",
+        "title": "パッケージ・内外装",
+        "text": "スポーツ系パッケージや内外装の仕様を確認",
+        "image": null,
+        "icon": "star",
+        "tone": "dark"
+      },
+      {
+        "key": "safety",
+        "title": "運転支援・快適装備",
+        "text": "ヘッドアップディスプレイなどの装備を確認",
+        "image": null,
+        "icon": "check",
+        "tone": "dark"
+      },
+      {
+        "key": "options",
+        "title": "純正オプション",
+        "text": "レザーシート・サンルーフ・純正ホイールなどを確認",
+        "image": null,
+        "icon": "seat",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "ボディカラー",
+      "走行距離",
+      "整備記録",
+      "車両コンディション",
+      "カスタム内容"
+    ],
+    "close": "同じB3でも、仕様の見極め次第で査定額は変わります。<br class=\"pc-only\">だからこそ、<strong>B3に詳しい査定</strong>が大切です。"
+  },
+  "faq": [
+    {
+      "q": "自分のB3の世代がわかりません。",
+      "a": "わからない場合は、フォームで「わからない」をお選びください。目安として、2019年以降の現行型がG20（ツーリングはG21）、2013〜2019年ごろがF30（ツーリングはF31）、それ以前がE90系やE46・E36などです。年式や車検証の情報から、担当者が確認してご案内します。"
+    },
+    {
+      "q": "グレードが選択肢にない場合はどうすればいいですか？",
+      "a": "「その他・わからない」をお選びください。車検証の情報などから、担当者が確認してご案内します。"
+    },
+    {
+      "q": "走行距離が多い・キズがあっても査定できますか？",
+      "a": "はい、ご相談いただけます。走行距離や車両の状態も含めて確認したうえでご案内します。"
+    },
+    {
+      "q": "社外パーツなどのカスタムをしていても査定できますか？",
+      "a": "はい、ご相談いただけます。カスタムの内容や、純正部品が残っているかどうかも確認したうえでご案内します。"
+    }
+  ],
+  "line": {
+    "title": "あなたのB3、<br>まずは写真で概算査定。",
+    "lead": "LINEで写真を送るだけ。<br>売却未定でもお気軽にご相談ください。",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "BMW ALPINA B3",
+    "title": "今のB3、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  }
+}

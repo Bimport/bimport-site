@@ -1,0 +1,177 @@
+{
+  "slug": "abarth-500e",
+  "draft": true,
+  "theme": "platinum",
+  "maker": "ABARTH",
+  "makerJa": "アバルト",
+  "model": "500e",
+  "modelShort": "500e",
+  "nameJa": "500e",
+  "seo": {
+    "title": "アバルト 500eの買取・高価査定ならBimport｜輸入車専門",
+    "description": "アバルト 500eの買取・査定ならBimport。ハッチバック・カブリオレなどボディやグレード、装備・オプションまで確認して評価します。売却未定でも60秒の入力で概算査定額をご案内。査定無料・全国対応。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/abarth-500e/hero-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/abarth-500e/hero-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/abarth-500e/hero-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "トリノの石畳の路地に停まる緑のアバルト 500e",
+      "width": 1536,
+      "height": 1024,
+      "position": "35% 60%",
+      "positionPc": "40% 58%"
+    },
+    "final": {
+      "src": "assets/images/abarth-500e/hero-1536.jpg"
+    }
+  },
+  "hero": {
+    "label": "アバルト 500e 買取・査定",
+    "catch": "その500e、本当の価値まで<br>評価されていますか？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "bodyTypeLabel": "ボディ",
+    "bodyTypes": [
+      {
+        "value": "ハッチバック",
+        "label": "ハッチバック",
+        "grades": [
+          "ツーリズモ",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "カブリオレ",
+        "label": "カブリオレ",
+        "grades": [
+          "ツーリズモ カブリオレ",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 2023,
+    "yearOlderLabel": "2022年以前"
+  },
+  "cases": [
+    {
+      "maker": "ABARTH",
+      "model": "500e",
+      "grade": "ツーリズモ カブリオレ",
+      "year": "2023年",
+      "mileage": "6,354km",
+      "price": "257",
+      "priceUnit": "万円",
+      "purchasedAt": "2026年8月",
+      "area": "栃木",
+      "details": [
+        "ワンオーナー"
+      ]
+    }
+  ],
+  "points": {
+    "lead": "仕様・装備・コンディションで価値が変わる500e。<br>詳しいスタッフが1台ずつ確認して査定します。",
+    "items": [
+      {
+        "key": "model",
+        "title": "モデル・ボディ",
+        "text": "モデルやボディの違いを確認",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "MODEL"
+      },
+      {
+        "key": "battery",
+        "title": "バッテリー・充電",
+        "text": "バッテリーの状態や充電ケーブルの有無を確認",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "BATTERY"
+      },
+      {
+        "key": "grade",
+        "title": "グレード",
+        "text": "仕様の違いを確認",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "GRADE"
+      },
+      {
+        "key": "m-pkg",
+        "title": "パッケージ・内外装",
+        "text": "スポーツ系パッケージや内外装の仕様を確認",
+        "image": null,
+        "icon": "star",
+        "tone": "dark"
+      },
+      {
+        "key": "safety",
+        "title": "運転支援・快適装備",
+        "text": "ヘッドアップディスプレイなどの装備を確認",
+        "image": null,
+        "icon": "check",
+        "tone": "dark"
+      },
+      {
+        "key": "options",
+        "title": "純正オプション",
+        "text": "レザーシート・サンルーフ・純正ホイールなどを確認",
+        "image": null,
+        "icon": "seat",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "ボディカラー",
+      "走行距離",
+      "整備記録",
+      "車両コンディション",
+      "カスタム内容"
+    ],
+    "close": "同じ500eでも、仕様の見極め次第で査定額は変わります。<br class=\"pc-only\">だからこそ、<strong>500eに詳しい査定</strong>が大切です。"
+  },
+  "faq": [
+    {
+      "q": "自分の500eのボディがわかりません。",
+      "a": "わからない場合は、フォームで「わからない」をお選びください。目安として、屋根が開く幌のモデルがカブリオレ、それ以外がハッチバックです。年式や車検証の情報から、担当者が確認してご案内します。"
+    },
+    {
+      "q": "グレードが選択肢にない場合はどうすればいいですか？",
+      "a": "「その他・わからない」をお選びください。車検証の情報などから、担当者が確認してご案内します。"
+    },
+    {
+      "q": "走行距離が多い・キズがあっても査定できますか？",
+      "a": "はい、ご相談いただけます。走行距離や車両の状態も含めて確認したうえでご案内します。"
+    },
+    {
+      "q": "社外パーツなどのカスタムをしていても査定できますか？",
+      "a": "はい、ご相談いただけます。カスタムの内容や、純正部品が残っているかどうかも確認したうえでご案内します。"
+    }
+  ],
+  "line": {
+    "title": "あなたの500e、<br>まずは写真で概算査定。",
+    "lead": "LINEで写真を送るだけ。<br>売却未定でもお気軽にご相談ください。",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "ABARTH 500e",
+    "title": "今の500e、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  }
+}
