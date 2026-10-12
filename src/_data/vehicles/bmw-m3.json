@@ -32,6 +32,24 @@
     },
     "final": {
       "src": "assets/images/bmw-m3/hero-1536.jpg"
+    },
+    "line": {
+      "webp": [
+        {
+          "src": "assets/images/bmw-m3/line-photo-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/bmw-m3/line-photo-1536.webp",
+          "width": 1536
+        }
+      ],
+      "fallback": "assets/images/bmw-m3/line-photo-1536.jpg",
+      "alt": "Bimportのショールームに停まるBMW M3",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
     }
   },
   "hero": {
@@ -103,6 +121,9 @@
   },
   "cases": [
     {
+      "image": "assets/images/cases/case-bmw-m3-633.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900,
       "maker": "BMW",
       "model": "M3",
       "grade": "クーペ スペシャルエディション（限定12台）",
