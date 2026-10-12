@@ -32,6 +32,24 @@
     },
     "final": {
       "src": "assets/images/audi-s5-sportback/hero-1536.jpg"
+    },
+    "line": {
+      "webp": [
+        {
+          "src": "assets/images/audi-s5-sportback/line-photo-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/audi-s5-sportback/line-photo-1536.webp",
+          "width": 1536
+        }
+      ],
+      "fallback": "assets/images/audi-s5-sportback/line-photo-1536.jpg",
+      "alt": "Bimportのショールームに停まるアウディ S5スポーツバック",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
     }
   },
   "hero": {
@@ -71,6 +89,9 @@
   },
   "cases": [
     {
+      "image": "assets/images/cases/case-audi-s5-sportback-267.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900,
       "maker": "AUDI",
       "model": "S5スポーツバック",
       "grade": "S5 スポーツバック",

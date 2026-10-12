@@ -32,6 +32,24 @@
     },
     "final": {
       "src": "assets/images/bmw-x3/hero-1536.jpg"
+    },
+    "line": {
+      "webp": [
+        {
+          "src": "assets/images/bmw-x3/line-photo-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/bmw-x3/line-photo-1536.webp",
+          "width": 1536
+        }
+      ],
+      "fallback": "assets/images/bmw-x3/line-photo-1536.jpg",
+      "alt": "Bimportのショールームに停まるBMW X3",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
     }
   },
   "hero": {
@@ -95,6 +113,9 @@
   },
   "cases": [
     {
+      "image": "assets/images/cases/case-bmw-x3-235.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900,
       "maker": "BMW",
       "model": "X3",
       "grade": "xDrive20d Xライン",
@@ -113,6 +134,9 @@
       ]
     },
     {
+      "image": "assets/images/cases/case-bmw-x3-323.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900,
       "maker": "BMW",
       "model": "X3",
       "grade": "M50 xDrive",
