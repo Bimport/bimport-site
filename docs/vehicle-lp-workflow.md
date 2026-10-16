@@ -192,6 +192,8 @@ convert 元画像 -strip -resize 1672x -quality 82 -define webp:method=6 $D/hero
 
 ### 写真の割り当て（推奨）
 
+- 買取実績・LINE写真査定に使うショールーム写真は、ロゴ・文字・看板のない白壁に統一する。車体そのものは変更しない。詳しい編集指示は [image-generation.md](image-generation.md) を参照。
+
 | 場所 | 使う写真 |
 |---|---|
 | FV（`images.hero`） | メインビジュアル（車両全体が写った横長のカット） |
