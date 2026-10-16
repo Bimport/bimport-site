@@ -41,8 +41,10 @@ Bimport（輸入車買取）の車種別買取LPサイト。Eleventy で静的�
 
 ## 作業中の下書き（2026-10-16 時点）
 GitHub に push 済みのブランチ（未マージ・`draft: true`）：
-- `claude/lp-drafts-batch`：23車種（BMW M5・M6・X1・X3・X4・X5・X6・X7・Z4、アルピナ B3、MINI、アウディ A7・Q3・Q5・Q7・Q8・S5スポーツバック・SQ5・e-tronスポーツバック、アバルト 500e、アルファロメオ ステルヴィオ、オペル アストラ、メルセデス・ベンツ Sクラス）
+- `claude/lp-drafts-batch`：22車種（BMW M5・M6・X1・X3・X4・X5・X6・X7・Z4、アルピナ B3、MINI、アウディ A7・Q3・Q5・Q7・Q8・S5スポーツバック・SQ5・e-tronスポーツバック、アルファロメオ ステルヴィオ、オペル アストラ、メルセデス・ベンツ Sクラス）
 - `claude/bmw-8-series-lp`：BMW 8シリーズ
 - `claude/bmw-m3-lp`：BMW M3
+
+アバルト500eは `/abarth-500e/` で公開済み。古い下書きブランチに残る同車種のデータ・画像は再取り込みしない。
 
 公開前に、車種ごとにグレードの裏付けを確認すること（上の「事実・数字」）。
