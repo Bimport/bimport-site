@@ -1,0 +1,42 @@
+/* アバルト500e専用。黒・白に赤のアクセント。既存車種のテーマは変更しない。 */
+.lp-theme-abarth {
+  --c-gold: #D12435;
+  --c-gold-text: #A41928;
+  --c-gold-light: #FFD6DB;
+  --c-gold-grad: linear-gradient(180deg, #D42A3D 0%, #BE2030 60%, #971724 100%);
+}
+.lp-theme-abarth .lp-btn--gold { color: #fff; }
+.lp-theme-abarth .lp-form-card { border-top: 3px solid #D12435; }
+.lp-theme-abarth .lp-input:focus { box-shadow: 0 0 0 3px rgba(209,36,53,.25); }
+.lp-theme-abarth .lp-choices { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.lp-theme-abarth .lp-field[data-field="bodyType"] .lp-choice:last-child { grid-column: 1 / -1; }
+.lp-theme-abarth .lp-hero__photo img { object-position: var(--hero-pos, 50% 50%); }
+.lp-theme-abarth .lp-points__close { border-left: 3px solid #D12435; }
+@media (max-width: 899px) {
+  .lp-theme-abarth .lp-hero__photo { margin-top: -44px; }
+  .lp-theme-abarth .lp-hero__photo img { width: 100%; margin-left: 0; }
+  .lp-theme-abarth .lp-hero__badges { margin-top: -20px; }
+}
+@media (min-width: 900px) {
+  .lp-theme-abarth .lp-hero__photo img { object-position: var(--hero-pos-pc, var(--hero-pos, 50% 50%)); }
+}
+@media (max-width: 1199px) {
+  .lp-theme-abarth .lp-line__photo { aspect-ratio: 1536 / 1024; margin-top: -12px; }
+  .lp-theme-abarth .lp-line__cta { margin-top: -4px; }
+}
+@media (min-width: 1200px) {
+  .lp-theme-abarth .lp-line__photo { left: auto; width: 62%; }
+  .lp-theme-abarth .lp-line__photo::after {
+    background: linear-gradient(90deg, #0E0E0E 0%, rgba(14,14,14,.6) 14%, rgba(14,14,14,0) 34%), linear-gradient(180deg, rgba(14,14,14,.35) 0%, rgba(14,14,14,0) 16%, rgba(14,14,14,0) 80%, rgba(14,14,14,.45) 100%);
+  }
+}
+
+/* 黒背景の見出しは明るい赤にし、文字の影で暗く沈まないようにする。 */
+.lp-theme-abarth .lp-hero__buy {
+  background: linear-gradient(180deg, #FFFFFF 0%, #FFD7DD 45%, #FF6071 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: none;
+  filter: drop-shadow(0 2px 10px rgba(0,0,0,.55));
+}
