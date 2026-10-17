@@ -1,0 +1,232 @@
+{
+  "slug": "mercedes-benz-s-class",
+  "draft": false,
+  "theme": "platinum",
+  "maker": "MERCEDES-BENZ",
+  "makerJa": "メルセデス・ベンツ",
+  "model": "S-CLASS",
+  "modelShort": "Sクラス",
+  "nameJa": "Sクラス",
+  "seo": {
+    "title": "メルセデス・ベンツ Sクラスの買取・高価査定ならBimport｜輸入車専門",
+    "description": "メルセデス・ベンツ Sクラスの買取・査定ならBimport。W223・W222・W221など型式やグレード、装備・オプションまで確認して評価します。売却未定でも60秒の入力で概算査定額をご案内。査定無料・全国対応。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/mercedes-benz-s-class/hero-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/mercedes-benz-s-class/hero-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/mercedes-benz-s-class/hero-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "夜の金融街に停まるグレーのメルセデス・ベンツ Sクラス",
+      "width": 1536,
+      "height": 1024,
+      "position": "35% 60%",
+      "positionPc": "40% 58%"
+    },
+    "final": {
+      "src": "assets/images/mercedes-benz-s-class/hero-1536.jpg"
+    },
+    "line": {
+      "webp": [
+        {
+          "src": "assets/images/mercedes-benz-s-class/line-photo-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/mercedes-benz-s-class/line-photo-1536.webp",
+          "width": 1536
+        }
+      ],
+      "fallback": "assets/images/mercedes-benz-s-class/line-photo-1536.jpg",
+      "alt": "Bimportのショールームに停まる白のメルセデスAMG S63 クーペ",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    }
+  },
+  "hero": {
+    "label": "メルセデス・ベンツ Sクラス 買取・査定",
+    "catch": "そのSクラス、本当の価値まで<br>評価されていますか？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "bodyTypeLabel": "型式",
+    "bodyTypes": [
+      {
+        "value": "W223",
+        "label": "W223",
+        "grades": [
+          "S400d 4MATIC",
+          "S500 4MATIC",
+          "S580 4MATIC",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "W222",
+        "label": "W222",
+        "grades": [
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "W221",
+        "label": "W221",
+        "grades": [
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "クーペ",
+        "label": "クーペ",
+        "grades": [
+          "S550 4MATIC クーペ",
+          "S63 AMG 4MATIC クーペ",
+          "S65 AMG クーペ",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "それ以前",
+        "label": "それ以前",
+        "grades": [
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 1998,
+    "yearOlderLabel": "1997年以前"
+  },
+  "cases": [
+    {
+      "image": "assets/images/cases/case-mercedes-benz-s63-coupe.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "maker": "MERCEDES-BENZ",
+      "model": "Sクラス",
+      "grade": "S63 AMG 4MATIC クーペ",
+      "year": "2016年",
+      "mileage": "19,885km",
+      "price": 900,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年8月",
+      "area": "静岡",
+      "details": [
+        "ダイナミックPKG",
+        "パノラマガラスルーフ",
+        "シルバーアースウッドインテリア",
+        "カーボンエアロ",
+        "Burmesterハイエンドスピーカー",
+        "AMGカーボンPKG",
+        "ホイールサビ"
+      ]
+    }
+  ],
+  "points": {
+    "lead": "仕様・装備・コンディションで価値が変わるSクラス。<br>詳しいスタッフが1台ずつ確認して査定します。",
+    "items": [
+      {
+        "key": "generation",
+        "title": "型式",
+        "text": "W223・W222・W221など、型式ごとの相場を確認",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "MODEL CODE"
+      },
+      {
+        "key": "grade",
+        "title": "グレード",
+        "text": "S400d・S580・AMGなど仕様の違いを確認",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "GRADE"
+      },
+      {
+        "key": "body",
+        "title": "ボディ",
+        "text": "ロング・クーペなどボディの違いを確認",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "BODY"
+      },
+      {
+        "key": "m-pkg",
+        "title": "パッケージ・内外装",
+        "text": "スポーツ系パッケージや内外装の仕様を確認",
+        "image": null,
+        "icon": "star",
+        "tone": "dark"
+      },
+      {
+        "key": "safety",
+        "title": "運転支援・快適装備",
+        "text": "ヘッドアップディスプレイなどの装備を確認",
+        "image": null,
+        "icon": "check",
+        "tone": "dark"
+      },
+      {
+        "key": "options",
+        "title": "純正オプション",
+        "text": "レザーシート・サンルーフ・純正ホイールなどを確認",
+        "image": null,
+        "icon": "seat",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "ボディカラー",
+      "走行距離",
+      "整備記録",
+      "車両コンディション",
+      "カスタム内容"
+    ],
+    "close": "同じSクラスでも、仕様の見極め次第で査定額は変わります。<br class=\"pc-only\">だからこそ、<strong>Sクラスに詳しい査定</strong>が大切です。"
+  },
+  "faq": [
+    {
+      "q": "自分のSクラスの型式がわかりません。",
+      "a": "わからない場合は、フォームで「わからない」をお選びください。目安として、2021年以降の現行型がW223、2013〜2020年ごろがW222、2005〜2013年ごろがW221です。2ドアのクーペはフォームの「クーペ」をお選びください。年式や車検証の情報から、担当者が確認してご案内します。"
+    },
+    {
+      "q": "グレードが選択肢にない場合はどうすればいいですか？",
+      "a": "「その他・わからない」をお選びください。車検証の情報などから、担当者が確認してご案内します。"
+    },
+    {
+      "q": "走行距離が多い・キズがあっても査定できますか？",
+      "a": "はい、ご相談いただけます。走行距離や車両の状態も含めて確認したうえでご案内します。"
+    },
+    {
+      "q": "社外パーツなどのカスタムをしていても査定できますか？",
+      "a": "はい、ご相談いただけます。カスタムの内容や、純正部品が残っているかどうかも確認したうえでご案内します。"
+    }
+  ],
+  "line": {
+    "title": "あなたのSクラス、<br>まずは写真で概算査定。",
+    "lead": "LINEで写真を送るだけ。<br>売却未定でもお気軽にご相談ください。",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "MERCEDES-BENZ S-CLASS",
+    "title": "今のSクラス、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  },
+  "sitemap": {
+    "lastmod": "2026-10-17"
+  }
+}
