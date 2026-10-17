@@ -1,0 +1,229 @@
+{
+  "slug": "bmw-m3",
+  "draft": false,
+  "theme": "cobalt",
+  "maker": "BMW",
+  "makerJa": "BMW",
+  "model": "M3",
+  "modelShort": "M3",
+  "nameJa": "M3",
+  "seo": {
+    "title": "BMW M3の買取・高価査定ならBimport｜輸入車専門",
+    "description": "BMW M3の買取・査定ならBimport。G80・F80・E90/E92・E46など世代やセダン・クーペ・ツーリングのボディ、コンペティション・CSなどのグレード、MT・限定車まで確認して評価します。売却未定でも60秒の入力で概算査定額をご案内。査定無料・全国対応。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/bmw-m3/hero-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/bmw-m3/hero-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/bmw-m3/hero-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "森の中のワインディングに停まる赤のBMW M3 クーペ",
+      "width": 1536,
+      "height": 1024,
+      "position": "35% 60%",
+      "positionPc": "40% 58%"
+    },
+    "final": {
+      "src": "assets/images/bmw-m3/hero-1536.jpg"
+    },
+    "line": {
+      "webp": [
+        {
+          "src": "assets/images/bmw-m3/line-photo-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/bmw-m3/line-photo-1536.webp",
+          "width": 1536
+        }
+      ],
+      "fallback": "assets/images/bmw-m3/line-photo-1536.jpg",
+      "alt": "Bimportのショールームに停まるBMW M3",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    }
+  },
+  "hero": {
+    "label": "BMW M3 買取・査定",
+    "catch": "そのM3、本当の価値まで<br>評価されていますか？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "bodyTypeLabel": "世代",
+    "bodyTypes": [
+      {
+        "value": "G80/G81",
+        "label": "G80/G81",
+        "grades": [
+          "M3 コンペティション",
+          "M3 コンペティション M xDrive",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "F80",
+        "label": "F80",
+        "grades": [
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "E90/E92/E93",
+        "label": "E9x",
+        "grades": [
+          "M3 クーペ",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "E46",
+        "label": "E46",
+        "grades": [
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "E36以前",
+        "label": "それ以前",
+        "grades": [
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 1987,
+    "yearOlderLabel": "1986年以前"
+  },
+  "cases": [
+    {
+      "image": "assets/images/cases/case-bmw-m3-633.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "maker": "BMW",
+      "model": "M3",
+      "grade": "クーペ スペシャルエディション（限定12台）",
+      "year": "2010年",
+      "mileage": "79,015km",
+      "price": 501,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年7月",
+      "area": "和歌山",
+      "details": [
+        "限定12台スペシャルエディション",
+        "アルピンホワイト",
+        "サンルーフ",
+        "黒革シート",
+        "6速MT",
+        "純正19インチAW",
+        "ドアミラーキズ"
+      ]
+    }
+  ],
+  "points": {
+    "lead": "世代・ミッション・仕様で価値が変わるM3。<br>詳しいスタッフが1台ずつ確認して査定します。",
+    "items": [
+      {
+        "key": "generation",
+        "title": "世代",
+        "text": "G80・F80・E9x・E46など、世代ごとの相場を確認",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "GENERATION"
+      },
+      {
+        "key": "body",
+        "title": "ボディ",
+        "text": "セダン・クーペ・カブリオレ・ツーリングの違いを確認",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "BODY"
+      },
+      {
+        "key": "transmission",
+        "title": "ミッション",
+        "text": "MT・DCT・ATなどトランスミッションの違いを確認",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "MT / DCT"
+      },
+      {
+        "key": "limited",
+        "title": "限定車・特別仕様",
+        "text": "コンペティション・CS・GTS・限定車などを確認",
+        "image": null,
+        "icon": "star",
+        "tone": "dark"
+      },
+      {
+        "key": "maintenance",
+        "title": "整備・コンディション",
+        "text": "整備記録や消耗品の状態を確認",
+        "image": null,
+        "icon": "check",
+        "tone": "dark"
+      },
+      {
+        "key": "options",
+        "title": "純正オプション・カスタム",
+        "text": "レザーシート・カーボンパーツ・純正部品の有無を確認",
+        "image": null,
+        "icon": "seat",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "ボディカラー",
+      "走行距離",
+      "左ハンドル・右ハンドル",
+      "車両コンディション",
+      "カスタム内容"
+    ],
+    "close": "同じM3でも、仕様の見極め次第で査定額は変わります。<br class=\"pc-only\">だからこそ、<strong>M3に詳しい査定</strong>が大切です。"
+  },
+  "faq": [
+    {
+      "q": "自分のM3の世代（F80など）がわかりません。",
+      "a": "わからない場合は、フォームで「わからない」をお選びください。目安として、2021年以降の現行型がG80（ツーリングはG81）、2014〜2019年ごろがF80、2008〜2013年ごろがE9x（セダンE90・クーペE92・カブリオレE93）、2001〜2006年ごろがE46です。年式や車検証の情報から、担当者が確認してご案内します。"
+    },
+    {
+      "q": "MT車や左ハンドル車も査定できますか？",
+      "a": "はい、ご相談いただけます。ミッションやハンドル位置も含めて、車両の仕様を確認したうえでご案内します。"
+    },
+    {
+      "q": "限定車やコンペティションは査定額に影響しますか？",
+      "a": "グレードや限定車であることは評価の対象になる場合があります。どの程度影響するかは、車両の状態や相場によって異なるため、実際の内容を確認したうえでご案内します。"
+    },
+    {
+      "q": "走行距離が多い・年式が古いM3でも査定できますか？",
+      "a": "はい、ご相談いただけます。整備記録や車両の状態も含めて確認したうえでご案内します。"
+    }
+  ],
+  "line": {
+    "title": "あなたのM3、<br>まずは写真で概算査定。",
+    "lead": "LINEで写真を送るだけ。<br>売却未定でもお気軽にご相談ください。",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "BMW M3",
+    "title": "今のM3、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  },
+  "sitemap": {
+    "lastmod": "2026-10-17"
+  }
+}

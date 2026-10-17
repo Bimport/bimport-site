@@ -1,0 +1,231 @@
+{
+  "slug": "bmw-m5",
+  "draft": false,
+  "theme": "cobalt",
+  "maker": "BMW",
+  "makerJa": "BMW",
+  "model": "M5",
+  "modelShort": "M5",
+  "nameJa": "M5",
+  "seo": {
+    "title": "BMW M5の買取・高価査定ならBimport｜輸入車専門",
+    "description": "BMW M5の買取・査定ならBimport。G90・F90・F10など世代やグレード、装備・オプションまで確認して評価します。売却未定でも60秒の入力で概算査定額をご案内。査定無料・全国対応。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/bmw-m5/hero-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/bmw-m5/hero-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/bmw-m5/hero-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "夕焼けの高速道路に停まるシルバーのBMW M5",
+      "width": 1536,
+      "height": 1024,
+      "position": "35% 60%",
+      "positionPc": "40% 58%"
+    },
+    "final": {
+      "src": "assets/images/bmw-m5/hero-1536.jpg"
+    },
+    "line": {
+      "webp": [
+        {
+          "src": "assets/images/bmw-m5/line-photo-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/bmw-m5/line-photo-1536.webp",
+          "width": 1536
+        }
+      ],
+      "fallback": "assets/images/bmw-m5/line-photo-1536.jpg",
+      "alt": "Bimportのショールームに停まるBMW M5",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    }
+  },
+  "hero": {
+    "label": "BMW M5 買取・査定",
+    "catch": "そのM5、本当の価値まで<br>評価されていますか？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "bodyTypeLabel": "世代",
+    "bodyTypes": [
+      {
+        "value": "G90",
+        "label": "G90",
+        "grades": [
+          "M5",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "F90",
+        "label": "F90",
+        "grades": [
+          "M5 コンペティション",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "F10",
+        "label": "F10",
+        "grades": [
+          "M5",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "E60",
+        "label": "E60",
+        "grades": [
+          "M5",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "それ以前",
+        "label": "それ以前",
+        "grades": [
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 1985,
+    "yearOlderLabel": "1984年以前"
+  },
+  "cases": [
+    {
+      "image": "assets/images/cases/case-bmw-m5-203.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "maker": "BMW",
+      "model": "M5",
+      "grade": "M5（V10）",
+      "year": "2007年",
+      "mileage": "84,972km",
+      "price": 245,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年7月",
+      "area": "千葉",
+      "details": [
+        "サンルーフ",
+        "ブラックレザーシート",
+        "V10エンジン",
+        "パドルシフト",
+        "シートヒーター",
+        "純正19インチAW",
+        "天張りたるみ（大）",
+        "ホイールキズ"
+      ]
+    }
+  ],
+  "points": {
+    "lead": "仕様・装備・コンディションで価値が変わるM5。<br>詳しいスタッフが1台ずつ確認して査定します。",
+    "items": [
+      {
+        "key": "generation",
+        "title": "世代",
+        "text": "G90・F90・F10など、世代ごとの相場を確認",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "GENERATION"
+      },
+      {
+        "key": "grade",
+        "title": "グレード",
+        "text": "コンペティションなど仕様の違いを確認",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "GRADE"
+      },
+      {
+        "key": "transmission",
+        "title": "ミッション",
+        "text": "トランスミッションの種類や作動を確認",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "TRANSMISSION"
+      },
+      {
+        "key": "m-pkg",
+        "title": "パッケージ・内外装",
+        "text": "スポーツ系パッケージや内外装の仕様を確認",
+        "image": null,
+        "icon": "star",
+        "tone": "dark"
+      },
+      {
+        "key": "safety",
+        "title": "運転支援・快適装備",
+        "text": "装備の有無や作動、警告表示を確認",
+        "image": null,
+        "icon": "check",
+        "tone": "dark"
+      },
+      {
+        "key": "options",
+        "title": "純正オプション",
+        "text": "レザーシート・サンルーフ・純正ホイールなどを確認",
+        "image": null,
+        "icon": "seat",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "ボディカラー",
+      "走行距離",
+      "整備記録",
+      "車両コンディション",
+      "カスタム内容"
+    ],
+    "close": "同じM5でも、仕様の見極め次第で査定額は変わります。<br class=\"pc-only\">だからこそ、<strong>M5に詳しい査定</strong>が大切です。"
+  },
+  "faq": [
+    {
+      "q": "自分のM5の世代がわかりません。",
+      "a": "わからない場合は、フォームで「わからない」をお選びください。目安として、2024年以降の現行型がG90、2017〜2024年ごろがF90、2011〜2017年ごろがF10、2005〜2010年ごろがE60です。年式や車検証の情報から、担当者が確認してご案内します。"
+    },
+    {
+      "q": "グレードが選択肢にない場合はどうすればいいですか？",
+      "a": "「その他・わからない」をお選びください。車検証の情報などから、担当者が確認してご案内します。"
+    },
+    {
+      "q": "走行距離が多い・キズがあっても査定できますか？",
+      "a": "はい、ご相談いただけます。走行距離や車両の状態も含めて確認したうえでご案内します。"
+    },
+    {
+      "q": "社外パーツなどのカスタムをしていても査定できますか？",
+      "a": "はい、ご相談いただけます。カスタムの内容や、純正部品が残っているかどうかも確認したうえでご案内します。"
+    }
+  ],
+  "line": {
+    "title": "あなたのM5、<br>まずは写真で概算査定。",
+    "lead": "LINEで写真を送るだけ。<br>売却未定でもお気軽にご相談ください。",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "BMW M5",
+    "title": "今のM5、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  },
+  "sitemap": {
+    "lastmod": "2026-10-17"
+  }
+}
