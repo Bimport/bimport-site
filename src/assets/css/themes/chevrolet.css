@@ -1,0 +1,74 @@
+.lp-theme-chevrolet {
+  --c-cobalt: #B73935;
+  --c-cobalt-deep: #8B2724;
+  --c-cobalt-light: #F1BAB7;
+  --c-cobalt-grad: linear-gradient(180deg, #B73935 0%, #B73935 52%, #8B2724 100%);
+
+  --c-gold: #B73935;
+  --c-gold-text: #8B2724;
+  --c-gold-light: #F1BAB7;
+  --c-gold-grad: var(--c-cobalt-grad);
+}
+
+
+.lp-theme-chevrolet .lp-btn--gold { color: var(--c-white); box-shadow: 0 3px 12px rgba(20, 45, 85, .35), inset 0 1px 0 rgba(255, 255, 255, .25); }
+.lp-theme-chevrolet .lp-btn--gold:hover { filter: brightness(1.08); }
+
+
+.lp-theme-chevrolet .lp-hero__label { border-bottom-color: rgba(169, 195, 230, .5); }
+.lp-theme-chevrolet .lp-hero__maker { letter-spacing: .3em; }
+.lp-theme-chevrolet .lp-hero__maker::after { content: ""; display: block; width: 44px; height: 2px; margin-top: 12px; background: var(--c-cobalt-grad); }
+
+.lp-theme-chevrolet .lp-hero__buy { background: linear-gradient(180deg, #FFFFFF 0%, var(--c-gold-light) 100%); -webkit-background-clip: text; background-clip: text; color: transparent;
+  text-shadow: none; filter: drop-shadow(0 2px 10px rgba(0, 0, 0, .55)); }
+.lp-theme-chevrolet .lp-hero__photo img { object-position: var(--hero-pos, 50% 50%); }
+
+
+@media (max-width: 359px) {
+  .lp-theme-chevrolet .lp-hero__catch { font-size: 18px; }
+}
+
+
+
+.lp-theme-chevrolet .lp-h2 .lp-en { font-family: inherit; font-weight: inherit; letter-spacing: inherit; }
+
+
+.lp-theme-chevrolet .lp-form-card { border-top: 3px solid var(--c-cobalt); }
+.lp-theme-chevrolet .lp-input:focus { box-shadow: 0 0 0 3px rgba(183, 57, 53, .3); }
+
+.lp-theme-chevrolet .lp-form-card__title em,
+.lp-theme-chevrolet .lp-form-card__title small,
+.lp-theme-chevrolet .lp-case__price-num { background: linear-gradient(180deg, #B73935 0%, #8B2724 100%); -webkit-background-clip: text; background-clip: text; }
+.lp-theme-chevrolet .lp-case__price { color: var(--c-black); }
+.lp-theme-chevrolet .lp-case__compare { background: var(--c-black); color: var(--c-white); }
+.lp-theme-chevrolet .lp-points__close { border-left: 3px solid var(--c-cobalt); }
+.lp-theme-chevrolet .lp-point__img--dark { color: #EEF3FA; }
+.lp-theme-chevrolet .lp-point__img--dark .lp-icon { color: var(--c-white); }
+
+
+@media (max-width: 899px) {
+  .lp-theme-chevrolet .lp-hero__photo { margin-top: -44px; }
+  .lp-theme-chevrolet .lp-hero__photo img { width: 100%; margin-left: 0; }
+  .lp-theme-chevrolet .lp-hero__badges { margin-top: -20px; }
+}
+
+@media (min-width: 900px) {
+  .lp-theme-chevrolet .lp-hero__photo img { object-position: var(--hero-pos-pc, var(--hero-pos, 50% 50%)); filter: brightness(.88) contrast(1.05); }
+}
+
+
+@media (max-width: 1199px) {
+  .lp-theme-chevrolet .lp-line__photo { aspect-ratio: 1536 / 1024; margin-top: -12px; }
+  .lp-theme-chevrolet .lp-line__cta { margin-top: -4px; }
+}
+@media (min-width: 1200px) {
+  .lp-theme-chevrolet .lp-line__photo { left: auto; width: 62%; }
+  .lp-theme-chevrolet .lp-line__photo::after {
+    background:
+      linear-gradient(90deg, #0E0E0E 0%, rgba(14, 14, 14, .6) 14%, rgba(14, 14, 14, 0) 34%),
+      linear-gradient(180deg, rgba(14, 14, 14, .35) 0%, rgba(14, 14, 14, 0) 16%, rgba(14, 14, 14, 0) 80%, rgba(14, 14, 14, .45) 100%);
+  }
+}
+
+.lp-theme-chevrolet .lp-case__photo img { object-fit: contain; background: #fff; }
+@media (max-width: 1199px) { .lp-theme-chevrolet .lp-line__photo img { object-fit: contain; } }

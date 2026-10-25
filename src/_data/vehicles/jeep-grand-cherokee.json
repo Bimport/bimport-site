@@ -1,0 +1,299 @@
+{
+  "slug": "jeep-grand-cherokee",
+  "draft": true,
+  "theme": "jeep",
+  "maker": "JEEP",
+  "makerJa": "ジープ",
+  "model": "GRAND CHEROKEE",
+  "modelShort": "グランドチェロキー",
+  "nameJa": "ジープグランドチェロキー",
+  "seo": {
+    "title": "ジープ グランドチェロキーの買取・高価査定ならBimport｜輸入車専門",
+    "description": "ジープ グランドチェロキーの買取・査定ならBimport。標準ボディと3列シートのLの違いを確認。ガソリン・4xeの仕様と充電装備を確認。装備や整備履歴、内外装の状態まで確認します。売却未定でも60秒の入力で概算査定額をご案内。査定無料・全国対応。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/jeep-grand-cherokee/hero-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/jeep-grand-cherokee/hero-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/jeep-grand-cherokee/hero-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "夕暮れの岩山を背景に停まる白のジープグランドチェロキー",
+      "width": 1536,
+      "height": 1024,
+      "position": "40% 55%",
+      "positionPc": "40% 55%"
+    },
+    "final": {
+      "src": "assets/images/jeep-grand-cherokee/hero-1536.jpg"
+    },
+    "line": {
+      "fallback": "assets/images/jeep-grand-cherokee/line-photo-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/jeep-grand-cherokee/line-photo-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/jeep-grand-cherokee/line-photo-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "ロゴのない白壁のショールームに停まるジープ グランドチェロキー",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    }
+  },
+  "hero": {
+    "label": "ジープ グランドチェロキー 買取・査定",
+    "catch": "そのグランドチェロキー、本当の価値まで<br>評価されていますか？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "grades": [
+      "ラレード",
+      "リミテッド",
+      "L リミテッド",
+      "L サミット リザーブ",
+      "リミテッド 4xe",
+      "サミット リザーブ 4xe",
+      "限定車・特別仕様車"
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 1993,
+    "yearOlderLabel": "1992年以前"
+  },
+  "cases": [
+    {
+      "maker": "JEEP",
+      "model": "GRAND CHEROKEE",
+      "year": "2019年",
+      "mileage": "29,800km",
+      "price": "260",
+      "priceUnit": "万円",
+      "purchasedAt": "2026年8月",
+      "area": "岡山",
+      "details": [
+        "ワンオーナー",
+        "200台限定車",
+        "ハーフレザーシート",
+        "純正20インチAW",
+        "エアーサスペンション",
+        "下廻り一部サビ"
+      ],
+      "grade": "アルティテュード(200台限定)",
+      "image": "assets/images/cases/case-jeep-grand-cherokee-26.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "JEEP",
+      "model": "GRAND CHEROKEE",
+      "year": "2016年",
+      "mileage": "67,318km",
+      "price": "80",
+      "priceUnit": "万円",
+      "purchasedAt": "2026年9月",
+      "area": "奈良",
+      "details": [
+        "ワンオーナー",
+        "純正18インチAW",
+        "パワーシート",
+        "Bluetooth",
+        "エンジンオイルにじみ",
+        "下廻りサビ"
+      ],
+      "grade": "ラレード",
+      "image": "assets/images/cases/case-jeep-grand-cherokee-36.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "JEEP",
+      "model": "GRAND CHEROKEE",
+      "year": "2023年",
+      "mileage": "20,560km",
+      "price": "635",
+      "priceUnit": "万円",
+      "purchasedAt": "2026年7月",
+      "area": "東京",
+      "details": [
+        "ワンオーナー",
+        "サンルーフ",
+        "デジタルインナーミラー",
+        "HUD",
+        "McIntoshスピーカー",
+        "ベンチレーション・シートヒーター",
+        "エアーサスペンション"
+      ],
+      "grade": "サミット リザーブ 2.0L 4xe",
+      "image": "assets/images/cases/case-jeep-grand-cherokee-75.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "JEEP",
+      "model": "GRAND CHEROKEE",
+      "year": "2024年",
+      "mileage": "19,011km",
+      "price": "540",
+      "priceUnit": "万円",
+      "purchasedAt": "2026年7月",
+      "area": "千葉",
+      "details": [
+        "ブラックレザーシート",
+        "アルパインスピーカー",
+        "Apple CarPlay",
+        "ヘッドアップディスプレイ",
+        "ベンチレーター",
+        "純正18インチAW",
+        "ドアミラーキズ"
+      ],
+      "grade": "リミテッド 2.0L",
+      "image": "assets/images/cases/case-jeep-grand-cherokee-159.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "JEEP",
+      "model": "GRAND CHEROKEE L",
+      "year": "2024年",
+      "mileage": "16,666km",
+      "price": "585",
+      "priceUnit": "万円",
+      "purchasedAt": "2026年8月",
+      "area": "神奈川",
+      "details": [
+        "アルパインスピーカー",
+        "ヘッドアップディスプレイ",
+        "Apple CarPlay",
+        "ブラックレザーシート",
+        "社外後席モニター",
+        "ETC",
+        "空気圧ランプ点灯"
+      ],
+      "grade": "リミテッド",
+      "image": "assets/images/cases/case-jeep-grand-cherokee-581.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "JEEP",
+      "model": "GRAND CHEROKEE L",
+      "year": "2023年",
+      "mileage": "15,819km",
+      "price": "580",
+      "priceUnit": "万円",
+      "purchasedAt": "2026年9月",
+      "area": "静岡",
+      "details": [
+        "ワンオーナー",
+        "パノラマサンルーフ",
+        "ブラックレザーシート",
+        "ヘッドアップディスプレイ",
+        "アルパインスピーカー",
+        "シートクーラー・シートヒーター",
+        "ETC",
+        "ドアミラーキズ"
+      ],
+      "grade": "リミテッド",
+      "image": "assets/images/cases/case-jeep-grand-cherokee-875.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    }
+  ],
+  "points": {
+    "lead": "ジープ グランドチェロキーは仕様・装備・状態で価値が変わる車。<br>詳しいスタッフが一台ずつ確認して査定します。",
+    "items": [
+      {
+        "key": "spec0",
+        "title": "ボディ・乗車定員",
+        "text": "標準ボディと3列シートのLの違いを確認",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "SPECIFICATION"
+      },
+      {
+        "key": "spec1",
+        "title": "エンジン・4xe",
+        "text": "ガソリン・4xeの仕様と充電装備を確認",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "GRADE"
+      },
+      {
+        "key": "spec2",
+        "title": "快適装備・足回り",
+        "text": "シート・サンルーフ・サスペンションを確認",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "EQUIPMENT"
+      },
+      {
+        "key": "condition0",
+        "title": "内外装の状態",
+        "text": "ボディのキズや補修、シートやトリムの状態を確認",
+        "image": null,
+        "icon": "search",
+        "tone": "dark"
+      },
+      {
+        "key": "condition1",
+        "title": "整備・走行履歴",
+        "text": "整備内容や走行距離の履歴を確認",
+        "image": null,
+        "icon": "doc",
+        "tone": "dark"
+      },
+      {
+        "key": "condition2",
+        "title": "純正オプション",
+        "text": "内外装の純正オプションや付属品を確認",
+        "image": null,
+        "icon": "seat",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "ボディカラー",
+      "走行距離",
+      "整備記録",
+      "車両コンディション",
+      "カスタム内容"
+    ],
+    "close": "同じグランドチェロキーでも、仕様の見極め次第で査定額は変わります。<br class=\"pc-only\">だからこそ、<strong>グランドチェロキーに詳しい査定</strong>が大切です。"
+  },
+  "faq": [
+    {
+      "q": "グランドチェロキーLもこのページから相談できますか？",
+      "a": "はい、3列シートのグランドチェロキーLもご相談いただけます。年式、乗車定員やグレードを確認して査定します。"
+    },
+    {
+      "q": "4xeの充電ケーブルがなくても相談できますか？",
+      "a": "ご相談いただけます。充電ケーブルなどの付属品の有無と車両の状態を確認してご案内します。"
+    },
+    {
+      "q": "売却するか決めていなくても相談できますか？",
+      "a": "はい、売却時期が決まっていなくてもご相談いただけます。まずは車両情報をお知らせください。概算査定をご案内します。"
+    }
+  ],
+  "line": {
+    "title": "あなたの<span class=\"lp-en\">グランドチェロキー</span>、<br>まずは写真で概算査定。",
+    "lead": "LINEで写真を送るだけ。<br>売却未定でもお気軽にご相談ください。",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "JEEP GRAND CHEROKEE",
+    "title": "今の<span class=\"lp-en\">グランドチェロキー</span>、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  }
+}
