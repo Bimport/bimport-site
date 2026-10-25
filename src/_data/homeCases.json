@@ -1,0 +1,8 @@
+[
+ {"maker":"PORSCHE","model":"911","grade":"カレラ4 GTS PDK","year":"2022年","mileage":"23,784km","period":"2026年9月","area":"徳島県","price":"2,115","compare":"2位の会社より15万円高く買取","image":"assets/images/cases/case-porsche-911-gts.jpg","details":["外装クレヨン","セラミックコンポジットブレーキ","レザーインテリア","インテリアトリムパッケージ","フロントアクスルリフトシステム"]},
+ {"maker":"JEEP","model":"グランドチェロキー","grade":"アルティテュード","year":"2019年","mileage":"29,800km","period":"2026年8月","area":"岡山県","price":"260","compare":"2位の会社より5万円高く買取","image":"assets/images/home/case-grand-cherokee.jpg","details":["ワンオーナー","200台限定車","内装スレ","下回りサビあり"],"note":"売却理由：乗り換え"},
+ {"maker":"LAND ROVER","model":"ディフェンダー","grade":"90 イースナーエディション","year":"2023年","mileage":"17,780km","period":"2026年8月","area":"東京","price":"550","image":"assets/images/cases/case-landrover-defender-white-wall.jpg","details":["エアサスペンション","マットブラックラッピング","MERIDIANサウンド","純正20AW","ルーム内うす汚れ・小傷あり"]},
+ {"maker":"RENAULT","model":"カングー","grade":"プルミエール エディション","year":"2023年","mileage":"44,000km","period":"2026年8月","area":"高知県","price":"197","compare":"2位の会社より3万円高く買取","image":"assets/images/home/case-kangoo.jpg","details":["ワンオーナー","純正ディスプレイオーディオ","左面修復歴あり","ルーム内うす汚れ、動物の毛あり"],"note":"売却理由：乗り換え"},
+ {"maker":"MERCEDES-BENZ","model":"Eクラス","grade":"E450 4マチック エクスクルーシブ","year":"2018年","mileage":"34,696km","period":"2026年9月","area":"広島","price":"250","image":"assets/images/cases/case-mercedes-eclass.jpg","details":["セレナイトグレーメタリック","レーダーセーフティパッケージ","ブルメスターサウンド","パノラミックスライディングルーフ"],"note":"次の納車まで1ヶ月 金額保証付きで買取"},
+ {"maker":"PEUGEOT","model":"408","grade":"GT フレンチ タッチ","year":"2024年","mileage":"9,700km","period":"2026年7月","area":"岡山県","price":"344","compare":"2位の会社より3万円高く買取","image":"assets/images/home/case-408.jpg","details":["ワンオーナー","ルーム内スレ・キズ"],"note":"売却理由：引っ越し"}
+]
