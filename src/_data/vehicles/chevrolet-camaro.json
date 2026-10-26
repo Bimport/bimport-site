@@ -1,6 +1,6 @@
 {
   "slug": "chevrolet-camaro",
-  "draft": true,
+  "draft": false,
   "theme": "chevrolet",
   "maker": "CHEVROLET",
   "makerJa": "シボレー",
@@ -230,5 +230,8 @@
     "label": "CHEVROLET CAMARO",
     "title": "今の<span class=\"lp-en\">カマロ</span>、<br>いくらになる？",
     "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  },
+  "sitemap": {
+    "lastmod": "2026-10-27"
   }
 }

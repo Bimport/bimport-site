@@ -1,6 +1,6 @@
 {
   "slug": "citroen-c6",
-  "draft": true,
+  "draft": false,
   "theme": "citroen",
   "maker": "CITROEN",
   "makerJa": "シトロエン",
@@ -178,5 +178,8 @@
     "label": "CITROEN C6",
     "title": "今の<span class=\"lp-en\">C6</span>、<br>いくらになる？",
     "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  },
+  "sitemap": {
+    "lastmod": "2026-10-27"
   }
 }

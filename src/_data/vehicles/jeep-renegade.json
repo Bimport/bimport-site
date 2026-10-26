@@ -1,6 +1,6 @@
 {
   "slug": "jeep-renegade",
-  "draft": true,
+  "draft": false,
   "theme": "jeep",
   "maker": "JEEP",
   "makerJa": "ジープ",
@@ -174,5 +174,8 @@
     "label": "JEEP RENEGADE",
     "title": "今の<span class=\"lp-en\">レネゲード</span>、<br>いくらになる？",
     "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  },
+  "sitemap": {
+    "lastmod": "2026-10-27"
   }
 }

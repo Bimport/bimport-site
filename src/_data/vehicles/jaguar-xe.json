@@ -1,6 +1,6 @@
 {
   "slug": "jaguar-xe",
-  "draft": true,
+  "draft": false,
   "theme": "jaguar",
   "maker": "JAGUAR",
   "makerJa": "ジャガー",
@@ -179,5 +179,8 @@
     "label": "JAGUAR XE",
     "title": "今の<span class=\"lp-en\">XE</span>、<br>いくらになる？",
     "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  },
+  "sitemap": {
+    "lastmod": "2026-10-27"
   }
 }

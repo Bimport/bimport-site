@@ -1,6 +1,6 @@
 {
   "slug": "cadillac-xt4",
-  "draft": true,
+  "draft": false,
   "theme": "cadillac",
   "maker": "CADILLAC",
   "makerJa": "キャデラック",
@@ -178,5 +178,8 @@
     "label": "CADILLAC XT4",
     "title": "今の<span class=\"lp-en\">XT4</span>、<br>いくらになる？",
     "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  },
+  "sitemap": {
+    "lastmod": "2026-10-27"
   }
 }

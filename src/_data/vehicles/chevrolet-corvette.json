@@ -1,6 +1,6 @@
 {
   "slug": "chevrolet-corvette",
-  "draft": true,
+  "draft": false,
   "theme": "chevrolet",
   "maker": "CHEVROLET",
   "makerJa": "シボレー",
@@ -202,5 +202,8 @@
     "label": "CHEVROLET CORVETTE",
     "title": "今の<span class=\"lp-en\">コルベット</span>、<br>いくらになる？",
     "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  },
+  "sitemap": {
+    "lastmod": "2026-10-27"
   }
 }

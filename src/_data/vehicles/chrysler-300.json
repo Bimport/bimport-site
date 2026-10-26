@@ -1,6 +1,6 @@
 {
   "slug": "chrysler-300",
-  "draft": true,
+  "draft": false,
   "theme": "chrysler",
   "maker": "CHRYSLER",
   "makerJa": "クライスラー",
@@ -178,5 +178,8 @@
     "label": "CHRYSLER 300",
     "title": "今の<span class=\"lp-en\">300</span>、<br>いくらになる？",
     "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  },
+  "sitemap": {
+    "lastmod": "2026-10-27"
   }
 }
