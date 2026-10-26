@@ -1,0 +1,209 @@
+{
+  "slug": "chevrolet-corvette",
+  "draft": false,
+  "theme": "chevrolet",
+  "maker": "CHEVROLET",
+  "makerJa": "シボレー",
+  "model": "CORVETTE",
+  "modelShort": "コルベット",
+  "nameJa": "シボレーコルベット",
+  "seo": {
+    "title": "シボレー コルベットの買取・高価査定ならBimport｜輸入車専門",
+    "description": "シボレー コルベットの買取・査定ならBimport。世代とZ51・Z06などの仕様を確認。クーペ・コンバーチブルやAT・MTを確認。装備や整備履歴、内外装の状態まで確認します。売却未定でも60秒の入力で概算査定額をご案内。査定無料・全国対応。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/chevrolet-corvette/hero-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/chevrolet-corvette/hero-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/chevrolet-corvette/hero-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "夕日の海沿いに停まる赤のシボレーコルベット",
+      "width": 1536,
+      "height": 1024,
+      "position": "40% 55%",
+      "positionPc": "40% 55%"
+    },
+    "final": {
+      "src": "assets/images/chevrolet-corvette/hero-1536.jpg"
+    },
+    "line": {
+      "fallback": "assets/images/chevrolet-corvette/line-photo-1448.jpg",
+      "webp": [
+        {
+          "src": "assets/images/chevrolet-corvette/line-photo-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/chevrolet-corvette/line-photo-1448.webp",
+          "width": 1448
+        }
+      ],
+      "alt": "ロゴのない白壁のショールームに停まるシボレー コルベット",
+      "width": 1448,
+      "height": 1086,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    }
+  },
+  "hero": {
+    "label": "シボレー コルベット 買取・査定",
+    "catch": "そのコルベット、本当の価値まで<br>評価されていますか？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "grades": [
+      "2LT",
+      "3LT",
+      "Z51",
+      "Z06",
+      "コンバーチブル",
+      "限定車・特別仕様車"
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 1953,
+    "yearOlderLabel": "1952年以前"
+  },
+  "cases": [
+    {
+      "maker": "CHEVROLET",
+      "model": "CORVETTE",
+      "year": "2016年",
+      "mileage": "40,667km",
+      "price": "960",
+      "priceUnit": "万円",
+      "purchasedAt": "2026年7月",
+      "area": "兵庫",
+      "details": [
+        "カーボンセラミックブレーキ",
+        "ブレンボキャリパー",
+        "シートヒーター・シートクーラー",
+        "BOSEサウンド",
+        "ホイール飛び石キズ",
+        "ボディ一部ヒビ"
+      ],
+      "grade": "Z06",
+      "image": "assets/images/cases/case-chevrolet-corvette-14.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "CHEVROLET",
+      "model": "CORVETTE",
+      "year": "1999年",
+      "mileage": "158,876km",
+      "price": "40",
+      "priceUnit": "万円",
+      "purchasedAt": "2026年8月",
+      "area": "神奈川",
+      "details": [
+        "左ハンドル",
+        "ETC",
+        "横滑りランプ点灯",
+        "ABSランプ点灯",
+        "エアコン運転席側冷えず",
+        "シート切れ",
+        "ダッシュボード浮き"
+      ],
+      "grade": "クーペ(C5)",
+      "image": "assets/images/cases/case-chevrolet-corvette-871.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    }
+  ],
+  "points": {
+    "lead": "シボレー コルベットは仕様・装備・状態で価値が変わる車。<br>詳しいスタッフが一台ずつ確認して査定します。",
+    "items": [
+      {
+        "key": "spec0",
+        "title": "世代・グレード",
+        "text": "世代とZ51・Z06などの仕様を確認",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "SPECIFICATION"
+      },
+      {
+        "key": "spec1",
+        "title": "ボディ・変速機",
+        "text": "クーペ・コンバーチブルやAT・MTを確認",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "GRADE"
+      },
+      {
+        "key": "spec2",
+        "title": "足回り・制動装備",
+        "text": "ホイールやブレーキの仕様・状態を確認",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "EQUIPMENT"
+      },
+      {
+        "key": "condition0",
+        "title": "内外装の状態",
+        "text": "ボディのキズや補修、シートやトリムの状態を確認",
+        "image": null,
+        "icon": "search",
+        "tone": "dark"
+      },
+      {
+        "key": "condition1",
+        "title": "整備・走行履歴",
+        "text": "整備内容や走行距離の履歴を確認",
+        "image": null,
+        "icon": "doc",
+        "tone": "dark"
+      },
+      {
+        "key": "condition2",
+        "title": "純正オプション",
+        "text": "内外装の純正オプションや付属品を確認",
+        "image": null,
+        "icon": "seat",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "ボディカラー",
+      "走行距離",
+      "整備記録",
+      "車両コンディション",
+      "カスタム内容"
+    ],
+    "close": "同じコルベットでも、仕様の見極め次第で査定額は変わります。<br class=\"pc-only\">だからこそ、<strong>コルベットに詳しい査定</strong>が大切です。"
+  },
+  "faq": [
+    {
+      "q": "古い世代のコルベットも相談できますか？",
+      "a": "はい、ご相談いただけます。世代や輸入区分、走行履歴、内外装と機関の状態を確認してご案内します。"
+    },
+    {
+      "q": "Z06のブレーキやオプションも見てもらえますか？",
+      "a": "ブレーキ、ホイール、シートなどの仕様と状態を確認します。装備が分かる写真や資料もお送りいただけます。"
+    },
+    {
+      "q": "売却するか決めていなくても相談できますか？",
+      "a": "はい、売却時期が決まっていなくてもご相談いただけます。まずは車両情報をお知らせください。概算査定をご案内します。"
+    }
+  ],
+  "line": {
+    "title": "あなたの<span class=\"lp-en\">コルベット</span>、<br>まずは写真で概算査定。",
+    "lead": "LINEで写真を送るだけ。<br>売却未定でもお気軽にご相談ください。",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "CHEVROLET CORVETTE",
+    "title": "今の<span class=\"lp-en\">コルベット</span>、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  },
+  "sitemap": {
+    "lastmod": "2026-10-27"
+  }
+}

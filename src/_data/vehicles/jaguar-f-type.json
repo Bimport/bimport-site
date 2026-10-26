@@ -1,0 +1,231 @@
+{
+  "slug": "jaguar-f-type",
+  "draft": false,
+  "theme": "jaguar",
+  "maker": "JAGUAR",
+  "makerJa": "ジャガー",
+  "model": "F-TYPE",
+  "modelShort": "Fタイプ",
+  "nameJa": "ジャガーFタイプ",
+  "seo": {
+    "title": "ジャガー Fタイプの買取・高価査定ならBimport｜輸入車専門",
+    "description": "ジャガー Fタイプの買取・査定ならBimport。エンジンやグレード、駆動方式を確認。クーペ・コンバーチブルとルーフの状態を確認。装備や整備履歴、内外装の状態まで確認します。売却未定でも60秒の入力で概算査定額をご案内。査定無料・全国対応。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/jaguar-f-type/hero-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/jaguar-f-type/hero-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/jaguar-f-type/hero-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "湖と山を背景に停まる緑のジャガーFタイプ",
+      "width": 1536,
+      "height": 1024,
+      "position": "40% 55%",
+      "positionPc": "40% 55%"
+    },
+    "final": {
+      "src": "assets/images/jaguar-f-type/hero-1536.jpg"
+    },
+    "line": {
+      "fallback": "assets/images/jaguar-f-type/line-photo-1448.jpg",
+      "webp": [
+        {
+          "src": "assets/images/jaguar-f-type/line-photo-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/jaguar-f-type/line-photo-1448.webp",
+          "width": 1448
+        }
+      ],
+      "alt": "ロゴのない白壁のショールームに停まるジャガー Fタイプ",
+      "width": 1448,
+      "height": 1086,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    }
+  },
+  "hero": {
+    "label": "ジャガー Fタイプ 買取・査定",
+    "catch": "そのFタイプ、本当の価値まで<br>評価されていますか？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "grades": [
+      "R-DYNAMIC",
+      "75",
+      "R75",
+      "限定車・特別仕様車"
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 2013,
+    "yearOlderLabel": "2012年以前"
+  },
+  "cases": [
+    {
+      "maker": "JAGUAR",
+      "model": "F-TYPE",
+      "year": "2015年",
+      "mileage": "46,535km",
+      "price": "400",
+      "priceUnit": "万円",
+      "purchasedAt": "2026年7月",
+      "area": "東京",
+      "details": [
+        "カーボンセラミックブレーキ",
+        "メリディアンサウンド",
+        "ブラック×ホワイトレザー",
+        "スポーツエグゾースト",
+        "パワーシート",
+        "ラッピング車",
+        "天張り浮き",
+        "ホイールキズ"
+      ],
+      "grade": "Rクーペ",
+      "image": "assets/images/cases/case-jaguar-f-type-83.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "JAGUAR",
+      "model": "F-TYPE",
+      "year": "2015年",
+      "mileage": "92,939km",
+      "price": "250",
+      "priceUnit": "万円",
+      "purchasedAt": "2026年6月",
+      "area": "長野",
+      "details": [
+        "OPガラスルーフ",
+        "OPシートメモリー",
+        "OP電動チルト&テレスコ",
+        "OP19インチアルミホイール",
+        "バックカメラ・プッシュスタート",
+        "ホワイトハーフレザーシート",
+        "エンジンオイル漏れ"
+      ],
+      "image": "assets/images/cases/case-jaguar-f-type-231.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "JAGUAR",
+      "model": "F-TYPE",
+      "year": "2023年",
+      "mileage": "18,093km",
+      "price": "740",
+      "priceUnit": "万円",
+      "purchasedAt": "2026年10月",
+      "area": "三重",
+      "details": [
+        "スポーツエグゾースト",
+        "可変リアウィング",
+        "パノラマルーフ",
+        "シートヒーター・ベンチレーション",
+        "メリディアンサウンド",
+        "フルエクステンデッドレザー",
+        "外装一部飛び石キズ"
+      ],
+      "grade": "Rクーペ P575 AWD",
+      "image": "assets/images/cases/case-jaguar-f-type-931.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    }
+  ],
+  "points": {
+    "lead": "ジャガー Fタイプは仕様・装備・状態で価値が変わる車。<br>詳しいスタッフが一台ずつ確認して査定します。",
+    "items": [
+      {
+        "key": "spec0",
+        "title": "エンジン・グレード",
+        "text": "エンジンやグレード、駆動方式を確認",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "SPECIFICATION"
+      },
+      {
+        "key": "spec1",
+        "title": "ボディ・ルーフ",
+        "text": "クーペ・コンバーチブルとルーフの状態を確認",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "GRADE"
+      },
+      {
+        "key": "spec2",
+        "title": "スポーツ装備",
+        "text": "ブレーキ・シート・排気系の仕様を確認",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "EQUIPMENT"
+      },
+      {
+        "key": "condition0",
+        "title": "内外装の状態",
+        "text": "ボディのキズや補修、シートやトリムの状態を確認",
+        "image": null,
+        "icon": "search",
+        "tone": "dark"
+      },
+      {
+        "key": "condition1",
+        "title": "整備・走行履歴",
+        "text": "整備内容や走行距離の履歴を確認",
+        "image": null,
+        "icon": "doc",
+        "tone": "dark"
+      },
+      {
+        "key": "condition2",
+        "title": "純正オプション",
+        "text": "内外装の純正オプションや付属品を確認",
+        "image": null,
+        "icon": "seat",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "ボディカラー",
+      "走行距離",
+      "整備記録",
+      "車両コンディション",
+      "カスタム内容"
+    ],
+    "close": "同じFタイプでも、仕様の見極め次第で査定額は変わります。<br class=\"pc-only\">だからこそ、<strong>Fタイプに詳しい査定</strong>が大切です。"
+  },
+  "faq": [
+    {
+      "q": "クーペとコンバーチブルの両方を査定できますか？",
+      "a": "はい、ご相談いただけます。ボディ仕様に加え、ルーフや幌の状態、エンジンと装備を確認して査定します。"
+    },
+    {
+      "q": "ラッピングやカスタムがあっても相談できますか？",
+      "a": "ご相談いただけます。施工内容や元の色、純正部品の有無と車両の状態を確認してご案内します。"
+    },
+    {
+      "q": "売却するか決めていなくても相談できますか？",
+      "a": "はい、売却時期が決まっていなくてもご相談いただけます。まずは車両情報をお知らせください。概算査定をご案内します。"
+    }
+  ],
+  "line": {
+    "title": "あなたの<span class=\"lp-en\">Fタイプ</span>、<br>まずは写真で概算査定。",
+    "lead": "LINEで写真を送るだけ。<br>売却未定でもお気軽にご相談ください。",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "JAGUAR F-TYPE",
+    "title": "今の<span class=\"lp-en\">Fタイプ</span>、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  },
+  "sitemap": {
+    "lastmod": "2026-10-27"
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "slug": "chrysler-300",
+  "draft": false,
+  "theme": "chrysler",
+  "maker": "CHRYSLER",
+  "makerJa": "クライスラー",
+  "model": "300",
+  "modelShort": "300",
+  "nameJa": "クライスラー300",
+  "seo": {
+    "title": "クライスラー 300の買取・高価査定ならBimport｜輸入車専門",
+    "description": "クライスラー 300の買取・査定ならBimport。300SやSRT8などの仕様を確認。正規輸入・並行輸入や左右ハンドルの違いを確認。装備や整備履歴、内外装の状態まで確認します。売却未定でも60秒の入力で概算査定額をご案内。査定無料・全国対応。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/chrysler-300/hero-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/chrysler-300/hero-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/chrysler-300/hero-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "レンガ造りの街並みに停まる赤のクライスラー300",
+      "width": 1536,
+      "height": 1024,
+      "position": "40% 55%",
+      "positionPc": "40% 55%"
+    },
+    "final": {
+      "src": "assets/images/chrysler-300/hero-1536.jpg"
+    },
+    "line": {
+      "fallback": "assets/images/chrysler-300/line-photo-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/chrysler-300/line-photo-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/chrysler-300/line-photo-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "ロゴのない白壁のショールームに停まるクライスラー 300",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    }
+  },
+  "hero": {
+    "label": "クライスラー 300 買取・査定",
+    "catch": "その300、本当の価値まで<br>評価されていますか？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "grades": [
+      "300S",
+      "SRT8",
+      "限定車・特別仕様車"
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 2005,
+    "yearOlderLabel": "2004年以前"
+  },
+  "cases": [
+    {
+      "maker": "CHRYSLER",
+      "model": "300",
+      "year": "2017年",
+      "mileage": "29,450km",
+      "price": "350",
+      "priceUnit": "万円",
+      "purchasedAt": "2026年6月",
+      "area": "東京",
+      "details": [
+        "ワンオーナー",
+        "サンルーフ",
+        "ハーフレザーシート",
+        "シートヒーター・ベンチレーション",
+        "純正20インチAW",
+        "ヒーテッド/クールドカップホルダー",
+        "ダッシュボード浮き・剥がれ",
+        "ホイールキズ"
+      ],
+      "grade": "SRT8",
+      "image": "assets/images/cases/case-chrysler-300-171.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    }
+  ],
+  "points": {
+    "lead": "クライスラー 300は仕様・装備・状態で価値が変わる車。<br>詳しいスタッフが一台ずつ確認して査定します。",
+    "items": [
+      {
+        "key": "spec0",
+        "title": "グレード・エンジン",
+        "text": "300SやSRT8などの仕様を確認",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "SPECIFICATION"
+      },
+      {
+        "key": "spec1",
+        "title": "輸入区分・ハンドル",
+        "text": "正規輸入・並行輸入や左右ハンドルの違いを確認",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "GRADE"
+      },
+      {
+        "key": "spec2",
+        "title": "内装・装備",
+        "text": "レザーシート・サンルーフ・オーディオを確認",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "EQUIPMENT"
+      },
+      {
+        "key": "condition0",
+        "title": "内外装の状態",
+        "text": "ボディのキズや補修、シートやトリムの状態を確認",
+        "image": null,
+        "icon": "search",
+        "tone": "dark"
+      },
+      {
+        "key": "condition1",
+        "title": "整備・走行履歴",
+        "text": "整備内容や走行距離の履歴を確認",
+        "image": null,
+        "icon": "doc",
+        "tone": "dark"
+      },
+      {
+        "key": "condition2",
+        "title": "純正オプション",
+        "text": "内外装の純正オプションや付属品を確認",
+        "image": null,
+        "icon": "seat",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "ボディカラー",
+      "走行距離",
+      "整備記録",
+      "車両コンディション",
+      "カスタム内容"
+    ],
+    "close": "同じ300でも、仕様の見極め次第で査定額は変わります。<br class=\"pc-only\">だからこそ、<strong>300に詳しい査定</strong>が大切です。"
+  },
+  "faq": [
+    {
+      "q": "SRT8や並行輸入車も相談できますか？",
+      "a": "はい、ご相談いただけます。エンジンや輸入区分、整備履歴、車両の状態を確認してご案内します。"
+    },
+    {
+      "q": "社外ホイールやマフラーが付いていても大丈夫ですか？",
+      "a": "ご相談いただけます。カスタム内容と純正部品の有無、作動や装着の状態を確認したうえで査定します。"
+    },
+    {
+      "q": "売却するか決めていなくても相談できますか？",
+      "a": "はい、売却時期が決まっていなくてもご相談いただけます。まずは車両情報をお知らせください。概算査定をご案内します。"
+    }
+  ],
+  "line": {
+    "title": "あなたの<span class=\"lp-en\">300</span>、<br>まずは写真で概算査定。",
+    "lead": "LINEで写真を送るだけ。<br>売却未定でもお気軽にご相談ください。",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "CHRYSLER 300",
+    "title": "今の<span class=\"lp-en\">300</span>、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  },
+  "sitemap": {
+    "lastmod": "2026-10-27"
+  }
+}
