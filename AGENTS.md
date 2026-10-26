@@ -41,6 +41,8 @@ Bimport（輸入車買取）の車種別買取LPサイト。Eleventy で静的�
 - テスト送信は `node scripts/send-production-test.mjs <slug>`（確認）→ `--send`（1回だけ）。トークンはMacのキーチェーン（サービス名 `bimport-test-submit-token`）にだけ置き、表示・リポジトリ・URLに書かない。応答が `{"ok":true,"test":true}` なら成功。`test_cooldown` が返ったら時間を空けて、ユーザーに確認してから1回だけ送り直す。
 
 ## 作業中の下書き（2026-10-17 時点）
+2026-10-27に、Numbers入力済みの10車種（キャデラックXT4・エスカレード、クライスラー300、シトロエンC6、シボレー カマロ・コルベット、ジャガーFタイプ・XE、ジープ グランドチェロキー・レネゲード）をユーザー承認により公開。以降はmainのデータ・白壁画像を正とし、古い下書きを再取り込みしない。詳細は `docs/vehicle-research/numbers-batch-2026-10-25.md`。
+
 GitHub に push 済みのブランチ（未マージ・`draft: true`）：
 - `claude/lp-drafts-batch` の未公開分：アウディQ3・Q7、BMWアルピナB3。該当する実績の登録ナンバー欄が空欄のため、地域を確認してから公開する。
 

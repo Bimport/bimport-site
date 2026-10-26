@@ -1,0 +1,237 @@
+{
+  "slug": "chevrolet-camaro",
+  "draft": false,
+  "theme": "chevrolet",
+  "maker": "CHEVROLET",
+  "makerJa": "シボレー",
+  "model": "CAMARO",
+  "modelShort": "カマロ",
+  "nameJa": "シボレーカマロ",
+  "seo": {
+    "title": "シボレー カマロの買取・高価査定ならBimport｜輸入車専門",
+    "description": "シボレー カマロの買取・査定ならBimport。世代ごとのエンジンやLT RS・SSの仕様を確認。クーペ・コンバーチブルやAT・MTの違いを確認。装備や整備履歴、内外装の状態まで確認します。売却未定でも60秒の入力で概算査定額をご案内。査定無料・全国対応。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/chevrolet-camaro/hero-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/chevrolet-camaro/hero-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/chevrolet-camaro/hero-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "夕焼けのコース脇に停まる赤のシボレーカマロ",
+      "width": 1536,
+      "height": 1024,
+      "position": "40% 55%",
+      "positionPc": "40% 55%"
+    },
+    "final": {
+      "src": "assets/images/chevrolet-camaro/hero-1536.jpg"
+    },
+    "line": {
+      "fallback": "assets/images/chevrolet-camaro/line-photo-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/chevrolet-camaro/line-photo-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/chevrolet-camaro/line-photo-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "ロゴのない白壁のショールームに停まるシボレー カマロ",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    }
+  },
+  "hero": {
+    "label": "シボレー カマロ 買取・査定",
+    "catch": "そのカマロ、本当の価値まで<br>評価されていますか？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "grades": [
+      "LT RS",
+      "SS",
+      "SS RS",
+      "コンバーチブル",
+      "限定車・特別仕様車"
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 1967,
+    "yearOlderLabel": "1966年以前"
+  },
+  "cases": [
+    {
+      "maker": "CHEVROLET",
+      "model": "CAMARO",
+      "year": "2010年",
+      "mileage": "95,660km",
+      "price": "93",
+      "priceUnit": "万円",
+      "purchasedAt": "2026年9月",
+      "area": "大分",
+      "details": [
+        "サンルーフ",
+        "純正20インチAW",
+        "ブラックレザーシート",
+        "パワーシート・シートヒーター",
+        "社外マフラー",
+        "空気圧警告ランプ点灯",
+        "ダッシュボード一部ヒビ"
+      ],
+      "grade": "LT RS",
+      "image": "assets/images/cases/case-chevrolet-camaro-6.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "CHEVROLET",
+      "model": "CAMARO",
+      "year": "2010年",
+      "mileage": "57,661km",
+      "price": "165",
+      "priceUnit": "万円",
+      "purchasedAt": "2026年8月",
+      "area": "神奈川",
+      "details": [
+        "サンルーフ",
+        "ブラックレザー",
+        "レーシングストライプ",
+        "Boston Premium Audio",
+        "バックカメラ",
+        "ETC",
+        "左バッフル交換",
+        "エンジンブレ",
+        "エンジンチェック・空気圧ランプ点灯",
+        "シート縁切れ",
+        "ホイールキズ"
+      ],
+      "grade": "LT RS",
+      "image": "assets/images/cases/case-chevrolet-camaro-396.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "CHEVROLET",
+      "model": "CAMARO",
+      "year": "2018年",
+      "mileage": "32,703km",
+      "price": "360",
+      "priceUnit": "万円",
+      "purchasedAt": "2026年8月",
+      "area": "神奈川",
+      "details": [
+        "ワンオーナー",
+        "Apple CarPlay",
+        "ツートンレザー（黒×赤）",
+        "ヘッドアップディスプレイ",
+        "BOSEサウンド",
+        "ETC",
+        "ホイールキズ",
+        "フロントアンダーカバー切れ"
+      ],
+      "grade": "LT RS",
+      "image": "assets/images/cases/case-chevrolet-camaro-589.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    }
+  ],
+  "points": {
+    "lead": "シボレー カマロは仕様・装備・状態で価値が変わる車。<br>詳しいスタッフが一台ずつ確認して査定します。",
+    "items": [
+      {
+        "key": "spec0",
+        "title": "世代・エンジン",
+        "text": "世代ごとのエンジンやLT RS・SSの仕様を確認",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "SPECIFICATION"
+      },
+      {
+        "key": "spec1",
+        "title": "ボディ・変速機",
+        "text": "クーペ・コンバーチブルやAT・MTの違いを確認",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "GRADE"
+      },
+      {
+        "key": "spec2",
+        "title": "カスタム・純正品",
+        "text": "ホイール・マフラーと純正部品の有無を確認",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "EQUIPMENT"
+      },
+      {
+        "key": "condition0",
+        "title": "内外装の状態",
+        "text": "ボディのキズや補修、シートやトリムの状態を確認",
+        "image": null,
+        "icon": "search",
+        "tone": "dark"
+      },
+      {
+        "key": "condition1",
+        "title": "整備・走行履歴",
+        "text": "整備内容や走行距離の履歴を確認",
+        "image": null,
+        "icon": "doc",
+        "tone": "dark"
+      },
+      {
+        "key": "condition2",
+        "title": "純正オプション",
+        "text": "内外装の純正オプションや付属品を確認",
+        "image": null,
+        "icon": "seat",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "ボディカラー",
+      "走行距離",
+      "整備記録",
+      "車両コンディション",
+      "カスタム内容"
+    ],
+    "close": "同じカマロでも、仕様の見極め次第で査定額は変わります。<br class=\"pc-only\">だからこそ、<strong>カマロに詳しい査定</strong>が大切です。"
+  },
+  "faq": [
+    {
+      "q": "LT RSとSSで査定は変わりますか？",
+      "a": "世代ごとに異なるエンジンや装備、車両の状態を確認して査定します。年式とグレードをお知らせください。"
+    },
+    {
+      "q": "カスタム車や警告灯のある車も相談できますか？",
+      "a": "ご相談いただけます。変更箇所、純正部品の有無、警告表示や不具合の内容を確認してご案内します。"
+    },
+    {
+      "q": "売却するか決めていなくても相談できますか？",
+      "a": "はい、売却時期が決まっていなくてもご相談いただけます。まずは車両情報をお知らせください。概算査定をご案内します。"
+    }
+  ],
+  "line": {
+    "title": "あなたの<span class=\"lp-en\">カマロ</span>、<br>まずは写真で概算査定。",
+    "lead": "LINEで写真を送るだけ。<br>売却未定でもお気軽にご相談ください。",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "CHEVROLET CAMARO",
+    "title": "今の<span class=\"lp-en\">カマロ</span>、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  },
+  "sitemap": {
+    "lastmod": "2026-10-27"
+  }
+}
