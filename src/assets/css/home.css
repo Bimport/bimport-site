@@ -1267,3 +1267,25 @@ details[open]>summary::after {
     animation:none!important
   }
 }
+
+/* 運営会社・グループ店舗（トップページ専用） */
+.group-intro {padding:64px 0;background:#fff;border-bottom:1px solid var(--line)}
+.group-intro-layout {display:grid;grid-template-columns:1fr 1.2fr;gap:70px;align-items:center}
+.group-intro h2 {font:500 30px/1.8 var(--serif);letter-spacing:.03em;margin-top:14px}
+.group-intro-copy {max-width:580px;color:var(--muted);font-size:14px;line-height:2.1}
+.group-open {margin-top:10px;color:var(--ink)}
+.group-intro .text-link {margin-top:18px;font-size:12px}
+.group-stores-section {background:var(--soft);padding:0 0 88px}
+.group-stores-heading {display:flex;justify-content:space-between;gap:30px;align-items:end;border-top:1px solid var(--line);padding-top:48px}
+.group-stores-heading h2 {font:500 30px/1.8 var(--serif);margin-top:12px}
+.group-stores-heading>p {font-size:13px;color:var(--muted)}
+.group-stores-list {list-style:none;padding:0;margin:32px 0 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 36px}
+.group-stores-list li {border-top:1px solid #cdd3d2;padding:22px 0;min-width:0}
+.group-stores-list li>span {font-size:11px;letter-spacing:.12em;color:var(--muted)}
+.group-stores-list h3 {font-size:15px;font-weight:500;margin:8px 0 5px;overflow-wrap:anywhere}
+.group-stores-list p {font-size:12px;color:var(--muted)}
+.group-store-current h3 {font-family:var(--serif);font-size:22px}
+.group-official-links {display:flex;align-items:center;flex-wrap:wrap;gap:18px 32px;margin-top:20px;font-size:12px}
+.group-official-links .text-link {font-size:12px}
+@media(max-width:850px){.group-intro-layout{grid-template-columns:1fr;gap:22px}.group-intro{padding:44px 0}.group-stores-heading{display:block}.group-stores-heading>p{margin-top:14px}.group-stores-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 20px}.group-stores-section{padding-bottom:52px}}
+@media(max-width:480px){.group-intro h2,.group-stores-heading h2{font-size:23px}.group-intro-copy{font-size:13px}.group-stores-list h3{font-size:13px}.group-stores-list p{font-size:11px}.group-store-current h3{font-size:20px}.group-official-links{align-items:start;flex-direction:column;gap:14px}}
