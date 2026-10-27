@@ -1,0 +1,59 @@
+<a class="skip-link" href="#main">本文へスキップ</a>
+<header class="home-header">
+ <a class="wordmark" href="./" aria-label="Bimport トップ">Bimport<span>IMPORTED CAR SPECIALIST</span></a>
+ <nav class="desktop-nav" aria-label="メインメニュー"><a href="#cases">買取実績</a><a href="#approach">査定へのこだわり</a><a href="#flow">ご相談の流れ</a><a href="#company">会社情報</a><a class="header-cta" href="#estimate" data-cta="header" data-cta-type="estimate">無料査定のご相談 <span>↗</span></a></nav>
+ <button class="menu-toggle" aria-label="メニューを開く" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span></button>
+</header>
+<nav class="mobile-nav" id="mobile-nav" aria-label="スマートフォンメニュー" hidden><a href="#cases">買取実績</a><a href="#approach">査定へのこだわり</a><a href="#flow">ご相談の流れ</a><a href="#company">会社情報</a><a href="{{ site.lineUrl }}" data-cta="menu" data-cta-type="line">LINEで無料相談 ↗</a></nav>
+<main id="main">
+ <section class="home-hero" aria-labelledby="hero-title">
+  <picture class="hero-photo"><source type="image/webp" srcset="assets/images/home/hero-1000.webp 1000w, assets/images/home/hero-1536.webp 1536w" sizes="100vw"><img src="assets/images/home/hero-1536.jpg" alt="夕暮れのモダンな建築を背景にしたグレーのポルシェ911のイメージ" width="1536" height="1024" fetchpriority="high"></picture>
+  <div class="hero-shade"></div>
+  <div class="hero-content wrap">
+   <p class="eyebrow">BIMPORT · OKAYAMA</p>
+   <h1 id="hero-title"><span>その一台の価値を、</span><span>丁寧に見極める。</span></h1>
+   <p class="hero-subtitle">輸入車買取・査定相談</p>
+   <div class="hero-actions"><a class="button button-silver" href="#estimate" data-cta="hero" data-cta-type="estimate">無料査定を相談する <span aria-hidden="true">↗</span></a><a class="hero-phone" href="{{ site.phoneHref }}" data-cta="hero" data-cta-type="tel">お電話でのご相談 <span>{{ site.phoneDisplay }}</span></a></div>
+   <p class="hero-note">フォームから、かんたん無料査定。<br>売却を決める前のご相談も、お気軽に。</p>
+  </div>
+  <a class="hero-scroll" href="#cases">SCROLL TO DISCOVER <span>↓</span></a>
+ </section>
+ <div class="brand-strip"><div class="wrap"><span>WE KNOW YOUR CAR.</span><p>Porsche <i>／</i> Mercedes-Benz <i>／</i> BMW <i>／</i> Land Rover <i>／</i> Maserati <i>／</i> MINI <i>／</i> Jaguar</p><small>その他の輸入車・アメ車・国産車もご相談ください。</small></div></div>
+
+ {% include "home/estimate-form.njk" %}
+
+ <section class="section cases-section" id="cases">
+  <div class="wrap section-heading"><div><p class="eyebrow">PURCHASE RESULTS</p><h2>一台ごとに、<br class="mobile-only">確かな査定を。</h2></div><p>実際にお買取りした車両をご紹介します。<br>グレードも、装備も、コンディションも。<br>一台ずつ確認したうえで評価しています。</p></div>
+  <div class="cases-track wrap" tabindex="0" role="region" aria-label="買取実績。横にスクロールできます">
+  {% for c in homeCases %}
+   <article class="home-case">
+    <div class="case-image"><img src="{{ c.image }}" alt="買取実績：{{ c.maker }} {{ c.model }} {{ c.grade }}" width="1200" height="900" loading="lazy"></div>
+    <div class="case-content"><p class="case-maker">{{ c.maker }}</p><h3>{{ c.model }}</h3><p class="case-grade">{{ c.grade }}</p><p class="case-meta">{{ c.year }} <span>／</span> {{ c.mileage }}</p><p class="case-price"><span>買取金額</span><strong>{{ c.price }}</strong><b>万円</b></p><dl class="case-facts"><div><dt>買取時期</dt><dd>{{ c.period }}</dd></div><div><dt>地域</dt><dd>{{ c.area }}</dd></div></dl>{% if c.compare %}<p class="case-compare">{{ c.compare }}</p>{% endif %}<ul class="case-details">{% for d in c.details %}<li>{{ d }}</li>{% endfor %}</ul>{% if c.note %}<p class="case-note">{{ c.note }}</p>{% endif %}</div>
+   </article>
+  {% endfor %}
+  </div>
+  <div class="wrap cases-controls"><p><span id="case-current">01</span> <i>／</i> 06 <small>横にスライドしてご覧いただけます</small></p><div><button type="button" data-case-prev aria-label="前の買取実績">←</button><button type="button" data-case-next aria-label="次の買取実績">→</button></div></div>
+ </section>
+
+ <section class="section approach-section" id="approach"><div class="wrap">
+  <div class="section-heading"><div><p class="eyebrow">OUR APPROACH</p><h2>車名だけでは、<br>測れない価値がある。</h2></div><p>輸入車の相場・グレード・装備を見極める専門査定。<br>仕入れ・販売・査定を扱ってきた経験をもとに、<br>お車の価値を一つずつ確かめます。</p></div>
+  <div class="approach-grid"><article><span>01 / MARKET</span><h3>直近の相場を、丁寧に。</h3><p>USSなど、実際に成約しているオークション相場を確認。直近の成約データをもとに、金額を検討します。</p></article><article><span>02 / SPECIFICATION</span><h3>装備の違いまで、細やかに。</h3><p>エンジン仕様、パッケージ、内外装オプションなど、金額に影響する装備差を確認して判断します。</p></article><article><span>03 / ONE TO ONE</span><h3>最初から最後まで、同じ担当。</h3><p>金額の確認・提示は担当者が直接行います。窓口を一つに、じっくりご相談いただけます。</p></article></div>
+  <div class="comparison"><h3>まずは一社に、じっくり相談したい方へ。</h3><p>一括査定を否定するものではありません。相談の進め方に合わせて、お選びください。</p><table><caption class="visually-hidden">一括査定サイトとBimportの比較</caption><thead><tr><th scope="col">ご相談の進め方</th><th scope="col">一括査定</th><th scope="col">Bimport</th></tr></thead><tbody><tr><th scope="row">複数社からの連絡</th><td>同時に多数</td><td>窓口は一つ</td></tr><tr><th scope="row">対応の専門性</th><td>業者による</td><td>輸入車に強い</td></tr><tr><th scope="row">担当者の一貫性</th><td>都度変わることも</td><td>最初から最後まで同じ担当</td></tr></tbody></table></div>
+ </div></section>
+
+ <section class="section consultation-section" id="consultation"><div class="wrap consultation-layout"><div><p class="eyebrow">YOUR NEXT STEP</p><h2>売ると決める、<br>その前に。</h2><p>金額感を知りたい。<br>他社の見積もりと比べたい。<br>その段階から、ご相談いただけます。</p><a class="text-link" href="{{ site.lineUrl }}" data-cta="consultation" data-cta-type="line">LINEで相談する <span>↗</span></a></div><div class="consultation-list"><p>こんなご相談をお受けしています</p><ul><li>輸入車・国産車を問わず、車種にかかわらず</li><li>年式が古い、走行距離が多いお車</li><li>一括査定や下取りで、希望額が出なかったお車</li><li>修復歴や不具合があり、売れるか不安なお車</li></ul></div></div></section>
+
+ <section class="section flow-section" id="flow"><div class="wrap"><div class="section-heading"><div><p class="eyebrow">CONSULTATION FLOW</p><h2>ご相談から、お引き渡しまで。</h2></div><p>ご契約前であれば、いつでもお断りいただけます。<br>まずはお車の情報をお知らせください。</p></div><ol class="flow-grid">
+  <li><span>01</span><h3>フォームまたはLINEで相談</h3><p>フォームに車種・年式・走行距離などを入力。写真でのご相談はLINEからも受け付けています。</p></li><li><span>02</span><h3>概算額をご案内</h3><p>オークション相場を確認し、前提条件つきで概算額をお伝えします。</p></li><li><span>03</span><h3>売却のご意向を確認</h3><p>金額感を確認し、売却を検討。この時点でお断りいただいても問題ありません。</p></li><li><span>04</span><h3>訪問日程の調整</h3><p>場所・日程を踏まえて、訪問可否をご案内します。</p></li><li><span>05</span><h3>実車確認・正式査定</h3><p>現車を確認したうえで、正式な買取金額をご提示します。</p></li><li><span>06</span><h3>契約・入金・お引き渡し</h3><p>内容にご納得いただいたうえで、手続きを進めます。</p></li>
+ </ol></div></section>
+
+ <section class="section information-section"><div class="wrap information-grid"><div><p class="eyebrow">BEFORE YOUR CONSULTATION</p><h2>ご相談の前に。</h2><p>フォーム・LINEでのご相談、概算額のご提示は無料です。<br>グレードや状態が正確にわからなくても構いません。</p></div><div class="information-details"><details open><summary>LINEで送っていただきたい情報</summary><p>車種／年式／走行距離／グレード（不明でもOK）／お住まいの地域／売却希望時期／写真（外装・内装・メーターなど）／傷・不具合・修復歴</p></details><details><summary>概算額と正式な買取額について</summary><p>お伝えする概算額は、お送りいただいた情報をもとにした参考金額です。正式な金額は現車を確認して決まります。</p><p>写真ではわからない傷や不具合、走行距離・グレードの相違、査定までの相場の大きな変動などにより金額が変わる場合があります。AIが自動で買取額を確定するサービスではありません。</p></details><details><summary>出張査定・対応エリアについて</summary><p>岡山県を拠点に、広島・鳥取・島根・四国など周辺エリアへの出張査定にも対応しています。遠方の方も、車両情報・写真・売却のご意向や移動条件を確認し、個別に対応可否をご案内します。</p><p>全国どこでも無料出張という一律のお約束はしておりません。ご相談内容に応じてご案内します。</p></details></div></div></section>
+
+ <section class="section faq-section" id="faq"><div class="wrap information-grid"><div><p class="eyebrow">QUESTIONS & ANSWERS</p><h2>よくあるご質問。</h2></div><div class="information-details"><details><summary>国産車でも相談できますか？</summary><p>はい。国産車も買取対象です。</p></details><details><summary>岡山県外に住んでいますが相談できますか？</summary><p>車両情報・写真・移動条件を確認したうえで、対応可否を個別にご案内します。</p></details><details><summary>修復歴があっても売れますか？</summary><p>修復歴の有無にかかわらず、まずはご相談ください。</p></details><details><summary>相談後に断ることはできますか？</summary><p>もちろん可能です。契約前であればいつでもお断りいただけます。</p></details></div></div></section>
+
+ <section class="section company-section" id="company"><div class="wrap information-grid"><div><p class="eyebrow">ACCESS & COMPANY</p><h2>一台との出会いを、<br>次のオーナーへ。</h2><p class="company-wordmark">Bimport</p><p>輸入車買取・査定相談<br>運営：Bgroup株式会社</p></div><div><h3>Bimport 岡山オフィス</h3><p>〒{{ site.officePostalCode }}<br>{{ site.officeRegion }}{{ site.officeLocality }}{{ site.officeStreetAddress }}</p><p>TEL <a href="{{ site.phoneHref }}">{{ site.phoneDisplay }}</a><br>FAX {{ site.faxDisplay }}</p><a class="text-link" href="{{ site.mapsUrl }}">Google マップで見る <span>↗</span></a><dl class="company-facts"><div><dt>運営会社</dt><dd>Bgroup株式会社</dd></div><div><dt>登記上本店</dt><dd>{{ site.hqAddressDisplay }}<br>TEL <a href="{{ site.hqPhoneHref }}">{{ site.hqPhoneDisplay }}</a></dd></div><div><dt>事業内容</dt><dd>中古車の査定・買取・販売</dd></div><div><dt>古物商許可</dt><dd>{{ site.license }}</dd></div></dl></div></div></section>
+
+ <section class="contact-section" id="contact"><div class="wrap"><p class="eyebrow">LET'S TALK ABOUT YOUR CAR.</p><h2>その一台のお話を、<br>お聞かせください。</h2><p>売却未定でも、お気軽に。<br>車両情報と写真から、概算額をご案内します。</p><div class="contact-actions"><a class="button button-silver" href="#estimate" data-cta="final" data-cta-type="estimate">フォームで無料査定を依頼する <span>↗</span></a><a class="button button-outline" href="{{ site.phoneHref }}" data-cta="final" data-cta-type="tel">電話で相談する <span>{{ site.phoneDisplay }}</span></a></div></div></section>
+</main>
+<footer class="home-footer wrap"><a class="footer-wordmark" href="./">Bimport</a><p>運営：Bgroup株式会社</p><a href="privacy.html">プライバシーポリシー</a><small>© Bgroup Co., Ltd.</small></footer>
+<div class="mobile-contact"><a href="{{ site.phoneHref }}" data-cta="sticky" data-cta-type="tel">電話で相談 <span>↗</span></a><a href="#estimate" data-cta="sticky" data-cta-type="estimate"><i aria-hidden="true"></i> 無料査定を依頼 <span>↗</span></a></div>
