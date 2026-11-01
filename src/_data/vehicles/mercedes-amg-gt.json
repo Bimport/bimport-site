@@ -87,6 +87,30 @@
       "image": "assets/images/cases/case-mercedes-amg-gt-855.jpg",
       "imageWidth": 1200,
       "imageHeight": 900
+    },
+    {
+      "maker": "MERCEDES-AMG",
+      "model": "GT",
+      "grade": "GT S",
+      "year": "2016年",
+      "mileage": "66,820km",
+      "price": 830.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年9月",
+      "area": "東京",
+      "details": [
+        "AMGダイナミックPKG",
+        "カーボンインテリア",
+        "パノラマガラスルーフ",
+        "ブルメスターサウンド",
+        "純正AW",
+        "AMGパフォーマンスシート",
+        "ホイールキズ",
+        "ボンネットダンパー不良"
+      ],
+      "image": "assets/images/cases/case-mercedes-amg-gt-859.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
     }
   ],
   "points": {

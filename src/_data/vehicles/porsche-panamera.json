@@ -111,6 +111,30 @@
       "image": "assets/images/cases/case-porsche-panamera-605.jpg",
       "imageWidth": 1200,
       "imageHeight": 900
+    },
+    {
+      "maker": "PORSCHE",
+      "model": "パナメーラ",
+      "grade": "GTS",
+      "year": "2019年",
+      "mileage": "47,513km",
+      "price": 870.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年8月",
+      "area": "福岡",
+      "details": [
+        "スポーツクロノ・スポエグ",
+        "純正20インチAW",
+        "ハーフレザーシート・パワステプラス",
+        "全席シートヒーター・18way電動シート",
+        "ブルメスター3Dサラウンドサウンド",
+        "リアアクスルステアリング",
+        "ドアミラーキズ",
+        "ホイールキズ"
+      ],
+      "image": "assets/images/cases/case-porsche-panamera-799.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
     }
   ],
   "points": {
