@@ -159,6 +159,56 @@
         "ブルメスターサウンド",
         "パノラミックスライディングルーフ"
       ]
+    },
+    {
+      "maker": "MERCEDES-BENZ",
+      "model": "Eクラス",
+      "grade": "E53 4MATIC+",
+      "year": "2022年",
+      "mileage": "37,865km",
+      "price": 645.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年7月",
+      "area": "栃木",
+      "details": [
+        "パノラマサンルーフ",
+        "ブルメスタースピーカー",
+        "シートヒーター・シートクーラー",
+        "ヘッドアップディスプレイ",
+        "マッサージシート",
+        "純正20インチAW",
+        "ホイール削れ",
+        "ドアミラーキズ"
+      ],
+      "image": "assets/images/cases/case-mercedes-benz-e-class-348.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "MERCEDES-BENZ",
+      "model": "Eクラス",
+      "grade": "E43 4MATIC",
+      "year": "2017年",
+      "mileage": "58,430km",
+      "price": 350.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年9月",
+      "area": "大分",
+      "details": [
+        "ワンオーナー",
+        "左ハンドル",
+        "パノラミックスライディングルーフ",
+        "Burmesterサウンドシステム",
+        "ヘッドアップディスプレイ",
+        "シートヒーター・ベンチレーター",
+        "純正20インチアルミホイール",
+        "コンソールパッドヒビ",
+        "ルーム内動物の毛",
+        "ホイールキズ"
+      ],
+      "image": "assets/images/cases/case-mercedes-benz-e-class-807.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
     }
   ],
   "points": {

@@ -1,0 +1,175 @@
+{
+  "slug": "hummer-h3",
+  "draft": false,
+  "maker": "HUMMER",
+  "makerJa": "ハマー",
+  "model": "H3",
+  "nameJa": "ハマーH3",
+  "seo": {
+    "title": "ハマー H3の買取・高価査定ならBimport",
+    "description": "ハマー H3の買取・査定ならBimport。輸入経路・モデル年・足回り・カスタムをはじめ、仕様を細かく照合。グレードや装備、整備履歴、内外装の状態まで丁寧に確認します。売却未定でも60秒の入力で概算査定額をご案内。査定無料・全国対応。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/hummer-h3/hero-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/hummer-h3/hero-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/hummer-h3/hero-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "H3の外観イメージ",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "final": {
+      "src": "assets/images/hummer-h3/hero-1536.jpg"
+    },
+    "line": {
+      "fallback": "assets/images/hummer-h3/line-photo-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/hummer-h3/line-photo-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/hummer-h3/line-photo-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "白壁のショールームに停まる実績車両のハマーH3",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    }
+  },
+  "hero": {
+    "label": "ハマー H3 買取・査定",
+    "catch": "そのH3、本当の価値まで<br>評価されていますか？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "grades": [
+      "限定車・特別仕様車"
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 2005,
+    "yearOlderLabel": "2004年以前"
+  },
+  "cases": [
+    {
+      "maker": "HUMMER",
+      "model": "H3",
+      "year": "2005年",
+      "mileage": "70,567km",
+      "price": 115.5,
+      "priceUnit": "万円",
+      "purchasedAt": "2025年12月",
+      "area": "福岡",
+      "details": [
+        "ブラックレザーシート",
+        "クロームパーツ",
+        "背面タイヤ",
+        "下廻りサビ"
+      ],
+      "image": "assets/images/cases/case-hummer-h3-16.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    }
+  ],
+  "points": {
+    "lead": "ハマー H3は仕様・装備・状態で価値が変わる車。<br>一台ずつ確認して査定します。",
+    "items": [
+      {
+        "key": "spec0",
+        "title": "輸入経路・モデル年",
+        "text": "国内初度登録とモデル年、輸入経路を分けて確認",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "SPECIFICATION"
+      },
+      {
+        "key": "spec1",
+        "title": "足回り・カスタム",
+        "text": "ホイールや車高、外装パーツの変更を確認",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "GRADE"
+      },
+      {
+        "key": "spec2",
+        "title": "下回り・駆動系",
+        "text": "サビや駆動系の状態、整備履歴を確認",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "EQUIPMENT"
+      },
+      {
+        "key": "condition0",
+        "title": "内外装・補修の状態",
+        "text": "キズや補修、シートやトリムの状態を確認",
+        "image": null,
+        "icon": "search",
+        "tone": "dark"
+      },
+      {
+        "key": "condition1",
+        "title": "整備・走行履歴",
+        "text": "整備内容や走行距離の履歴を確認",
+        "image": null,
+        "icon": "doc",
+        "tone": "dark"
+      },
+      {
+        "key": "condition2",
+        "title": "純正部品・付属品",
+        "text": "純正オプションや取り外した部品の有無を確認",
+        "image": null,
+        "icon": "seat",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "ボディカラー",
+      "走行距離",
+      "整備記録",
+      "車両コンディション",
+      "カスタム内容"
+    ],
+    "close": "同じH3でも、仕様の見極め次第で査定額は変わります。<br class=\"pc-only\">だからこそ、<strong>装備や状態を細かく確認する査定</strong>が大切です。"
+  },
+  "faq": [
+    {
+      "q": "H3のグレードがわからなくても相談できますか？",
+      "a": "はい、フォームでは「その他・わからない」をお選びください。車検証や車両の写真などをもとに仕様を確認します。"
+    },
+    {
+      "q": "社外パーツやカスタムがあっても査定できますか？",
+      "a": "はい、ご相談いただけます。外装や足回りなどの変更内容と、純正部品が残っているかを確認したうえでご案内します。"
+    },
+    {
+      "q": "年式が古い・走行距離が多いH3でも相談できますか？",
+      "a": "はい、ご相談いただけます。走行距離や整備履歴、修復歴や不具合を含めて車両の状態を確認したうえでご案内します。"
+    }
+  ],
+  "line": {
+    "title": "あなたのH3、<br>まずは写真で概算査定。",
+    "lead": "LINEで写真を送るだけ。<br>売却未定でもお気軽にご相談ください。",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "HUMMER H3",
+    "title": "今のH3、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  },
+  "theme": "draft-hummer-h3",
+  "modelShort": "H3"
+}

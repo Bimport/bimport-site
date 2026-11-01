@@ -1,0 +1,267 @@
+{
+  "slug": "porsche-macan",
+  "draft": false,
+  "maker": "PORSCHE",
+  "makerJa": "ポルシェ",
+  "model": "MACAN",
+  "nameJa": "ポルシェマカン",
+  "seo": {
+    "title": "ポルシェ マカンの買取・高価査定ならBimport",
+    "description": "ポルシェ マカンの買取・査定ならBimport。年式・パワートレーン・グレード・装備をはじめ、仕様を細かく照合。グレードや装備、整備履歴、内外装の状態まで丁寧に確認します。売却未定でも60秒の入力で概算査定額をご案内。査定無料・全国対応。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/porsche-macan/hero-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/porsche-macan/hero-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/porsche-macan/hero-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "マカンの外観イメージ",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "final": {
+      "src": "assets/images/porsche-macan/hero-1536.jpg"
+    },
+    "line": {
+      "fallback": "assets/images/porsche-macan/line-photo-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/porsche-macan/line-photo-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/porsche-macan/line-photo-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "白壁のショールームに停まる実績車両のポルシェマカン",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    }
+  },
+  "hero": {
+    "label": "ポルシェ マカン 買取・査定",
+    "catch": "そのマカン、本当の価値まで<br>評価されていますか？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "grades": [
+      "限定車・特別仕様車"
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 2014,
+    "yearOlderLabel": "2013年以前"
+  },
+  "cases": [
+    {
+      "maker": "PORSCHE",
+      "model": "マカン",
+      "year": "2024年",
+      "mileage": "8,621km",
+      "price": 910.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年7月",
+      "area": "茨城",
+      "details": [
+        "クレヨンカラー",
+        "スポーツクロノ",
+        "パノラマサンルーフ",
+        "純正21インチターボAW",
+        "エクステンデッドレザーPKG",
+        "アクティブエアサスペンション"
+      ],
+      "grade": "マカンS",
+      "image": "assets/images/cases/case-porsche-macan-63.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "PORSCHE",
+      "model": "マカン",
+      "year": "2022年",
+      "mileage": "3,500km",
+      "price": 1035.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年7月",
+      "area": "大阪",
+      "details": [
+        "ワンオーナー",
+        "スポーツクロノパッケージ",
+        "スポーツエグゾーストシステム",
+        "パノラマサンルーフ",
+        "ハーフレザーシート",
+        "シートヒーター",
+        "21インチAW"
+      ],
+      "grade": "マカンGTS",
+      "image": "assets/images/cases/case-porsche-macan-219.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "PORSCHE",
+      "model": "マカン",
+      "year": "2024年",
+      "mileage": "8,255km",
+      "price": 855.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年8月",
+      "area": "山口",
+      "details": [
+        "ワンオーナー",
+        "パノラマルーフ",
+        "スポーツクロノ",
+        "スポーツエグゾースト",
+        "ステアリングヒーター",
+        "シートヒーター&ベンチレーション",
+        "メモリー付14way電動シート"
+      ],
+      "grade": "マカンT",
+      "image": "assets/images/cases/case-porsche-macan-368.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "PORSCHE",
+      "model": "マカン",
+      "year": "2015年",
+      "mileage": "94,123km",
+      "price": 45.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年9月",
+      "area": "埼玉",
+      "details": [
+        "空気圧ランプ点滅",
+        "ハンドルハゲ",
+        "シート切れ",
+        "天張りたるみ",
+        "ドアミラーキズ"
+      ],
+      "grade": "マカン",
+      "image": "assets/images/cases/case-porsche-macan-517.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "PORSCHE",
+      "model": "マカン",
+      "year": "2023年",
+      "mileage": "29,710km",
+      "price": 760.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年7月",
+      "area": "大分",
+      "details": [
+        "スポーツクロノ・スポーツエグゾースト",
+        "レザーPKG",
+        "ブルメスターサラウンドサウンド",
+        "エアサスペンション・パノラマルーフ",
+        "純正20インチAW",
+        "メモリーPKG付コンフォートシート"
+      ],
+      "grade": "マカンS",
+      "image": "assets/images/cases/case-porsche-macan-903.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    }
+  ],
+  "points": {
+    "lead": "ポルシェ マカンは仕様・装備・状態で価値が変わる車。<br>一台ずつ確認して査定します。",
+    "items": [
+      {
+        "key": "spec0",
+        "title": "年式・パワートレーン",
+        "text": "モデル年とエンジン、駆動方式を確認",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "SPECIFICATION"
+      },
+      {
+        "key": "spec1",
+        "title": "グレード・装備",
+        "text": "専用の内外装やオプションを照合",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "GRADE"
+      },
+      {
+        "key": "spec2",
+        "title": "足回り・補修",
+        "text": "ホイールや足回り、補修の状態を確認",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "EQUIPMENT"
+      },
+      {
+        "key": "condition0",
+        "title": "内外装・補修の状態",
+        "text": "キズや補修、シートやトリムの状態を確認",
+        "image": null,
+        "icon": "search",
+        "tone": "dark"
+      },
+      {
+        "key": "condition1",
+        "title": "整備・走行履歴",
+        "text": "整備内容や走行距離の履歴を確認",
+        "image": null,
+        "icon": "doc",
+        "tone": "dark"
+      },
+      {
+        "key": "condition2",
+        "title": "純正部品・付属品",
+        "text": "純正オプションや取り外した部品の有無を確認",
+        "image": null,
+        "icon": "seat",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "ボディカラー",
+      "走行距離",
+      "整備記録",
+      "車両コンディション",
+      "カスタム内容"
+    ],
+    "close": "同じマカンでも、仕様の見極め次第で査定額は変わります。<br class=\"pc-only\">だからこそ、<strong>装備や状態を細かく確認する査定</strong>が大切です。"
+  },
+  "faq": [
+    {
+      "q": "マカンのグレードがわからなくても相談できますか？",
+      "a": "はい、フォームでは「その他・わからない」をお選びください。車検証や車両の写真などをもとに仕様を確認します。"
+    },
+    {
+      "q": "社外パーツやカスタムがあっても査定できますか？",
+      "a": "はい、ご相談いただけます。外装や足回りなどの変更内容と、純正部品が残っているかを確認したうえでご案内します。"
+    },
+    {
+      "q": "年式が古い・走行距離が多いマカンでも相談できますか？",
+      "a": "はい、ご相談いただけます。走行距離や整備履歴、修復歴や不具合を含めて車両の状態を確認したうえでご案内します。"
+    }
+  ],
+  "line": {
+    "title": "あなたのマカン、<br>まずは写真で概算査定。",
+    "lead": "LINEで写真を送るだけ。<br>売却未定でもお気軽にご相談ください。",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "PORSCHE MACAN",
+    "title": "今のマカン、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  },
+  "theme": "draft-porsche-macan",
+  "modelShort": "マカン"
+}
