@@ -1,0 +1,310 @@
+{
+  "slug": "mercedes-benz-c-class",
+  "draft": true,
+  "maker": "MERCEDES-BENZ",
+  "makerJa": "メルセデス・ベンツ",
+  "model": "C-CLASS",
+  "nameJa": "メルセデス・ベンツCクラス",
+  "seo": {
+    "title": "メルセデス・ベンツ Cクラスの買取・高価査定ならBimport",
+    "description": "メルセデス・ベンツ Cクラスの買取・査定ならBimport。ボディ・世代・エンジン・AMGをはじめ、仕様を細かく照合。グレードや装備、整備履歴、内外装の状態まで丁寧に確認します。売却未定でも60秒の入力で概算査定額をご案内。査定無料・全国対応。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/mercedes-benz-c-class/hero-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/mercedes-benz-c-class/hero-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/mercedes-benz-c-class/hero-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "Cクラスの外観イメージ",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "final": {
+      "src": "assets/images/mercedes-benz-c-class/hero-1536.jpg"
+    },
+    "line": {
+      "fallback": "assets/images/mercedes-benz-c-class/line-photo-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/mercedes-benz-c-class/line-photo-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/mercedes-benz-c-class/line-photo-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "白壁のショールームに停まる実績車両のメルセデス・ベンツCクラス",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    }
+  },
+  "hero": {
+    "label": "メルセデス・ベンツ Cクラス 買取・査定",
+    "catch": "そのCクラス、本当の価値まで<br>評価されていますか？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "grades": [
+      "限定車・特別仕様車"
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 1993,
+    "yearOlderLabel": "1992年以前"
+  },
+  "cases": [
+    {
+      "maker": "MERCEDES-BENZ",
+      "model": "Cクラスカブリオレ",
+      "year": "2017年",
+      "mileage": "103,028km",
+      "price": 383.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年7月",
+      "area": "埼玉",
+      "details": [
+        "ホイールキズ"
+      ],
+      "grade": "C63 Sカブリオレ",
+      "image": "assets/images/cases/case-mercedes-benz-c-class-315.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "MERCEDES-BENZ",
+      "model": "Cクラス",
+      "year": "2022年",
+      "mileage": "42,038km",
+      "price": 354.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年8月",
+      "area": "福岡",
+      "details": [
+        "ワンオーナー",
+        "AMGラインパッケージ",
+        "レザーエクスクルーシブパッケージ",
+        "ベーシックパッケージ",
+        "モハーベシルバー",
+        "ブラウン＆ブラック本革シート",
+        "18インチ純正AMGホイール"
+      ],
+      "grade": "C200 アバンギャルド AMGライン",
+      "image": "assets/images/cases/case-mercedes-benz-c-class-477.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "MERCEDES-BENZ",
+      "model": "Cクラスクーペ",
+      "year": "2018年",
+      "mileage": "19,184km",
+      "price": 315.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年8月",
+      "area": "愛知",
+      "details": [
+        "後期モデル",
+        "パワートランク",
+        "ブルメスター",
+        "ETC",
+        "ブラックレザーシート",
+        "ホイールキズ"
+      ],
+      "grade": "C43 4MATICクーペ",
+      "image": "assets/images/cases/case-mercedes-benz-c-class-525.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "MERCEDES-BENZ",
+      "model": "Cクラスステーションワゴン",
+      "year": "2023年",
+      "mileage": "21,572km",
+      "price": 616.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年8月",
+      "area": "福岡",
+      "details": [
+        "Burmester 3Dサウンドシステム",
+        "パノラミックスライディングルーフ",
+        "ヘッドアップディスプレイ",
+        "シートヒーター＆ベンチレーション",
+        "AMGダイナミックセレクト",
+        "リアアクスルステアリング",
+        "ホイールキズ"
+      ],
+      "grade": "C43 4MATIC ステーションワゴン",
+      "image": "assets/images/cases/case-mercedes-benz-c-class-726.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "MERCEDES-BENZ",
+      "model": "Cクラスステーションワゴン",
+      "year": "2019年",
+      "mileage": "16,506km",
+      "price": 429.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年9月",
+      "area": "福岡",
+      "details": [
+        "パノラミックスライディングルーフ",
+        "Burmesterサウンドシステム",
+        "ヘッドアップディスプレイ",
+        "AMGロゴ入りブレーキキャリパー",
+        "純正19インチAMGアルミホイール",
+        "BARBUSルックフロントスポイラー",
+        "ホイールキズ"
+      ],
+      "grade": "C43 4MATIC ステーションワゴン",
+      "image": "assets/images/cases/case-mercedes-benz-c-class-891.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "MERCEDES-BENZ",
+      "model": "Cクラス",
+      "year": "2009年",
+      "mileage": "50,265km",
+      "price": 300.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年9月",
+      "area": "愛知",
+      "details": [
+        "ZEES可変マフラー",
+        "ETC",
+        "左ハンドル",
+        "カーボンリップ",
+        "カーボンディフューザー",
+        "JBLスピーカー",
+        "シートヒビ",
+        "外装ステッカー剥がし跡",
+        "ホイールキズ"
+      ],
+      "grade": "C63 AMG",
+      "image": "assets/images/cases/case-mercedes-benz-c-class-919.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "MERCEDES-BENZ",
+      "model": "Cクラス",
+      "year": "2015年",
+      "mileage": "154,966km",
+      "price": 170.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年10月",
+      "area": "滋賀",
+      "details": [
+        "ブルメスター",
+        "ヘッドアップディスプレイ",
+        "シートヒーター",
+        "ライト系故障表示あり",
+        "ホイールキズ"
+      ],
+      "grade": "C63 エクスクルーシブPKG",
+      "image": "assets/images/cases/case-mercedes-benz-c-class-939.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    }
+  ],
+  "points": {
+    "lead": "メルセデス・ベンツ Cクラスは仕様・装備・状態で価値が変わる車。<br>一台ずつ確認して査定します。",
+    "items": [
+      {
+        "key": "spec0",
+        "title": "ボディ・世代",
+        "text": "セダンやワゴンなどのボディと世代を照合",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "SPECIFICATION"
+      },
+      {
+        "key": "spec1",
+        "title": "エンジン・AMG",
+        "text": "エンジンや駆動方式、AMGの仕様を確認",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "GRADE"
+      },
+      {
+        "key": "spec2",
+        "title": "装備パッケージ",
+        "text": "内装や運転支援などの装備を確認",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "EQUIPMENT"
+      },
+      {
+        "key": "condition0",
+        "title": "内外装・補修の状態",
+        "text": "キズや補修、シートやトリムの状態を確認",
+        "image": null,
+        "icon": "search",
+        "tone": "dark"
+      },
+      {
+        "key": "condition1",
+        "title": "整備・走行履歴",
+        "text": "整備内容や走行距離の履歴を確認",
+        "image": null,
+        "icon": "doc",
+        "tone": "dark"
+      },
+      {
+        "key": "condition2",
+        "title": "純正部品・付属品",
+        "text": "純正オプションや取り外した部品の有無を確認",
+        "image": null,
+        "icon": "seat",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "ボディカラー",
+      "走行距離",
+      "整備記録",
+      "車両コンディション",
+      "カスタム内容"
+    ],
+    "close": "同じCクラスでも、仕様の見極め次第で査定額は変わります。<br class=\"pc-only\">だからこそ、<strong>装備や状態を細かく確認する査定</strong>が大切です。"
+  },
+  "faq": [
+    {
+      "q": "Cクラスのグレードがわからなくても相談できますか？",
+      "a": "はい、フォームでは「その他・わからない」をお選びください。車検証や車両の写真などをもとに仕様を確認します。"
+    },
+    {
+      "q": "社外パーツやカスタムがあっても査定できますか？",
+      "a": "はい、ご相談いただけます。外装や足回りなどの変更内容と、純正部品が残っているかを確認したうえでご案内します。"
+    },
+    {
+      "q": "年式が古い・走行距離が多いCクラスでも相談できますか？",
+      "a": "はい、ご相談いただけます。走行距離や整備履歴、修復歴や不具合を含めて車両の状態を確認したうえでご案内します。"
+    }
+  ],
+  "line": {
+    "title": "あなたのCクラス、<br>まずは写真で概算査定。",
+    "lead": "LINEで写真を送るだけ。<br>売却未定でもお気軽にご相談ください。",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "MERCEDES-BENZ C-CLASS",
+    "title": "今のCクラス、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  },
+  "theme": "draft-mercedes-benz-c-class",
+  "modelShort": "Cクラス"
+}

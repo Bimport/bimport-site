@@ -24,7 +24,12 @@ module.exports = function () {
 
   return files
     .map((file) => {
-      const v = JSON.parse(fs.readFileSync(path.join(VEHICLE_DIR, file), "utf8"));
+      let v = JSON.parse(fs.readFileSync(path.join(VEHICLE_DIR, file), "utf8"));
+      // 公開済みLPの修正案は、確認用ビルドでのみ置き換える。
+      const revision = path.join(__dirname, "vehicleDraftOverrides", file);
+      if (preview && fs.existsSync(revision)) {
+        v = { ...JSON.parse(fs.readFileSync(revision, "utf8")), draft: true };
+      }
       const missing = REQUIRED.filter((k) => get(v, k) === undefined || get(v, k) === "");
       if (missing.length) {
         throw new Error(`[vehiclePages] ${file}: 必須項目がありません → ${missing.join(", ")}`);

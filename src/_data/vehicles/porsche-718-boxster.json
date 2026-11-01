@@ -1,0 +1,177 @@
+{
+  "slug": "porsche-718-boxster",
+  "draft": true,
+  "maker": "PORSCHE",
+  "makerJa": "ポルシェ",
+  "model": "718 BOXSTER",
+  "nameJa": "ポルシェ718ボクスター",
+  "seo": {
+    "title": "ポルシェ 718ボクスターの買取・高価査定ならBimport",
+    "description": "ポルシェ 718ボクスターの買取・査定ならBimport。エンジン・変速機・ルーフ・内装をはじめ、仕様を細かく照合。グレードや装備、整備履歴、内外装の状態まで丁寧に確認します。売却未定でも60秒の入力で概算査定額をご案内。査定無料・全国対応。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/porsche-718-boxster/hero-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/porsche-718-boxster/hero-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/porsche-718-boxster/hero-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "718ボクスターの外観イメージ",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "final": {
+      "src": "assets/images/porsche-718-boxster/hero-1536.jpg"
+    },
+    "line": {
+      "fallback": "assets/images/porsche-718-boxster/line-photo-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/porsche-718-boxster/line-photo-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/porsche-718-boxster/line-photo-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "白壁のショールームに停まる実績車両のポルシェ718ボクスター",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    }
+  },
+  "hero": {
+    "label": "ポルシェ 718ボクスター 買取・査定",
+    "catch": "その718ボクスター、本当の価値まで<br>評価されていますか？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "grades": [
+      "限定車・特別仕様車"
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 2016,
+    "yearOlderLabel": "2015年以前"
+  },
+  "cases": [
+    {
+      "maker": "PORSCHE",
+      "model": "718ボクスター",
+      "year": "2017年",
+      "mileage": "18,686km",
+      "price": 655.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年7月",
+      "area": "愛知",
+      "details": [
+        "スポーツクロノPKG",
+        "スポーツエグゾースト",
+        "赤幌",
+        "PDLS",
+        "ホイールキズ"
+      ],
+      "grade": "718ボクスターS スポーツクロノPKG",
+      "image": "assets/images/cases/case-porsche-718-boxster-215.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    }
+  ],
+  "points": {
+    "lead": "ポルシェ 718ボクスターは仕様・装備・状態で価値が変わる車。<br>一台ずつ確認して査定します。",
+    "items": [
+      {
+        "key": "spec0",
+        "title": "エンジン・変速機",
+        "text": "エンジンや変速機の仕様を照合",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "SPECIFICATION"
+      },
+      {
+        "key": "spec1",
+        "title": "ルーフ・内装",
+        "text": "幌の開閉やシートの仕様と状態を確認",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "GRADE"
+      },
+      {
+        "key": "spec2",
+        "title": "オプション・足回り",
+        "text": "装備やホイール、足回りの状態を確認",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "EQUIPMENT"
+      },
+      {
+        "key": "condition0",
+        "title": "内外装・補修の状態",
+        "text": "キズや補修、シートやトリムの状態を確認",
+        "image": null,
+        "icon": "search",
+        "tone": "dark"
+      },
+      {
+        "key": "condition1",
+        "title": "整備・走行履歴",
+        "text": "整備内容や走行距離の履歴を確認",
+        "image": null,
+        "icon": "doc",
+        "tone": "dark"
+      },
+      {
+        "key": "condition2",
+        "title": "純正部品・付属品",
+        "text": "純正オプションや取り外した部品の有無を確認",
+        "image": null,
+        "icon": "seat",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "ボディカラー",
+      "走行距離",
+      "整備記録",
+      "車両コンディション",
+      "カスタム内容"
+    ],
+    "close": "同じ718ボクスターでも、仕様の見極め次第で査定額は変わります。<br class=\"pc-only\">だからこそ、<strong>装備や状態を細かく確認する査定</strong>が大切です。"
+  },
+  "faq": [
+    {
+      "q": "718ボクスターのグレードがわからなくても相談できますか？",
+      "a": "はい、フォームでは「その他・わからない」をお選びください。車検証や車両の写真などをもとに仕様を確認します。"
+    },
+    {
+      "q": "社外パーツやカスタムがあっても査定できますか？",
+      "a": "はい、ご相談いただけます。外装や足回りなどの変更内容と、純正部品が残っているかを確認したうえでご案内します。"
+    },
+    {
+      "q": "年式が古い・走行距離が多い718ボクスターでも相談できますか？",
+      "a": "はい、ご相談いただけます。走行距離や整備履歴、修復歴や不具合を含めて車両の状態を確認したうえでご案内します。"
+    }
+  ],
+  "line": {
+    "title": "あなたの718ボクスター、<br>まずは写真で概算査定。",
+    "lead": "LINEで写真を送るだけ。<br>売却未定でもお気軽にご相談ください。",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "PORSCHE 718 BOXSTER",
+    "title": "今の718ボクスター、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  },
+  "theme": "draft-porsche-718-boxster",
+  "modelShort": "718ボクスター"
+}

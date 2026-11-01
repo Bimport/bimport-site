@@ -1,0 +1,180 @@
+{
+  "slug": "honda-civic",
+  "draft": true,
+  "maker": "HONDA",
+  "makerJa": "ホンダ",
+  "model": "CIVIC",
+  "nameJa": "ホンダシビック",
+  "seo": {
+    "title": "ホンダ シビックの買取・高価査定ならBimport",
+    "description": "ホンダ シビックの買取・査定ならBimport。ボディ・変速機・足回り・カスタムをはじめ、仕様を細かく照合。グレードや装備、整備履歴、内外装の状態まで丁寧に確認します。売却未定でも60秒の入力で概算査定額をご案内。査定無料・全国対応。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/honda-civic/hero-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/honda-civic/hero-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/honda-civic/hero-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "シビックの外観イメージ",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "final": {
+      "src": "assets/images/honda-civic/hero-1536.jpg"
+    },
+    "line": {
+      "fallback": "assets/images/honda-civic/line-photo-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/honda-civic/line-photo-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/honda-civic/line-photo-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "白壁のショールームに停まる実績車両のホンダシビック",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    }
+  },
+  "hero": {
+    "label": "ホンダ シビック 買取・査定",
+    "catch": "そのシビック、本当の価値まで<br>評価されていますか？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "grades": [
+      "限定車・特別仕様車"
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 1990,
+    "yearOlderLabel": "1989年以前"
+  },
+  "cases": [
+    {
+      "maker": "HONDA",
+      "model": "シビック",
+      "year": "2019年",
+      "mileage": "114,420km",
+      "price": 80.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年9月",
+      "area": "岐阜",
+      "details": [
+        "ホンダセンシング",
+        "無限エアロ",
+        "社外リアスポイラー",
+        "BLITZ車高調",
+        "フジツボマフラー",
+        "RAYS 18インチAW",
+        "外品エアロ",
+        "ホイールキズ"
+      ],
+      "grade": "ハッチバック",
+      "image": "assets/images/cases/case-honda-civic-763.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    }
+  ],
+  "points": {
+    "lead": "ホンダ シビックは仕様・装備・状態で価値が変わる車。<br>一台ずつ確認して査定します。",
+    "items": [
+      {
+        "key": "spec0",
+        "title": "ボディ・変速機",
+        "text": "ボディの種類やエンジン、変速機を照合",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "SPECIFICATION"
+      },
+      {
+        "key": "spec1",
+        "title": "足回り・カスタム",
+        "text": "ホイールやマフラーなどの変更を確認",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "GRADE"
+      },
+      {
+        "key": "spec2",
+        "title": "シート・室内",
+        "text": "シートや内装の仕様と状態を確認",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "EQUIPMENT"
+      },
+      {
+        "key": "condition0",
+        "title": "内外装・補修の状態",
+        "text": "キズや補修、シートやトリムの状態を確認",
+        "image": null,
+        "icon": "search",
+        "tone": "dark"
+      },
+      {
+        "key": "condition1",
+        "title": "整備・走行履歴",
+        "text": "整備内容や走行距離の履歴を確認",
+        "image": null,
+        "icon": "doc",
+        "tone": "dark"
+      },
+      {
+        "key": "condition2",
+        "title": "純正部品・付属品",
+        "text": "純正オプションや取り外した部品の有無を確認",
+        "image": null,
+        "icon": "seat",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "ボディカラー",
+      "走行距離",
+      "整備記録",
+      "車両コンディション",
+      "カスタム内容"
+    ],
+    "close": "同じシビックでも、仕様の見極め次第で査定額は変わります。<br class=\"pc-only\">だからこそ、<strong>装備や状態を細かく確認する査定</strong>が大切です。"
+  },
+  "faq": [
+    {
+      "q": "シビックのグレードがわからなくても相談できますか？",
+      "a": "はい、フォームでは「その他・わからない」をお選びください。車検証や車両の写真などをもとに仕様を確認します。"
+    },
+    {
+      "q": "社外パーツやカスタムがあっても査定できますか？",
+      "a": "はい、ご相談いただけます。外装や足回りなどの変更内容と、純正部品が残っているかを確認したうえでご案内します。"
+    },
+    {
+      "q": "年式が古い・走行距離が多いシビックでも相談できますか？",
+      "a": "はい、ご相談いただけます。走行距離や整備履歴、修復歴や不具合を含めて車両の状態を確認したうえでご案内します。"
+    }
+  ],
+  "line": {
+    "title": "あなたのシビック、<br>まずは写真で概算査定。",
+    "lead": "LINEで写真を送るだけ。<br>売却未定でもお気軽にご相談ください。",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "HONDA CIVIC",
+    "title": "今のシビック、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  },
+  "theme": "draft-honda-civic",
+  "modelShort": "シビック"
+}

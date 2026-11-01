@@ -1,0 +1,251 @@
+{
+  "slug": "toyota-prius-alpha",
+  "draft": true,
+  "maker": "TOYOTA",
+  "makerJa": "トヨタ",
+  "model": "PRIUS α",
+  "nameJa": "トヨタプリウスα",
+  "seo": {
+    "title": "トヨタ プリウスαの買取・高価査定ならBimport",
+    "description": "トヨタ プリウスαの買取・査定ならBimport。乗車定員・仕様・ハイブリッドの状態をはじめ、仕様を細かく照合。グレードや装備、整備履歴、内外装の状態まで丁寧に確認します。売却未定でも60秒の入力で概算査定額をご案内。査定無料・全国対応。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/toyota-prius-alpha/hero-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/toyota-prius-alpha/hero-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/toyota-prius-alpha/hero-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "プリウスαの外観イメージ",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "final": {
+      "src": "assets/images/toyota-prius-alpha/hero-1536.jpg"
+    },
+    "line": {
+      "fallback": "assets/images/toyota-prius-alpha/line-photo-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/toyota-prius-alpha/line-photo-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/toyota-prius-alpha/line-photo-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "白壁のショールームに停まる実績車両のトヨタプリウスα",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    }
+  },
+  "hero": {
+    "label": "トヨタ プリウスα 買取・査定",
+    "catch": "そのプリウスα、本当の価値まで<br>評価されていますか？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "grades": [
+      "S",
+      "Sツーリングセレクション",
+      "G",
+      "Gツーリングセレクション",
+      "限定車・特別仕様車"
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 2011,
+    "yearOlderLabel": "2010年以前"
+  },
+  "cases": [
+    {
+      "maker": "TOYOTA",
+      "model": "プリウスα",
+      "year": "2014年",
+      "mileage": "174,758km",
+      "price": 58.8,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年4月",
+      "area": "神奈川",
+      "details": [
+        "修復歴あり",
+        "リアパネル交換",
+        "リアフロア歪み",
+        "運転席シートへたり",
+        "ハンドルハゲ",
+        "外品ホイールキズ"
+      ],
+      "grade": "G",
+      "image": "assets/images/cases/case-toyota-prius-alpha-46.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "TOYOTA",
+      "model": "プリウスα",
+      "year": "2013年",
+      "mileage": "154,589km",
+      "price": 62.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年2月",
+      "area": "東京",
+      "details": [
+        "ワンオーナー",
+        "モデリスタエアロ",
+        "純正SDナビ・フルセグ",
+        "純正17インチAW",
+        "ETC",
+        "リアパネル歪み",
+        "右リアサイドポケット歪み",
+        "エンジンチェック・HVランプ点灯",
+        "シートへたり"
+      ],
+      "grade": "Sツーリングセレクション",
+      "image": "assets/images/cases/case-toyota-prius-alpha-131.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "TOYOTA",
+      "model": "プリウスα",
+      "year": "2013年",
+      "mileage": "126,123km",
+      "price": 52.2,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年1月",
+      "area": "福岡",
+      "details": [
+        "純正ナビ・DTV（NHZN-X62G）",
+        "ビルトインETC",
+        "ホイールキズ"
+      ],
+      "grade": "S チューンブラック",
+      "image": "assets/images/cases/case-toyota-prius-alpha-730.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "TOYOTA",
+      "model": "プリウスα",
+      "year": "2013年",
+      "mileage": "85,101km",
+      "price": 66.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年1月",
+      "area": "福岡",
+      "details": [
+        "純正ナビ・フルセグTV",
+        "バックカメラ",
+        "スマートキー",
+        "純正16インチAW",
+        "オートライト",
+        "ETC",
+        "シートサイドへたり",
+        "ホイールキズ",
+        "ドアミラー塗装あせ"
+      ],
+      "grade": "S",
+      "image": "assets/images/cases/case-toyota-prius-alpha-883.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    }
+  ],
+  "points": {
+    "lead": "トヨタ プリウスαは仕様・装備・状態で価値が変わる車。<br>一台ずつ確認して査定します。",
+    "items": [
+      {
+        "key": "spec0",
+        "title": "乗車定員・仕様",
+        "text": "座席数やグレードの違いを照合",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "SPECIFICATION"
+      },
+      {
+        "key": "spec1",
+        "title": "ハイブリッドの状態",
+        "text": "警告表示や電動システムの整備履歴を確認",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "GRADE"
+      },
+      {
+        "key": "spec2",
+        "title": "シート・荷室",
+        "text": "シートや荷室、外装用品の状態を確認",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "EQUIPMENT"
+      },
+      {
+        "key": "condition0",
+        "title": "内外装・補修の状態",
+        "text": "キズや補修、シートやトリムの状態を確認",
+        "image": null,
+        "icon": "search",
+        "tone": "dark"
+      },
+      {
+        "key": "condition1",
+        "title": "整備・走行履歴",
+        "text": "整備内容や走行距離の履歴を確認",
+        "image": null,
+        "icon": "doc",
+        "tone": "dark"
+      },
+      {
+        "key": "condition2",
+        "title": "純正部品・付属品",
+        "text": "純正オプションや取り外した部品の有無を確認",
+        "image": null,
+        "icon": "seat",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "ボディカラー",
+      "走行距離",
+      "整備記録",
+      "車両コンディション",
+      "カスタム内容"
+    ],
+    "close": "同じプリウスαでも、仕様の見極め次第で査定額は変わります。<br class=\"pc-only\">だからこそ、<strong>装備や状態を細かく確認する査定</strong>が大切です。"
+  },
+  "faq": [
+    {
+      "q": "プリウスαのグレードがわからなくても相談できますか？",
+      "a": "はい、フォームでは「その他・わからない」をお選びください。車検証や車両の写真などをもとに仕様を確認します。"
+    },
+    {
+      "q": "社外パーツやカスタムがあっても査定できますか？",
+      "a": "はい、ご相談いただけます。外装や足回りなどの変更内容と、純正部品が残っているかを確認したうえでご案内します。"
+    },
+    {
+      "q": "年式が古い・走行距離が多いプリウスαでも相談できますか？",
+      "a": "はい、ご相談いただけます。走行距離や整備履歴、修復歴や不具合を含めて車両の状態を確認したうえでご案内します。"
+    }
+  ],
+  "line": {
+    "title": "あなたのプリウスα、<br>まずは写真で概算査定。",
+    "lead": "LINEで写真を送るだけ。<br>売却未定でもお気軽にご相談ください。",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "TOYOTA PRIUS α",
+    "title": "今のプリウスα、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  },
+  "theme": "draft-toyota-prius-alpha",
+  "modelShort": "プリウスα"
+}
