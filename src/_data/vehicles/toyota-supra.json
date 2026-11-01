@@ -1,6 +1,6 @@
 {
   "slug": "toyota-supra",
-  "draft": true,
+  "draft": false,
   "maker": "TOYOTA",
   "makerJa": "トヨタ",
   "model": "SUPRA",
@@ -178,5 +178,8 @@
     "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
   },
   "theme": "draft-toyota-supra",
-  "modelShort": "スープラ"
+  "modelShort": "スープラ",
+  "sitemap": {
+    "lastmod": "2026-11-01"
+  }
 }

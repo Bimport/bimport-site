@@ -1,6 +1,6 @@
 {
   "slug": "tesla-model-s",
-  "draft": true,
+  "draft": false,
   "maker": "TESLA",
   "makerJa": "テスラ",
   "model": "MODEL S",
@@ -179,5 +179,8 @@
     "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
   },
   "theme": "draft-tesla-model-s",
-  "modelShort": "モデルS"
+  "modelShort": "モデルS",
+  "sitemap": {
+    "lastmod": "2026-11-01"
+  }
 }

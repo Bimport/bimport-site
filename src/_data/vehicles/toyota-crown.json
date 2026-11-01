@@ -1,6 +1,6 @@
 {
   "slug": "toyota-crown",
-  "draft": true,
+  "draft": false,
   "maker": "TOYOTA",
   "makerJa": "トヨタ",
   "model": "CROWN",
@@ -179,5 +179,8 @@
     "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
   },
   "theme": "draft-toyota-crown",
-  "modelShort": "クラウン"
+  "modelShort": "クラウン",
+  "sitemap": {
+    "lastmod": "2026-11-01"
+  }
 }

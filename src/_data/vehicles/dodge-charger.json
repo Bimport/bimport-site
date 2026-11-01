@@ -1,6 +1,6 @@
 {
   "slug": "dodge-charger",
-  "draft": true,
+  "draft": false,
   "maker": "DODGE",
   "makerJa": "ダッジ",
   "model": "CHARGER",
@@ -179,5 +179,8 @@
     "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
   },
   "theme": "draft-dodge-charger",
-  "modelShort": "チャージャー"
+  "modelShort": "チャージャー",
+  "sitemap": {
+    "lastmod": "2026-11-01"
+  }
 }

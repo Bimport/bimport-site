@@ -1,6 +1,6 @@
 {
   "slug": "subaru-impreza",
-  "draft": true,
+  "draft": false,
   "maker": "SUBARU",
   "makerJa": "スバル",
   "model": "IMPREZA",
@@ -183,5 +183,8 @@
     "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
   },
   "theme": "draft-subaru-impreza",
-  "modelShort": "インプレッサ"
+  "modelShort": "インプレッサ",
+  "sitemap": {
+    "lastmod": "2026-11-01"
+  }
 }

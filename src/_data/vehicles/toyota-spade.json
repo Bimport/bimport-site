@@ -1,6 +1,6 @@
 {
   "slug": "toyota-spade",
-  "draft": true,
+  "draft": false,
   "maker": "TOYOTA",
   "makerJa": "トヨタ",
   "model": "SPADE",
@@ -174,5 +174,8 @@
     "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
   },
   "theme": "draft-toyota-spade",
-  "modelShort": "スペイド"
+  "modelShort": "スペイド",
+  "sitemap": {
+    "lastmod": "2026-11-01"
+  }
 }

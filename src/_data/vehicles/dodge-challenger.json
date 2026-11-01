@@ -1,6 +1,6 @@
 {
   "slug": "dodge-challenger",
-  "draft": true,
+  "draft": false,
   "maker": "DODGE",
   "makerJa": "ダッジ",
   "model": "CHALLENGER",
@@ -174,5 +174,8 @@
     "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
   },
   "theme": "draft-dodge-challenger",
-  "modelShort": "チャレンジャー"
+  "modelShort": "チャレンジャー",
+  "sitemap": {
+    "lastmod": "2026-11-01"
+  }
 }

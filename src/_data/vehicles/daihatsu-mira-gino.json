@@ -1,6 +1,6 @@
 {
   "slug": "daihatsu-mira-gino",
-  "draft": true,
+  "draft": false,
   "maker": "DAIHATSU",
   "makerJa": "ダイハツ",
   "model": "MIRA GINO",
@@ -170,5 +170,8 @@
     "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
   },
   "theme": "draft-daihatsu-mira-gino",
-  "modelShort": "ミラジーノ"
+  "modelShort": "ミラジーノ",
+  "sitemap": {
+    "lastmod": "2026-11-01"
+  }
 }

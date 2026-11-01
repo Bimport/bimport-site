@@ -1,6 +1,6 @@
 {
   "slug": "daihatsu-rocky",
-  "draft": true,
+  "draft": false,
   "maker": "DAIHATSU",
   "makerJa": "ダイハツ",
   "model": "ROCKY",
@@ -178,5 +178,8 @@
     "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
   },
   "theme": "draft-daihatsu-rocky",
-  "modelShort": "ロッキー"
+  "modelShort": "ロッキー",
+  "sitemap": {
+    "lastmod": "2026-11-01"
+  }
 }

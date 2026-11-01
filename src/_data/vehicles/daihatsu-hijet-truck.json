@@ -1,6 +1,6 @@
 {
   "slug": "daihatsu-hijet-truck",
-  "draft": true,
+  "draft": false,
   "maker": "DAIHATSU",
   "makerJa": "ダイハツ",
   "model": "HIJET TRUCK",
@@ -176,5 +176,8 @@
     "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
   },
   "theme": "draft-daihatsu-hijet-truck",
-  "modelShort": "ハイゼットトラック"
+  "modelShort": "ハイゼットトラック",
+  "sitemap": {
+    "lastmod": "2026-11-01"
+  }
 }

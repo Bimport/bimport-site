@@ -1,6 +1,6 @@
 {
   "slug": "toyota-sienta",
-  "draft": true,
+  "draft": false,
   "maker": "TOYOTA",
   "makerJa": "トヨタ",
   "model": "SIENTA",
@@ -175,5 +175,8 @@
     "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
   },
   "theme": "draft-toyota-sienta",
-  "modelShort": "シエンタ"
+  "modelShort": "シエンタ",
+  "sitemap": {
+    "lastmod": "2026-11-01"
+  }
 }

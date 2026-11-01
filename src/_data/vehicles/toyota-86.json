@@ -1,6 +1,6 @@
 {
   "slug": "toyota-86",
-  "draft": true,
+  "draft": false,
   "maker": "TOYOTA",
   "makerJa": "トヨタ",
   "model": "86",
@@ -202,5 +202,8 @@
     "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
   },
   "theme": "draft-toyota-86",
-  "modelShort": "86"
+  "modelShort": "86",
+  "sitemap": {
+    "lastmod": "2026-11-01"
+  }
 }

@@ -1,6 +1,6 @@
 {
   "slug": "tesla-model-3",
-  "draft": true,
+  "draft": false,
   "maker": "TESLA",
   "makerJa": "テスラ",
   "model": "MODEL 3",
@@ -201,5 +201,8 @@
     "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
   },
   "theme": "draft-tesla-model-3",
-  "modelShort": "モデル3"
+  "modelShort": "モデル3",
+  "sitemap": {
+    "lastmod": "2026-11-01"
+  }
 }

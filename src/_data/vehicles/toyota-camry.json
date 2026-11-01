@@ -1,6 +1,6 @@
 {
   "slug": "toyota-camry",
-  "draft": true,
+  "draft": false,
   "maker": "TOYOTA",
   "makerJa": "トヨタ",
   "model": "CAMRY",
@@ -187,5 +187,8 @@
     "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
   },
   "theme": "draft-toyota-camry",
-  "modelShort": "カムリ"
+  "modelShort": "カムリ",
+  "sitemap": {
+    "lastmod": "2026-11-01"
+  }
 }

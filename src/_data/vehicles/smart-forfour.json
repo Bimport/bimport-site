@@ -1,6 +1,6 @@
 {
   "slug": "smart-forfour",
-  "draft": true,
+  "draft": false,
   "maker": "SMART",
   "makerJa": "スマート",
   "model": "FORFOUR",
@@ -178,5 +178,8 @@
     "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
   },
   "theme": "draft-smart-forfour",
-  "modelShort": "フォーフォー"
+  "modelShort": "フォーフォー",
+  "sitemap": {
+    "lastmod": "2026-11-01"
+  }
 }

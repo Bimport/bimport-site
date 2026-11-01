@@ -1,6 +1,6 @@
 {
   "slug": "suzuki-every",
-  "draft": true,
+  "draft": false,
   "maker": "SUZUKI",
   "makerJa": "スズキ",
   "model": "EVERY",
@@ -184,5 +184,8 @@
     "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
   },
   "theme": "draft-suzuki-every",
-  "modelShort": "エブリイ"
+  "modelShort": "エブリイ",
+  "sitemap": {
+    "lastmod": "2026-11-01"
+  }
 }
