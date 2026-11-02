@@ -1,0 +1,122 @@
+{
+  "slug": "jeep-grand-cherokee-l",
+  "draft": true,
+  "theme": "jeep-no-cases",
+  "maker": "JEEP",
+  "makerJa": "ジープ",
+  "model": "GRAND CHEROKEE L",
+  "modelShort": "グランドチェロキーL",
+  "nameJa": "ジープグランドチェロキーL",
+  "seo": {
+    "title": "ジープ グランドチェロキーLの買取・査定ならBimport｜輸入車専門",
+    "description": "ジープ グランドチェロキーLの買取・査定をご相談ください。3列シートのLか、ほかのグランドチェロキーかを車両の書類から確認します。Limited・Summit Reserveの違いや、座席構成とシートの状態を確認します。整備記録や車両の状態を確認し、概算査定をご案内します。査定無料・全国対応。売却未定でもお気軽に。"
+  },
+  "images": {},
+  "hero": {
+    "label": "ジープ グランドチェロキーL 買取・査定",
+    "catch": "3列シートの価値を、<br>装備と状態から見極める。",
+    "lead": "グランドチェロキーL専用の査定相談。<br>シート・内装・装備まで丁寧に確認します。",
+    "buy": "買取・査定",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 2022,
+    "yearOlderLabel": "2021年以前",
+    "grades": [
+      "Limited",
+      "Summit Reserve",
+      "限定車・特別仕様車"
+    ]
+  },
+  "cases": [],
+  "casesEmpty": {
+    "title": "買取実績は現在未掲載です",
+    "message": "このページでご紹介するグランドチェロキーLの買取実績は、現在まだ掲載していません。車両情報・買取時期・金額を確認した実績から、順次ご紹介します。査定のご相談は、実績の掲載前でも受け付けています。"
+  },
+  "points": {
+    "lead": "グランドチェロキーLは、車両の仕様と状態を照合して査定します。<br>確認できる情報をもとに、一台ずつご案内します。",
+    "items": [
+      {
+        "key": "detail0",
+        "title": "Lの車両仕様",
+        "text": "3列シートのLか、ほかのグランドチェロキーかを車両の書類から確認します。",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "SPECIFICATION"
+      },
+      {
+        "key": "detail1",
+        "title": "グレード・シート",
+        "text": "Limited・Summit Reserveの違いや、座席構成とシートの状態を確認します。",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "EQUIPMENT"
+      },
+      {
+        "key": "detail2",
+        "title": "内装・後席の状態",
+        "text": "後席や荷室、内装トリムの傷み、使用に伴う状態を確認します。",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "CONDITION"
+      },
+      {
+        "key": "detail3",
+        "title": "快適装備・ルーフ",
+        "text": "装着されているオーディオやルーフなどの仕様と動作を確認します。",
+        "image": null,
+        "icon": "search",
+        "tone": "dark"
+      },
+      {
+        "key": "detail4",
+        "title": "足回り・駆動系",
+        "text": "足回りや駆動系の整備履歴、警告表示や不具合を確認します。",
+        "image": null,
+        "icon": "doc",
+        "tone": "dark"
+      },
+      {
+        "key": "detail5",
+        "title": "外装・整備記録",
+        "text": "ボディの補修や損傷、点検記録、純正装備と付属品を確認します。",
+        "image": null,
+        "icon": "wheel",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "モデル年",
+      "走行距離",
+      "整備記録",
+      "純正部品",
+      "使用・保管状況"
+    ],
+    "close": "車両の仕様や整備履歴が、まだ分からなくても大丈夫です。<br>まずは<strong>車検証とお車の写真</strong>からご相談ください。"
+  },
+  "faq": [
+    {
+      "q": "通常のグランドチェロキーとは別のページですか？",
+      "a": "はい、このページは3列シートのグランドチェロキーLの相談用です。車検証と車両の仕様を照合して確認します。"
+    },
+    {
+      "q": "LimitedとSummit Reserveで査定内容は変わりますか？",
+      "a": "グレードごとの装備や座席構成、実際の装着状態を確認します。装備だけで金額を断定せず、年式・走行距離・整備履歴も合わせて査定します。"
+    },
+    {
+      "q": "このページの買取実績が未掲載でも相談できますか？",
+      "a": "はい、ご相談いただけます。このページの実績欄は現在準備中です。車両情報をお知らせいただければ、内容を確認して概算査定をご案内します。"
+    }
+  ],
+  "line": {
+    "title": "あなたの<span class=\"lp-en\">グランドチェロキーL</span>、<br>まずは写真で概算査定。",
+    "lead": "車全体・内装・メーターの写真をLINEで。<br>仕様が分からない場合もお気軽にご相談ください。",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "JEEP GRAND CHEROKEE L",
+    "title": "今の<span class=\"lp-en\">グランドチェロキーL</span>、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは車両情報と写真からご相談ください。"
+  }
+}

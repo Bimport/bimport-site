@@ -53,4 +53,15 @@
       <p class="lp-center"><a class="lp-btn lp-btn--outline lp-btn--small" href="../">その他の車種の買取実績を見る</a></p>
     </div>
   </section>
+{%- elif v.casesEmpty %}
+  <section class="lp-section lp-cases-empty" id="cases">
+    <div class="lp-container lp-container--mid">
+      <h2 class="lp-h2"><span class="lp-en">{{ v.modelShort or v.model }}</span>の買取実績</h2>
+      <p class="lp-h2__sub">{{ v.casesEmpty.title or "買取実績は現在未掲載です" }}</p>
+      <div class="lp-points__close">
+        <p>{{ v.casesEmpty.message }}</p>
+      </div>
+      <p class="lp-center"><a class="lp-btn lp-btn--outline lp-btn--small" href="#estimate" data-cta="cases-empty">実績掲載前でも査定を相談する</a></p>
+    </div>
+  </section>
 {%- endif %}

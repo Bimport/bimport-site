@@ -1,0 +1,29 @@
+/* 写真・掲載実績がない車種向け。既存のJeep LPには適用しない。 */
+.lp-theme-jeep-no-cases {
+  --c-gold: #8c9d74;
+  --c-gold-text: #48603d;
+  --c-gold-light: #dce5ca;
+  --c-gold-grad: linear-gradient(180deg, #839970, #4e6745);
+}
+.lp-theme-jeep-no-cases .lp-btn--gold { color: #fff; }
+.lp-theme-jeep-no-cases .lp-hero__bg {
+  background: radial-gradient(ellipse at 95% 15%, #384d3b 0, transparent 55%),
+    linear-gradient(130deg, #0b1411 0%, #1e2d25 65%, #111b16 100%);
+}
+.lp-theme-jeep-no-cases .lp-hero__bg::after {
+  content: ""; position: absolute; width: min(68vw, 900px); aspect-ratio: 1;
+  right: -15%; top: -30%; border: 1px solid #a1b38b22; border-radius: 50%;
+  box-shadow: 0 0 0 48px #a1b38b0a, 0 0 0 96px #a1b38b08, 0 0 0 144px #a1b38b06;
+}
+.lp-theme-jeep-no-cases .lp-hero__model { font-size: clamp(26px, 8.2vw, 84px); max-width: 100%; overflow-wrap: anywhere; line-height: 1.12; }
+.lp-theme-jeep-no-cases .lp-hero__buy { font-size: clamp(42px, 12vw, 90px); background: linear-gradient(180deg, #fff, #dce5ca); background-clip: text; -webkit-background-clip: text; color: transparent; text-shadow: none; filter: none; }
+.lp-theme-jeep-no-cases .lp-hero__maker { letter-spacing: .28em; color: #dce5ca; }
+.lp-theme-jeep-no-cases .lp-hero__catch { max-width: 28em; }
+.lp-theme-jeep-no-cases .lp-h2 .lp-en { display: block; font-family: inherit; letter-spacing: inherit; }
+.lp-theme-jeep-no-cases .lp-cases-empty .lp-points__close { margin: 28px auto; text-align: left; line-height: 1.9; border-left-color: #7e9168; }
+.lp-theme-jeep-no-cases .lp-cases-empty .lp-btn { white-space: normal; }
+.lp-theme-jeep-no-cases .lp-line--nophoto { background: #18251f; }
+@media (max-width: 359px) {
+  .lp-theme-jeep-no-cases .lp-hero__catch { font-size: 18px; }
+  .lp-theme-jeep-no-cases .lp-line__title { font-size: 27px; }
+}
