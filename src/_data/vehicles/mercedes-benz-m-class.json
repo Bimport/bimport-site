@@ -64,7 +64,31 @@
     "yearFrom": 1998,
     "yearOlderLabel": "1997年以前"
   },
-  "cases": [],
+  "cases": [
+    {
+      "maker": "MERCEDES-BENZ",
+      "model": "Mクラス",
+      "grade": "ML350",
+      "year": "2004年",
+      "mileage": "180,282km",
+      "price": 23.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年8月",
+      "area": "福岡",
+      "details": [
+        "ワンオーナー",
+        "Pioneer製ナビ",
+        "ETC",
+        "純正17インチアルミホイール",
+        "ハーフレザーシート",
+        "電動シート",
+        "ハンドルハゲ"
+      ],
+      "image": "assets/images/cases/case-mercedes-benz-m-class-364.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    }
+  ],
   "points": {
     "lead": "メルセデス・ベンツ Mクラスは仕様・装備・状態で価値が変わる車。<br>一台ずつ確認して査定します。",
     "items": [

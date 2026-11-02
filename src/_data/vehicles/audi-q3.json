@@ -64,7 +64,29 @@
     "yearFrom": 2012,
     "yearOlderLabel": "2011年以前"
   },
-  "cases": [],
+  "cases": [
+    {
+      "maker": "AUDI",
+      "model": "Q3スポーツバック",
+      "grade": "35TDIクワトロ Sライン",
+      "year": "2021年",
+      "mileage": "40,679km",
+      "price": 333.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年7月",
+      "area": "熊本",
+      "details": [
+        "パノラマサンルーフ",
+        "Bang & Olufsen 3Dサウンドシステム",
+        "アシスタンスパッケージ",
+        "プラスパッケージ",
+        "テクノロジーパッケージ"
+      ],
+      "image": "assets/images/cases/case-audi-q3-123.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    }
+  ],
   "points": {
     "lead": "アウディ Q3は仕様・装備・状態で価値が変わる車。<br>一台ずつ確認して査定します。",
     "items": [

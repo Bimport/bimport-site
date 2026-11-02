@@ -85,6 +85,29 @@
       "image": "assets/images/cases/case-audi-q7-489.jpg",
       "imageWidth": 1200,
       "imageHeight": 900
+    },
+    {
+      "maker": "AUDI",
+      "model": "Q7",
+      "grade": "2.0TFSIクワトロ Sラインパッケージ",
+      "year": "2017年",
+      "mileage": "69,600km",
+      "price": 184.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年9月",
+      "area": "岡山",
+      "details": [
+        "デジタルインナーミラー",
+        "バーチャルコクピット",
+        "アダプティブクルーズコントロール",
+        "ブラックレザーシート",
+        "シートヒーター",
+        "純正18インチAW",
+        "エンジンオイルにじみ"
+      ],
+      "image": "assets/images/cases/case-audi-q7-34.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
     }
   ],
   "points": {

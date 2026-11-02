@@ -87,6 +87,27 @@
       "image": "assets/images/cases/case-bmw-alpina-b3-259.jpg",
       "imageWidth": 1200,
       "imageHeight": 900
+    },
+    {
+      "maker": "BMW ALPINA",
+      "model": "B3",
+      "grade": "3.0/1(E36)",
+      "year": "1995年",
+      "mileage": "96,904km",
+      "price": 445.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年8月",
+      "area": "愛知",
+      "details": [
+        "グレード 3.0/1",
+        "エンジンオイルにじみ跡",
+        "ドアトリム浮き",
+        "リアスポイラー塗装ムラ",
+        "ホイールキズ"
+      ],
+      "image": "assets/images/cases/case-bmw-alpina-b3-452.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
     }
   ],
   "points": {
