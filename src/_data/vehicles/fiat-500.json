@@ -88,6 +88,28 @@
       "image": "assets/images/cases/case-fiat-500-509.jpg",
       "imageWidth": 1200,
       "imageHeight": 900
+    },
+    {
+      "maker": "FIAT",
+      "model": "500",
+      "grade": "バイ グッチ(300台限定)",
+      "year": "2012年",
+      "mileage": "52,202km",
+      "price": 30.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年7月",
+      "area": "福岡",
+      "details": [
+        "300台限定車",
+        "専用レザーシート",
+        "専用16インチAW",
+        "社外デジタルインナーミラー",
+        "carrozzeriaナビ",
+        "ホイールキズ"
+      ],
+      "image": "assets/images/cases/case-fiat-500-803.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
     }
   ],
   "points": {

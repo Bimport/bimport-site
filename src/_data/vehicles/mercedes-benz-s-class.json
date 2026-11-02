@@ -135,6 +135,136 @@
         "AMGカーボンPKG",
         "ホイールサビ"
       ]
+    },
+    {
+      "maker": "MERCEDES-BENZ",
+      "model": "Sクラスクーペ",
+      "grade": "S550クーペ AMGライン",
+      "year": "2017年",
+      "mileage": "41,214km",
+      "price": 502.5,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年7月",
+      "area": "長野",
+      "details": [
+        "レザーエクスクルーシブPKG",
+        "スワロフスキークリスタルPKG",
+        "デジーノレザーシート",
+        "ブルメスターサウンド",
+        "シートヒーター・ベンチレーター",
+        "フロントバンパー飛び石キズ"
+      ],
+      "image": "assets/images/cases/case-mercedes-benz-s-class-87.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "MERCEDES-BENZ",
+      "model": "Sクラス",
+      "grade": "S550ロング AMGライン ショーファーPKG",
+      "year": "2015年",
+      "mileage": "109,391km",
+      "price": 110.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年7月",
+      "area": "静岡",
+      "details": [
+        "エンジンチェックランプ点灯",
+        "エアコン不良",
+        "ホイールキズ",
+        "ドアミラーキズ"
+      ],
+      "image": "assets/images/cases/case-mercedes-benz-s-class-103.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "MERCEDES-BENZ",
+      "model": "Sクラス",
+      "grade": "S300hロング AMGライン ショーファーPKG",
+      "year": "2016年",
+      "mileage": "62,599km",
+      "price": 215.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年7月",
+      "area": "三重",
+      "details": [
+        "ブルメスターサウンド",
+        "ショーファーPKG",
+        "ETC",
+        "左ステップ一部交換",
+        "左リアフェンダー一部交換",
+        "ルーム内焦げ",
+        "リアスポイラー塗装ムラ",
+        "フロントバンパー下部ビス穴"
+      ],
+      "image": "assets/images/cases/case-mercedes-benz-s-class-303.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "MERCEDES-BENZ",
+      "model": "Sクラス",
+      "grade": "S560ロング ショーファーPKG",
+      "year": "2018年",
+      "mileage": "32,149km",
+      "price": 521.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年8月",
+      "area": "岐阜",
+      "details": [
+        "AMG S63AW",
+        "ショーファーPKG",
+        "ブルメスター"
+      ],
+      "image": "assets/images/cases/case-mercedes-benz-s-class-597.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "MERCEDES-BENZ",
+      "model": "Sクラス",
+      "grade": "S500 4MATIC ロング AMGライン",
+      "year": "2023年",
+      "mileage": "16,828km",
+      "price": 905.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年9月",
+      "area": "東京",
+      "details": [
+        "パノラミックスライディングルーフ",
+        "3Dコックピットディスプレイ",
+        "Burmesterスピーカー",
+        "ヘッドアップディスプレイ",
+        "シートヒーター＆ベンチレーター",
+        "純正20インチAW",
+        "ホイールキズ"
+      ],
+      "image": "assets/images/cases/case-mercedes-benz-s-class-863.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "MERCEDES-BENZ",
+      "model": "Sクラス",
+      "grade": "S580 4MATIC",
+      "year": "2022年",
+      "mileage": "26,340km",
+      "price": 800.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年9月",
+      "area": "福岡",
+      "details": [
+        "ARヘッドアップディスプレイ",
+        "リアコンフォートパッケージ",
+        "レザーエクスクルーシブ",
+        "AMGライン・ブルメスター",
+        "車体色ルビーライトレッド",
+        "パノラミックスライディングルーフ"
+      ],
+      "image": "assets/images/cases/case-mercedes-benz-s-class-887.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
     }
   ],
   "points": {

@@ -83,6 +83,32 @@
       "image": "assets/images/cases/case-hummer-h3-16.jpg",
       "imageWidth": 1200,
       "imageHeight": 900
+    },
+    {
+      "maker": "HUMMER",
+      "model": "H3",
+      "grade": "タイプG",
+      "year": "2006年",
+      "mileage": "走行距離不明（メーター表示71,757マイル）",
+      "price": 65.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年8月",
+      "area": "千葉",
+      "details": [
+        "ブラックレザー",
+        "カロッツェリアモニター",
+        "サイドステップ",
+        "ヒッチメンバー",
+        "17インチ社外AW",
+        "ETC",
+        "サンルーフ不良",
+        "ホイールキズ",
+        "下廻りサビ",
+        "外装メッキ部キズ"
+      ],
+      "image": "assets/images/cases/case-hummer-h3-493.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
     }
   ],
   "points": {
