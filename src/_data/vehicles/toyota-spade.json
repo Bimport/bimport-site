@@ -75,7 +75,7 @@
       "model": "SPADE",
       "year": "2012年",
       "mileage": "62,986km",
-      "price": "32",
+      "price": 32.45,
       "priceUnit": "万円",
       "purchasedAt": "2026年8月",
       "area": "愛知",

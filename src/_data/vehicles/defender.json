@@ -118,6 +118,115 @@
       ],
       "imageWidth": 1200,
       "imageHeight": 896
+    },
+    {
+      "maker": "LAND ROVER",
+      "model": "ディフェンダー",
+      "grade": "110 P300",
+      "year": "2021年",
+      "mileage": "40,000km",
+      "price": 510.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年8月",
+      "area": "大分",
+      "details": [
+        "エアサスペンション",
+        "Apple CarPlay",
+        "ハンドルヒーター・シートヒーター",
+        "純正ナビ・360°カメラ",
+        "3列シート（7人乗り）",
+        "LEDヘッドライト"
+      ],
+      "image": "assets/images/cases/case-defender-4.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "LAND ROVER",
+      "model": "ディフェンダー",
+      "grade": "110 X-DYNAMIC SE D300",
+      "year": "2021年",
+      "mileage": "69,264km",
+      "price": 510.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年8月",
+      "area": "山形",
+      "details": [
+        "ワンオーナー",
+        "エアサス",
+        "サンルーフ",
+        "MERIDIANスピーカー",
+        "ブラックレザーシート",
+        "純正20インチAW",
+        "シートヒーター"
+      ],
+      "image": "assets/images/cases/case-defender-51.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "LAND ROVER",
+      "model": "ディフェンダー",
+      "grade": "110 X-DYNAMIC SE D350",
+      "year": "2025年",
+      "mileage": "4,943km",
+      "price": 840.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年7月",
+      "area": "栃木",
+      "details": [
+        "ワンオーナー",
+        "MERIDIANスピーカー",
+        "ブラックレザーシート",
+        "エアサス"
+      ],
+      "image": "assets/images/cases/case-defender-167.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "LAND ROVER",
+      "model": "ディフェンダー",
+      "grade": "90 SE",
+      "year": "2022年",
+      "mileage": "30,316km",
+      "price": 500.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年7月",
+      "area": "神奈川",
+      "details": [
+        "ワンオーナー",
+        "ベージュレザーシート",
+        "MERIDIANスピーカー",
+        "純正20インチAW",
+        "デジタルインナーミラー",
+        "背面タイヤカバーキズ"
+      ],
+      "image": "assets/images/cases/case-defender-195.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "LAND ROVER",
+      "model": "ディフェンダー",
+      "grade": "110 X-DYNAMIC SE",
+      "year": "2024年",
+      "mileage": "11,685km",
+      "price": 857.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年9月",
+      "area": "福岡",
+      "details": [
+        "エアサスペンション",
+        "ブラックエクステリアパック",
+        "カルパチアングレー",
+        "3ゾーンクライメントコントロール",
+        "12way電動フロントシート",
+        "MERIDIANサウンド"
+      ],
+      "image": "assets/images/cases/case-defender-754.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
     }
   ],
   "points": {
