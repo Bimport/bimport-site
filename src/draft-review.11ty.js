@@ -17,7 +17,7 @@ module.exports = class {
         <img src="/${escape(v.images.hero.src)}" alt="${escape(v.nameJa)}" loading="lazy">
         <h2>${escape(v.nameJa)}</h2><p>LP全体を見る →</p>
       </a>
-      <a class="cases" href="/${escape(v.slug)}/#cases">買取実績を見る（${v.cases.length}台）</a>
+      ${v.cases.length ? `<a class="cases" href="/${escape(v.slug)}/#cases">買取実績を見る（${v.cases.length}台）</a>` : '<p class="cases">買取実績は地域の確認待ちです</p>'}
     </article>`).join("");
     return `<!doctype html><html lang="ja"><head><meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">

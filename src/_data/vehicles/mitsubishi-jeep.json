@@ -1,0 +1,177 @@
+{
+  "slug": "mitsubishi-jeep",
+  "draft": true,
+  "maker": "MITSUBISHI",
+  "makerJa": "三菱",
+  "model": "JEEP",
+  "nameJa": "三菱ジープ",
+  "seo": {
+    "title": "三菱 ジープの買取・高価査定ならBimport",
+    "description": "三菱 ジープの買取・査定ならBimport。型式・駆動系・幌・ボディをはじめ、仕様を細かく照合。グレードや装備、整備履歴、内外装の状態まで丁寧に確認します。売却未定でも60秒の入力で概算査定額をご案内。査定無料・全国対応。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/mitsubishi-jeep/hero-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/mitsubishi-jeep/hero-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/mitsubishi-jeep/hero-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "ジープの外観イメージ",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "final": {
+      "src": "assets/images/mitsubishi-jeep/hero-1536.jpg"
+    },
+    "line": {
+      "fallback": "assets/images/mitsubishi-jeep/line-photo-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/mitsubishi-jeep/line-photo-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/mitsubishi-jeep/line-photo-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "白壁のショールームに停まる実績車両の三菱ジープ",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    }
+  },
+  "hero": {
+    "label": "三菱 ジープ 買取・査定",
+    "catch": "そのジープ、本当の価値まで<br>評価されていますか？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "grades": [
+      "限定車・特別仕様車"
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 1990,
+    "yearOlderLabel": "1989年以前"
+  },
+  "cases": [
+    {
+      "maker": "MITSUBISHI",
+      "model": "ジープ",
+      "year": "1990年",
+      "mileage": "93,549km",
+      "price": 10.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年8月",
+      "area": "岐阜",
+      "details": [
+        "マフラー・ホイールキズ",
+        "荷台キズ凹",
+        "外品フロントバンパー・オーバーフェンダー",
+        "リアシート欠品",
+        "外装ムラ",
+        "下廻りサビ"
+      ],
+      "image": "assets/images/cases/case-mitsubishi-jeep-553.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    }
+  ],
+  "points": {
+    "lead": "三菱 ジープは仕様・装備・状態で価値が変わる車。<br>一台ずつ確認して査定します。",
+    "items": [
+      {
+        "key": "spec0",
+        "title": "型式・駆動系",
+        "text": "型式やエンジン、駆動系の状態を照合",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "SPECIFICATION"
+      },
+      {
+        "key": "spec1",
+        "title": "幌・ボディ",
+        "text": "幌やボディ、補修の状態を確認",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "GRADE"
+      },
+      {
+        "key": "spec2",
+        "title": "下回り・カスタム",
+        "text": "下回りのサビや足回りの変更を確認",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "EQUIPMENT"
+      },
+      {
+        "key": "condition0",
+        "title": "内外装・補修の状態",
+        "text": "キズや補修、シートやトリムの状態を確認",
+        "image": null,
+        "icon": "search",
+        "tone": "dark"
+      },
+      {
+        "key": "condition1",
+        "title": "整備・走行履歴",
+        "text": "整備内容や走行距離の履歴を確認",
+        "image": null,
+        "icon": "doc",
+        "tone": "dark"
+      },
+      {
+        "key": "condition2",
+        "title": "純正部品・付属品",
+        "text": "純正オプションや取り外した部品の有無を確認",
+        "image": null,
+        "icon": "seat",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "ボディカラー",
+      "走行距離",
+      "整備記録",
+      "車両コンディション",
+      "カスタム内容"
+    ],
+    "close": "同じジープでも、仕様の見極め次第で査定額は変わります。<br class=\"pc-only\">だからこそ、<strong>装備や状態を細かく確認する査定</strong>が大切です。"
+  },
+  "faq": [
+    {
+      "q": "ジープのグレードがわからなくても相談できますか？",
+      "a": "はい、フォームでは「その他・わからない」をお選びください。車検証や車両の写真などをもとに仕様を確認します。"
+    },
+    {
+      "q": "社外パーツやカスタムがあっても査定できますか？",
+      "a": "はい、ご相談いただけます。外装や足回りなどの変更内容と、純正部品が残っているかを確認したうえでご案内します。"
+    },
+    {
+      "q": "年式が古い・走行距離が多いジープでも相談できますか？",
+      "a": "はい、ご相談いただけます。走行距離や整備履歴、修復歴や不具合を含めて車両の状態を確認したうえでご案内します。"
+    }
+  ],
+  "line": {
+    "title": "あなたのジープ、<br>まずは写真で概算査定。",
+    "lead": "LINEで写真を送るだけ。<br>売却未定でもお気軽にご相談ください。",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "MITSUBISHI JEEP",
+    "title": "今のジープ、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは概算価格だけでもお気軽に。"
+  },
+  "theme": "draft-mitsubishi-jeep",
+  "modelShort": "ジープ"
+}
