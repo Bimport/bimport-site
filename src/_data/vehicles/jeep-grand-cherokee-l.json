@@ -1,6 +1,6 @@
 {
   "slug": "jeep-grand-cherokee-l",
-  "draft": true,
+  "draft": false,
   "theme": "jeep-imagery",
   "maker": "JEEP",
   "makerJa": "ジープ",
@@ -158,5 +158,8 @@
     "label": "JEEP GRAND CHEROKEE L",
     "title": "今の<span class=\"lp-en\">グランドチェロキーL</span>、<br>いくらになる？",
     "lead": "売却未定でもOK。<br>まずは車両情報と写真からご相談ください。"
+  },
+  "sitemap": {
+    "lastmod": "2026-11-03"
   }
 }

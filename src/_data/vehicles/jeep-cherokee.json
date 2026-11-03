@@ -1,6 +1,6 @@
 {
   "slug": "jeep-cherokee",
-  "draft": true,
+  "draft": false,
   "theme": "jeep-imagery",
   "maker": "JEEP",
   "makerJa": "ジープ",
@@ -176,5 +176,8 @@
     "label": "JEEP CHEROKEE",
     "title": "今の<span class=\"lp-en\">チェロキー</span>、<br>いくらになる？",
     "lead": "売却未定でもOK。<br>まずは車両情報と写真からご相談ください。"
+  },
+  "sitemap": {
+    "lastmod": "2026-11-03"
   }
 }

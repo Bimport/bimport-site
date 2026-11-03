@@ -1,6 +1,6 @@
 {
   "slug": "jeep-grand-wagoneer",
-  "draft": true,
+  "draft": false,
   "theme": "jeep-imagery",
   "maker": "JEEP",
   "makerJa": "ジープ",
@@ -171,5 +171,8 @@
     "label": "JEEP GRAND WAGONEER",
     "title": "今の<span class=\"lp-en\">グランドワゴニア</span>、<br>いくらになる？",
     "lead": "売却未定でもOK。<br>まずは車両情報と写真からご相談ください。"
+  },
+  "sitemap": {
+    "lastmod": "2026-11-03"
   }
 }
