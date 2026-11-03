@@ -1,0 +1,157 @@
+{
+  "slug": "porsche-356",
+  "draft": true,
+  "theme": "porsche-imagery",
+  "maker": "PORSCHE",
+  "makerJa": "ポルシェ",
+  "model": "356",
+  "modelShort": "356",
+  "nameJa": "ポルシェ 356",
+  "seo": {
+    "title": "ポルシェ 356の買取・査定ならBimport｜輸入車専門",
+    "description": "ポルシェ 356の買取・査定をご相談ください。ボディと下回りの保存状態・車両書類と仕様の照合を確認し、年式や走行距離だけでなく、実際の装備と整備記録を照合して概算査定をご案内します。査定無料・全国対応。売却未定でもお気軽にご相談ください。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/porsche-356/hero-ai-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/porsche-356/hero-ai-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/porsche-356/hero-ai-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "ポルシェ 356のAI生成イメージ（前方からの別カット）",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "line": {
+      "fallback": "assets/images/porsche-356/line-image-ai-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/porsche-356/line-image-ai-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/porsche-356/line-image-ai-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "ポルシェ 356のAI生成イメージ（後方からの別カット）",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "final": {
+      "src": "assets/images/porsche-356/hero-ai-1536.jpg"
+    }
+  },
+  "hero": {
+    "label": "ポルシェ 356 買取・査定",
+    "catch": "その一台の歩みまで、<br>丁寧に確かめる査定。",
+    "lead": "ボディと下回りの保存状態を丁寧に確認。<br>売却未定でも、まずは概算査定から。<br><small>※画像はAI生成の車種イメージです。</small>",
+    "buy": "買取・査定",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 1948,
+    "yearOlderLabel": "1947年以前"
+  },
+  "cases": [],
+  "casesEmpty": {
+    "title": "買取実績は現在未掲載です",
+    "message": "このページでご紹介する356の買取実績は、現在まだ掲載していません。車両情報・買取時期・金額を確認した実績から、順次ご紹介します。"
+  },
+  "points": {
+    "lead": "356は、車両の仕様と状態を照合して査定します。<br>確認できる情報をもとに、一台ずつご案内します。",
+    "items": [
+      {
+        "key": "spec0",
+        "title": "ボディと下回りの保存状態",
+        "text": "塗装やパネル、下回りの傷み・補修・サビなどを実車と記録から確認します。",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "SPECIFICATION"
+      },
+      {
+        "key": "spec1",
+        "title": "車両書類と仕様の照合",
+        "text": "車検証や車両の書類と実車を照合し、モデル年ごとの仕様や装備を確認します。",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "EQUIPMENT"
+      },
+      {
+        "key": "spec2",
+        "title": "レストア・整備履歴",
+        "text": "点検記録や修理明細から、整備・交換の内容と現在の状態を照合します。",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "CONDITION"
+      },
+      {
+        "key": "condition0",
+        "title": "内外装・使用状態",
+        "text": "ボディやシート、ホイールのキズ・損傷・補修の状態を確認します。",
+        "image": null,
+        "icon": "search",
+        "tone": "dark"
+      },
+      {
+        "key": "condition1",
+        "title": "整備・修理の記録",
+        "text": "点検記録や修理明細を確認し、整備の内容と現在の状態を照合します。",
+        "image": null,
+        "icon": "doc",
+        "tone": "dark"
+      },
+      {
+        "key": "condition2",
+        "title": "純正部品・付属品",
+        "text": "スペアキーや取扱説明書、保管している純正部品などを確認します。",
+        "image": null,
+        "icon": "wheel",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "モデル年",
+      "走行距離",
+      "整備記録",
+      "純正部品",
+      "使用・保管状況"
+    ],
+    "close": "車両の仕様や整備履歴が、まだ分からなくても大丈夫です。<br>まずは<strong>車検証とお車の写真</strong>からご相談ください。"
+  },
+  "faq": [
+    {
+      "q": "グレードや仕様が分からなくても相談できますか？",
+      "a": "はい、ご相談いただけます。「その他・わからない」を選択し、車検証や車両の写真をご用意ください。356の仕様を確認したうえでご案内します。"
+    },
+    {
+      "q": "古い年式や整備履歴が少ない車でも相談できますか？",
+      "a": "はい、ご相談いただけます。ボディと下回りの保存状態を確認し、モデル年と装備、車両の状態を分けて照合します。分かる範囲の情報からお知らせください。"
+    },
+    {
+      "q": "査定前に用意するものはありますか？",
+      "a": "車検証、整備記録、スペアキー、付属品などがあればご用意ください。車両書類と仕様の照合に関する修理や交換の記録も確認します。"
+    }
+  ],
+  "line": {
+    "title": "あなたの<span class=\"lp-en\">356</span>、<br>まずは写真で概算査定。",
+    "lead": "車全体・内装・メーターの写真をLINEで。<br>仕様が分からない場合もお気軽にご相談ください。<br><small>※AI生成のイメージです。実績写真ではありません。</small>",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "PORSCHE 356",
+    "title": "今の<span class=\"lp-en\">356</span>、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは車両情報と写真からご相談ください。"
+  }
+}

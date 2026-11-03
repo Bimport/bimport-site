@@ -1,0 +1,690 @@
+[
+  {
+    "slug": "bmw-2002",
+    "kind": "hero",
+    "color": "deep blue",
+    "scene": "mossy stone bridge in a Bavarian meadow",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 1972 BMW 2002 E10 two-door compact sedan, round headlights, thin chrome bumpers. Paint: deep blue. Genuine factory body proportions and stock wheels, no invented body kit. Scene: mossy stone bridge in a Bavarian meadow, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-2002/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-2002",
+    "kind": "line-image",
+    "color": "pearl white",
+    "scene": "quiet whitewashed Mediterranean courtyard",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 1972 BMW 2002 E10 two-door compact sedan, round headlights, thin chrome bumpers. Paint: pearl white. Genuine factory body proportions and stock wheels, no invented body kit. Scene: quiet whitewashed Mediterranean courtyard, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-2002/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-4-series",
+    "kind": "hero",
+    "color": "dark green",
+    "scene": "sunrise cliffside coastal turnout",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2022 BMW 4 Series G22 two-door coupe, tall vertical kidney grille. Paint: dark green. Genuine factory body proportions and stock wheels, no invented body kit. Scene: sunrise cliffside coastal turnout, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-4-series/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-4-series",
+    "kind": "line-image",
+    "color": "silver",
+    "scene": "modern glass pavilion beside a canal",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2022 BMW 4 Series G22 two-door coupe, tall vertical kidney grille. Paint: silver. Genuine factory body proportions and stock wheels, no invented body kit. Scene: modern glass pavilion beside a canal, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-4-series/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-5-series",
+    "kind": "hero",
+    "color": "burgundy",
+    "scene": "formal palace park gravel drive",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2021 BMW 5 Series G30 facelift four-door sedan. Paint: burgundy. Genuine factory body proportions and stock wheels, no invented body kit. Scene: formal palace park gravel drive, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-5-series/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-5-series",
+    "kind": "line-image",
+    "color": "dark blue",
+    "scene": "misty hilltop wind farm access road",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2021 BMW 5 Series G30 facelift four-door sedan. Paint: dark blue. Genuine factory body proportions and stock wheels, no invented body kit. Scene: misty hilltop wind farm access road, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-5-series/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-m1",
+    "kind": "hero",
+    "color": "red",
+    "scene": "minimalist brutalist concrete courtyard",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 1980 BMW M1 E26 wedge-shaped mid-engine two-door supercar, pop-up headlights CLOSED. Paint: red. Genuine factory body proportions and stock wheels, no invented body kit. Scene: minimalist brutalist concrete courtyard, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-m1/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-m1",
+    "kind": "line-image",
+    "color": "silver",
+    "scene": "sunset volcanic plateau pullout",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 1980 BMW M1 E26 wedge-shaped mid-engine two-door supercar, pop-up headlights CLOSED. Paint: silver. Genuine factory body proportions and stock wheels, no invented body kit. Scene: sunset volcanic plateau pullout, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-m1/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-m2",
+    "kind": "hero",
+    "color": "light blue",
+    "scene": "winding mountain road with spring blossoms",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2024 BMW M2 G87 two-door coupe, wide square fenders and horizontal grille. Paint: light blue. Genuine factory body proportions and stock wheels, no invented body kit. Scene: winding mountain road with spring blossoms, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-m2/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-m2",
+    "kind": "line-image",
+    "color": "dark gray",
+    "scene": "industrial brick loft courtyard at blue hour",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2024 BMW M2 G87 two-door coupe, wide square fenders and horizontal grille. Paint: dark gray. Genuine factory body proportions and stock wheels, no invented body kit. Scene: industrial brick loft courtyard at blue hour, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-m2/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-m4",
+    "kind": "hero",
+    "color": "yellow",
+    "scene": "rocky Atlantic coast road at golden hour",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2022 BMW M4 G82 two-door coupe, tall vertical kidney grille. Paint: yellow. Genuine factory body proportions and stock wheels, no invented body kit. Scene: rocky Atlantic coast road at golden hour, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-m4/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-m4",
+    "kind": "line-image",
+    "color": "dark green",
+    "scene": "shaded modern art sculpture courtyard without sculptures",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2022 BMW M4 G82 two-door coupe, tall vertical kidney grille. Paint: dark green. Genuine factory body proportions and stock wheels, no invented body kit. Scene: shaded modern art sculpture courtyard without sculptures, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-m4/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-m8",
+    "kind": "hero",
+    "color": "silver",
+    "scene": "high alpine luxury hotel terrace",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2021 BMW M8 F92 two-door luxury coupe. Paint: silver. Genuine factory body proportions and stock wheels, no invented body kit. Scene: high alpine luxury hotel terrace, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-m8/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-m8",
+    "kind": "line-image",
+    "color": "burgundy",
+    "scene": "palm-lined desert resort entrance",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2021 BMW M8 F92 two-door luxury coupe. Paint: burgundy. Genuine factory body proportions and stock wheels, no invented body kit. Scene: palm-lined desert resort entrance, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-m8/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-x2",
+    "kind": "hero",
+    "color": "orange",
+    "scene": "wide lavender field lane",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2021 BMW X2 F39 compact five-door crossover, sloping hatchback roof. Paint: orange. Genuine factory body proportions and stock wheels, no invented body kit. Scene: wide lavender field lane, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-x2/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-x2",
+    "kind": "line-image",
+    "color": "white",
+    "scene": "riverside modern library forecourt",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2021 BMW X2 F39 compact five-door crossover, sloping hatchback roof. Paint: white. Genuine factory body proportions and stock wheels, no invented body kit. Scene: riverside modern library forecourt, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-x2/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-x3-m",
+    "kind": "hero",
+    "color": "deep blue",
+    "scene": "rugged wooded highland gravel clearing",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2021 BMW X3 M F97 high-performance SUV, quad exhaust. Paint: deep blue. Genuine factory body proportions and stock wheels, no invented body kit. Scene: rugged wooded highland gravel clearing, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-x3-m/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-x3-m",
+    "kind": "line-image",
+    "color": "pearl white",
+    "scene": "snow-lined chalet parking terrace",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2021 BMW X3 M F97 high-performance SUV, quad exhaust. Paint: pearl white. Genuine factory body proportions and stock wheels, no invented body kit. Scene: snow-lined chalet parking terrace, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-x3-m/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-x4-m",
+    "kind": "hero",
+    "color": "dark green",
+    "scene": "sunset terraced hillside road",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2021 BMW X4 M F98 sloping-roof performance coupe SUV, quad exhaust. Paint: dark green. Genuine factory body proportions and stock wheels, no invented body kit. Scene: sunset terraced hillside road, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-x4-m/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-x4-m",
+    "kind": "line-image",
+    "color": "silver",
+    "scene": "quiet waterfront converted dock warehouse",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2021 BMW X4 M F98 sloping-roof performance coupe SUV, quad exhaust. Paint: silver. Genuine factory body proportions and stock wheels, no invented body kit. Scene: quiet waterfront converted dock warehouse, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-x4-m/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-x5-m",
+    "kind": "hero",
+    "color": "burgundy",
+    "scene": "windswept sand-dune paved access road",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2021 BMW X5 M F95 performance SUV, quad exhaust. Paint: burgundy. Genuine factory body proportions and stock wheels, no invented body kit. Scene: windswept sand-dune paved access road, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-x5-m/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-x5-m",
+    "kind": "line-image",
+    "color": "dark blue",
+    "scene": "lush mountain tea plantation turnout",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2021 BMW X5 M F95 performance SUV, quad exhaust. Paint: dark blue. Genuine factory body proportions and stock wheels, no invented body kit. Scene: lush mountain tea plantation turnout, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-x5-m/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-x6-m",
+    "kind": "hero",
+    "color": "red",
+    "scene": "dramatic slate quarry access road",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2021 BMW X6 M F96 performance sloping-roof coupe SUV, quad exhaust. Paint: red. Genuine factory body proportions and stock wheels, no invented body kit. Scene: dramatic slate quarry access road, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-x6-m/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-x6-m",
+    "kind": "line-image",
+    "color": "silver",
+    "scene": "contemporary hilltop villa stone drive",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2021 BMW X6 M F96 performance sloping-roof coupe SUV, quad exhaust. Paint: silver. Genuine factory body proportions and stock wheels, no invented body kit. Scene: contemporary hilltop villa stone drive, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-x6-m/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-xm",
+    "kind": "hero",
+    "color": "light blue",
+    "scene": "black lava landscape paved road",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2023 BMW XM G09 large angular plug-in hybrid SUV with split headlights. Paint: light blue. Genuine factory body proportions and stock wheels, no invented body kit. Scene: black lava landscape paved road, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-xm/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-xm",
+    "kind": "line-image",
+    "color": "dark gray",
+    "scene": "luxury desert stone lodge forecourt",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2023 BMW XM G09 large angular plug-in hybrid SUV with split headlights. Paint: dark gray. Genuine factory body proportions and stock wheels, no invented body kit. Scene: luxury desert stone lodge forecourt, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-xm/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-z1",
+    "kind": "hero",
+    "color": "yellow",
+    "scene": "spring meadow beside a small timber barn",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 1990 BMW Z1 E30 Z1 two-seat roadster, retracting vertical doors CLOSED, black soft top folded. Paint: yellow. Genuine factory body proportions and stock wheels, no invented body kit. Scene: spring meadow beside a small timber barn, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-z1/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-z1",
+    "kind": "line-image",
+    "color": "dark green",
+    "scene": "quiet lakeside reed-lined boathouse lane",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 1990 BMW Z1 E30 Z1 two-seat roadster, retracting vertical doors CLOSED, black soft top folded. Paint: dark green. Genuine factory body proportions and stock wheels, no invented body kit. Scene: quiet lakeside reed-lined boathouse lane, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-z1/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-z3",
+    "kind": "hero",
+    "color": "silver",
+    "scene": "sunny terracotta village lane",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 1999 BMW Z3 E36/7 two-seat roadster, open soft top. Paint: silver. Genuine factory body proportions and stock wheels, no invented body kit. Scene: sunny terracotta village lane, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-z3/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-z3",
+    "kind": "line-image",
+    "color": "burgundy",
+    "scene": "silver birch grove country road",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 1999 BMW Z3 E36/7 two-seat roadster, open soft top. Paint: burgundy. Genuine factory body proportions and stock wheels, no invented body kit. Scene: silver birch grove country road, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-z3/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-z3-m",
+    "kind": "hero",
+    "color": "orange",
+    "scene": "cypress-lined vineyard drive",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2000 BMW Z3 M Roadster E36/7 wide rear fenders, side vents and quad exhaust, roof open. Paint: orange. Genuine factory body proportions and stock wheels, no invented body kit. Scene: cypress-lined vineyard drive, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-z3-m/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-z3-m",
+    "kind": "line-image",
+    "color": "white",
+    "scene": "turquoise coastal inlet overlook",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2000 BMW Z3 M Roadster E36/7 wide rear fenders, side vents and quad exhaust, roof open. Paint: white. Genuine factory body proportions and stock wheels, no invented body kit. Scene: turquoise coastal inlet overlook, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-z3-m/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-z4-m",
+    "kind": "hero",
+    "color": "deep blue",
+    "scene": "granite mountain tunnel exit turnout",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2006 BMW Z4 M Coupe E86 fixed fastback roof, two doors, quad exhaust. Paint: deep blue. Genuine factory body proportions and stock wheels, no invented body kit. Scene: granite mountain tunnel exit turnout, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-z4-m/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-z4-m",
+    "kind": "line-image",
+    "color": "pearl white",
+    "scene": "old sandstone observatory forecourt",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2006 BMW Z4 M Coupe E86 fixed fastback roof, two doors, quad exhaust. Paint: pearl white. Genuine factory body proportions and stock wheels, no invented body kit. Scene: old sandstone observatory forecourt, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-z4-m/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-z8",
+    "kind": "hero",
+    "color": "dark green",
+    "scene": "elegant cobbled boulevard beside limestone facades",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2001 BMW Z8 E52 two-seat aluminum roadster, open roof. Paint: dark green. Genuine factory body proportions and stock wheels, no invented body kit. Scene: elegant cobbled boulevard beside limestone facades, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-z8/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-z8",
+    "kind": "line-image",
+    "color": "silver",
+    "scene": "sunlit bamboo garden paved entrance",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2001 BMW Z8 E52 two-seat aluminum roadster, open roof. Paint: silver. Genuine factory body proportions and stock wheels, no invented body kit. Scene: sunlit bamboo garden paved entrance, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-z8/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-i3",
+    "kind": "hero",
+    "color": "burgundy",
+    "scene": "colorful Scandinavian harbor lane without signs",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2019 BMW i3 I01 compact electric hatchback, contrasting black roof and rear hatch. Paint: burgundy. Genuine factory body proportions and stock wheels, no invented body kit. Scene: colorful Scandinavian harbor lane without signs, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-i3/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-i3",
+    "kind": "line-image",
+    "color": "dark blue",
+    "scene": "minimal white urban townhouse driveway",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2019 BMW i3 I01 compact electric hatchback, contrasting black roof and rear hatch. Paint: dark blue. Genuine factory body proportions and stock wheels, no invented body kit. Scene: minimal white urban townhouse driveway, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-i3/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-i4",
+    "kind": "hero",
+    "color": "red",
+    "scene": "wide coastal salt-marsh paved causeway",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2023 BMW i4 G26 electric four-door fastback, tall closed kidney grille. Paint: red. Genuine factory body proportions and stock wheels, no invented body kit. Scene: wide coastal salt-marsh paved causeway, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-i4/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-i4",
+    "kind": "line-image",
+    "color": "silver",
+    "scene": "modern urban railway viaduct plaza",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2023 BMW i4 G26 electric four-door fastback, tall closed kidney grille. Paint: silver. Genuine factory body proportions and stock wheels, no invented body kit. Scene: modern urban railway viaduct plaza, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-i4/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-i5",
+    "kind": "hero",
+    "color": "light blue",
+    "scene": "gentle green hilltop estate drive",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2024 BMW i5 G60 electric executive four-door sedan. Paint: light blue. Genuine factory body proportions and stock wheels, no invented body kit. Scene: gentle green hilltop estate drive, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-i5/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-i5",
+    "kind": "line-image",
+    "color": "dark gray",
+    "scene": "oceanfront dark stone contemporary residence",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2024 BMW i5 G60 electric executive four-door sedan. Paint: dark gray. Genuine factory body proportions and stock wheels, no invented body kit. Scene: oceanfront dark stone contemporary residence, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-i5/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-i7",
+    "kind": "hero",
+    "color": "yellow",
+    "scene": "grand modern opera house forecourt",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2023 BMW i7 G70 electric luxury sedan, split headlights and large kidney grille. Paint: yellow. Genuine factory body proportions and stock wheels, no invented body kit. Scene: grand modern opera house forecourt, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-i7/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-i7",
+    "kind": "line-image",
+    "color": "dark green",
+    "scene": "quiet desert oasis resort driveway",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2023 BMW i7 G70 electric luxury sedan, split headlights and large kidney grille. Paint: dark green. Genuine factory body proportions and stock wheels, no invented body kit. Scene: quiet desert oasis resort driveway, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-i7/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-i8",
+    "kind": "hero",
+    "color": "silver",
+    "scene": "glass-and-steel innovation campus at dusk",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2016 BMW i8 I12 plug-in hybrid two-door sports coupe, butterfly doors CLOSED. Paint: silver. Genuine factory body proportions and stock wheels, no invented body kit. Scene: glass-and-steel innovation campus at dusk, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-i8/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-i8",
+    "kind": "line-image",
+    "color": "burgundy",
+    "scene": "lush subtropical coastal hill road",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2016 BMW i8 I12 plug-in hybrid two-door sports coupe, butterfly doors CLOSED. Paint: burgundy. Genuine factory body proportions and stock wheels, no invented body kit. Scene: lush subtropical coastal hill road, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-i8/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-ix",
+    "kind": "hero",
+    "color": "orange",
+    "scene": "pine-covered fjord overlook",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2023 BMW iX I20 electric SUV, narrow headlights and tall closed kidney grille. Paint: orange. Genuine factory body proportions and stock wheels, no invented body kit. Scene: pine-covered fjord overlook, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-ix/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-ix",
+    "kind": "line-image",
+    "color": "white",
+    "scene": "weathered stone countryside manor courtyard",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2023 BMW iX I20 electric SUV, narrow headlights and tall closed kidney grille. Paint: white. Genuine factory body proportions and stock wheels, no invented body kit. Scene: weathered stone countryside manor courtyard, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-ix/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-ix1",
+    "kind": "hero",
+    "color": "deep blue",
+    "scene": "sunny apple orchard gravel lane",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2023 BMW iX1 U11 compact electric SUV. Paint: deep blue. Genuine factory body proportions and stock wheels, no invented body kit. Scene: sunny apple orchard gravel lane, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-ix1/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-ix1",
+    "kind": "line-image",
+    "color": "pearl white",
+    "scene": "modern riverside timber house driveway",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2023 BMW iX1 U11 compact electric SUV. Paint: pearl white. Genuine factory body proportions and stock wheels, no invented body kit. Scene: modern riverside timber house driveway, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-ix1/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-ix2",
+    "kind": "hero",
+    "color": "dark green",
+    "scene": "sculptural concrete hillside carport",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2024 BMW iX2 U10 sloping-roof electric compact SUV. Paint: dark green. Genuine factory body proportions and stock wheels, no invented body kit. Scene: sculptural concrete hillside carport, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-ix2/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-ix2",
+    "kind": "line-image",
+    "color": "silver",
+    "scene": "calm marina palm grove promenade",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2024 BMW iX2 U10 sloping-roof electric compact SUV. Paint: silver. Genuine factory body proportions and stock wheels, no invented body kit. Scene: calm marina palm grove promenade, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-ix2/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-ix3",
+    "kind": "hero",
+    "color": "burgundy",
+    "scene": "rugged highland reservoir paved road",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2022 BMW iX3 G08 electric SUV with conventional kidney grille, NOT Neue Klasse. Paint: burgundy. Genuine factory body proportions and stock wheels, no invented body kit. Scene: rugged highland reservoir paved road, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-ix3/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "bmw-ix3",
+    "kind": "line-image",
+    "color": "dark blue",
+    "scene": "bright modern mountain railway hotel forecourt",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2022 BMW iX3 G08 electric SUV with conventional kidney grille, NOT Neue Klasse. Paint: dark blue. Genuine factory body proportions and stock wheels, no invented body kit. Scene: bright modern mountain railway hotel forecourt, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/bmw-ix3/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "porsche-356",
+    "kind": "hero",
+    "color": "red",
+    "scene": "rustic French chateau gravel court",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 1964 Porsche 356 C two-door rounded classic coupe, round headlights and chrome bumpers. Paint: red. Genuine factory body proportions and stock wheels, no invented body kit. Scene: rustic French chateau gravel court, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/porsche-356/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "porsche-356",
+    "kind": "line-image",
+    "color": "silver",
+    "scene": "quiet old fishing village sea-wall lane",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 1964 Porsche 356 C two-door rounded classic coupe, round headlights and chrome bumpers. Paint: silver. Genuine factory body proportions and stock wheels, no invented body kit. Scene: quiet old fishing village sea-wall lane, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/porsche-356/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "porsche-912",
+    "kind": "hero",
+    "color": "light blue",
+    "scene": "warm ochre historic town square empty of people",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 1967 Porsche 912 short-wheelbase classic two-door coupe, early narrow body and chrome bumpers, NOT modern 911. Paint: light blue. Genuine factory body proportions and stock wheels, no invented body kit. Scene: warm ochre historic town square empty of people, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/porsche-912/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "porsche-912",
+    "kind": "line-image",
+    "color": "dark gray",
+    "scene": "shaded Tuscan stone farmhouse drive",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 1967 Porsche 912 short-wheelbase classic two-door coupe, early narrow body and chrome bumpers, NOT modern 911. Paint: dark gray. Genuine factory body proportions and stock wheels, no invented body kit. Scene: shaded Tuscan stone farmhouse drive, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/porsche-912/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "porsche-914",
+    "kind": "hero",
+    "color": "yellow",
+    "scene": "bright sandy beach access lane with grasses",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 1973 Porsche 914 mid-engine two-seat targa, removable black roof ON, pop-up headlights CLOSED. Paint: yellow. Genuine factory body proportions and stock wheels, no invented body kit. Scene: bright sandy beach access lane with grasses, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/porsche-914/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "porsche-914",
+    "kind": "line-image",
+    "color": "dark green",
+    "scene": "quiet redwood grove scenic turnout",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 1973 Porsche 914 mid-engine two-seat targa, removable black roof ON, pop-up headlights CLOSED. Paint: dark green. Genuine factory body proportions and stock wheels, no invented body kit. Scene: quiet redwood grove scenic turnout, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/porsche-914/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "porsche-918",
+    "kind": "hero",
+    "color": "silver",
+    "scene": "white marble modern museum forecourt",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2015 Porsche 918 Spyder plug-in hybrid supercar, removable roof OFF, doors CLOSED. Paint: silver. Genuine factory body proportions and stock wheels, no invented body kit. Scene: white marble modern museum forecourt, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/porsche-918/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "porsche-918",
+    "kind": "line-image",
+    "color": "burgundy",
+    "scene": "sunset high mountain switchback turnout",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2015 Porsche 918 Spyder plug-in hybrid supercar, removable roof OFF, doors CLOSED. Paint: burgundy. Genuine factory body proportions and stock wheels, no invented body kit. Scene: sunset high mountain switchback turnout, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/porsche-918/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "porsche-924",
+    "kind": "hero",
+    "color": "orange",
+    "scene": "lush green pasture stone fence lane",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 1983 Porsche 924 front-engine two-door wedge coupe, narrow body, glass rear hatch, pop-up headlights CLOSED. Paint: orange. Genuine factory body proportions and stock wheels, no invented body kit. Scene: lush green pasture stone fence lane, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/porsche-924/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "porsche-924",
+    "kind": "line-image",
+    "color": "white",
+    "scene": "old red brick water tower courtyard",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 1983 Porsche 924 front-engine two-door wedge coupe, narrow body, glass rear hatch, pop-up headlights CLOSED. Paint: white. Genuine factory body proportions and stock wheels, no invented body kit. Scene: old red brick water tower courtyard, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/porsche-924/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "porsche-928",
+    "kind": "hero",
+    "color": "deep blue",
+    "scene": "desert highway rest turnout with distant mesas",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 1993 Porsche 928 GTS front-engine rounded grand touring coupe, oval pop-up headlights CLOSED. Paint: deep blue. Genuine factory body proportions and stock wheels, no invented body kit. Scene: desert highway rest turnout with distant mesas, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/porsche-928/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "porsche-928",
+    "kind": "line-image",
+    "color": "pearl white",
+    "scene": "elegant contemporary wood-and-stone lake house",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 1993 Porsche 928 GTS front-engine rounded grand touring coupe, oval pop-up headlights CLOSED. Paint: pearl white. Genuine factory body proportions and stock wheels, no invented body kit. Scene: elegant contemporary wood-and-stone lake house, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/porsche-928/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "porsche-944",
+    "kind": "hero",
+    "color": "dark green",
+    "scene": "paved coastal pine grove clearing",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 1987 Porsche 944 front-engine two-door wedge coupe, flared fenders, glass hatch, pop-up headlights CLOSED. Paint: dark green. Genuine factory body proportions and stock wheels, no invented body kit. Scene: paved coastal pine grove clearing, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/porsche-944/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "porsche-944",
+    "kind": "line-image",
+    "color": "silver",
+    "scene": "overcast rugged mountain lodge driveway",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 1987 Porsche 944 front-engine two-door wedge coupe, flared fenders, glass hatch, pop-up headlights CLOSED. Paint: silver. Genuine factory body proportions and stock wheels, no invented body kit. Scene: overcast rugged mountain lodge driveway, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/porsche-944/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "porsche-959",
+    "kind": "hero",
+    "color": "burgundy",
+    "scene": "empty alpine mountain village cobblestone street",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 1988 Porsche 959 two-door supercar, integrated rear wing, wide aerodynamic fenders. Paint: burgundy. Genuine factory body proportions and stock wheels, no invented body kit. Scene: empty alpine mountain village cobblestone street, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/porsche-959/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "porsche-959",
+    "kind": "line-image",
+    "color": "dark blue",
+    "scene": "sunny citrus orchard lane",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 1988 Porsche 959 two-door supercar, integrated rear wing, wide aerodynamic fenders. Paint: dark blue. Genuine factory body proportions and stock wheels, no invented body kit. Scene: sunny citrus orchard lane, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/porsche-959/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "porsche-968",
+    "kind": "hero",
+    "color": "red",
+    "scene": "warm Mediterranean vineyard gravel road",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 1993 Porsche 968 two-door front-engine coupe, rounded oval pop-up headlights CLOSED. Paint: red. Genuine factory body proportions and stock wheels, no invented body kit. Scene: warm Mediterranean vineyard gravel road, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/porsche-968/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "porsche-968",
+    "kind": "line-image",
+    "color": "silver",
+    "scene": "cool blue fjord-side modern cabin driveway",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 1993 Porsche 968 two-door front-engine coupe, rounded oval pop-up headlights CLOSED. Paint: silver. Genuine factory body proportions and stock wheels, no invented body kit. Scene: cool blue fjord-side modern cabin driveway, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/porsche-968/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "porsche-carrera-gt",
+    "kind": "hero",
+    "color": "light blue",
+    "scene": "open rooftop terrace overlooking distant harbor",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2004 Porsche Carrera GT V10 mid-engine two-seat roadster, removable roof OFF. Paint: light blue. Genuine factory body proportions and stock wheels, no invented body kit. Scene: open rooftop terrace overlooking distant harbor, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/porsche-carrera-gt/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "porsche-carrera-gt",
+    "kind": "line-image",
+    "color": "dark gray",
+    "scene": "shaded tropical stone resort courtyard",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2004 Porsche Carrera GT V10 mid-engine two-seat roadster, removable roof OFF. Paint: dark gray. Genuine factory body proportions and stock wheels, no invented body kit. Scene: shaded tropical stone resort courtyard, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/porsche-carrera-gt/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "porsche-boxster",
+    "kind": "hero",
+    "color": "yellow",
+    "scene": "curving sunny ridge road with sea far below",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2014 Porsche Boxster 981 two-seat mid-engine roadster, roof open, NOT 718. Paint: yellow. Genuine factory body proportions and stock wheels, no invented body kit. Scene: curving sunny ridge road with sea far below, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/porsche-boxster/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "porsche-boxster",
+    "kind": "line-image",
+    "color": "dark green",
+    "scene": "quiet autumn university stone arch courtyard",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2014 Porsche Boxster 981 two-seat mid-engine roadster, roof open, NOT 718. Paint: dark green. Genuine factory body proportions and stock wheels, no invented body kit. Scene: quiet autumn university stone arch courtyard, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/porsche-boxster/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "land-rover-discovery",
+    "kind": "hero",
+    "color": "silver",
+    "scene": "Scottish moor paved overlook",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2020 Land Rover Discovery L462 full-size three-row SUV with asymmetrical rear license plate location. Paint: silver. Genuine factory body proportions and stock wheels, no invented body kit. Scene: Scottish moor paved overlook, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/land-rover-discovery/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "land-rover-discovery",
+    "kind": "line-image",
+    "color": "burgundy",
+    "scene": "quiet oak forest country estate driveway",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2020 Land Rover Discovery L462 full-size three-row SUV with asymmetrical rear license plate location. Paint: burgundy. Genuine factory body proportions and stock wheels, no invented body kit. Scene: quiet oak forest country estate driveway, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/land-rover-discovery/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "land-rover-discovery-sport",
+    "kind": "hero",
+    "color": "orange",
+    "scene": "green highland valley farm access lane",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2021 Land Rover Discovery Sport L550 compact SUV, horizontal slim headlights. Paint: orange. Genuine factory body proportions and stock wheels, no invented body kit. Scene: green highland valley farm access lane, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/land-rover-discovery-sport/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "land-rover-discovery-sport",
+    "kind": "line-image",
+    "color": "white",
+    "scene": "modern slate-roof rural inn forecourt",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2021 Land Rover Discovery Sport L550 compact SUV, horizontal slim headlights. Paint: white. Genuine factory body proportions and stock wheels, no invented body kit. Scene: modern slate-roof rural inn forecourt, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/land-rover-discovery-sport/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "land-rover-freelander",
+    "kind": "hero",
+    "color": "deep blue",
+    "scene": "rocky Welsh coastal paved turnout",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2013 Land Rover Freelander 2 L359 compact boxy SUV. Paint: deep blue. Genuine factory body proportions and stock wheels, no invented body kit. Scene: rocky Welsh coastal paved turnout, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/land-rover-freelander/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "land-rover-freelander",
+    "kind": "line-image",
+    "color": "pearl white",
+    "scene": "quiet riverside stone cottage drive",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2013 Land Rover Freelander 2 L359 compact boxy SUV. Paint: pearl white. Genuine factory body proportions and stock wheels, no invented body kit. Scene: quiet riverside stone cottage drive, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/land-rover-freelander/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "land-rover-range-rover-evoque",
+    "kind": "hero",
+    "color": "dark green",
+    "scene": "white modern coastal villa driveway",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2021 Range Rover Evoque L551 compact luxury SUV, flush handles and sloping roof. Paint: dark green. Genuine factory body proportions and stock wheels, no invented body kit. Scene: white modern coastal villa driveway, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/land-rover-range-rover-evoque/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "land-rover-range-rover-evoque",
+    "kind": "line-image",
+    "color": "silver",
+    "scene": "golden dune boardwalk access road",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2021 Range Rover Evoque L551 compact luxury SUV, flush handles and sloping roof. Paint: silver. Genuine factory body proportions and stock wheels, no invented body kit. Scene: golden dune boardwalk access road, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/land-rover-range-rover-evoque/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "land-rover-range-rover-velar",
+    "kind": "hero",
+    "color": "burgundy",
+    "scene": "sleek lakeside architectural pavilion driveway",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2021 Range Rover Velar L560 luxury midsize SUV, flush handles and floating roof. Paint: burgundy. Genuine factory body proportions and stock wheels, no invented body kit. Scene: sleek lakeside architectural pavilion driveway, parked safely, natural photographic daylight and realistic reflections. Composition: front three-quarter view, nose points LEFT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/land-rover-range-rover-velar/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "land-rover-range-rover-velar",
+    "kind": "line-image",
+    "color": "dark blue",
+    "scene": "dramatic red sandstone canyon scenic turnout",
+    "prompt": "Use case: ads-marketing. Generate ONE photorealistic premium automotive landscape photograph, 3:2 ratio. Subject: authentic 2021 Range Rover Velar L560 luxury midsize SUV, flush handles and floating roof. Paint: dark blue. Genuine factory body proportions and stock wheels, no invented body kit. Scene: dramatic red sandstone canyon scenic turnout, parked safely, natural photographic daylight and realistic reflections. Composition: rear three-quarter view, nose points RIGHT. Entire car including roof, both bumpers and all visible wheels completely inside frame, generous 15 percent margins around car; car about 65 percent of frame width. Preserve recognizable model-specific headlights, grille, windows, roofline and body shape. No people, readable signs, added lettering, watermark or advertising overlays; license plates blank. Native car emblems allowed. One realistic photograph, NOT collage. Generated illustrative vehicle image for car buying LP, not an actual purchase case.",
+    "finalPath": "src/assets/images/land-rover-range-rover-velar/line-image-ai-1536.jpg"
+  }
+]
