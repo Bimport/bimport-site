@@ -1,0 +1,37 @@
+/* 実績未掲載版の車種イメージ画像用。実際の買取写真とは区別する。 */
+.lp-theme-jeep-imagery {
+  --c-gold: #8c9d74;
+  --c-gold-text: #48603d;
+  --c-gold-light: #dce5ca;
+  --c-gold-grad: linear-gradient(180deg, #839970, #4e6745);
+}
+.lp-theme-jeep-imagery .lp-btn--gold { color: #fff; }
+.lp-theme-jeep-imagery .lp-hero__bg { background: linear-gradient(130deg, #0b1411, #24382a); }
+.lp-theme-jeep-imagery .lp-hero__model { font-size: clamp(32px, 9vw, 58px); overflow-wrap: anywhere; }
+.lp-theme-jeep-imagery .lp-hero__buy { font-size: clamp(42px, 12vw, 76px); background: linear-gradient(180deg, #fff, #dce5ca); background-clip: text; -webkit-background-clip: text; color: transparent; text-shadow: none; filter: none; }
+.lp-theme-jeep-imagery .lp-hero__photo { margin: 24px 0 0; }
+.lp-theme-jeep-imagery .lp-hero__photo img { display: block; width: 100%; max-width: 100%; height: auto; margin-left: 0; object-fit: contain; filter: none; mask-image: none; -webkit-mask-image: none; border-radius: 8px; }
+.lp-theme-jeep-imagery .lp-hero__photo::after { display: none; }
+.lp-theme-jeep-imagery .lp-hero__badges { margin-top: 24px; }
+.lp-theme-jeep-imagery .lp-hero__lead small,
+.lp-theme-jeep-imagery .lp-line__lead small { display: inline-block; font-size: 11px; font-weight: 400; line-height: 1.7; }
+.lp-theme-jeep-imagery .lp-h2 .lp-en { display: block; font-family: inherit; letter-spacing: inherit; }
+.lp-theme-jeep-imagery .lp-cases-empty .lp-points__close { margin: 28px auto; text-align: left; line-height: 1.9; border-left-color: #7e9168; }
+.lp-theme-jeep-imagery .lp-cases-empty .lp-btn { white-space: normal; }
+.lp-theme-jeep-imagery .lp-line__photo { margin-top: 0; aspect-ratio: 3 / 2; }
+.lp-theme-jeep-imagery .lp-line__photo img { object-fit: contain; }
+.lp-theme-jeep-imagery .lp-line__title .lp-en { display: inline-block; white-space: nowrap; }
+@media (max-width: 899px) {
+  .lp-theme-jeep-imagery .lp-line__title { font-size: clamp(21px, 6.2vw, 32px); }
+}
+@media (min-width: 900px) {
+  .lp-theme-jeep-imagery .lp-hero__inner { grid-template-columns: .85fr 1.15fr; column-gap: 28px; }
+  .lp-theme-jeep-imagery .lp-hero__photo { margin: 0; }
+}
+@media (min-width: 1200px) {
+  .lp-theme-jeep-imagery .lp-line__photo { left: auto; width: 62%; }
+  .lp-theme-jeep-imagery .lp-line__photo::after { background: linear-gradient(90deg, #0e0e0e, transparent 25%); }
+}
+@media (max-width: 359px) {
+  .lp-theme-jeep-imagery .lp-hero__catch { font-size: 18px; }
+}
