@@ -1,0 +1,164 @@
+{
+  "slug": "jeep-gladiator",
+  "draft": false,
+  "theme": "jeep-imagery",
+  "maker": "JEEP",
+  "makerJa": "ジープ",
+  "model": "GLADIATOR",
+  "modelShort": "グラディエーター",
+  "nameJa": "ジープグラディエーター",
+  "seo": {
+    "title": "ジープ グラディエーターの買取・査定ならBimport｜輸入車専門",
+    "description": "ジープ グラディエーターの買取・査定をご相談ください。国内導入のRubiconか、並行輸入の仕様かを車両の書類から確認します。荷台のキズや損傷、カバー・ライナーなどの装備を確認します。整備記録や車両の状態を確認し、概算査定をご案内します。査定無料・全国対応。売却未定でもお気軽に。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/jeep-gladiator/hero-ai-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/jeep-gladiator/hero-ai-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/jeep-gladiator/hero-ai-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "ジープグラディエーターのAI生成イメージ（前方からの別カット）",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "line": {
+      "fallback": "assets/images/jeep-gladiator/line-image-ai-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/jeep-gladiator/line-image-ai-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/jeep-gladiator/line-image-ai-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "ジープグラディエーターのAI生成イメージ（後方からの別カット）",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "final": {
+      "src": "assets/images/jeep-gladiator/hero-ai-1536.jpg"
+    }
+  },
+  "hero": {
+    "label": "ジープ グラディエーター 買取・査定",
+    "catch": "荷台も、足回りも。<br>使い方まで見て査定。",
+    "lead": "グラディエーターの仕様と状態を確認。<br>カスタム車・並行輸入車もご相談ください。<br><small>※画像はAI生成の車種イメージです。</small>",
+    "buy": "買取・査定",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 2021,
+    "yearOlderLabel": "2020年以前",
+    "grades": [
+      "Rubicon",
+      "限定車・特別仕様車"
+    ]
+  },
+  "cases": [],
+  "casesEmpty": {
+    "title": "買取実績は現在未掲載です",
+    "message": "このページでご紹介するグラディエーターの買取実績は、現在まだ掲載していません。車両情報・買取時期・金額を確認した実績から、順次ご紹介します。"
+  },
+  "points": {
+    "lead": "グラディエーターは、車両の仕様と状態を照合して査定します。<br>確認できる情報をもとに、一台ずつご案内します。",
+    "items": [
+      {
+        "key": "detail0",
+        "title": "グレード・輸入仕様",
+        "text": "国内導入のRubiconか、並行輸入の仕様かを車両の書類から確認します。",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "SPECIFICATION"
+      },
+      {
+        "key": "detail1",
+        "title": "荷台・ベッド装備",
+        "text": "荷台のキズや損傷、カバー・ライナーなどの装備を確認します。",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "EQUIPMENT"
+      },
+      {
+        "key": "detail2",
+        "title": "駆動系・足回り",
+        "text": "四輪駆動機構や足回りの状態、改造・交換内容を確認します。",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "CONDITION"
+      },
+      {
+        "key": "detail3",
+        "title": "ルーフ・ドア・付属品",
+        "text": "脱着部分の状態や関連する付属品、保管部品の有無を確認します。",
+        "image": null,
+        "icon": "search",
+        "tone": "dark"
+      },
+      {
+        "key": "detail4",
+        "title": "下回り・使用状況",
+        "text": "下回りの腐食や接触跡、オフロードを含む使用状況を確認します。",
+        "image": null,
+        "icon": "doc",
+        "tone": "dark"
+      },
+      {
+        "key": "detail5",
+        "title": "整備・交換履歴",
+        "text": "整備記録とタイヤ、サスペンションなどの交換履歴を確認します。",
+        "image": null,
+        "icon": "wheel",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "モデル年",
+      "走行距離",
+      "整備記録",
+      "純正部品",
+      "使用・保管状況"
+    ],
+    "close": "車両の仕様や整備履歴が、まだ分からなくても大丈夫です。<br>まずは<strong>車検証とお車の写真</strong>からご相談ください。"
+  },
+  "faq": [
+    {
+      "q": "Rubicon以外の並行輸入車も相談できますか？",
+      "a": "ご相談いただけます。グレードは「その他・わからない」を選び、モデル年・エンジン・輸入時の書類などをLINEでお知らせください。"
+    },
+    {
+      "q": "荷台にキズがある車も相談できますか？",
+      "a": "はい、ご相談いただけます。荷台全体とキズが分かる写真をお送りください。荷台装備や車両全体の状態も合わせて確認します。"
+    },
+    {
+      "q": "リフトアップした車でも査定できますか？",
+      "a": "ご相談いただけます。変更した部品、作業記録、純正部品の有無をお知らせください。実際の装着状態と書類を確認してご案内します。"
+    }
+  ],
+  "line": {
+    "title": "あなたの<span class=\"lp-en\">グラディエーター</span>、<br>まずは写真で概算査定。",
+    "lead": "車全体・内装・メーターの写真をLINEで。<br>仕様が分からない場合もお気軽にご相談ください。<br><small>※AI生成のイメージです。実績写真ではありません。</small>",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "JEEP GLADIATOR",
+    "title": "今の<span class=\"lp-en\">グラディエーター</span>、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは車両情報と写真からご相談ください。"
+  },
+  "sitemap": {
+    "lastmod": "2026-11-03"
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "slug": "jeep-compass",
+  "draft": false,
+  "theme": "jeep-imagery",
+  "maker": "JEEP",
+  "makerJa": "ジープ",
+  "model": "COMPASS",
+  "modelShort": "コンパス",
+  "nameJa": "ジープコンパス",
+  "seo": {
+    "title": "ジープ コンパスの買取・査定ならBimport｜輸入車専門",
+    "description": "ジープ コンパスの買取・査定をご相談ください。従来モデルと2026年国内導入のハイブリッドモデルを区別して確認します。モデル年ごとのグレードと駆動方式、搭載装備を確認します。整備記録や車両の状態を確認し、概算査定をご案内します。査定無料・全国対応。売却未定でもお気軽に。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/jeep-compass/hero-ai-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/jeep-compass/hero-ai-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/jeep-compass/hero-ai-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "ジープコンパスのAI生成イメージ（前方からの別カット）",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "line": {
+      "fallback": "assets/images/jeep-compass/line-image-ai-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/jeep-compass/line-image-ai-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/jeep-compass/line-image-ai-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "ジープコンパスのAI生成イメージ（後方からの別カット）",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "final": {
+      "src": "assets/images/jeep-compass/hero-ai-1536.jpg"
+    }
+  },
+  "hero": {
+    "label": "ジープ コンパス 買取・査定",
+    "catch": "街で使った一台も、<br>次の選択肢へ。",
+    "lead": "歴代コンパスの仕様・装備を確認。<br>売却時期が未定でもご相談ください。<br><small>※画像はAI生成の車種イメージです。</small>",
+    "buy": "買取・査定",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 2012,
+    "yearOlderLabel": "2011年以前",
+    "bodyTypeLabel": "モデル",
+    "bodyTypes": [
+      {
+        "value": "previous",
+        "label": "従来型",
+        "grades": [
+          "Sport",
+          "Longitude",
+          "Limited",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "hybrid",
+        "label": "新型HV",
+        "grades": [
+          "Altitude",
+          "Summit",
+          "Summit Style Package",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  "cases": [],
+  "casesEmpty": {
+    "title": "買取実績は現在未掲載です",
+    "message": "このページでご紹介するコンパスの買取実績は、現在まだ掲載していません。車両情報・買取時期・金額を確認した実績から、順次ご紹介します。"
+  },
+  "points": {
+    "lead": "コンパスは、車両の仕様と状態を照合して査定します。<br>確認できる情報をもとに、一台ずつご案内します。",
+    "items": [
+      {
+        "key": "detail0",
+        "title": "世代・パワートレイン",
+        "text": "従来モデルと2026年国内導入のハイブリッドモデルを区別して確認します。",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "SPECIFICATION"
+      },
+      {
+        "key": "detail1",
+        "title": "グレード・駆動方式",
+        "text": "モデル年ごとのグレードと駆動方式、搭載装備を確認します。",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "EQUIPMENT"
+      },
+      {
+        "key": "detail2",
+        "title": "ルーフ・純正オプション",
+        "text": "ルーフやホイール、内装などの純正装備と付属品を確認します。",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "CONDITION"
+      },
+      {
+        "key": "detail3",
+        "title": "安全・快適装備",
+        "text": "カメラや運転支援、オーディオなど、装着されている機能の状態を確認します。",
+        "image": null,
+        "icon": "search",
+        "tone": "dark"
+      },
+      {
+        "key": "detail4",
+        "title": "内外装・使用状態",
+        "text": "ボディのキズや補修、シート・荷室の使用状態を確認します。",
+        "image": null,
+        "icon": "doc",
+        "tone": "dark"
+      },
+      {
+        "key": "detail5",
+        "title": "整備・走行履歴",
+        "text": "モデル年と走行距離、点検記録、警告表示や修理の履歴を確認します。",
+        "image": null,
+        "icon": "wheel",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "モデル年",
+      "走行距離",
+      "整備記録",
+      "純正部品",
+      "使用・保管状況"
+    ],
+    "close": "車両の仕様や整備履歴が、まだ分からなくても大丈夫です。<br>まずは<strong>車検証とお車の写真</strong>からご相談ください。"
+  },
+  "faq": [
+    {
+      "q": "ハイブリッドの新型コンパスも相談できますか？",
+      "a": "はい、ご相談いただけます。フォームで「新型HV」を選び、モデル年と車検証の情報をお知らせください。従来型とは別の仕様として確認します。"
+    },
+    {
+      "q": "以前のSport・Longitude・Limitedも査定できますか？",
+      "a": "はい、ご相談いただけます。「従来型」を選んでください。グレードが分からない場合は「その他・わからない」で受け付けます。"
+    },
+    {
+      "q": "2WDと4WDでは確認内容が違いますか？",
+      "a": "車検証や車両の仕様から駆動方式を確認します。装備だけでなく、走行距離・整備履歴・足回りの状態も合わせて査定します。"
+    }
+  ],
+  "line": {
+    "title": "あなたの<span class=\"lp-en\">コンパス</span>、<br>まずは写真で概算査定。",
+    "lead": "車全体・内装・メーターの写真をLINEで。<br>仕様が分からない場合もお気軽にご相談ください。<br><small>※AI生成のイメージです。実績写真ではありません。</small>",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "JEEP COMPASS",
+    "title": "今の<span class=\"lp-en\">コンパス</span>、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは車両情報と写真からご相談ください。"
+  },
+  "sitemap": {
+    "lastmod": "2026-11-03"
+  }
+}

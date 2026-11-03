@@ -1,0 +1,161 @@
+{
+  "slug": "jeep-patriot",
+  "draft": false,
+  "theme": "jeep-imagery",
+  "maker": "JEEP",
+  "makerJa": "ジープ",
+  "model": "PATRIOT",
+  "modelShort": "パトリオット",
+  "nameJa": "ジープパトリオット",
+  "seo": {
+    "title": "ジープ パトリオットの買取・査定ならBimport｜輸入車専門",
+    "description": "ジープ パトリオットの買取・査定をご相談ください。車検証や車両の書類から、モデル年と駆動系の仕様を確認します。グレードを推測せず、シートやホイールなどの装備を照合します。整備記録や車両の状態を確認し、概算査定をご案内します。査定無料・全国対応。売却未定でもお気軽に。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/jeep-patriot/hero-ai-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/jeep-patriot/hero-ai-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/jeep-patriot/hero-ai-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "ジープパトリオットのAI生成イメージ（前方からの別カット）",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "line": {
+      "fallback": "assets/images/jeep-patriot/line-image-ai-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/jeep-patriot/line-image-ai-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/jeep-patriot/line-image-ai-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "ジープパトリオットのAI生成イメージ（後方からの別カット）",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "final": {
+      "src": "assets/images/jeep-patriot/hero-ai-1536.jpg"
+    }
+  },
+  "hero": {
+    "label": "ジープ パトリオット 買取・査定",
+    "catch": "角ばった姿と、<br>乗り続けた履歴を丁寧に。",
+    "lead": "パトリオットの売却・査定をご相談ください。<br>内外装・整備・装備を一台ずつ確認します。<br><small>※画像はAI生成の車種イメージです。</small>",
+    "buy": "買取・査定",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 2007,
+    "yearOlderLabel": "2006年以前",
+    "grades": []
+  },
+  "cases": [],
+  "casesEmpty": {
+    "title": "買取実績は現在未掲載です",
+    "message": "このページでご紹介するパトリオットの買取実績は、現在まだ掲載していません。車両情報・買取時期・金額を確認した実績から、順次ご紹介します。"
+  },
+  "points": {
+    "lead": "パトリオットは、車両の仕様と状態を照合して査定します。<br>確認できる情報をもとに、一台ずつご案内します。",
+    "items": [
+      {
+        "key": "detail0",
+        "title": "モデル年・駆動方式",
+        "text": "車検証や車両の書類から、モデル年と駆動系の仕様を確認します。",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "SPECIFICATION"
+      },
+      {
+        "key": "detail1",
+        "title": "グレード・純正装備",
+        "text": "グレードを推測せず、シートやホイールなどの装備を照合します。",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "EQUIPMENT"
+      },
+      {
+        "key": "detail2",
+        "title": "エンジン・変速機",
+        "text": "走行時の症状、警告表示、点検や修理の履歴を確認します。",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "CONDITION"
+      },
+      {
+        "key": "detail3",
+        "title": "ボディ・下回り",
+        "text": "ボディや下回りの腐食、損傷、補修跡を確認します。",
+        "image": null,
+        "icon": "search",
+        "tone": "dark"
+      },
+      {
+        "key": "detail4",
+        "title": "シート・荷室",
+        "text": "内装の傷み、後席や荷室の使用状態を確認します。",
+        "image": null,
+        "icon": "doc",
+        "tone": "dark"
+      },
+      {
+        "key": "detail5",
+        "title": "カスタム・付属品",
+        "text": "交換したホイールや装備の内容、純正部品と付属品の有無を確認します。",
+        "image": null,
+        "icon": "wheel",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "モデル年",
+      "走行距離",
+      "整備記録",
+      "純正部品",
+      "使用・保管状況"
+    ],
+    "close": "車両の仕様や整備履歴が、まだ分からなくても大丈夫です。<br>まずは<strong>車検証とお車の写真</strong>からご相談ください。"
+  },
+  "faq": [
+    {
+      "q": "販売が終了したパトリオットも相談できますか？",
+      "a": "はい、ご相談いただけます。現在の状態と整備履歴、車検証が分かる写真をお送りください。"
+    },
+    {
+      "q": "グレードが分からなくても大丈夫ですか？",
+      "a": "はい、フォームでは「その他・わからない」を選べます。仕様を推測せず、車検証や内外装の写真から確認します。"
+    },
+    {
+      "q": "走行距離が多い車や不具合がある車も相談できますか？",
+      "a": "ご相談いただけます。走行距離、警告表示や症状、修理の履歴などをお知らせください。車両の状態を確認したうえでご案内します。"
+    }
+  ],
+  "line": {
+    "title": "あなたの<span class=\"lp-en\">パトリオット</span>、<br>まずは写真で概算査定。",
+    "lead": "車全体・内装・メーターの写真をLINEで。<br>仕様が分からない場合もお気軽にご相談ください。<br><small>※AI生成のイメージです。実績写真ではありません。</small>",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "JEEP PATRIOT",
+    "title": "今の<span class=\"lp-en\">パトリオット</span>、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは車両情報と写真からご相談ください。"
+  },
+  "sitemap": {
+    "lastmod": "2026-11-03"
+  }
+}

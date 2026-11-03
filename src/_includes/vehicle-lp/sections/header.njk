@@ -5,7 +5,7 @@
       <span class="lp-logo__sub">輸入車専門買取店</span>
     </a>
     <nav class="lp-nav" id="lp-nav" aria-label="ページ内メニュー">
-      {%- if v.cases and v.cases.length %}
+      {%- if (v.cases and v.cases.length) or v.casesEmpty %}
       <a href="#cases">買取実績</a>
       {%- endif %}
       <a href="#reasons">選ばれる理由</a>

@@ -1,0 +1,178 @@
+{
+  "slug": "jeep-grand-wagoneer",
+  "draft": false,
+  "theme": "jeep-imagery",
+  "maker": "JEEP",
+  "makerJa": "ジープ",
+  "model": "GRAND WAGONEER",
+  "modelShort": "グランドワゴニア",
+  "nameJa": "ジープグランドワゴニア",
+  "seo": {
+    "title": "ジープ グランドワゴニアの買取・査定ならBimport｜輸入車専門",
+    "description": "ジープ グランドワゴニアの買取・査定をご相談ください。旧型と近年のモデルを区別し、モデル年・輸入書類・仕様を確認します。旧型は木目装飾やモール、ボディの腐食・補修の状態を確認します。整備記録や車両の状態を確認し、概算査定をご案内します。査定無料・全国対応。売却未定でもお気軽に。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/jeep-grand-wagoneer/hero-ai-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/jeep-grand-wagoneer/hero-ai-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/jeep-grand-wagoneer/hero-ai-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "ジープグランドワゴニアのAI生成イメージ（前方からの別カット）",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "line": {
+      "fallback": "assets/images/jeep-grand-wagoneer/line-image-ai-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/jeep-grand-wagoneer/line-image-ai-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/jeep-grand-wagoneer/line-image-ai-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "ジープグランドワゴニアのAI生成イメージ（後方からの別カット）",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "final": {
+      "src": "assets/images/jeep-grand-wagoneer/hero-ai-1536.jpg"
+    }
+  },
+  "hero": {
+    "label": "ジープ グランドワゴニア 買取・査定",
+    "catch": "同じ名前でも異なる仕様。<br>世代と来歴から丁寧に。",
+    "lead": "クラシックモデル・近年の輸入車をご相談ください。<br>書類と現車の仕様を一台ずつ確認します。<br><small>※画像はAI生成の車種イメージです。</small>",
+    "buy": "買取・査定",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 1984,
+    "yearOlderLabel": "1983年以前",
+    "bodyTypeLabel": "モデル",
+    "bodyTypes": [
+      {
+        "value": "classic",
+        "label": "旧型",
+        "grades": []
+      },
+      {
+        "value": "modern",
+        "label": "新型",
+        "grades": []
+      },
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  "cases": [],
+  "casesEmpty": {
+    "title": "買取実績は現在未掲載です",
+    "message": "このページでご紹介するグランドワゴニアの買取実績は、現在まだ掲載していません。車両情報・買取時期・金額を確認した実績から、順次ご紹介します。"
+  },
+  "points": {
+    "lead": "グランドワゴニアは、車両の仕様と状態を照合して査定します。<br>確認できる情報をもとに、一台ずつご案内します。",
+    "items": [
+      {
+        "key": "detail0",
+        "title": "モデル・車両の来歴",
+        "text": "旧型と近年のモデルを区別し、モデル年・輸入書類・仕様を確認します。",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "SPECIFICATION"
+      },
+      {
+        "key": "detail1",
+        "title": "外装・木目装飾",
+        "text": "旧型は木目装飾やモール、ボディの腐食・補修の状態を確認します。",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "EQUIPMENT"
+      },
+      {
+        "key": "detail2",
+        "title": "エンジン・整備履歴",
+        "text": "搭載エンジンと整備記録、交換・修復の内容を確認します。",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "CONDITION"
+      },
+      {
+        "key": "detail3",
+        "title": "内装・電装品",
+        "text": "シートやトリム、装着されている電装品の状態と動作を確認します。",
+        "image": null,
+        "icon": "search",
+        "tone": "dark"
+      },
+      {
+        "key": "detail4",
+        "title": "足回り・下回り",
+        "text": "足回りの交換や改造、下回りの腐食や損傷を確認します。",
+        "image": null,
+        "icon": "doc",
+        "tone": "dark"
+      },
+      {
+        "key": "detail5",
+        "title": "純正性・付属書類",
+        "text": "純正部品や付属品の有無、レストア記録や保管資料を確認します。",
+        "image": null,
+        "icon": "wheel",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "モデル年",
+      "走行距離",
+      "整備記録",
+      "純正部品",
+      "使用・保管状況"
+    ],
+    "close": "車両の仕様や整備履歴が、まだ分からなくても大丈夫です。<br>まずは<strong>車検証とお車の写真</strong>からご相談ください。"
+  },
+  "faq": [
+    {
+      "q": "旧型と新型のどちらも相談できますか？",
+      "a": "どちらもご相談いただけます。同じ車名でも世代によって仕様が異なるため、モデル年・車検証・車両全体の写真をお知らせください。"
+    },
+    {
+      "q": "並行輸入でグレードが分かりません。",
+      "a": "フォームでは「その他・わからない」をお選びください。輸入時の書類や装備が分かる写真を確認して、車両の仕様を整理します。"
+    },
+    {
+      "q": "木目パネルや内装に傷みがあります。",
+      "a": "傷みや補修が分かる写真をお送りください。外装だけでなく、下回りや機関の状態、整備履歴も合わせて確認します。"
+    }
+  ],
+  "line": {
+    "title": "あなたの<span class=\"lp-en\">グランドワゴニア</span>、<br>まずは写真で概算査定。",
+    "lead": "車全体・内装・メーターの写真をLINEで。<br>仕様が分からない場合もお気軽にご相談ください。<br><small>※AI生成のイメージです。実績写真ではありません。</small>",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "JEEP GRAND WAGONEER",
+    "title": "今の<span class=\"lp-en\">グランドワゴニア</span>、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは車両情報と写真からご相談ください。"
+  },
+  "sitemap": {
+    "lastmod": "2026-11-03"
+  }
+}

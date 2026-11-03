@@ -1,0 +1,185 @@
+{
+  "slug": "jeep-avenger",
+  "draft": false,
+  "theme": "jeep-imagery",
+  "maker": "JEEP",
+  "makerJa": "ジープ",
+  "model": "AVENGER",
+  "modelShort": "アベンジャー",
+  "nameJa": "ジープアベンジャー",
+  "seo": {
+    "title": "ジープ アベンジャーの買取・査定ならBimport｜輸入車専門",
+    "description": "ジープ アベンジャーの買取・査定をご相談ください。駆動方式や電動化システムを、モデル年と車両の書類から確認します。EVは充電機能の状態やケーブル、付属品の有無を確認します。整備記録や車両の状態を確認し、概算査定をご案内します。査定無料・全国対応。売却未定でもお気軽に。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/jeep-avenger/hero-ai-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/jeep-avenger/hero-ai-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/jeep-avenger/hero-ai-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "湖畔に停まる黄色のジープ アベンジャーの生成イメージ",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "line": {
+      "fallback": "assets/images/jeep-avenger/line-image-ai-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/jeep-avenger/line-image-ai-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/jeep-avenger/line-image-ai-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "紅葉のロッジで後方から見た青緑色のジープ アベンジャーの生成イメージ",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "final": {
+      "src": "assets/images/jeep-avenger/hero-ai-1536.jpg"
+    }
+  },
+  "hero": {
+    "label": "ジープ アベンジャー 買取・査定",
+    "catch": "電動化の仕様まで、<br>一台ずつ確かめる査定。",
+    "lead": "EV・4xe Hybridの違いを確認。<br>売却未定でも、まずは概算査定から。<br><small>※画像はAI生成の車種イメージです。</small>",
+    "buy": "買取・査定",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 2024,
+    "yearOlderLabel": "2023年以前",
+    "bodyTypeLabel": "仕様",
+    "bodyTypes": [
+      {
+        "value": "ev",
+        "label": "EV",
+        "grades": [
+          "Altitude",
+          "Launch Edition",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "hybrid",
+        "label": "4xe",
+        "grades": [
+          "Upland",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  "cases": [],
+  "casesEmpty": {
+    "title": "買取実績は現在未掲載です",
+    "message": "このページでご紹介するアベンジャーの買取実績は、現在まだ掲載していません。車両情報・買取時期・金額を確認した実績から、順次ご紹介します。"
+  },
+  "points": {
+    "lead": "アベンジャーは、車両の仕様と状態を照合して査定します。<br>確認できる情報をもとに、一台ずつご案内します。",
+    "items": [
+      {
+        "key": "detail0",
+        "title": "EV・4xe Hybridの違い",
+        "text": "駆動方式や電動化システムを、モデル年と車両の書類から確認します。",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "SPECIFICATION"
+      },
+      {
+        "key": "detail1",
+        "title": "充電・付属品",
+        "text": "EVは充電機能の状態やケーブル、付属品の有無を確認します。",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "EQUIPMENT"
+      },
+      {
+        "key": "detail2",
+        "title": "警告表示・整備履歴",
+        "text": "メーターの警告表示や点検記録、電動システムの整備履歴を確認します。",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "CONDITION"
+      },
+      {
+        "key": "detail3",
+        "title": "純正装備・特別仕様",
+        "text": "ホイールや内装、特別仕様車の装備と付属品を確認します。",
+        "image": null,
+        "icon": "search",
+        "tone": "dark"
+      },
+      {
+        "key": "detail4",
+        "title": "内外装・下回り",
+        "text": "ボディやシート、下回りのキズ・損傷・補修の状態を確認します。",
+        "image": null,
+        "icon": "doc",
+        "tone": "dark"
+      },
+      {
+        "key": "detail5",
+        "title": "モデル年・使用状況",
+        "text": "モデル年と走行距離、保管・使用状況を合わせて確認します。",
+        "image": null,
+        "icon": "wheel",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "モデル年",
+      "走行距離",
+      "整備記録",
+      "純正部品",
+      "使用・保管状況"
+    ],
+    "close": "車両の仕様や整備履歴が、まだ分からなくても大丈夫です。<br>まずは<strong>車検証とお車の写真</strong>からご相談ください。"
+  },
+  "faq": [
+    {
+      "q": "EVと4xe Hybridを同じページで相談できますか？",
+      "a": "はい、どちらもご相談いただけます。フォームの「仕様」でお選びください。仕様が分からない場合は「わからない」を選び、車検証やメーターの写真をLINEでお送りください。"
+    },
+    {
+      "q": "充電ケーブルがなくても相談できますか？",
+      "a": "ご相談いただけます。EVの場合は、充電ケーブルや付属品の有無、充電時の不具合などをお知らせください。車両の状態を確認してご案内します。"
+    },
+    {
+      "q": "電動システムの警告が出ています。",
+      "a": "警告の内容が分かるメーター写真と、点検・修理の履歴をお送りください。症状を確認したうえで、査定や確認方法をご案内します。"
+    }
+  ],
+  "line": {
+    "title": "あなたの<span class=\"lp-en\">アベンジャー</span>、<br>まずは写真で概算査定。",
+    "lead": "車全体・内装・メーターの写真をLINEで。<br>仕様が分からない場合もお気軽にご相談ください。<br><small>※AI生成のイメージです。実績写真ではありません。</small>",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "JEEP AVENGER",
+    "title": "今の<span class=\"lp-en\">アベンジャー</span>、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは車両情報と写真からご相談ください。"
+  },
+  "sitemap": {
+    "lastmod": "2026-11-03"
+  }
+}
