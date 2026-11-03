@@ -1,7 +1,7 @@
 {
   "slug": "jeep-cj-7",
   "draft": true,
-  "theme": "jeep-no-cases",
+  "theme": "jeep-imagery",
   "maker": "JEEP",
   "makerJa": "ジープ",
   "model": "CJ-7",
@@ -11,11 +11,51 @@
     "title": "ジープ CJ-7の買取・査定ならBimport｜輸入車専門",
     "description": "ジープ CJ-7の買取・査定をご相談ください。車検証や輸入書類と照合し、年式・エンジン・駆動系を確認します。下回りの腐食や補修跡、ボディの状態を写真と実車で確認します。整備記録や車両の状態を確認し、概算査定をご案内します。査定無料・全国対応。売却未定でもお気軽に。"
   },
-  "images": {},
+  "images": {
+    "hero": {
+      "src": "assets/images/jeep-cj-7/hero-ai-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/jeep-cj-7/hero-ai-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/jeep-cj-7/hero-ai-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "ジープCJ-7のAI生成イメージ（前方からの別カット）",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "line": {
+      "fallback": "assets/images/jeep-cj-7/line-image-ai-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/jeep-cj-7/line-image-ai-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/jeep-cj-7/line-image-ai-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "ジープCJ-7のAI生成イメージ（後方からの別カット）",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "final": {
+      "src": "assets/images/jeep-cj-7/hero-ai-1536.jpg"
+    }
+  },
   "hero": {
     "label": "ジープ CJ-7 買取・査定",
     "catch": "受け継いできた一台を、<br>仕様と履歴から丁寧に。",
-    "lead": "CJ-7の売却・査定をご相談ください。<br>レストアやカスタムの内容もお知らせください。",
+    "lead": "CJ-7の売却・査定をご相談ください。<br>レストアやカスタムの内容もお知らせください。<br><small>※画像はAI生成の車種イメージです。</small>",
     "buy": "買取・査定",
     "cta": "60秒で概算査定"
   },
@@ -28,7 +68,7 @@
   "cases": [],
   "casesEmpty": {
     "title": "買取実績は現在未掲載です",
-    "message": "このページでご紹介するCJ-7の買取実績は、現在まだ掲載していません。車両情報・買取時期・金額を確認した実績から、順次ご紹介します。査定のご相談は、実績の掲載前でも受け付けています。"
+    "message": "このページでご紹介するCJ-7の買取実績は、現在まだ掲載していません。車両情報・買取時期・金額を確認した実績から、順次ご紹介します。"
   },
   "points": {
     "lead": "CJ-7は、車両の仕様と状態を照合して査定します。<br>確認できる情報をもとに、一台ずつご案内します。",
@@ -107,7 +147,7 @@
   ],
   "line": {
     "title": "あなたの<span class=\"lp-en\">CJ-7</span>、<br>まずは写真で概算査定。",
-    "lead": "車全体・内装・メーターの写真をLINEで。<br>仕様が分からない場合もお気軽にご相談ください。",
+    "lead": "車全体・内装・メーターの写真をLINEで。<br>仕様が分からない場合もお気軽にご相談ください。<br><small>※AI生成のイメージです。実績写真ではありません。</small>",
     "ctaText": "LINEで写真査定する"
   },
   "final": {

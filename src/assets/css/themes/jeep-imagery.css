@@ -10,7 +10,7 @@
 .lp-theme-jeep-imagery .lp-hero__model { font-size: clamp(32px, 9vw, 58px); overflow-wrap: anywhere; }
 .lp-theme-jeep-imagery .lp-hero__buy { font-size: clamp(42px, 12vw, 76px); background: linear-gradient(180deg, #fff, #dce5ca); background-clip: text; -webkit-background-clip: text; color: transparent; text-shadow: none; filter: none; }
 .lp-theme-jeep-imagery .lp-hero__photo { margin: 24px 0 0; }
-.lp-theme-jeep-imagery .lp-hero__photo img { display: block; width: 100%; max-width: 100%; height: auto; margin-left: 0; object-fit: contain; filter: none; mask-image: none; -webkit-mask-image: none; border-radius: 8px; }
+.lp-theme-jeep-imagery .lp-hero__photo img { display: block; width: 100%; max-width: 100%; height: auto; margin-left: 0; object-fit: contain; filter: none; border-radius: 0; }
 .lp-theme-jeep-imagery .lp-hero__photo::after { display: none; }
 .lp-theme-jeep-imagery .lp-hero__badges { margin-top: 24px; }
 .lp-theme-jeep-imagery .lp-hero__lead small,
