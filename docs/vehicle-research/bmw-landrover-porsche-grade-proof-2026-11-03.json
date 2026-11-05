@@ -1,0 +1,261 @@
+{
+  "bmw-4-series": {
+    "grades": [
+      "M440i xDrive"
+    ],
+    "source": "https://www.bmw.co.jp/ja/all-models.html"
+  },
+  "bmw-5-series": {
+    "grades": [
+      "523i",
+      "523d xDrive"
+    ],
+    "source": "https://www.bmw.co.jp/ja/press/2023/20230713_2.html"
+  },
+  "bmw-x2": {
+    "grades": [
+      "sDrive20i M Sport",
+      "xDrive20d M Sport",
+      "M35i xDrive"
+    ],
+    "source": "https://www.bmw.co.jp/ja/all-models.html"
+  },
+  "bmw-x3-m": {
+    "grades": [
+      "X3 M Competition"
+    ],
+    "source": "https://www.press.bmwgroup.com/japan/article/detail/T0297371JA/"
+  },
+  "bmw-x4-m": {
+    "grades": [
+      "X4 M Competition"
+    ],
+    "source": "https://www.press.bmwgroup.com/japan/article/detail/T0297371JA/"
+  },
+  "bmw-m8": {
+    "grades": [
+      "M8 Competition"
+    ],
+    "source": "https://www.press.bmwgroup.com/japan/article/detail/T0297659JA/"
+  },
+  "bmw-xm": {
+    "grades": [
+      "Label"
+    ],
+    "source": "https://www.bmw.co.jp/ja/all-models.html"
+  },
+  "bmw-i4": {
+    "grades": [
+      "eDrive40 M Sport",
+      "M60 xDrive"
+    ],
+    "source": "https://www.bmw.co.jp/ja/all-models.html"
+  },
+  "bmw-i7": {
+    "grades": [
+      "60 xDrive",
+      "M70 xDrive"
+    ],
+    "source": "https://www.bmw.co.jp/ja/all-models.html"
+  },
+  "bmw-ix": {
+    "grades": [
+      "xDrive60 M Sport",
+      "M70 xDrive"
+    ],
+    "source": "https://www.bmw.co.jp/ja/all-models.html"
+  },
+  "bmw-ix1": {
+    "grades": [
+      "eDrive20 M Sport"
+    ],
+    "source": "https://www.bmw.co.jp/ja/all-models.html"
+  },
+  "bmw-ix2": {
+    "grades": [
+      "xDrive30 M Sport"
+    ],
+    "source": "https://www.bmw.co.jp/ja/all-models.html"
+  },
+  "bmw-z3": {
+    "grades": [
+      "Roadster 2.2i"
+    ],
+    "source": "https://www.webcg.net/articles/-/21357"
+  },
+  "bmw-z4-m": {
+    "grades": [
+      "M Coupe"
+    ],
+    "source": "https://www.press.bmwgroup.com/japan/article/detail/T0018821JA/"
+  },
+  "land-rover-discovery": {
+    "grades": [
+      "HSE",
+      "S D300",
+      "Dynamic SE D300",
+      "Dynamic HSE D300"
+    ],
+    "source": "https://midlands-ltd.jp/stockcars/landrover/discovery"
+  },
+  "land-rover-discovery-sport": {
+    "grades": [
+      "HSE D180",
+      "HSE Luxury P240",
+      "S D200",
+      "Dynamic SE D200",
+      "Dynamic HSE P300e"
+    ],
+    "source": "https://midlands-ltd.jp/stockcars/landrover/discovery-sport"
+  },
+  "land-rover-range-rover-evoque": {
+    "grades": [
+      "S D200",
+      "R-Dynamic S P250",
+      "Dynamic SE D200",
+      "Dynamic HSE P250"
+    ],
+    "source": "https://midlands-ltd.jp/stockcars/landrover/range-rover-evoque"
+  },
+  "land-rover-range-rover-velar": {
+    "grades": [
+      "S D200",
+      "R-Dynamic SE P300",
+      "Dynamic SE P400e",
+      "Autobiography D200"
+    ],
+    "source": "https://midlands-ltd.jp/stockcars/landrover/range-rover-velar"
+  },
+  "bmw-m2": {
+    "options": [
+      [
+        "F87",
+        [
+          "M2 Competition"
+        ]
+      ],
+      [
+        "G87",
+        [
+          "M2"
+        ]
+      ]
+    ],
+    "source": [
+      "https://www.bmw.co.jp/content/dam/bmw/marketJP/bmw_co_jp/pdf/press/NRL_B_2F87_20180823_BMW%20M2%20Competition.pdf",
+      "https://www.bmw.co.jp/ja/all-models.html"
+    ]
+  },
+  "bmw-m4": {
+    "options": [
+      [
+        "F82/F83",
+        []
+      ],
+      [
+        "G82",
+        [
+          "M4 Coupe",
+          "M4 Competition M xDrive Coupe"
+        ]
+      ],
+      [
+        "G83",
+        [
+          "M4 Competition M xDrive Cabriolet"
+        ]
+      ]
+    ],
+    "source": "https://www.bmw.co.jp/content/dam/bmw/marketJP/bmw_co_jp/pdf/all-models/M/M3-M4/M3M4_EPL_202307V1.pdf"
+  },
+  "bmw-i3": {
+    "options": [
+      [
+        "EV",
+        [
+          "ATELIER"
+        ]
+      ],
+      [
+        "REX",
+        [
+          "ATELIER レンジ・エクステンダー装備車"
+        ]
+      ]
+    ],
+    "source": "https://www.bmw.co.jp/content/dam/bmw/marketJP/bmw_co_jp/pdf/press/NRL_B_i3I01_20160927_%E6%96%B0%E5%9E%8BBMW%20i3.pdf"
+  },
+  "bmw-i5": {
+    "options": [
+      [
+        "セダン",
+        [
+          "eDrive40 M Sport",
+          "M60 xDrive"
+        ]
+      ],
+      [
+        "ツーリング",
+        [
+          "eDrive40 M Sport"
+        ]
+      ]
+    ],
+    "source": "https://www.bmw.co.jp/ja/all-models.html"
+  },
+  "bmw-i8": {
+    "options": [
+      [
+        "クーペ",
+        [
+          "i8 Coupe"
+        ]
+      ],
+      [
+        "ロードスター",
+        [
+          "i8 Roadster"
+        ]
+      ]
+    ],
+    "source": "https://www.bmw.co.jp/content/dam/bmw/marketJP/bmw_co_jp/pdf/press/NRL_B_i8I12%2615_20180409_Coupe%26Roadster.pdf.asset.1523241711546.pdf"
+  },
+  "bmw-ix3": {
+    "options": [
+      [
+        "G08",
+        [
+          "M Sport"
+        ]
+      ],
+      [
+        "NA5",
+        [
+          "50 xDrive",
+          "50 xDrive M Sport"
+        ]
+      ]
+    ],
+    "source": [
+      "https://www.bmw.co.jp/content/dam/bmw/marketJP/bmw_co_jp/pdf/all-models/i/iX3_EPL_202305V1.pdf",
+      "https://www.bmw.co.jp/content/bmw/marketJP/bmw_co_jp/ja/press/2026/20260722-1.html"
+    ]
+  },
+  "land-rover-freelander": {
+    "options": [
+      [
+        "初代",
+        []
+      ],
+      [
+        "2代目",
+        [
+          "S",
+          "SE",
+          "HSE"
+        ]
+      ]
+    ],
+    "source": "https://car.watch.impress.co.jp/docs/news/358182.html"
+  }
+}
