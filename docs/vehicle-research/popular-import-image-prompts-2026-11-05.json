@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "audi-a3",
+    "kind": "hero",
+    "prompt": "Use case: ads-marketing. ONE premium photorealistic automotive landscape photograph, 3:2. Subject: 2022 Audi A3 Sportback 8Y five-door compact hatchback, authentic Audi single-frame grille and sharp headlights, factory body and wheels, red paint. Scene: quiet paved forecourt beside a contemporary copper-roof art center in rolling countryside, soft afternoon light, parked safely. Front three-quarter view, nose points LEFT. Entire vehicle including roof, bumpers and all visible wheels completely inside frame with 15 percent margins; vehicle about 65 percent of frame width. Natural tire shadows, realistic reflections, restrained professional car photography. No people, readable signs, advertising overlays or watermarks; license plates blank. Native vehicle emblem allowed. No invented modifications. Single photograph, not collage. Illustrative generated vehicle for a car-buying website, not a purchase case.",
+    "finalPath": "src/assets/images/audi-a3/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "audi-a3",
+    "kind": "line-image",
+    "prompt": "Use case: ads-marketing. ONE premium photorealistic automotive landscape photograph, 3:2. Subject: 2022 Audi A3 Sedan 8Y four-door compact sedan with separate trunk, factory body and wheels, navy blue paint. Scene: dawn hillside rice terraces with a quiet stone-paved turnout, parked safely. Rear three-quarter view, nose points RIGHT. Entire vehicle including roof, bumpers and all visible wheels completely inside frame with 15 percent margins; vehicle about 65 percent of frame width. Natural tire shadows, realistic reflections, restrained professional car photography. No people, readable signs, advertising overlays or watermarks; license plates blank. Native vehicle emblem allowed. No invented modifications. Single photograph, not collage. Illustrative generated vehicle for a car-buying website, not a purchase case.",
+    "finalPath": "src/assets/images/audi-a3/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "volkswagen-polo",
+    "kind": "hero",
+    "prompt": "Use case: ads-marketing. ONE premium photorealistic automotive landscape photograph, 3:2. Subject: 2023 Volkswagen Polo AW facelift five-door compact hatchback, NOT a Golf, authentic horizontal slim headlights and stock wheels, factory body and wheels, golden yellow paint. Scene: quiet Dutch canal-side paved lane near a distant historic windmill under a clear blue sky, parked safely. Front three-quarter view, nose points LEFT. Entire vehicle including roof, bumpers and all visible wheels completely inside frame with 15 percent margins; vehicle about 65 percent of frame width. Natural tire shadows, realistic reflections, restrained professional car photography. No people, readable signs, advertising overlays or watermarks; license plates blank. Native vehicle emblem allowed. No invented modifications. Single photograph, not collage. Illustrative generated vehicle for a car-buying website, not a purchase case.",
+    "finalPath": "src/assets/images/volkswagen-polo/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "volkswagen-polo",
+    "kind": "line-image",
+    "prompt": "Use case: ads-marketing. ONE premium photorealistic automotive landscape photograph, 3:2. Subject: 2023 Volkswagen Polo AW facelift five-door compact hatchback, NOT a Golf, authentic horizontal slim headlights and stock wheels, factory body and wheels, white paint. Scene: old sandstone railway station archway in a leafy rural village without signs, parked safely. Rear three-quarter view, nose points RIGHT. Entire vehicle including roof, bumpers and all visible wheels completely inside frame with 15 percent margins; vehicle about 65 percent of frame width. Natural tire shadows, realistic reflections, restrained professional car photography. No people, readable signs, advertising overlays or watermarks; license plates blank. Native vehicle emblem allowed. No invented modifications. Single photograph, not collage. Illustrative generated vehicle for a car-buying website, not a purchase case.",
+    "finalPath": "src/assets/images/volkswagen-polo/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "volvo-xc60",
+    "kind": "hero",
+    "prompt": "Use case: ads-marketing. ONE premium photorealistic automotive landscape photograph, 3:2. Subject: 2023 Volvo XC60 second-generation midsize SUV, Thor hammer LED headlights and authentic vertical rear taillights, factory body and wheels, dark green paint. Scene: dramatic black basalt seaside turnout with distant green cliffs and a slender waterfall, calm cloudy morning, parked safely. Front three-quarter view, nose points LEFT. Entire vehicle including roof, bumpers and all visible wheels completely inside frame with 15 percent margins; vehicle about 65 percent of frame width. Natural tire shadows, realistic reflections, restrained professional car photography. No people, readable signs, advertising overlays or watermarks; license plates blank. Native vehicle emblem allowed. No invented modifications. Single photograph, not collage. Illustrative generated vehicle for a car-buying website, not a purchase case.",
+    "finalPath": "src/assets/images/volvo-xc60/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "volvo-xc60",
+    "kind": "line-image",
+    "prompt": "Use case: ads-marketing. ONE premium photorealistic automotive landscape photograph, 3:2. Subject: 2023 Volvo XC60 second-generation midsize SUV, Thor hammer LED headlights and authentic vertical rear taillights, factory body and wheels, pearl white paint. Scene: modern timber-and-glass mountain terminal beside a snowy valley road, soft winter sunlight, parked safely. Rear three-quarter view, nose points RIGHT. Entire vehicle including roof, bumpers and all visible wheels completely inside frame with 15 percent margins; vehicle about 65 percent of frame width. Natural tire shadows, realistic reflections, restrained professional car photography. No people, readable signs, advertising overlays or watermarks; license plates blank. Native vehicle emblem allowed. No invented modifications. Single photograph, not collage. Illustrative generated vehicle for a car-buying website, not a purchase case.",
+    "finalPath": "src/assets/images/volvo-xc60/line-image-ai-1536.jpg"
+  }
+]
