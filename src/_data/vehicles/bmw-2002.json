@@ -1,6 +1,6 @@
 {
   "slug": "bmw-2002",
-  "draft": true,
+  "draft": false,
   "theme": "bmw-imagery",
   "maker": "BMW",
   "makerJa": "BMW",
@@ -153,5 +153,8 @@
     "label": "BMW 2002 SERIES",
     "title": "今の<span class=\"lp-en\">2002シリーズ</span>、<br>いくらになる？",
     "lead": "売却未定でもOK。<br>まずは車両情報と写真からご相談ください。"
+  },
+  "sitemap": {
+    "lastmod": "2026-11-05"
   }
 }

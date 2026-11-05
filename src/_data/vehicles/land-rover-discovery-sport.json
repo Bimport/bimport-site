@@ -1,6 +1,6 @@
 {
   "slug": "land-rover-discovery-sport",
-  "draft": true,
+  "draft": false,
   "theme": "land-rover-imagery",
   "maker": "LAND ROVER",
   "makerJa": "ランドローバー",
@@ -161,5 +161,8 @@
     "label": "LAND ROVER DISCOVERY SPORT",
     "title": "今の<span class=\"lp-en\">ディスカバリースポーツ</span>、<br>いくらになる？",
     "lead": "売却未定でもOK。<br>まずは車両情報と写真からご相談ください。"
+  },
+  "sitemap": {
+    "lastmod": "2026-11-05"
   }
 }

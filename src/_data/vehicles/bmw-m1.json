@@ -1,6 +1,6 @@
 {
   "slug": "bmw-m1",
-  "draft": true,
+  "draft": false,
   "theme": "bmw-imagery",
   "maker": "BMW",
   "makerJa": "BMW",
@@ -153,5 +153,8 @@
     "label": "BMW M1",
     "title": "今の<span class=\"lp-en\">M1</span>、<br>いくらになる？",
     "lead": "売却未定でもOK。<br>まずは車両情報と写真からご相談ください。"
+  },
+  "sitemap": {
+    "lastmod": "2026-11-05"
   }
 }

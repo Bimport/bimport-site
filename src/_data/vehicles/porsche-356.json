@@ -1,6 +1,6 @@
 {
   "slug": "porsche-356",
-  "draft": true,
+  "draft": false,
   "theme": "porsche-imagery",
   "maker": "PORSCHE",
   "makerJa": "ポルシェ",
@@ -153,5 +153,8 @@
     "label": "PORSCHE 356",
     "title": "今の<span class=\"lp-en\">356</span>、<br>いくらになる？",
     "lead": "売却未定でもOK。<br>まずは車両情報と写真からご相談ください。"
+  },
+  "sitemap": {
+    "lastmod": "2026-11-05"
   }
 }

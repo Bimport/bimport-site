@@ -42,7 +42,7 @@ Bimport（輸入車買取）の車種別買取LPサイト。Eleventy で静的�
 - テスト送信は `node scripts/send-production-test.mjs <slug>`（確認）→ `--send`（1回だけ）。トークンはMacのキーチェーン（サービス名 `bimport-test-submit-token`）にだけ置き、表示・リポジトリ・URLに書かない。応答が `{"ok":true,"test":true}` なら成功。`test_cooldown` が返ったら時間を空けて、ユーザーに確認してから1回だけ送り直す。
 
 ## 作業中の下書き（2026-11-03更新）
-2026-11-03にBMW27車種・ランドローバー5車種・ポルシェ11車種の実績未掲載版を下書き制作。すべてdraft:true、2枚の生成画像とAI注記あり。国内グレードを未確認の旧車などは「その他・わからない」で受ける。公開はユーザー承認後。詳細は `docs/vehicle-research/bmw-landrover-porsche-drafts-2026-11-03.md`。
+2026-11-03にBMW27車種・ランドローバー5車種・ポルシェ11車種の実績未掲載版を下書き制作。2026-11-05にユーザー承認で43車種を公開対象に変更。2枚の生成画像とAI注記あり。国内グレードを未確認の旧車などは「その他・わからない」で受ける。公開後はmainを正とする。詳細は `docs/vehicle-research/bmw-landrover-porsche-drafts-2026-11-03.md`。
 
 ジープの実績未掲載版10車種は2026-11-03にPR #33で公開済み。mainを正とし、古い下書きに戻さない。
 

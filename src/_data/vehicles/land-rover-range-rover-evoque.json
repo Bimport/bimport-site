@@ -1,6 +1,6 @@
 {
   "slug": "land-rover-range-rover-evoque",
-  "draft": true,
+  "draft": false,
   "theme": "land-rover-imagery",
   "maker": "LAND ROVER",
   "makerJa": "ランドローバー",
@@ -160,5 +160,8 @@
     "label": "LAND ROVER RANGE ROVER EVOQUE",
     "title": "今の<span class=\"lp-en\">レンジローバーイヴォーク</span>、<br>いくらになる？",
     "lead": "売却未定でもOK。<br>まずは車両情報と写真からご相談ください。"
+  },
+  "sitemap": {
+    "lastmod": "2026-11-05"
   }
 }
