@@ -71,3 +71,5 @@ GitHub に push 済みのブランチ（未マージ・`draft: true`）：
 2026-11-06：アウディA3・VWポロ・ボルボXC60はユーザー承認により公開へ進行。以後はmainの画像・データを正とする。追加制作は人気車種を優先し、利用枠を適宜確認して余裕を残す。
 
 2026-11-06：PR #35でA3・ポロ・XC60は公開完了。追加8車種（T-Cross・T-Roc・ティグアン・Q2・V60・A4・A5・A1）は実績未掲載版の下書き。A3型式フォーム比較版もdraft:trueで確認待ち。公開中A3を含む他LPのフォーム一括変更は未承認。詳細はdocs/vehicle-research/popular-import-batch2-2026-11-06.md。
+
+2026-11-06ユーザー指定：フォームの「ボディ／ボディタイプ」は型式選択へ統一。対象7車種の確認案はsrc/_data/vehicleDraftOverrides/にdraft:trueで保存済み。公開未反映。型式の国内資料と連動グレードを確認し、通称型式と車検証表記の違いはFAQで説明する。詳細はdocs/vehicle-research/form-model-codes-2026-11-06.md。

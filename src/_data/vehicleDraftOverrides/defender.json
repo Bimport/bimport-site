@@ -1,0 +1,287 @@
+{
+  "slug": "defender",
+  "draft": true,
+  "maker": "LAND ROVER",
+  "makerJa": "ランドローバー",
+  "model": "DEFENDER",
+  "nameJa": "ディフェンダー",
+  "seo": {
+    "title": "ディフェンダー買取・査定｜売却未定でも概算価格がわかる｜Bimport",
+    "description": "ランドローバー ディフェンダー（90 / 110 / 130）の買取・査定ならBimport。グレードや装備、カスタム内容まで見て評価します。売却が決まっていなくても、60秒の入力で概算査定額をご案内。査定無料・全国対応。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/cases/case-landrover-defender.jpg",
+      "alt": "ランドローバー ディフェンダー 90",
+      "width": 1200,
+      "height": 896
+    },
+    "line": {
+      "webp": [
+        {
+          "src": "assets/images/defender/line-photo-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/defender/line-photo-1672.webp",
+          "width": 1672
+        }
+      ],
+      "fallback": "assets/images/defender/line-photo-1672.jpg",
+      "alt": "海沿いの道を走る白いランドローバー ディフェンダー",
+      "width": 1672,
+      "height": 941
+    },
+    "final": {
+      "src": "assets/images/cases/case-landrover-defender.jpg"
+    }
+  },
+  "hero": {
+    "label": "ランドローバー ディフェンダー買取・査定"
+  },
+  "form": {
+    "bodyTypes": [
+      {
+        "value": "LE",
+        "label": "LE",
+        "grades": [
+          "90 S",
+          "90 SE",
+          "90 HSE",
+          "90 X-Dynamic SE",
+          "90 X-Dynamic HSE",
+          "90 X",
+          "90 V8",
+          "90 First Edition",
+          "110 S",
+          "110 SE",
+          "110 HSE",
+          "110 X-Dynamic SE",
+          "110 X-Dynamic HSE",
+          "110 X",
+          "110 V8",
+          "110 OCTA",
+          "110 First Edition",
+          "130 SE",
+          "130 HSE",
+          "130 X-Dynamic SE",
+          "130 X-Dynamic HSE",
+          "130 X",
+          "130 Outbound",
+          "130 V8",
+          "130 First Edition",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 2020,
+    "yearOlderLabel": "2019年以前（旧型を含む）",
+    "bodyTypeLabel": "型式"
+  },
+  "cases": [
+    {
+      "image": "assets/images/cases/case-landrover-defender-white-wall.jpg",
+      "maker": "LAND ROVER",
+      "model": "DEFENDER 90",
+      "grade": "イースナーエディション",
+      "year": "R.5（2023）年",
+      "mileage": "17,780km",
+      "price": "550",
+      "priceUnit": "万円",
+      "purchasedAt": "令和8年08月",
+      "area": "東京",
+      "details": [
+        "エアサスペンション",
+        "マットブラックラッピング",
+        "MERIDIANサウンド",
+        "純正20AW",
+        "ルーム内うす汚れ・小傷あり"
+      ],
+      "imageWidth": 1200,
+      "imageHeight": 896
+    },
+    {
+      "maker": "LAND ROVER",
+      "model": "ディフェンダー",
+      "grade": "110 P300",
+      "year": "2021年",
+      "mileage": "40,000km",
+      "price": 510.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年8月",
+      "area": "大分",
+      "details": [
+        "エアサスペンション",
+        "Apple CarPlay",
+        "ハンドルヒーター・シートヒーター",
+        "純正ナビ・360°カメラ",
+        "3列シート（7人乗り）",
+        "LEDヘッドライト"
+      ],
+      "image": "assets/images/cases/case-defender-4.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "LAND ROVER",
+      "model": "ディフェンダー",
+      "grade": "110 X-DYNAMIC SE D300",
+      "year": "2021年",
+      "mileage": "69,264km",
+      "price": 510.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年8月",
+      "area": "山形",
+      "details": [
+        "ワンオーナー",
+        "エアサス",
+        "サンルーフ",
+        "MERIDIANスピーカー",
+        "ブラックレザーシート",
+        "純正20インチAW",
+        "シートヒーター"
+      ],
+      "image": "assets/images/cases/case-defender-51.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "LAND ROVER",
+      "model": "ディフェンダー",
+      "grade": "110 X-DYNAMIC SE D350",
+      "year": "2025年",
+      "mileage": "4,943km",
+      "price": 840.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年7月",
+      "area": "栃木",
+      "details": [
+        "ワンオーナー",
+        "MERIDIANスピーカー",
+        "ブラックレザーシート",
+        "エアサス"
+      ],
+      "image": "assets/images/cases/case-defender-167.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "LAND ROVER",
+      "model": "ディフェンダー",
+      "grade": "90 SE",
+      "year": "2022年",
+      "mileage": "30,316km",
+      "price": 500.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年7月",
+      "area": "神奈川",
+      "details": [
+        "ワンオーナー",
+        "ベージュレザーシート",
+        "MERIDIANスピーカー",
+        "純正20インチAW",
+        "デジタルインナーミラー",
+        "背面タイヤカバーキズ"
+      ],
+      "image": "assets/images/cases/case-defender-195.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    },
+    {
+      "maker": "LAND ROVER",
+      "model": "ディフェンダー",
+      "grade": "110 X-DYNAMIC SE",
+      "year": "2024年",
+      "mileage": "11,685km",
+      "price": 857.0,
+      "priceUnit": "万円",
+      "purchasedAt": "2026年9月",
+      "area": "福岡",
+      "details": [
+        "エアサスペンション",
+        "ブラックエクステリアパック",
+        "カルパチアングレー",
+        "3ゾーンクライメントコントロール",
+        "12way電動フロントシート",
+        "MERIDIANサウンド"
+      ],
+      "image": "assets/images/cases/case-defender-754.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 900
+    }
+  ],
+  "points": {
+    "lead": "仕様によって価値が大きく変わるディフェンダー。<br>詳しいスタッフが、1台ごとに確認して査定します。",
+    "items": [
+      {
+        "key": "90",
+        "title": "90",
+        "text": "コンパクトで人気の高いショートボディ",
+        "placeholderLabel": "SHORT BODY",
+        "image": null,
+        "icon": "car"
+      },
+      {
+        "key": "110",
+        "title": "110",
+        "text": "需要が高く、相場の動きも大きい5ドア",
+        "placeholderLabel": "5-DOOR",
+        "image": null,
+        "icon": "car"
+      },
+      {
+        "key": "130",
+        "title": "130",
+        "text": "3列シートの希少なロングボディ",
+        "placeholderLabel": "LONG BODY",
+        "image": null,
+        "icon": "car"
+      },
+      {
+        "key": "interior",
+        "title": "内装・オプション",
+        "text": "状態や装備の充実度を細かく確認",
+        "image": null,
+        "icon": "seat",
+        "tone": "dark"
+      },
+      {
+        "key": "wheel",
+        "title": "ホイール・外装",
+        "text": "純正オプションやカラーも評価",
+        "image": null,
+        "icon": "wheel",
+        "tone": "dark"
+      },
+      {
+        "key": "limited",
+        "title": "限定モデル",
+        "text": "特別仕様車・限定車も適正に評価",
+        "image": null,
+        "icon": "badge",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "グレード",
+      "年式",
+      "走行距離",
+      "エンジン / パワートレイン",
+      "ボディカラー",
+      "純正装備",
+      "カスタム内容"
+    ]
+  },
+  "faq": [
+    {
+      "q": "型式のLEと90・110・130は何が違いますか？",
+      "a": "LEは現行ディフェンダーの国内型式の先頭部分です。車検証の例では「3CA-LE72WAB」などと記載されています。90・110・130はボディ仕様の呼び名なので、グレード欄で合わせて選んでください。旧型や型式が分からない場合は「わからない」で受け付けます。"
+    }
+  ]
+}
