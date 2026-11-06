@@ -1,0 +1,179 @@
+{
+  "slug": "volkswagen-the-beetle",
+  "draft": false,
+  "theme": "import-imagery",
+  "maker": "VOLKSWAGEN",
+  "makerJa": "フォルクスワーゲン",
+  "model": "THE BEETLE",
+  "modelShort": "ザ・ビートル",
+  "nameJa": "フォルクスワーゲン ザ・ビートル",
+  "seo": {
+    "title": "フォルクスワーゲン ザ・ビートルの買取・査定ならBimport｜輸入車専門",
+    "description": "フォルクスワーゲン ザ・ビートルの買取・査定をご相談ください。型式とモデル年を照合し、エンジンやグレード、限定仕様を確認します。純正装備や内外装の状態、整備履歴を確認し、一台ずつご案内します。売却未定でも60秒の入力で概算査定をご相談いただけます。査定無料・全国対応。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/volkswagen-the-beetle/hero-ai-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/volkswagen-the-beetle/hero-ai-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/volkswagen-the-beetle/hero-ai-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "フォルクスワーゲン ザ・ビートルのAI生成イメージ（前方からの別カット）",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "line": {
+      "fallback": "assets/images/volkswagen-the-beetle/line-image-ai-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/volkswagen-the-beetle/line-image-ai-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/volkswagen-the-beetle/line-image-ai-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "フォルクスワーゲン ザ・ビートルのAI生成イメージ（後方からの別カット）",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "final": {
+      "src": "assets/images/volkswagen-the-beetle/hero-ai-1536.jpg"
+    }
+  },
+  "hero": {
+    "label": "フォルクスワーゲン ザ・ビートル 買取・査定",
+    "catch": "愛着のある一台を、<br>個性と状態まで丁寧に査定。",
+    "lead": "車検証と写真から仕様を丁寧に確認。<br>売却未定でも、まずは概算査定から。<br><small>※画像はAI生成の車種イメージです。</small>",
+    "buy": "買取・査定",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "bodyTypeLabel": "型式",
+    "bodyTypes": [
+      {
+        "value": "16",
+        "label": "16",
+        "grades": [
+          "Base",
+          "Design Meister",
+          "R-Line Meister",
+          "2.0 R-Line Meister",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 2012,
+    "yearOlderLabel": "2011年以前"
+  },
+  "cases": [],
+  "casesEmpty": {
+    "title": "買取実績は現在未掲載です",
+    "message": "このページでご紹介するザ・ビートルの買取実績は、現在まだ掲載していません。車両情報・買取時期・金額を確認した実績から、順次ご紹介します。"
+  },
+  "points": {
+    "lead": "ザ・ビートルは、車両の仕様と状態を照合して査定します。<br>確認できる情報をもとに、一台ずつご案内します。",
+    "items": [
+      {
+        "key": "spec0",
+        "title": "型式とグレードの違い",
+        "text": "型式とモデル年を照合し、エンジンやグレード、限定仕様を確認します。",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "SPECIFICATION"
+      },
+      {
+        "key": "spec1",
+        "title": "内外装と純正装備",
+        "text": "シートやダッシュボード、ホイール、オーディオなどの装備と状態を確認します。",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "EQUIPMENT"
+      },
+      {
+        "key": "spec2",
+        "title": "変速機と整備の記録",
+        "text": "変速時の状態や警告表示、点検・修理の記録と保管状況を確認します。",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "CONDITION"
+      },
+      {
+        "key": "condition0",
+        "title": "内外装・使用状態",
+        "text": "ボディやシート、ホイールのキズ・損傷・補修の状態を確認します。",
+        "image": null,
+        "icon": "search",
+        "tone": "dark"
+      },
+      {
+        "key": "condition1",
+        "title": "整備・修理の記録",
+        "text": "点検記録や修理明細を確認し、整備の内容と現在の状態を照合します。",
+        "image": null,
+        "icon": "doc",
+        "tone": "dark"
+      },
+      {
+        "key": "condition2",
+        "title": "純正部品・付属品",
+        "text": "スペアキーや取扱説明書、保管している純正部品などを確認します。",
+        "image": null,
+        "icon": "wheel",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "モデル年",
+      "走行距離",
+      "整備記録",
+      "純正部品",
+      "使用・保管状況"
+    ],
+    "close": "車両の仕様や整備履歴が、まだ分からなくても大丈夫です。<br>まずは<strong>車検証とお車の写真</strong>からご相談ください。"
+  },
+  "faq": [
+    {
+      "q": "16はどこで確認できますか？",
+      "a": "車検証の型式が「DBA-16CBZ」などの場合は16を選びます。型式が異なる場合や不明な場合は「わからない」で大丈夫です。"
+    },
+    {
+      "q": "ニュービートルや昔のビートルも同じページですか？",
+      "a": "このページはザ・ビートル向けです。ニュービートルや旧来のビートルは別モデルのため、LINEで車検証と写真をお知らせください。"
+    },
+    {
+      "q": "限定車やカブリオレも相談できますか？",
+      "a": "はい。選択肢にない仕様は「限定車・特別仕様車」や「その他・わからない」を選び、車検証と写真をご用意ください。"
+    }
+  ],
+  "line": {
+    "title": "あなたの<span class=\"lp-en\">ザ・ビートル</span>、<br>まずは写真で概算査定。",
+    "lead": "車全体・内装・メーターの写真をLINEで。<br>仕様が分からない場合もお気軽にご相談ください。<br><small>※AI生成のイメージです。実績写真ではありません。</small>",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "VOLKSWAGEN THE BEETLE",
+    "title": "今の<span class=\"lp-en\">ザ・ビートル</span>、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは車両情報と写真からご相談ください。"
+  },
+  "sitemap": {
+    "lastmod": "2026-11-06"
+  }
+}

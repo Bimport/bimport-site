@@ -42,48 +42,34 @@
   "form": {
     "bodyTypes": [
       {
-        "value": "90",
-        "label": "90",
+        "value": "LE",
+        "label": "LE",
         "grades": [
-          "S",
-          "SE",
-          "HSE",
-          "X-Dynamic SE",
-          "X-Dynamic HSE",
-          "X",
-          "V8",
-          "First Edition",
-          "限定車・特別仕様車"
-        ]
-      },
-      {
-        "value": "110",
-        "label": "110",
-        "grades": [
-          "S",
-          "SE",
-          "HSE",
-          "X-Dynamic SE",
-          "X-Dynamic HSE",
-          "X",
-          "V8",
-          "OCTA",
-          "First Edition",
-          "限定車・特別仕様車"
-        ]
-      },
-      {
-        "value": "130",
-        "label": "130",
-        "grades": [
-          "SE",
-          "HSE",
-          "X-Dynamic SE",
-          "X-Dynamic HSE",
-          "X",
-          "Outbound",
-          "V8",
-          "First Edition",
+          "90 S",
+          "90 SE",
+          "90 HSE",
+          "90 X-Dynamic SE",
+          "90 X-Dynamic HSE",
+          "90 X",
+          "90 V8",
+          "90 First Edition",
+          "110 S",
+          "110 SE",
+          "110 HSE",
+          "110 X-Dynamic SE",
+          "110 X-Dynamic HSE",
+          "110 X",
+          "110 V8",
+          "110 OCTA",
+          "110 First Edition",
+          "130 SE",
+          "130 HSE",
+          "130 X-Dynamic SE",
+          "130 X-Dynamic HSE",
+          "130 X",
+          "130 Outbound",
+          "130 V8",
+          "130 First Edition",
           "限定車・特別仕様車"
         ]
       },
@@ -95,7 +81,8 @@
     ],
     "gradeFallback": "その他・わからない",
     "yearFrom": 2020,
-    "yearOlderLabel": "2019年以前（旧型を含む）"
+    "yearOlderLabel": "2019年以前（旧型を含む）",
+    "bodyTypeLabel": "型式"
   },
   "cases": [
     {
@@ -291,5 +278,13 @@
       "カスタム内容"
     ]
   },
-  "faq": []
+  "faq": [
+    {
+      "q": "型式のLEと90・110・130は何が違いますか？",
+      "a": "LEは現行ディフェンダーの国内型式の先頭部分です。車検証の例では「3CA-LE72WAB」などと記載されています。90・110・130はボディ仕様の呼び名なので、グレード欄で合わせて選んでください。旧型や型式が分からない場合は「わからない」で受け付けます。"
+    }
+  ],
+  "sitemap": {
+    "lastmod": "2026-11-06"
+  }
 }

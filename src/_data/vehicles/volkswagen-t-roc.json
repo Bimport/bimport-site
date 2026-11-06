@@ -1,0 +1,184 @@
+{
+  "slug": "volkswagen-t-roc",
+  "draft": false,
+  "theme": "import-imagery",
+  "maker": "VOLKSWAGEN",
+  "makerJa": "フォルクスワーゲン",
+  "model": "T-ROC",
+  "modelShort": "T-Roc",
+  "nameJa": "フォルクスワーゲン T-Roc",
+  "seo": {
+    "title": "フォルクスワーゲン T-Rocの買取・査定ならBimport｜輸入車専門",
+    "description": "フォルクスワーゲン T-Rocの買取・査定をご相談ください。TSI・TDI・Rを分け、モデル年と車検証から駆動系を確認します。純正装備、内外装の状態や整備履歴を確認し、一台ずつご案内します。売却未定でも60秒の入力で概算査定をご相談いただけます。査定無料・全国対応。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/volkswagen-t-roc/hero-ai-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/volkswagen-t-roc/hero-ai-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/volkswagen-t-roc/hero-ai-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "フォルクスワーゲン T-RocのAI生成イメージ（前方からの別カット）",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "line": {
+      "fallback": "assets/images/volkswagen-t-roc/line-image-ai-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/volkswagen-t-roc/line-image-ai-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/volkswagen-t-roc/line-image-ai-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "フォルクスワーゲン T-RocのAI生成イメージ（後方からの別カット）",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "final": {
+      "src": "assets/images/volkswagen-t-roc/hero-ai-1536.jpg"
+    }
+  },
+  "hero": {
+    "label": "フォルクスワーゲン T-Roc 買取・査定",
+    "catch": "そのSUVの個性まで、<br>仕様を見極める査定。",
+    "lead": "車検証と写真から仕様を丁寧に確認。<br>売却未定でも、まずは概算査定から。<br><small>※画像はAI生成の車種イメージです。</small>",
+    "buy": "買取・査定",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "bodyTypeLabel": "型式",
+    "bodyTypes": [
+      {
+        "value": "A1",
+        "label": "A1",
+        "grades": [
+          "TSI Active",
+          "TSI Style",
+          "TDI 4MOTION Style",
+          "TDI 4MOTION R-Line",
+          "T-Roc R TSI 4MOTION",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 2020,
+    "yearOlderLabel": "2019年以前"
+  },
+  "cases": [],
+  "casesEmpty": {
+    "title": "買取実績は現在未掲載です",
+    "message": "このページでご紹介するT-Rocの買取実績は、現在まだ掲載していません。車両情報・買取時期・金額を確認した実績から、順次ご紹介します。"
+  },
+  "points": {
+    "lead": "T-Rocは、車両の仕様と状態を照合して査定します。<br>確認できる情報をもとに、一台ずつご案内します。",
+    "items": [
+      {
+        "key": "spec0",
+        "title": "エンジンと駆動方式",
+        "text": "TSI・TDI・Rを分け、モデル年と車検証から駆動系を確認します。",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "SPECIFICATION"
+      },
+      {
+        "key": "spec1",
+        "title": "外装の仕様とホイール",
+        "text": "ルーフの配色や外装、ホイールなどの純正装備と状態を確認します。",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "EQUIPMENT"
+      },
+      {
+        "key": "spec2",
+        "title": "整備・作動の状態",
+        "text": "変速機や運転支援の作動、警告表示と整備・修理の記録を確認します。",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "CONDITION"
+      },
+      {
+        "key": "condition0",
+        "title": "内外装・使用状態",
+        "text": "ボディやシート、ホイールのキズ・損傷・補修の状態を確認します。",
+        "image": null,
+        "icon": "search",
+        "tone": "dark"
+      },
+      {
+        "key": "condition1",
+        "title": "整備・修理の記録",
+        "text": "点検記録や修理明細を確認し、整備の内容と現在の状態を照合します。",
+        "image": null,
+        "icon": "doc",
+        "tone": "dark"
+      },
+      {
+        "key": "condition2",
+        "title": "純正部品・付属品",
+        "text": "スペアキーや取扱説明書、保管している純正部品などを確認します。",
+        "image": null,
+        "icon": "wheel",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "モデル年",
+      "走行距離",
+      "整備記録",
+      "純正部品",
+      "使用・保管状況"
+    ],
+    "close": "車両の仕様や整備履歴が、まだ分からなくても大丈夫です。<br>まずは<strong>車検証とお車の写真</strong>からご相談ください。"
+  },
+  "faq": [
+    {
+      "q": "TSIとTDIで相談先は変わりますか？",
+      "a": "どちらもこのフォームから相談できます。分からない場合は車検証の写真から確認します。"
+    },
+    {
+      "q": "T-Roc Rも相談できますか？",
+      "a": "はい。型式を選び、グレード欄でRの仕様を選んでください。通常モデルとは装備と駆動系を分けて確認します。"
+    },
+    {
+      "q": "特別仕様車はどう入力すればよいですか？",
+      "a": "該当する型式を選び、グレードは「限定車・特別仕様車」または「その他・わからない」を選択してください。"
+    },
+    {
+      "q": "型式はどこで確認できますか？",
+      "a": "車検証の型式が「3BA-A1DPC」などの場合はA1を選びます。TSI・TDI・Rの違いはグレード欄で選びます。 グレードが分からない場合も「その他・わからない」で大丈夫です。"
+    }
+  ],
+  "line": {
+    "title": "あなたの<span class=\"lp-en\">T-Roc</span>、<br>まずは写真で概算査定。",
+    "lead": "車全体・内装・メーターの写真をLINEで。<br>仕様が分からない場合もお気軽にご相談ください。<br><small>※AI生成のイメージです。実績写真ではありません。</small>",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "VOLKSWAGEN T-ROC",
+    "title": "今の<span class=\"lp-en\">T-Roc</span>、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは車両情報と写真からご相談ください。"
+  },
+  "sitemap": {
+    "lastmod": "2026-11-06"
+  }
+}
