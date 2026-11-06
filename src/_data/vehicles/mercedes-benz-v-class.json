@@ -1,0 +1,174 @@
+{
+  "slug": "mercedes-benz-v-class",
+  "draft": true,
+  "theme": "import-imagery",
+  "maker": "MERCEDES-BENZ",
+  "makerJa": "メルセデス・ベンツ",
+  "model": "V-CLASS",
+  "modelShort": "Vクラス",
+  "nameJa": "メルセデス・ベンツ Vクラス",
+  "seo": {
+    "title": "メルセデス・ベンツ Vクラスの買取・査定ならBimport｜輸入車専門",
+    "description": "メルセデス・ベンツ Vクラスの買取・査定をご相談ください。車検証と車両写真から、ボディの長さやシート構成、モデル年を確認します。純正装備や内外装の状態、整備履歴を確認し、一台ずつご案内します。売却未定でも60秒の入力で概算査定をご相談いただけます。査定無料・全国対応。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/mercedes-benz-v-class/hero-ai-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/mercedes-benz-v-class/hero-ai-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/mercedes-benz-v-class/hero-ai-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "メルセデス・ベンツ VクラスのAI生成イメージ（前方からの別カット）",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "line": {
+      "fallback": "assets/images/mercedes-benz-v-class/line-image-ai-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/mercedes-benz-v-class/line-image-ai-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/mercedes-benz-v-class/line-image-ai-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "メルセデス・ベンツ VクラスのAI生成イメージ（後方からの別カット）",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "final": {
+      "src": "assets/images/mercedes-benz-v-class/hero-ai-1536.jpg"
+    }
+  },
+  "hero": {
+    "label": "メルセデス・ベンツ Vクラス 買取・査定",
+    "catch": "家族や仕事を支えた一台を、<br>室内の仕様まで丁寧に査定。",
+    "lead": "車検証と写真から仕様を丁寧に確認。<br>売却未定でも、まずは概算査定から。<br><small>※画像はAI生成の車種イメージです。</small>",
+    "buy": "買取・査定",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "bodyTypeLabel": "型式",
+    "bodyTypes": [
+      {
+        "value": "W447",
+        "label": "W447",
+        "grades": [
+          "V 220 d",
+          "V 220 d long",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 1998,
+    "yearOlderLabel": "1997年以前"
+  },
+  "cases": [],
+  "casesEmpty": {
+    "title": "買取実績は現在未掲載です",
+    "message": "このページでご紹介するVクラスの買取実績は、現在まだ掲載していません。車両情報・買取時期・金額を確認した実績から、順次ご紹介します。"
+  },
+  "points": {
+    "lead": "Vクラスは、車両の仕様と状態を照合して査定します。<br>確認できる情報をもとに、一台ずつご案内します。",
+    "items": [
+      {
+        "key": "spec0",
+        "title": "ボディの長さと仕様",
+        "text": "車検証と車両写真から、ボディの長さやシート構成、モデル年を確認します。",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "SPECIFICATION"
+      },
+      {
+        "key": "spec1",
+        "title": "スライドドアと室内装備",
+        "text": "スライドドアやシート、空調などの作動と室内の状態を確認します。",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "EQUIPMENT"
+      },
+      {
+        "key": "spec2",
+        "title": "足まわりと整備記録",
+        "text": "足まわりやタイヤ、警告表示、点検・修理の記録を照合します。",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "CONDITION"
+      },
+      {
+        "key": "condition0",
+        "title": "内外装・使用状態",
+        "text": "ボディやシート、ホイールのキズ・損傷・補修の状態を確認します。",
+        "image": null,
+        "icon": "search",
+        "tone": "dark"
+      },
+      {
+        "key": "condition1",
+        "title": "整備・修理の記録",
+        "text": "点検記録や修理明細を確認し、整備の内容と現在の状態を照合します。",
+        "image": null,
+        "icon": "doc",
+        "tone": "dark"
+      },
+      {
+        "key": "condition2",
+        "title": "純正部品・付属品",
+        "text": "スペアキーや取扱説明書、保管している純正部品などを確認します。",
+        "image": null,
+        "icon": "wheel",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "モデル年",
+      "走行距離",
+      "整備記録",
+      "純正部品",
+      "使用・保管状況"
+    ],
+    "close": "車両の仕様や整備履歴が、まだ分からなくても大丈夫です。<br>まずは<strong>車検証とお車の写真</strong>からご相談ください。"
+  },
+  "faq": [
+    {
+      "q": "W447が分からなくても相談できますか？",
+      "a": "はい。W447は通称型式で、車検証には「3DA-447811CP」などと記載されます。分からなければ「わからない」を選んでください。"
+    },
+    {
+      "q": "ロングやエクストラロングも相談できますか？",
+      "a": "はい。選択肢にないグレードは「その他・わからない」で受け付けます。車検証と写真から長さと仕様を確認します。"
+    },
+    {
+      "q": "キャンピング仕様や架装車も相談できますか？",
+      "a": "まずはLINEで架装の内容、車検証と内外装の写真をお知らせください。登録内容と現在の仕様を確認してご案内します。"
+    }
+  ],
+  "line": {
+    "title": "あなたの<span class=\"lp-en\">Vクラス</span>、<br>まずは写真で概算査定。",
+    "lead": "車全体・内装・メーターの写真をLINEで。<br>仕様が分からない場合もお気軽にご相談ください。<br><small>※AI生成のイメージです。実績写真ではありません。</small>",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "MERCEDES-BENZ V-CLASS",
+    "title": "今の<span class=\"lp-en\">Vクラス</span>、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは車両情報と写真からご相談ください。"
+  }
+}
