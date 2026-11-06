@@ -2,7 +2,7 @@
   <div class="lp-container">
     <p class="lp-footer__logo"><span class="lp-logo__name">Bimport</span><span class="lp-logo__sub">輸入車専門買取店</span></p>
     <p class="lp-footer__links">
-      <a href="../">会社概要</a>
+      {% if v.storeLinksPreview %}<a href="../">Bimport トップページ</a><a href="../#company">店舗・会社情報</a><a href="https://auto-dealer.jp/company/" target="_blank" rel="noopener noreferrer">運営会社・グループ店舗 ↗</a>{% else %}<a href="../">会社概要</a>{% endif %}
       <a href="../privacy.html">プライバシーポリシー</a>
       <a href="#estimate">お問い合わせ</a>
     </p>
