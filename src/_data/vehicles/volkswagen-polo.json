@@ -1,6 +1,6 @@
 {
   "slug": "volkswagen-polo",
-  "draft": true,
+  "draft": false,
   "theme": "import-imagery",
   "maker": "VOLKSWAGEN",
   "makerJa": "フォルクスワーゲン",
@@ -185,5 +185,8 @@
     "label": "VOLKSWAGEN POLO",
     "title": "今の<span class=\"lp-en\">ポロ</span>、<br>いくらになる？",
     "lead": "売却未定でもOK。<br>まずは車両情報と写真からご相談ください。"
+  },
+  "sitemap": {
+    "lastmod": "2026-11-06"
   }
 }
