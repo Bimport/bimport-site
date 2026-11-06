@@ -63,11 +63,11 @@
     "gradeFallback": "その他・わからない",
     "yearFrom": 1997,
     "yearOlderLabel": "1996年以前",
-    "bodyTypeLabel": "ボディ",
+    "bodyTypeLabel": "型式",
     "bodyTypes": [
       {
-        "value": "0",
-        "label": "SB",
+        "value": "GY",
+        "label": "GY",
         "grades": [
           "30 TFSI advanced",
           "30 TFSI S line",
@@ -77,20 +77,20 @@
         ]
       },
       {
-        "value": "1",
-        "label": "セダン",
+        "value": "8V",
+        "label": "8V",
         "grades": [
-          "30 TFSI advanced",
-          "30 TFSI S line",
-          "40 TFSI quattro advanced",
-          "40 TFSI quattro S line",
+          "1.4 TFSI",
           "限定車・特別仕様車"
         ]
       },
       {
-        "value": "2",
-        "label": "旧型",
-        "grades": []
+        "value": "8P",
+        "label": "8P",
+        "grades": [
+          "1.4 TFSI",
+          "限定車・特別仕様車"
+        ]
       },
       {
         "value": "unknown",
@@ -167,8 +167,8 @@
   },
   "faq": [
     {
-      "q": "SBはどのボディタイプですか？",
-      "a": "SBはSportback（スポーツバック）です。セダンとは区別して確認します。旧型の仕様やグレードが分からない場合は「その他・わからない」で受け付けます。"
+      "q": "型式はどこで確認できますか？",
+      "a": "車検証の「型式」欄をご覧ください。例えば「3AA-GYDXD」はGY、「DBA-8VCXS」は8V、「ABA-8PCAX」は8Pを選びます。表にない旧型や読み取りに迷う場合は「わからない」で大丈夫です。"
     },
     {
       "q": "S3・RS3もこのフォームで相談できますか？",

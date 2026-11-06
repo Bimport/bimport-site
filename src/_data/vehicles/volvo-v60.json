@@ -1,6 +1,6 @@
 {
   "slug": "volvo-v60",
-  "draft": true,
+  "draft": false,
   "theme": "import-imagery",
   "maker": "VOLVO",
   "makerJa": "ボルボ",
@@ -180,5 +180,8 @@
     "label": "VOLVO V60",
     "title": "今の<span class=\"lp-en\">V60</span>、<br>いくらになる？",
     "lead": "売却未定でもOK。<br>まずは車両情報と写真からご相談ください。"
+  },
+  "sitemap": {
+    "lastmod": "2026-11-06"
   }
 }

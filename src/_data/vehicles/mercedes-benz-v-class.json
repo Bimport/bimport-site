@@ -1,6 +1,6 @@
 {
   "slug": "mercedes-benz-v-class",
-  "draft": true,
+  "draft": false,
   "theme": "import-imagery",
   "maker": "MERCEDES-BENZ",
   "makerJa": "メルセデス・ベンツ",
@@ -170,5 +170,8 @@
     "label": "MERCEDES-BENZ V-CLASS",
     "title": "今の<span class=\"lp-en\">Vクラス</span>、<br>いくらになる？",
     "lead": "売却未定でもOK。<br>まずは車両情報と写真からご相談ください。"
+  },
+  "sitemap": {
+    "lastmod": "2026-11-06"
   }
 }

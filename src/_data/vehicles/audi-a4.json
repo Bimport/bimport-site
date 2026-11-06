@@ -1,6 +1,6 @@
 {
   "slug": "audi-a4",
-  "draft": true,
+  "draft": false,
   "theme": "import-imagery",
   "maker": "AUDI",
   "makerJa": "アウディ",
@@ -182,5 +182,8 @@
     "label": "AUDI A4",
     "title": "今の<span class=\"lp-en\">A4</span>、<br>いくらになる？",
     "lead": "売却未定でもOK。<br>まずは車両情報と写真からご相談ください。"
+  },
+  "sitemap": {
+    "lastmod": "2026-11-06"
   }
 }

@@ -1,6 +1,6 @@
 {
   "slug": "audi-tt",
-  "draft": true,
+  "draft": false,
   "theme": "import-imagery",
   "maker": "AUDI",
   "makerJa": "アウディ",
@@ -171,5 +171,8 @@
     "label": "AUDI TT",
     "title": "今の<span class=\"lp-en\">TT</span>、<br>いくらになる？",
     "lead": "売却未定でもOK。<br>まずは車両情報と写真からご相談ください。"
+  },
+  "sitemap": {
+    "lastmod": "2026-11-06"
   }
 }
