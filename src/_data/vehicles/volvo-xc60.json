@@ -1,0 +1,188 @@
+{
+  "slug": "volvo-xc60",
+  "draft": false,
+  "theme": "import-imagery",
+  "maker": "VOLVO",
+  "makerJa": "ボルボ",
+  "model": "XC60",
+  "modelShort": "XC60",
+  "nameJa": "ボルボ XC60",
+  "seo": {
+    "title": "ボルボ XC60の買取・査定ならBimport｜輸入車専門",
+    "description": "ボルボ XC60の買取・査定をご相談ください。モデル年と駆動系、純正装備、内外装の状態や整備履歴を確認し、一台ずつ概算査定をご案内します。査定無料・全国対応。売却未定でも、車検証とお車の写真からお気軽にご相談ください。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/volvo-xc60/hero-ai-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/volvo-xc60/hero-ai-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/volvo-xc60/hero-ai-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "ボルボ XC60のAI生成イメージ（前方からの別カット）",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "line": {
+      "fallback": "assets/images/volvo-xc60/line-image-ai-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/volvo-xc60/line-image-ai-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/volvo-xc60/line-image-ai-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "ボルボ XC60のAI生成イメージ（後方からの別カット）",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "final": {
+      "src": "assets/images/volvo-xc60/hero-ai-1536.jpg"
+    }
+  },
+  "hero": {
+    "label": "ボルボ XC60 買取・査定",
+    "catch": "家族と過ごした一台も、<br>仕様と装備まで丁寧に査定。",
+    "lead": "世代とパワートレインを丁寧に確認。<br>売却未定でも、まずは概算査定から。<br><small>※画像はAI生成の車種イメージです。</small>",
+    "buy": "買取・査定",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 2009,
+    "yearOlderLabel": "2008年以前",
+    "bodyTypeLabel": "仕様",
+    "bodyTypes": [
+      {
+        "value": "0",
+        "label": "MHEV",
+        "grades": [
+          "Plus B5 AWD",
+          "Ultra B5 AWD",
+          "Ultra B5 AWD Dark Edition",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "1",
+        "label": "PHEV",
+        "grades": []
+      },
+      {
+        "value": "2",
+        "label": "旧型",
+        "grades": []
+      },
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  "cases": [],
+  "casesEmpty": {
+    "title": "買取実績は現在未掲載です",
+    "message": "このページでご紹介するXC60の買取実績は、現在まだ掲載していません。車両情報・買取時期・金額を確認した実績から、順次ご紹介します。"
+  },
+  "points": {
+    "lead": "XC60は、車両の仕様と状態を照合して査定します。<br>確認できる情報をもとに、一台ずつご案内します。",
+    "items": [
+      {
+        "key": "spec0",
+        "title": "世代とパワートレイン",
+        "text": "モデル年と車検証を照合し、マイルドハイブリッドやプラグインハイブリッドなどの仕様を確認します。",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "SPECIFICATION"
+      },
+      {
+        "key": "spec1",
+        "title": "シート・快適装備",
+        "text": "シートやルーフ、オーディオなど、実際に装着されている装備と状態を確認します。",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "EQUIPMENT"
+      },
+      {
+        "key": "spec2",
+        "title": "運転支援と警告表示",
+        "text": "運転支援機能やカメラなどの作動、警告表示と整備記録を確認します。",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "CONDITION"
+      },
+      {
+        "key": "condition0",
+        "title": "内外装・使用状態",
+        "text": "ボディやシート、ホイールのキズ・損傷・補修の状態を確認します。",
+        "image": null,
+        "icon": "search",
+        "tone": "dark"
+      },
+      {
+        "key": "condition1",
+        "title": "整備・修理の記録",
+        "text": "点検記録や修理明細を確認し、整備の内容と現在の状態を照合します。",
+        "image": null,
+        "icon": "doc",
+        "tone": "dark"
+      },
+      {
+        "key": "condition2",
+        "title": "純正部品・付属品",
+        "text": "スペアキーや取扱説明書、保管している純正部品などを確認します。",
+        "image": null,
+        "icon": "wheel",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "モデル年",
+      "走行距離",
+      "整備記録",
+      "純正部品",
+      "使用・保管状況"
+    ],
+    "close": "車両の仕様や整備履歴が、まだ分からなくても大丈夫です。<br>まずは<strong>車検証とお車の写真</strong>からご相談ください。"
+  },
+  "faq": [
+    {
+      "q": "MHEVとPHEVのどちらか分からなくても相談できますか？",
+      "a": "はい。「わからない」を選び、車検証やメーターの写真をご用意ください。モデル年と車両の仕様を照合します。"
+    },
+    {
+      "q": "古いディーゼルやガソリンのXC60も相談できますか？",
+      "a": "はい。旧型を選択し、グレードが分からない場合は「その他・わからない」で受け付けます。駆動系と整備履歴を確認します。"
+    },
+    {
+      "q": "充電ケーブルやスペアキーも用意したほうがよいですか？",
+      "a": "PHEVの充電ケーブルやスペアキーなど、付属品があればお知らせください。装着装備の状態と合わせて確認します。"
+    }
+  ],
+  "line": {
+    "title": "あなたの<span class=\"lp-en\">XC60</span>、<br>まずは写真で概算査定。",
+    "lead": "車全体・内装・メーターの写真をLINEで。<br>仕様が分からない場合もお気軽にご相談ください。<br><small>※AI生成のイメージです。実績写真ではありません。</small>",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "VOLVO XC60",
+    "title": "今の<span class=\"lp-en\">XC60</span>、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは車両情報と写真からご相談ください。"
+  },
+  "sitemap": {
+    "lastmod": "2026-11-06"
+  }
+}

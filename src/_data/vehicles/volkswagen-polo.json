@@ -1,0 +1,192 @@
+{
+  "slug": "volkswagen-polo",
+  "draft": false,
+  "theme": "import-imagery",
+  "maker": "VOLKSWAGEN",
+  "makerJa": "フォルクスワーゲン",
+  "model": "POLO",
+  "modelShort": "ポロ",
+  "nameJa": "フォルクスワーゲン ポロ",
+  "seo": {
+    "title": "フォルクスワーゲン ポロの買取・査定ならBimport｜輸入車専門",
+    "description": "フォルクスワーゲン ポロの買取・査定をご相談ください。モデル年と駆動系、純正装備、内外装の状態や整備履歴を確認し、一台ずつ概算査定をご案内します。査定無料・全国対応。売却未定でも、車検証とお車の写真からお気軽にご相談ください。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/volkswagen-polo/hero-ai-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/volkswagen-polo/hero-ai-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/volkswagen-polo/hero-ai-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "フォルクスワーゲン ポロのAI生成イメージ（前方からの別カット）",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "line": {
+      "fallback": "assets/images/volkswagen-polo/line-image-ai-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/volkswagen-polo/line-image-ai-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/volkswagen-polo/line-image-ai-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "フォルクスワーゲン ポロのAI生成イメージ（後方からの別カット）",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "final": {
+      "src": "assets/images/volkswagen-polo/hero-ai-1536.jpg"
+    }
+  },
+  "hero": {
+    "label": "フォルクスワーゲン ポロ 買取・査定",
+    "catch": "街で使った一台も、<br>細かな装備まで確かめる査定。",
+    "lead": "年式とグレードの違いを丁寧に確認。<br>売却未定でも、まずは概算査定から。<br><small>※画像はAI生成の車種イメージです。</small>",
+    "buy": "買取・査定",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 1996,
+    "yearOlderLabel": "1995年以前",
+    "bodyTypeLabel": "仕様",
+    "bodyTypes": [
+      {
+        "value": "0",
+        "label": "TSI",
+        "grades": [
+          "TSI Active Basic",
+          "TSI Active",
+          "TSI Style",
+          "TSI R-Line",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "1",
+        "label": "GTI",
+        "grades": [
+          "GTI",
+          "限定車・特別仕様車"
+        ]
+      },
+      {
+        "value": "2",
+        "label": "旧型",
+        "grades": []
+      },
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  "cases": [],
+  "casesEmpty": {
+    "title": "買取実績は現在未掲載です",
+    "message": "このページでご紹介するポロの買取実績は、現在まだ掲載していません。車両情報・買取時期・金額を確認した実績から、順次ご紹介します。"
+  },
+  "points": {
+    "lead": "ポロは、車両の仕様と状態を照合して査定します。<br>確認できる情報をもとに、一台ずつご案内します。",
+    "items": [
+      {
+        "key": "spec0",
+        "title": "年式とグレードの違い",
+        "text": "モデル年と車両の書類を照合し、TSIやGTIなどの仕様を分けて確認します。",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "SPECIFICATION"
+      },
+      {
+        "key": "spec1",
+        "title": "変速機と整備履歴",
+        "text": "変速機の作動状態や警告表示、点検・修理の記録を確認します。",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "EQUIPMENT"
+      },
+      {
+        "key": "spec2",
+        "title": "純正装備と付属品",
+        "text": "運転支援や純正オプション、スペアキーや保管部品などを確認します。",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "CONDITION"
+      },
+      {
+        "key": "condition0",
+        "title": "内外装・使用状態",
+        "text": "ボディやシート、ホイールのキズ・損傷・補修の状態を確認します。",
+        "image": null,
+        "icon": "search",
+        "tone": "dark"
+      },
+      {
+        "key": "condition1",
+        "title": "整備・修理の記録",
+        "text": "点検記録や修理明細を確認し、整備の内容と現在の状態を照合します。",
+        "image": null,
+        "icon": "doc",
+        "tone": "dark"
+      },
+      {
+        "key": "condition2",
+        "title": "純正部品・付属品",
+        "text": "スペアキーや取扱説明書、保管している純正部品などを確認します。",
+        "image": null,
+        "icon": "wheel",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "モデル年",
+      "走行距離",
+      "整備記録",
+      "純正部品",
+      "使用・保管状況"
+    ],
+    "close": "車両の仕様や整備履歴が、まだ分からなくても大丈夫です。<br>まずは<strong>車検証とお車の写真</strong>からご相談ください。"
+  },
+  "faq": [
+    {
+      "q": "古いポロやグレードが分からない車も相談できますか？",
+      "a": "はい。「旧型」や「わからない」を選択し、車検証と車両の写真をご用意ください。確認できる情報からご案内します。"
+    },
+    {
+      "q": "GTIも同じページで相談できますか？",
+      "a": "はい。フォームでGTIを選んでください。通常のTSIモデルとは仕様を分け、装備や使用状態を確認します。"
+    },
+    {
+      "q": "変速時の違和感や警告表示があっても相談できますか？",
+      "a": "はい。気になる症状と整備・修理の履歴をお知らせください。現在の状態を確認してご案内します。"
+    }
+  ],
+  "line": {
+    "title": "あなたの<span class=\"lp-en\">ポロ</span>、<br>まずは写真で概算査定。",
+    "lead": "車全体・内装・メーターの写真をLINEで。<br>仕様が分からない場合もお気軽にご相談ください。<br><small>※AI生成のイメージです。実績写真ではありません。</small>",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "VOLKSWAGEN POLO",
+    "title": "今の<span class=\"lp-en\">ポロ</span>、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは車両情報と写真からご相談ください。"
+  },
+  "sitemap": {
+    "lastmod": "2026-11-06"
+  }
+}
