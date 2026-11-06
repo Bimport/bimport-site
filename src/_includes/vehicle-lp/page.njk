@@ -38,7 +38,7 @@
 <link rel="stylesheet" href="../assets/css/themes/{{ v.theme }}.css">
 {%- endif %}
 
-<!-- Google tag (gtag.js) -->
+<link rel="stylesheet" href="../assets/css/lp-store-review.css"><!-- Google tag (gtag.js) -->
 {% include "ga4.njk" %}
 </head>
 <body{% if v.theme %} class="lp-theme-{{ v.theme }}"{% endif %}>
@@ -65,7 +65,7 @@
 
 {% include "vehicle-lp/sections/faq.njk" %}
 
-{% include "vehicle-lp/sections/final.njk" %}
+{% include "vehicle-lp/sections/store-review.njk" %}{% include "vehicle-lp/sections/final.njk" %}
 
 </main>
 
