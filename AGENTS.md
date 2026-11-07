@@ -77,3 +77,5 @@ GitHub に push 済みのブランチ（未マージ・`draft: true`）：
 2026-11-06追加制作：Bクラス・Vクラス・通常GLS・A6・TT・ザ・ビートルの6車種をdraft:trueで制作。先の8下書きも型式選択へ揃えた。今後の新規LPは型式を選ぶフォームで統一し、国内確認済みグレードを型式ごとに連動させる。「わからない」を残す。詳細はdocs/vehicle-research/popular-import-batch3-2026-11-06.md。
 
 2026-11-06公開承認：追加14車種（T-Cross・T-Roc・ティグアン・Q2・V60・A4・A5・A1・Bクラス・Vクラス・通常GLS・A6・TT・ザ・ビートル）と、既存7車種（A3・500e・MINI・i5・i8・8シリーズ・ディフェンダー）の型式フォーム修正を公開対象へ変更。7件のoverrideは本体に反映して削除済み。公開後はmainを正とし、旧下書きへ戻さない。audi-a3-form-reviewは比較用draft:trueのまま本番非出力。
+
+2026-11-07追加下書き：プジョー2008・3008・ボルボXC90の3車種を実績未掲載版で制作。draft:true、型式選択・国内資料確認済みの一部グレード・AI画像2枚ずつ。公開未承認。詳細はdocs/vehicle-research/popular-import-batch4-2026-11-07.md。

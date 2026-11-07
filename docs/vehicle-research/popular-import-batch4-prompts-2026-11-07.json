@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "peugeot-2008",
+    "kind": "hero",
+    "prompt": "Photorealistic automotive advertising image, 3:2 landscape. A metallic selenium gray second-generation facelift Peugeot 2008 SUV P24, front pointing to LEFT, front three-quarter view with entire car and both wheels in frame, generous margins. Parked at a quiet lavender distillery courtyard in Provence, pale stone buildings, dawn. Accurate compact angular SUV shape, three-claw vertical daytime lights, factory wheels. No people, no signage, no written text, blank license plate, no watermarks. Car emblem okay. Not a purchase record, just model imagery.",
+    "source": "/Users/macbook/.codex/generated_images/01a14282-3ab0-7d41-8494-e076aef49f06/exec-3c99bc42-68ca-42b7-8f7c-3cc36cb12c15.png",
+    "destination": "src/assets/images/peugeot-2008/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "peugeot-2008",
+    "kind": "line-image",
+    "prompt": "Photorealistic automotive image, 3:2 landscape. A blue second-generation Peugeot 2008 P24 SUV, rear three-quarter view, entire car including roof and wheels within margins, parked by a tranquil modern riverside pedestrian pavilion with reed beds, overcast daylight. Accurate rear triple-claw lights, production car proportions, factory wheels. Different scene and color from hero. No people, no signs, no overlay text, blank plate, no watermarks; normal vehicle emblem okay.",
+    "source": "/Users/macbook/.codex/generated_images/01a14282-3ab0-7d41-8494-e076aef49f06/exec-5e01289e-baea-4186-825f-e2d84b23337d.png",
+    "destination": "src/assets/images/peugeot-2008/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "peugeot-3008",
+    "kind": "hero",
+    "prompt": "Photorealistic automotive advertising image, 3:2 landscape. A pearl white second-generation facelift Peugeot 3008 P84 SUV, front pointing LEFT, front three-quarter view, full vehicle entirely framed with generous margins. Parked on a stone terrace outside a contemporary ceramics museum surrounded by red earth cliffs, soft late afternoon light. Accurate upright P84 3008 silhouette, frameless grille and vertical fang DRLs, not new fastback generation. No people, no signage, no text overlays, blank license plate, no watermarks. Factory wheels, normal emblem okay.",
+    "source": "/Users/macbook/.codex/generated_images/01a14282-3ab0-7d41-8494-e076aef49f06/exec-997aa78d-2f3e-439e-b6ea-e5b9cb28b780.png",
+    "destination": "src/assets/images/peugeot-3008/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "peugeot-3008",
+    "kind": "line-image",
+    "prompt": "Photorealistic automotive image, 3:2 landscape. A copper metallic second-generation Peugeot 3008 P84 SUV, rear three-quarter view, full car and wheels with generous margins, parked by a quiet rural railway viaduct and green meadow, soft morning light. Accurate P84 upright SUV tailgate with black horizontal rear lamp panel and triple-claw lights, not new fastback. No people, signs, text overlays or watermarks, blank plate, factory wheels. Vehicle emblems okay.",
+    "source": "/Users/macbook/.codex/generated_images/01a14282-3ab0-7d41-8494-e076aef49f06/exec-9da11171-e4eb-46f8-8dea-4a22fb522b87.png",
+    "destination": "src/assets/images/peugeot-3008/line-image-ai-1536.jpg"
+  },
+  {
+    "slug": "volvo-xc90",
+    "kind": "hero",
+    "prompt": "Photorealistic automotive advertising image, 3:2 landscape. A dark blue Volvo XC90 second generation LB SUV, front facing LEFT, front three-quarter view, entire vehicle including roof and all wheels framed with comfortable margins. Parked beside a timber boathouse on a calm Swedish archipelago inlet, misty sunrise and granite boulders. Accurate large seven-seat SUV proportions, Thor hammer headlights and vertical grille. No people or signs, no text overlays, no watermark, blank number plate; car emblem okay.",
+    "source": "/Users/macbook/.codex/generated_images/01a14282-3ab0-7d41-8494-e076aef49f06/exec-4c0ef89e-1661-4491-a5b3-d714188a5740.png",
+    "destination": "src/assets/images/volvo-xc90/hero-ai-1536.jpg"
+  },
+  {
+    "slug": "volvo-xc90",
+    "kind": "line-image",
+    "prompt": "Photorealistic automotive image, 3:2 landscape. A silver Volvo XC90 second-generation LB SUV, rear three-quarter view, whole car and wheels with comfortable margins. Parked at a quiet outdoor sculpture garden with pale travertine walls and ornamental grasses, bright soft daylight. Accurate long upright seven-seater and tall vertical rear lights. No people, no signage or lettering, no overlay text or watermarks, blank license plate, factory wheels. Production vehicle emblem okay.",
+    "source": "/Users/macbook/.codex/generated_images/01a14282-3ab0-7d41-8494-e076aef49f06/exec-4effa50f-db00-4d35-882f-e3f41a480e7d.png",
+    "destination": "src/assets/images/volvo-xc90/line-image-ai-1536.jpg"
+  }
+]
