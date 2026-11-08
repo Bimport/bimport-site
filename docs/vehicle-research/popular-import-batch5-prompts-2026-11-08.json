@@ -1,0 +1,41 @@
+{
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "key": "5008-hero",
+      "scene": "A second-generation facelift 2021 Peugeot 5008 P87 SUV, dark emerald metallic green, front three-quarter view with nose pointing LEFT, beside a terraced olive grove with pale stone retaining walls in morning sunlight.",
+      "constraints": "Photorealistic automotive editorial photograph, landscape 3:2. Whole vehicle, all wheels and roof inside frame, generous 15% margins. Correct proportions. No people, signs, readable text, watermarks or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Single photograph, not collage.",
+      "saved": "src/assets/images/peugeot-5008/hero-ai-1536.jpg"
+    },
+    {
+      "key": "5008-line",
+      "scene": "A pearl white 2021 facelift Peugeot 5008 P87 elongated seven-seat SUV, rear three-quarter angle, parked in a modern cedar-clad lakeside pavilion courtyard on an overcast day.",
+      "constraints": "Photorealistic automotive editorial photograph, landscape 3:2. Whole vehicle, all wheels and roof inside frame, generous 15% margins. Correct proportions. No people, signs, readable text, watermarks or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Single photograph, not collage.",
+      "saved": "src/assets/images/peugeot-5008/line-image-ai-1536.jpg"
+    },
+    {
+      "key": "kangoo-hero",
+      "scene": "A mustard yellow 2023 third generation Renault Kangoo KFK five-seat passenger van with black bumpers, front three-quarter angle nose pointing LEFT, parked beside flowering lavender plots and a rustic limestone farmhouse, bright soft afternoon.",
+      "constraints": "Photorealistic automotive editorial photograph, landscape 3:2. Whole vehicle, all wheels and roof inside frame, generous 15% margins. Correct proportions. No people, signs, readable text, watermarks or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Single photograph, not collage.",
+      "saved": "src/assets/images/renault-kangoo/hero-ai-1536.jpg"
+    },
+    {
+      "key": "kangoo-line",
+      "scene": "A deep blue 2023 third generation Renault Kangoo KFK five-seat passenger van, rear three-quarter angle showing split rear barn doors and tall roof, beside a minimalist red brick pottery studio courtyard with potted grasses, diffuse morning.",
+      "constraints": "Photorealistic automotive editorial photograph, landscape 3:2. Whole vehicle, all wheels and roof inside frame, generous 15% margins. Correct proportions. No people, signs, readable text, watermarks or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Single photograph, not collage.",
+      "saved": "src/assets/images/renault-kangoo/line-image-ai-1536.jpg"
+    },
+    {
+      "key": "c3-hero",
+      "scene": "A 2021 facelift third generation Citroen C3 B6 compact five-door hatchback, pale turquoise body black roof, front three-quarter nose pointing LEFT, split headlights and black Airbump panels, parked beside a quiet pastel stucco courtyard with jacaranda flowering tree.",
+      "constraints": "Photorealistic automotive editorial photograph, landscape 3:2. Whole vehicle, all wheels and roof inside frame, generous 15% margins. Correct proportions. No people, signs, readable text, watermarks or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Single photograph, not collage.",
+      "saved": "src/assets/images/citroen-c3/hero-ai-1536.jpg"
+    },
+    {
+      "key": "c3-line",
+      "scene": "A coral red 2021 facelift third generation Citroen C3 B6 five-door compact hatchback with white roof, rear three-quarter angle with visible black Airbump side panels, parked at a quiet modern glass conservatory beside ferns, light rain stopped, reflective stone paving.",
+      "constraints": "Photorealistic automotive editorial photograph, landscape 3:2. Whole vehicle, all wheels and roof inside frame, generous 15% margins. Correct proportions. No people, signs, readable text, watermarks or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Single photograph, not collage.",
+      "saved": "src/assets/images/citroen-c3/line-image-ai-1536.jpg"
+    }
+  ]
+}
