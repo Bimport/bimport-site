@@ -1,6 +1,6 @@
 {
   "slug": "citroen-c5-aircross",
-  "draft": true,
+  "draft": false,
   "theme": "import-imagery",
   "maker": "CITROËN",
   "makerJa": "シトロエン",
@@ -176,6 +176,6 @@
     "lead": "売却未定でもOK。<br>まずは車両情報と写真からご相談ください。"
   },
   "sitemap": {
-    "lastmod": "2026-11-08"
+    "lastmod": "2026-11-09"
   }
 }
