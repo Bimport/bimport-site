@@ -1,0 +1,78 @@
+{
+  "tool": "built-in image_gen",
+  "sharedConstraints": "Photorealistic premium automotive editorial photograph, landscape 3:2. Correct model proportions and authentic body design. Whole car, all wheels and roof fully within frame with generous 15 percent margins. No other cars, people, signs, readable text, added logos or watermark. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural perspective, realistic lighting and reflections. Single photo, not collage.",
+  "images": [
+    {
+      "slug": "peugeot-308",
+      "use": "hero",
+      "scene": "A metallic copper 2022 Peugeot 308 P5 five-door hatchback, front three-quarter nose pointing LEFT, beside dramatic pale chalk cliffs and windswept dune grasses, gentle morning light.",
+      "saved": "src/assets/images/peugeot-308/hero-ai-1536.jpg"
+    },
+    {
+      "slug": "peugeot-308",
+      "use": "line",
+      "scene": "A pearl white 2022 Peugeot 308 SW P5 estate, rear three-quarter angle, parked beside a dark timber boathouse on a narrow tranquil canal under willows, soft overcast.",
+      "saved": "src/assets/images/peugeot-308/line-image-ai-1536.jpg"
+    },
+    {
+      "slug": "peugeot-508",
+      "use": "hero",
+      "scene": "A deep burgundy 2021 Peugeot 508 R8 fastback, front three-quarter nose pointing LEFT, in a quiet limestone sculpture garden with abstract unlettered stone forms, twilight.",
+      "saved": "src/assets/images/peugeot-508/hero-ai-1536.jpg"
+    },
+    {
+      "slug": "peugeot-508",
+      "use": "line",
+      "scene": "A silver 2021 Peugeot 508 SW R8 estate, rear three-quarter, on a quiet elevated stone terrace overlooking terracotta roofs, early morning mist.",
+      "saved": "src/assets/images/peugeot-508/line-image-ai-1536.jpg"
+    },
+    {
+      "slug": "citroen-berlingo",
+      "use": "hero",
+      "scene": "A sandy beige 2021 Citroen Berlingo K9 five-seat passenger MPV, front three-quarter nose pointing LEFT, its distinctive split headlamps visible, parked beside an empty seaside picnic meadow with white wildflowers, crisp daylight.",
+      "saved": "src/assets/images/citroen-berlingo/hero-ai-1536.jpg"
+    },
+    {
+      "slug": "citroen-berlingo",
+      "use": "line",
+      "scene": "A dark metallic blue 2021 Citroen Berlingo K9 five-seat passenger MPV, rear three-quarter angle showing upward tailgate and large rear window, beside a contemporary ceramic-tile countryside cafe without signage, maple leaves, late autumn sun.",
+      "saved": "src/assets/images/citroen-berlingo/line-image-ai-1536.jpg"
+    },
+    {
+      "slug": "renault-lutecia",
+      "use": "hero",
+      "scene": "A bright metallic orange 2021 Renault Clio V (sold as Lutecia in Japan) BJA five-door hatchback, front three-quarter nose pointing LEFT, parked by a quiet basalt river gorge and ferns, soft daylight.",
+      "saved": "src/assets/images/renault-lutecia/hero-ai-1536.jpg"
+    },
+    {
+      "slug": "renault-lutecia",
+      "use": "line",
+      "scene": "A pearl white 2021 Renault Clio V BJA five-door hatchback, rear three-quarter, at an empty pale concrete design museum courtyard with a shallow reflecting pool, cloudy morning.",
+      "saved": "src/assets/images/renault-lutecia/line-image-ai-1536.jpg"
+    },
+    {
+      "slug": "renault-captur",
+      "use": "hero",
+      "scene": "A metallic teal 2021 Renault Captur II HJB compact SUV with black roof, front three-quarter nose pointing LEFT, parked beside terraced saffron fields and rolling ochre hills, golden morning.",
+      "saved": "src/assets/images/renault-captur/hero-ai-1536.jpg"
+    },
+    {
+      "slug": "renault-captur",
+      "use": "line",
+      "scene": "A dark red 2021 Renault Captur II HJB compact SUV with contrasting black roof, rear three-quarter, beside an empty arched brick railway viaduct surrounded by green meadows, diffused daylight.",
+      "saved": "src/assets/images/renault-captur/line-image-ai-1536.jpg"
+    },
+    {
+      "slug": "alfa-romeo-giulia",
+      "use": "hero",
+      "scene": "A metallic dark blue 2021 Alfa Romeo Giulia type 952 four-door sports sedan Veloce, front three-quarter nose pointing LEFT, at a quiet cypress-lined hillside overlook with distant white marble mountains, late afternoon.",
+      "saved": "src/assets/images/alfa-romeo-giulia/hero-ai-1536.jpg"
+    },
+    {
+      "slug": "alfa-romeo-giulia",
+      "use": "line",
+      "scene": "An Alfa red 2021 Alfa Romeo Giulia type 952 Veloce four-door sedan, rear three-quarter, parked beside a minimalist travertine villa entrance with a single olive tree and dark reflecting pond, blue hour.",
+      "saved": "src/assets/images/alfa-romeo-giulia/line-image-ai-1536.jpg"
+    }
+  ]
+}
