@@ -1,0 +1,126 @@
+{
+  "tool": "built-in image_gen",
+  "sharedConstraints": "Photorealistic premium automotive editorial photograph, landscape 3:2. Correct recognizable vehicle model and proportions, accurate doors and factory design. Whole car, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural lighting, realistic perspective, reflections and tires. Single photograph, not collage.",
+  "images": [
+    {
+      "slug": "volkswagen-up",
+      "use": "hero",
+      "scene": "A bright red 2018 Volkswagen up! AA five-door city hatchback, front three-quarter nose pointing LEFT, beside a small quiet canalside cobblestone lane with unlettered pale blue house facades and pots of white daisies, bright morning.",
+      "saved": "src/assets/images/volkswagen-up/hero-ai-1536.jpg"
+    },
+    {
+      "slug": "volkswagen-up",
+      "use": "line",
+      "scene": "A pale blue 2018 Volkswagen up! AA five-door city hatchback, rear three-quarter angle, beside an empty curved white concrete pedestrian plaza overlooking still tidal salt pans, late afternoon.",
+      "saved": "src/assets/images/volkswagen-up/line-image-ai-1536.jpg"
+    },
+    {
+      "slug": "volkswagen-arteon",
+      "use": "hero",
+      "scene": "A metallic kingfisher blue 2021 Volkswagen Arteon 3H five-door fastback, front three-quarter nose pointing LEFT, parked beside a quiet black volcanic sand bay and low angular rocks, diffused sunrise.",
+      "saved": "src/assets/images/volkswagen-arteon/hero-ai-1536.jpg"
+    },
+    {
+      "slug": "volkswagen-arteon",
+      "use": "line",
+      "scene": "A pearl white 2021 Volkswagen Arteon Shooting Brake 3H estate, rear three-quarter, on a wide quiet gray granite courtyard beside a modern horizontal copper-clad gallery and ornamental silver grasses, blue hour.",
+      "saved": "src/assets/images/volkswagen-arteon/line-image-ai-1536.jpg"
+    },
+    {
+      "slug": "volkswagen-touareg",
+      "use": "hero",
+      "scene": "A dark metallic brown 2016 second generation facelift Volkswagen Touareg 7P SUV, front three-quarter nose pointing LEFT, parked on an empty safe paved overlook above red sandstone mesas and sagebrush, warm morning.",
+      "saved": "src/assets/images/volkswagen-touareg/hero-ai-1536.jpg"
+    },
+    {
+      "slug": "volkswagen-touareg",
+      "use": "line",
+      "scene": "A silver 2016 second generation facelift Volkswagen Touareg 7P SUV, rear three-quarter, beside a timber alpine chalet and small waterfall among dark fir trees, soft cloudy daylight.",
+      "saved": "src/assets/images/volkswagen-touareg/line-image-ai-1536.jpg"
+    },
+    {
+      "slug": "volvo-v40",
+      "use": "hero",
+      "scene": "A metallic cyan blue 2017 facelift Volvo V40 five-door hatchback, Thor hammer headlamps, front three-quarter nose pointing LEFT, beside quiet coastal fishing huts with faded yellow timber walls and bleached pebble shore, no signs, soft mist.",
+      "saved": "src/assets/images/volvo-v40/hero-ai-1536.jpg"
+    },
+    {
+      "slug": "volvo-v40",
+      "use": "line",
+      "scene": "A pearl white 2017 facelift Volvo V40 five-door hatchback, rear three-quarter, beside an empty rust-colored corten steel sculpture corridor and gravel courtyard with young aspens, afternoon.",
+      "saved": "src/assets/images/volvo-v40/line-image-ai-1536.jpg"
+    },
+    {
+      "slug": "volvo-s60",
+      "use": "hero",
+      "scene": "A metallic deep maroon 2021 Volvo S60 third generation ZB four-door sedan, front three-quarter nose pointing LEFT, beside an empty gently curving bridge over a wide still inland river with frost covered banks and distant winter poplars, morning.",
+      "saved": "src/assets/images/volvo-s60/hero-ai-1536.jpg"
+    },
+    {
+      "slug": "volvo-s60",
+      "use": "line",
+      "scene": "A silver 2021 Volvo S60 third generation ZB four-door sedan, rear three-quarter, at a quiet modern light timber guesthouse entrance with moss covered stone garden, after rain.",
+      "saved": "src/assets/images/volvo-s60/line-image-ai-1536.jpg"
+    },
+    {
+      "slug": "volvo-s90",
+      "use": "hero",
+      "scene": "A metallic charcoal gray 2020 Volvo S90 second generation PB four-door sedan, front three-quarter nose pointing LEFT, on a quiet open paved forecourt beside a low dark basalt observatory under a dramatic broad cloudy sky, daytime.",
+      "saved": "src/assets/images/volvo-s90/hero-ai-1536.jpg"
+    },
+    {
+      "slug": "volvo-s90",
+      "use": "line",
+      "scene": "A pearl white 2020 Volvo S90 second generation PB four-door sedan, rear three-quarter, beside a quiet long glass-roofed railway-style greenhouse and rows of orange trees, soft golden light.",
+      "saved": "src/assets/images/volvo-s90/line-image-ai-1536.jpg"
+    },
+    {
+      "slug": "renault-megane",
+      "use": "hero",
+      "scene": "A metallic ochre gold 2020 Renault Megane IV B9 five-door hatchback, front three-quarter nose pointing LEFT, beside a quiet broad mountain lake with pale granite boulders and tall dry grasses, blue daylight.",
+      "saved": "src/assets/images/renault-megane/hero-ai-1536.jpg"
+    },
+    {
+      "slug": "renault-megane",
+      "use": "line",
+      "scene": "A dark blue 2020 Renault Megane IV Sport Tourer estate, rear three-quarter, beside an empty heritage limestone archway courtyard with climbing roses and a low reflecting basin, evening.",
+      "saved": "src/assets/images/renault-megane/line-image-ai-1536.jpg"
+    },
+    {
+      "slug": "renault-twingo",
+      "use": "hero",
+      "scene": "A pastel mint green 2020 facelift Renault Twingo III AHH five-door rear-engine city hatchback, front three-quarter nose pointing LEFT, beside a sunny empty narrow ochre terracotta courtyard with a single pink bougainvillea, no signage.",
+      "saved": "src/assets/images/renault-twingo/hero-ai-1536.jpg"
+    },
+    {
+      "slug": "renault-twingo",
+      "use": "line",
+      "scene": "A bright yellow 2020 facelift Renault Twingo III AHH five-door city hatchback, rear three-quarter, parked beside a quiet geometric pale green ceramic tiled pavilion on a breezy grass headland, overcast afternoon.",
+      "saved": "src/assets/images/renault-twingo/line-image-ai-1536.jpg"
+    },
+    {
+      "slug": "alfa-romeo-giulietta",
+      "use": "hero",
+      "scene": "An Alfa red 2018 Alfa Romeo Giulietta 940 five-door hatchback, front three-quarter nose pointing LEFT, at a quiet paved overlook beside terraced citrus groves and a distant hilltop stone village, early sun.",
+      "saved": "src/assets/images/alfa-romeo-giulietta/hero-ai-1536.jpg"
+    },
+    {
+      "slug": "alfa-romeo-giulietta",
+      "use": "line",
+      "scene": "A pearl white 2018 Alfa Romeo Giulietta 940 five-door hatchback, rear three-quarter, beside an empty dark brick former textile mill courtyard with still millpond and tall plane trees, soft morning.",
+      "saved": "src/assets/images/alfa-romeo-giulietta/line-image-ai-1536.jpg"
+    },
+    {
+      "slug": "citroen-c5-aircross",
+      "use": "hero",
+      "scene": "A metallic deep blue 2021 first generation Citroen C5 Aircross C84 SUV with split headlights and side Airbump panels, front three-quarter nose pointing LEFT, parked beside a quiet wide grass track overlooking rolling purple heather moorland and distant low stone walls, diffuse afternoon.",
+      "saved": "src/assets/images/citroen-c5-aircross/hero-ai-1536.jpg"
+    },
+    {
+      "slug": "citroen-c5-aircross",
+      "use": "line",
+      "scene": "A pearl white 2021 first generation Citroen C5 Aircross C84 SUV with black roof, rear three-quarter, in an empty courtyard with smooth pale limestone retaining walls and terraced succulents above an azure bay, early morning.",
+      "saved": "src/assets/images/citroen-c5-aircross/line-image-ai-1536.jpg"
+    }
+  ]
+}
