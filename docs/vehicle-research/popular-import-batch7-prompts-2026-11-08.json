@@ -1,0 +1,42 @@
+{
+  "tool": "built-in image_gen",
+  "sharedConstraints": "Photorealistic premium automotive editorial photograph, landscape 3:2. Correct recognizable model proportions and factory design. Entire car with all wheels and roof fully inside frame, generous 15 percent margins. No people, other cars, signs, readable text, added logos or watermark. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural perspective and realistic lighting and reflections. Single photo, not collage.",
+  "images": [
+    {
+      "slug": "volkswagen-passat",
+      "use": "hero",
+      "scene": "A metallic deep blue 2021 facelift Volkswagen Passat B8 Variant station wagon, front three-quarter nose pointing LEFT. Parked on an empty winding paved overlook above a patchwork of hop fields with distant low wooded hills, late morning.",
+      "saved": "src/assets/images/volkswagen-passat/hero-ai-1536.jpg"
+    },
+    {
+      "slug": "volkswagen-passat",
+      "use": "line",
+      "scene": "A pearl white 2021 facelift Volkswagen Passat B8 four-door sedan, rear three-quarter angle. Parked outside a minimalist pale brick library courtyard with silver birch trees, diffuse winter daylight.",
+      "saved": "src/assets/images/volkswagen-passat/line-image-ai-1536.jpg"
+    },
+    {
+      "slug": "volkswagen-golf-touran",
+      "use": "hero",
+      "scene": "A metallic forest green 2020 Volkswagen Touran second generation 5T seven-seat compact MPV with regular hinged rear passenger doors, front three-quarter nose pointing LEFT. Parked beside a quiet lakeside reeds boardwalk with willow trees and small distant sailing boats, morning light.",
+      "saved": "src/assets/images/volkswagen-golf-touran/hero-ai-1536.jpg"
+    },
+    {
+      "slug": "volkswagen-golf-touran",
+      "use": "line",
+      "scene": "A silver 2020 Volkswagen Touran second generation 5T seven-seat compact MPV, rear three-quarter angle. Parked at a warm sandstone country-house courtyard with autumn ginkgo leaves and no signs, soft sunset.",
+      "saved": "src/assets/images/volkswagen-golf-touran/line-image-ai-1536.jpg"
+    },
+    {
+      "slug": "volkswagen-sharan",
+      "use": "hero",
+      "scene": "A metallic burgundy 2020 Volkswagen Sharan 7N large seven-seat MPV with rear sliding doors, front three-quarter nose pointing LEFT. Parked at a quiet upland meadow beside a traditional wooden footbridge and larch trees, soft late summer daylight.",
+      "saved": "src/assets/images/volkswagen-sharan/hero-ai-1536.jpg"
+    },
+    {
+      "slug": "volkswagen-sharan",
+      "use": "line",
+      "scene": "A pearl white 2020 Volkswagen Sharan 7N large seven-seat MPV with rear sliding doors, rear three-quarter angle. Parked at a modern black stone botanical conservatory entrance beside bamboo and a narrow water channel, overcast morning.",
+      "saved": "src/assets/images/volkswagen-sharan/line-image-ai-1536.jpg"
+    }
+  ]
+}
