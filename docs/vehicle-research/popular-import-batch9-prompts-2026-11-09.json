@@ -1,0 +1,127 @@
+{
+  "date": "2026-11-09",
+  "tool": "image_gen (built-in)",
+  "sharedPrompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. {scene} Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+  "images": [
+    {
+      "slug": "mercedes-benz-sl",
+      "use": "hero",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A metallic deep navy blue 2017 facelift Mercedes-Benz SL R231 two-seat roadster with folding hardtop OPEN, front three-quarter nose pointing LEFT, beside an empty smooth coastal terrace overlooking dramatic limestone sea stacks and wild rosemary, soft sunrise. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/mercedes-benz-sl/hero-ai-1536.webp"
+    },
+    {
+      "slug": "mercedes-benz-sl",
+      "use": "line",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A pearl white 2017 facelift Mercedes-Benz SL R231 roadster with hardtop CLOSED, rear three-quarter angle, beside a modern low sandstone residence with a circular lily pond and olive shrubs, dusk. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/mercedes-benz-sl/line-image-ai-1536.webp"
+    },
+    {
+      "slug": "mercedes-benz-slk",
+      "use": "hero",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A metallic silver 2012 Mercedes-Benz SLK R172 two-seat roadster, roof OPEN, front three-quarter nose pointing LEFT, on a quiet safe paved overlook above rolling tea plantations and low mist, clear morning. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/mercedes-benz-slk/hero-ai-1536.webp"
+    },
+    {
+      "slug": "mercedes-benz-slk",
+      "use": "line",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A deep red 2012 Mercedes-Benz SLK R172 roadster, folding hardtop CLOSED, rear three-quarter angle, at a quiet granite garden courtyard beside a cedar lattice atelier with a single white magnolia tree, soft daylight. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/mercedes-benz-slk/line-image-ai-1536.webp"
+    },
+    {
+      "slug": "mercedes-benz-slc",
+      "use": "hero",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A metallic dark graphite 2018 Mercedes-Benz SLC R172 facelift two-seat roadster with diamond grille and roof OPEN, front three-quarter nose pointing LEFT, beside an empty paved shore overlooking blue glacial water and pale granite slopes, midday soft light. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/mercedes-benz-slc/hero-ai-1536.webp"
+    },
+    {
+      "slug": "mercedes-benz-slc",
+      "use": "line",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A bright metallic blue 2018 Mercedes-Benz SLC R172 facelift roadster, hardtop CLOSED, rear three-quarter angle, beside an empty white limestone music pavilion with arched alcoves and a low rectangular reflecting pool, evening. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/mercedes-benz-slc/line-image-ai-1536.webp"
+    },
+    {
+      "slug": "mercedes-benz-clk",
+      "use": "hero",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A metallic champagne silver 2007 facelift Mercedes-Benz CLK C209 two-door coupe, hardtop roof, front three-quarter nose pointing LEFT, beside a quiet gravel forecourt of a half-timbered countryside manor with maroon climbing ivy, soft autumn daylight. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/mercedes-benz-clk/hero-ai-1536.webp"
+    },
+    {
+      "slug": "mercedes-benz-clk",
+      "use": "line",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A dark metallic blue 2007 facelift Mercedes-Benz CLK A209 two-door cabriolet with fabric roof OPEN, rear three-quarter angle, beside an empty paved terrace overlooking terraced vineyards and a distant river bend, warm morning. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/mercedes-benz-clk/line-image-ai-1536.webp"
+    },
+    {
+      "slug": "mercedes-benz-cl",
+      "use": "hero",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A metallic dark emerald green 2008 Mercedes-Benz CL C216 pillarless two-door luxury coupe, front three-quarter nose pointing LEFT, beside a quiet pale marble plaza framed by a long cypress hedge and an unlettered classical stone arch, cloudy daylight. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/mercedes-benz-cl/hero-ai-1536.webp"
+    },
+    {
+      "slug": "mercedes-benz-cl",
+      "use": "line",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A pearl white 2008 Mercedes-Benz CL C216 two-door luxury coupe, rear three-quarter angle, beside a quiet modern dark timber lakeside lodge with a sculptural stone fountain and smooth paving, blue hour. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/mercedes-benz-cl/line-image-ai-1536.webp"
+    },
+    {
+      "slug": "audi-a8",
+      "use": "hero",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A metallic dark brown 2020 Audi A8 D5 4N luxury four-door sedan, front three-quarter nose pointing LEFT, at an empty paved overlook above folded desert hills with a single old date palm, soft sunrise. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/audi-a8/hero-ai-1536.webp"
+    },
+    {
+      "slug": "audi-a8",
+      "use": "line",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A silver 2020 Audi A8 D5 4N luxury sedan, rear three-quarter angle showing connected horizontal rear lamps, at a quiet modern pale stone hotel courtyard with a long narrow fountain and tall reeds, overcast afternoon. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/audi-a8/line-image-ai-1536.webp"
+    },
+    {
+      "slug": "audi-q4-e-tron",
+      "use": "hero",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A metallic warm bronze 2023 Audi Q4 e-tron first-generation FZ electric compact SUV with standard upright SUV rear roof (NOT Sportback), front three-quarter nose pointing LEFT, beside a quiet paved overlook across a broad golden marsh with distant wind turbines, morning. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/audi-q4-e-tron/hero-ai-1536.webp"
+    },
+    {
+      "slug": "audi-q4-e-tron",
+      "use": "line",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A pearl white 2023 Audi Q4 e-tron FZ electric SUV with standard upright SUV rear roof (NOT Sportback), rear three-quarter angle, beside an empty sculptural pale concrete plant nursery pavilion with a geometric water garden and grasses, diffuse daylight. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/audi-q4-e-tron/line-image-ai-1536.webp"
+    },
+    {
+      "slug": "volvo-c30",
+      "use": "hero",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A metallic burnt orange 2011 facelift Volvo C30 three-door compact hatchback with its distinctive sloped rear glass hatch, front three-quarter nose pointing LEFT, beside an empty shoreline lane with rounded pink granite boulders and weathered red wooden boathouses, cool morning. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/volvo-c30/hero-ai-1536.webp"
+    },
+    {
+      "slug": "volvo-c30",
+      "use": "line",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A pearl white 2011 facelift Volvo C30 THREE-door hatchback, rear three-quarter clearly showing the distinctive frameless dark GLASS tailgate and tall vertical rear lamps beside it, next to a quiet modern copper roofed lakeside cafe with no signs and rows of birch trees, soft daylight. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/volvo-c30/line-image-ai-1536.webp"
+    },
+    {
+      "slug": "renault-arkana",
+      "use": "hero",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A metallic copper orange 2023 Renault Arkana LJL coupe-roof compact SUV, front three-quarter nose pointing LEFT, parked beside a quiet upland road bordered by flowering yellow broom and pale limestone ridges, early morning. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/renault-arkana/hero-ai-1536.webp"
+    },
+    {
+      "slug": "renault-arkana",
+      "use": "line",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A pearl white 2023 Renault Arkana LJL coupe-roof SUV, rear three-quarter showing sloping roof and horizontal rear light signature, at an empty contemporary tan brick courtyard with a shallow round pond and Japanese maple trees, late afternoon. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/renault-arkana/line-image-ai-1536.webp"
+    },
+    {
+      "slug": "fiat-panda",
+      "use": "hero",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A pastel olive green 2018 third generation Fiat Panda 139 five-door small hatchback, front three-quarter nose pointing LEFT, beside an empty small village square with rough golden plaster walls, ceramic pots of lavender and an unlettered stone water trough, morning. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/fiat-panda/hero-ai-1536.webp"
+    },
+    {
+      "slug": "fiat-panda",
+      "use": "line",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A bright red 2018 third generation Fiat Panda 139 FIVE-door compact hatchback, rear three-quarter, beside a quiet contemporary white curved pottery workshop with pale gravel and a grove of slender silver-barked trees, soft afternoon. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/fiat-panda/line-image-ai-1536.webp"
+    }
+  ]
+}
