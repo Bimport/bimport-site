@@ -108,3 +108,4 @@ GitHub に push 済みのブランチ（未マージ・`draft: true`）：
 2026-11-10追加下書き：アウディS3・S4・S6・RS 3・RS 4・RS 5、メルセデス・ベンツEQA・EQB・EQE・EQSの10車種。draft:true、実績未掲載、国内確認済み型式と一部グレード、AI画像各2枚。EQE/EQSはセダン系でSUVと分離。公開未承認。詳細はdocs/vehicle-research/popular-import-batch11-2026-11-10.md。
 2026-11-10公開承認：追加10車種（アウディS3・S4・S6・RS 3・RS 4・RS 5、ベンツEQA・EQB・EQE・EQS）を公開対象へ変更。公開後はmainを正とする。
 2026-11-10追加下書き：アウディRS 6・RS 7・S7・S8・SQ2・TTS・TT RS・R8・S1・e-tron GT、VW ID.4・シロッコ、ボルボEX30・C40、ジャガーIペイス、フィアット ドブロ、プジョー リフター、アルファロメオ トナーレ、ベンツGLK・Rクラスの20車種。draft:true、実績未掲載、国内確認済み型式と一部グレード、AI画像各2枚。公開未承認。詳細はdocs/vehicle-research/popular-import-batch12-2026-11-10.md。
+2026-11-10公開承認：第12弾20車種（アウディRS 6・RS 7・S7・S8・SQ2・TTS・TT RS・R8・S1・e-tron GT、VW ID.4・シロッコ、ボルボEX30・C40、Iペイス、ドブロ、リフター、トナーレ、GLK・Rクラス）を公開対象へ変更。公開後はmainを正とする。
