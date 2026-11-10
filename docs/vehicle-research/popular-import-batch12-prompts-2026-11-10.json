@@ -1,0 +1,445 @@
+{
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "slug": "audi-rs6",
+      "use": "hero",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: grey 2021 Audi RS6 Avant C8 station wagon. Scene: a broad road beneath rugged granite peaks. Composition: front three-quarter view, nose pointing LEFT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-c42a7907-4aea-4acc-b768-581ddcdaba5a.png",
+      "projectFiles": [
+        "src/assets/images/audi-rs6/hero-ai-1536.jpg",
+        "src/assets/images/audi-rs6/hero-ai-1536.webp",
+        "src/assets/images/audi-rs6/hero-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "audi-rs6",
+      "use": "line",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: blue 2021 Audi RS6 Avant C8 station wagon. Scene: a quiet copper toned modern villa courtyard. Composition: rear three-quarter view, nose pointing RIGHT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-baeff2ea-bd5d-4105-a35b-66307233e4f9.png",
+      "projectFiles": [
+        "src/assets/images/audi-rs6/line-image-ai-1536.jpg",
+        "src/assets/images/audi-rs6/line-image-ai-1536.webp",
+        "src/assets/images/audi-rs6/line-image-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "audi-rs7",
+      "use": "hero",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: red 2021 Audi RS7 Sportback C8 five door fastback. Scene: a serene high desert highway beside sandstone mesas. Composition: front three-quarter view, nose pointing LEFT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-9009ebb8-534d-4611-a8c2-0979e3999c7f.png",
+      "projectFiles": [
+        "src/assets/images/audi-rs7/hero-ai-1536.jpg",
+        "src/assets/images/audi-rs7/hero-ai-1536.webp",
+        "src/assets/images/audi-rs7/hero-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "audi-rs7",
+      "use": "line",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: silver 2021 Audi RS7 Sportback C8 five door fastback. Scene: a lakeside modern glass pavilion. Composition: rear three-quarter view, nose pointing RIGHT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-6588d4e2-f99c-41e3-bdaa-cd6c34b44078.png",
+      "projectFiles": [
+        "src/assets/images/audi-rs7/line-image-ai-1536.jpg",
+        "src/assets/images/audi-rs7/line-image-ai-1536.webp",
+        "src/assets/images/audi-rs7/line-image-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "audi-s7",
+      "use": "hero",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: dark blue 2021 Audi S7 Sportback C8 five door fastback. Scene: a stone seaside promenade with distant sailboats. Composition: front three-quarter view, nose pointing LEFT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-1ace5d62-faf3-4157-837b-d3c51ddf6f89.png",
+      "projectFiles": [
+        "src/assets/images/audi-s7/hero-ai-1536.jpg",
+        "src/assets/images/audi-s7/hero-ai-1536.webp",
+        "src/assets/images/audi-s7/hero-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "audi-s7",
+      "use": "line",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: white 2021 Audi S7 Sportback C8 five door fastback. Scene: a green rolling hillside road beside a small stone cottage. Composition: rear three-quarter view, nose pointing RIGHT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-aeface00-996d-4ad5-81a7-85a2ed3be619.png",
+      "projectFiles": [
+        "src/assets/images/audi-s7/line-image-ai-1536.jpg",
+        "src/assets/images/audi-s7/line-image-ai-1536.webp",
+        "src/assets/images/audi-s7/line-image-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "audi-s8",
+      "use": "hero",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: silver 2021 Audi S8 D5 F8 four door luxury sedan. Scene: a modern concert hall forecourt with no writing. Composition: front three-quarter view, nose pointing LEFT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-e85b3343-178a-4ca6-a292-1305f7cce13a.png",
+      "projectFiles": [
+        "src/assets/images/audi-s8/hero-ai-1536.jpg",
+        "src/assets/images/audi-s8/hero-ai-1536.webp",
+        "src/assets/images/audi-s8/hero-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "audi-s8",
+      "use": "line",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: black 2021 Audi S8 D5 F8 four door luxury sedan. Scene: a quiet avenue beside autumn ginkgo trees. Composition: rear three-quarter view, nose pointing RIGHT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-cff3c4d9-815e-4665-a82e-88f6e9b453fb.png",
+      "projectFiles": [
+        "src/assets/images/audi-s8/line-image-ai-1536.jpg",
+        "src/assets/images/audi-s8/line-image-ai-1536.webp",
+        "src/assets/images/audi-s8/line-image-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "audi-sq2",
+      "use": "hero",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: blue 2021 Audi SQ2 GA compact crossover. Scene: a quiet road beside bright yellow rapeseed fields. Composition: front three-quarter view, nose pointing LEFT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-2fc22426-8246-4521-801e-bb44991742e8.png",
+      "projectFiles": [
+        "src/assets/images/audi-sq2/hero-ai-1536.jpg",
+        "src/assets/images/audi-sq2/hero-ai-1536.webp",
+        "src/assets/images/audi-sq2/hero-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "audi-sq2",
+      "use": "line",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: white 2021 Audi SQ2 GA compact crossover. Scene: an open air courtyard with weathered brick walls. Composition: rear three-quarter view, nose pointing RIGHT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-9fe97ab4-720c-43a9-87e6-463c331a09a5.png",
+      "projectFiles": [
+        "src/assets/images/audi-sq2/line-image-ai-1536.jpg",
+        "src/assets/images/audi-sq2/line-image-ai-1536.webp",
+        "src/assets/images/audi-sq2/line-image-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "audi-tts",
+      "use": "hero",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: yellow 2019 Audi TTS Coupe FV third generation two door coupe. Scene: an alpine mountain road beside a turquoise river. Composition: front three-quarter view, nose pointing LEFT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-20999085-334e-4370-a214-1c88c0fac439.png",
+      "projectFiles": [
+        "src/assets/images/audi-tts/hero-ai-1536.jpg",
+        "src/assets/images/audi-tts/hero-ai-1536.webp",
+        "src/assets/images/audi-tts/hero-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "audi-tts",
+      "use": "line",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: grey 2019 Audi TTS Coupe FV third generation two door coupe. Scene: a minimalist concrete terrace overlooking waves. Composition: rear three-quarter view, nose pointing RIGHT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-217eb31a-35dc-46bd-a6fd-e0d0d0f26c0d.png",
+      "projectFiles": [
+        "src/assets/images/audi-tts/line-image-ai-1536.jpg",
+        "src/assets/images/audi-tts/line-image-ai-1536.webp",
+        "src/assets/images/audi-tts/line-image-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "audi-tt-rs",
+      "use": "hero",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: red 2020 Audi TT RS Coupe FV third generation two door coupe. Scene: a dry road beside tall ochre sandstone cliffs. Composition: front three-quarter view, nose pointing LEFT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-c9ac0b17-8413-4edb-9e58-02bf9238d79d.png",
+      "projectFiles": [
+        "src/assets/images/audi-tt-rs/hero-ai-1536.jpg",
+        "src/assets/images/audi-tt-rs/hero-ai-1536.webp",
+        "src/assets/images/audi-tt-rs/hero-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "audi-tt-rs",
+      "use": "line",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: blue 2020 Audi TT RS Coupe FV third generation two door coupe. Scene: a twilight plaza beside glass architecture without signs. Composition: rear three-quarter view, nose pointing RIGHT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-1f5227e6-97b6-4903-a81f-8ab0a11b0121.png",
+      "projectFiles": [
+        "src/assets/images/audi-tt-rs/line-image-ai-1536.jpg",
+        "src/assets/images/audi-tt-rs/line-image-ai-1536.webp",
+        "src/assets/images/audi-tt-rs/line-image-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "audi-r8",
+      "use": "hero",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: blue 2020 Audi R8 second generation V10 coupe. Scene: a quiet road across a dramatic black volcanic landscape. Composition: front three-quarter view, nose pointing LEFT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-545b8651-9563-4dcb-8279-9eb144a59339.png",
+      "projectFiles": [
+        "src/assets/images/audi-r8/hero-ai-1536.jpg",
+        "src/assets/images/audi-r8/hero-ai-1536.webp",
+        "src/assets/images/audi-r8/hero-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "audi-r8",
+      "use": "line",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: white 2020 Audi R8 V10 Spyder second generation with roof down. Scene: a spacious seaside hotel forecourt without signage. Composition: rear three-quarter view, nose pointing RIGHT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-8beeb327-a0ad-43bc-92ad-0afa8c0c1171.png",
+      "projectFiles": [
+        "src/assets/images/audi-r8/line-image-ai-1536.jpg",
+        "src/assets/images/audi-r8/line-image-ai-1536.webp",
+        "src/assets/images/audi-r8/line-image-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "audi-s1",
+      "use": "hero",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: yellow 2016 Audi S1 Sportback 8X five door hot hatchback. Scene: a quiet narrow paved lane beside lavender fields. Composition: front three-quarter view, nose pointing LEFT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-b3fb4df5-e763-4127-a4c0-5e17ef979a75.png",
+      "projectFiles": [
+        "src/assets/images/audi-s1/hero-ai-1536.jpg",
+        "src/assets/images/audi-s1/hero-ai-1536.webp",
+        "src/assets/images/audi-s1/hero-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "audi-s1",
+      "use": "line",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: red 2016 Audi S1 Sportback 8X five door hot hatchback. Scene: a restored industrial courtyard with warm brick paving. Composition: rear three-quarter view, nose pointing RIGHT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-09c13331-63a5-4a66-8424-43adbcc4e15e.png",
+      "projectFiles": [
+        "src/assets/images/audi-s1/line-image-ai-1536.jpg",
+        "src/assets/images/audi-s1/line-image-ai-1536.webp",
+        "src/assets/images/audi-s1/line-image-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "audi-e-tron-gt",
+      "use": "hero",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: grey 2022 Audi e-tron GT quattro J1 four door electric grand tourer. Scene: a modern pavilion beside a wide tidal estuary. Composition: front three-quarter view, nose pointing LEFT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-482ef671-0542-4f4c-971f-80fdc2d949df.png",
+      "projectFiles": [
+        "src/assets/images/audi-e-tron-gt/hero-ai-1536.jpg",
+        "src/assets/images/audi-e-tron-gt/hero-ai-1536.webp",
+        "src/assets/images/audi-e-tron-gt/hero-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "audi-e-tron-gt",
+      "use": "line",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: dark green 2022 Audi e-tron GT quattro J1 four door electric grand tourer. Scene: a serene geometric stone courtyard under trees. Composition: rear three-quarter view, nose pointing RIGHT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-b928c388-51c4-4b6a-a522-9918c0e0d911.png",
+      "projectFiles": [
+        "src/assets/images/audi-e-tron-gt/line-image-ai-1536.jpg",
+        "src/assets/images/audi-e-tron-gt/line-image-ai-1536.webp",
+        "src/assets/images/audi-e-tron-gt/line-image-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "volkswagen-id4",
+      "use": "hero",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: blue 2023 Volkswagen ID.4 electric crossover. Scene: a clean curving road through coastal grass dunes. Composition: front three-quarter view, nose pointing LEFT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-93328102-e6d7-4e54-9f28-043ed9929fd1.png",
+      "projectFiles": [
+        "src/assets/images/volkswagen-id4/hero-ai-1536.jpg",
+        "src/assets/images/volkswagen-id4/hero-ai-1536.webp",
+        "src/assets/images/volkswagen-id4/hero-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "volkswagen-id4",
+      "use": "line",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: white 2023 Volkswagen ID.4 electric crossover. Scene: a peaceful Scandinavian timber house driveway. Composition: rear three-quarter view, nose pointing RIGHT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-dc8785e4-35cb-4911-ac7d-ff931e91dada.png",
+      "projectFiles": [
+        "src/assets/images/volkswagen-id4/line-image-ai-1536.jpg",
+        "src/assets/images/volkswagen-id4/line-image-ai-1536.webp",
+        "src/assets/images/volkswagen-id4/line-image-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "volkswagen-scirocco",
+      "use": "hero",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: green 2013 Volkswagen Scirocco third generation 13 three door coupe. Scene: a quiet road beside dramatic ocean sea stacks. Composition: front three-quarter view, nose pointing LEFT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-ae9b3efd-0c4d-4cb0-a29d-766f23e380f3.png",
+      "projectFiles": [
+        "src/assets/images/volkswagen-scirocco/hero-ai-1536.jpg",
+        "src/assets/images/volkswagen-scirocco/hero-ai-1536.webp",
+        "src/assets/images/volkswagen-scirocco/hero-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "volkswagen-scirocco",
+      "use": "line",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: white 2013 Volkswagen Scirocco third generation 13 three door coupe. Scene: a cobblestone hillside courtyard with flowering trees. Composition: rear three-quarter view, nose pointing RIGHT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-de883148-48f4-4f9a-b1dc-fefa02769bd9.png",
+      "projectFiles": [
+        "src/assets/images/volkswagen-scirocco/line-image-ai-1536.jpg",
+        "src/assets/images/volkswagen-scirocco/line-image-ai-1536.webp",
+        "src/assets/images/volkswagen-scirocco/line-image-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "volvo-ex30",
+      "use": "hero",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: light yellow 2024 Volvo EX30 small electric SUV. Scene: a wide paved road through a Nordic birch grove. Composition: front three-quarter view, nose pointing LEFT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-0210f6f3-a666-4e06-90cc-d98155edd7d5.png",
+      "projectFiles": [
+        "src/assets/images/volvo-ex30/hero-ai-1536.jpg",
+        "src/assets/images/volvo-ex30/hero-ai-1536.webp",
+        "src/assets/images/volvo-ex30/hero-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "volvo-ex30",
+      "use": "line",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: pale blue 2024 Volvo EX30 small electric SUV. Scene: a modern red timber cabin courtyard beside a lake. Composition: rear three-quarter view, nose pointing RIGHT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-f134d85f-8d91-416f-a933-0ab24772469f.png",
+      "projectFiles": [
+        "src/assets/images/volvo-ex30/line-image-ai-1536.jpg",
+        "src/assets/images/volvo-ex30/line-image-ai-1536.webp",
+        "src/assets/images/volvo-ex30/line-image-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "volvo-c40",
+      "use": "hero",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: light blue 2023 Volvo C40 Recharge coupe SUV. Scene: a quiet coastal turnout beside a white lighthouse without text. Composition: front three-quarter view, nose pointing LEFT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-54768b88-5ddc-41eb-b4dd-7f49eabe3f92.png",
+      "projectFiles": [
+        "src/assets/images/volvo-c40/hero-ai-1536.jpg",
+        "src/assets/images/volvo-c40/hero-ai-1536.webp",
+        "src/assets/images/volvo-c40/hero-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "volvo-c40",
+      "use": "line",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: white 2023 Volvo C40 Recharge coupe SUV. Scene: a modern basalt stone courtyard with ornamental grasses. Composition: rear three-quarter view, nose pointing RIGHT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-ec43dcb6-c578-46f6-8ff8-0787f9451f92.png",
+      "projectFiles": [
+        "src/assets/images/volvo-c40/line-image-ai-1536.jpg",
+        "src/assets/images/volvo-c40/line-image-ai-1536.webp",
+        "src/assets/images/volvo-c40/line-image-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "jaguar-i-pace",
+      "use": "hero",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: red 2021 Jaguar I-PACE electric crossover. Scene: a paved country lane beside a classic stone manor and green lawns. Composition: front three-quarter view, nose pointing LEFT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-663f6616-1f2b-4099-936d-76d691014b64.png",
+      "projectFiles": [
+        "src/assets/images/jaguar-i-pace/hero-ai-1536.jpg",
+        "src/assets/images/jaguar-i-pace/hero-ai-1536.webp",
+        "src/assets/images/jaguar-i-pace/hero-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "jaguar-i-pace",
+      "use": "line",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: dark grey 2021 Jaguar I-PACE electric crossover. Scene: a contemporary seaside sculpture courtyard without text. Composition: rear three-quarter view, nose pointing RIGHT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-c7503529-b4fb-42bd-90fd-9eb76425681b.png",
+      "projectFiles": [
+        "src/assets/images/jaguar-i-pace/line-image-ai-1536.jpg",
+        "src/assets/images/jaguar-i-pace/line-image-ai-1536.webp",
+        "src/assets/images/jaguar-i-pace/line-image-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "fiat-doblo",
+      "use": "hero",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: green 2024 Fiat Doblo third generation K9 passenger MPV five seat short wheelbase. Scene: a quiet lakeside road with colorful small fishing boats. Composition: front three-quarter view, nose pointing LEFT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-dad7acec-6cb4-4bad-bc8f-cb7f7d26fd76.png",
+      "projectFiles": [
+        "src/assets/images/fiat-doblo/hero-ai-1536.jpg",
+        "src/assets/images/fiat-doblo/hero-ai-1536.webp",
+        "src/assets/images/fiat-doblo/hero-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "fiat-doblo",
+      "use": "line",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: white 2024 Fiat Doblo Maxi third generation K9 passenger MPV long wheelbase seven seater. Scene: a quiet farm courtyard with olive trees. Composition: rear three-quarter view, nose pointing RIGHT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-221412a7-da90-4ed9-ac1f-2858fb97bcd1.png",
+      "projectFiles": [
+        "src/assets/images/fiat-doblo/line-image-ai-1536.jpg",
+        "src/assets/images/fiat-doblo/line-image-ai-1536.webp",
+        "src/assets/images/fiat-doblo/line-image-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "peugeot-rifter",
+      "use": "hero",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: dark blue 2023 Peugeot Rifter K9 passenger MPV five seat short wheelbase. Scene: a paved road beside a lush valley and weathered stone aqueduct. Composition: front three-quarter view, nose pointing LEFT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-4a70c2e2-1cbe-4016-b215-97bebd0eb4c7.png",
+      "projectFiles": [
+        "src/assets/images/peugeot-rifter/hero-ai-1536.jpg",
+        "src/assets/images/peugeot-rifter/hero-ai-1536.webp",
+        "src/assets/images/peugeot-rifter/hero-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "peugeot-rifter",
+      "use": "line",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: copper brown 2023 Peugeot Rifter Long K9 passenger MPV seven seater long wheelbase. Scene: a quiet modern woodland lodge courtyard. Composition: rear three-quarter view, nose pointing RIGHT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-4c7fb782-4e1e-4bb7-ba2a-d513073c94db.png",
+      "projectFiles": [
+        "src/assets/images/peugeot-rifter/line-image-ai-1536.jpg",
+        "src/assets/images/peugeot-rifter/line-image-ai-1536.webp",
+        "src/assets/images/peugeot-rifter/line-image-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "alfa-romeo-tonale",
+      "use": "hero",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: green 2023 Alfa Romeo Tonale compact SUV. Scene: a quiet paved road winding beside Mediterranean cypress trees. Composition: front three-quarter view, nose pointing LEFT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-97547a2d-3cf9-4944-88a6-0bd50c12469f.png",
+      "projectFiles": [
+        "src/assets/images/alfa-romeo-tonale/hero-ai-1536.jpg",
+        "src/assets/images/alfa-romeo-tonale/hero-ai-1536.webp",
+        "src/assets/images/alfa-romeo-tonale/hero-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "alfa-romeo-tonale",
+      "use": "line",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: red 2023 Alfa Romeo Tonale compact SUV. Scene: a spacious stone courtyard with low arches. Composition: rear three-quarter view, nose pointing RIGHT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-8e1a48c3-9468-43fa-aada-e9a412402f9c.png",
+      "projectFiles": [
+        "src/assets/images/alfa-romeo-tonale/line-image-ai-1536.jpg",
+        "src/assets/images/alfa-romeo-tonale/line-image-ai-1536.webp",
+        "src/assets/images/alfa-romeo-tonale/line-image-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "mercedes-benz-glk",
+      "use": "hero",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: silver 2014 Mercedes-Benz GLK X204 facelift squared SUV. Scene: a gravel turnout beside a calm blue mountain reservoir. Composition: front three-quarter view, nose pointing LEFT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-e830073e-28e2-4a05-9aae-58a0faf973bf.png",
+      "projectFiles": [
+        "src/assets/images/mercedes-benz-glk/hero-ai-1536.jpg",
+        "src/assets/images/mercedes-benz-glk/hero-ai-1536.webp",
+        "src/assets/images/mercedes-benz-glk/hero-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "mercedes-benz-glk",
+      "use": "line",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: dark blue 2014 Mercedes-Benz GLK X204 facelift squared SUV. Scene: a quiet redwood forest road. Composition: rear three-quarter view, nose pointing RIGHT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-cdfcc82c-08ca-41a2-b2b7-d76cdd44e052.png",
+      "projectFiles": [
+        "src/assets/images/mercedes-benz-glk/line-image-ai-1536.jpg",
+        "src/assets/images/mercedes-benz-glk/line-image-ai-1536.webp",
+        "src/assets/images/mercedes-benz-glk/line-image-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "mercedes-benz-r-class",
+      "use": "hero",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: dark grey 2011 Mercedes-Benz R-Class W251 facelift luxury MPV. Scene: a wide road beside a historic stone estate garden. Composition: front three-quarter view, nose pointing LEFT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-0f68036c-cf1a-43e4-8936-dca46772465f.png",
+      "projectFiles": [
+        "src/assets/images/mercedes-benz-r-class/hero-ai-1536.jpg",
+        "src/assets/images/mercedes-benz-r-class/hero-ai-1536.webp",
+        "src/assets/images/mercedes-benz-r-class/hero-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "mercedes-benz-r-class",
+      "use": "line",
+      "prompt": "Use case: ads-marketing. ONE photorealistic automotive advertising photograph, landscape 3:2 1536x1024. Subject: white 2011 Mercedes-Benz R-Class W251 facelift luxury MPV. Scene: a peaceful modern resort courtyard beside tall pines. Composition: rear three-quarter view, nose pointing RIGHT. Entire car including roof and every wheel visible, car centered with generous margins on all four sides and filling about 65 percent of image width. Realistic production body proportions, natural light and reflections. No people, no other cars, no text, no signage, no watermark, no background logos. Blank license plates. Original car emblems allowed. Conceptual car image for a Japanese appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-8a2dffef-380d-4b77-a97f-240520f71fef.png",
+      "projectFiles": [
+        "src/assets/images/mercedes-benz-r-class/line-image-ai-1536.jpg",
+        "src/assets/images/mercedes-benz-r-class/line-image-ai-1536.webp",
+        "src/assets/images/mercedes-benz-r-class/line-image-ai-1000.webp"
+      ]
+    }
+  ]
+}
