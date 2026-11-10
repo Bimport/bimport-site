@@ -1,0 +1,190 @@
+{
+  "slug": "mercedes-benz-eqe",
+  "draft": true,
+  "theme": "import-imagery",
+  "maker": "MERCEDES-BENZ",
+  "makerJa": "メルセデス・ベンツ",
+  "model": "EQE",
+  "modelShort": "EQE",
+  "nameJa": "メルセデス・ベンツ EQE",
+  "seo": {
+    "title": "メルセデス・ベンツ EQEの買取・査定ならBimport｜輸入車専門",
+    "description": "メルセデス・ベンツ EQEの買取・査定はBimportへ。型式とグレード、純正装備や内外装の状態、整備履歴と付属品を確認して一台ずつ評価します。売却未定でも60秒の入力で概算査定をご相談いただけます。査定無料・全国対応。型式が分からない場合も車検証と写真からご相談ください。"
+  },
+  "images": {
+    "hero": {
+      "src": "assets/images/mercedes-benz-eqe/hero-ai-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/mercedes-benz-eqe/hero-ai-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/mercedes-benz-eqe/hero-ai-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "メルセデス・ベンツ EQEのAI生成イメージ（前方からの別カット）",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "line": {
+      "fallback": "assets/images/mercedes-benz-eqe/line-image-ai-1536.jpg",
+      "webp": [
+        {
+          "src": "assets/images/mercedes-benz-eqe/line-image-ai-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/mercedes-benz-eqe/line-image-ai-1536.webp",
+          "width": 1536
+        }
+      ],
+      "alt": "メルセデス・ベンツ EQEのAI生成イメージ（後方からの別カット）",
+      "width": 1536,
+      "height": 1024,
+      "position": "50% 50%",
+      "positionPc": "50% 50%"
+    },
+    "final": {
+      "src": "assets/images/mercedes-benz-eqe/hero-ai-1536.jpg"
+    }
+  },
+  "hero": {
+    "label": "メルセデス・ベンツ EQE 買取・査定",
+    "catch": "滑らかな電動セダンの価値を、<br>仕様と状態から丁寧に査定。",
+    "lead": "車検証と写真から仕様を丁寧に確認。<br>売却未定でも、まずは概算査定から。<br><small>※画像はAI生成の車種イメージです。</small>",
+    "buy": "買取・査定",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "bodyTypeLabel": "型式",
+    "bodyTypes": [
+      {
+        "value": "295121",
+        "label": "295121",
+        "grades": [
+          "EQE 350+"
+        ]
+      },
+      {
+        "value": "295121C",
+        "label": "295121C",
+        "grades": [
+          "EQE 350+"
+        ]
+      },
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 2022,
+    "yearOlderLabel": "2021年以前"
+  },
+  "cases": [],
+  "casesEmpty": {
+    "title": "買取実績は現在未掲載です",
+    "message": "このページでご紹介するEQEの買取実績は、現在まだ掲載していません。車両情報・買取時期・金額を確認した実績から、順次ご紹介します。"
+  },
+  "points": {
+    "lead": "EQEの仕様と状態を照合して査定します。<br>車検証と写真から、一台ずつ確認します。",
+    "items": [
+      {
+        "key": "spec0",
+        "title": "型式と電動駆動系",
+        "text": "車検証で型式と駆動仕様を照合し、点検記録や車両に表示される警告の有無を確認します。",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "SPECIFICATION"
+      },
+      {
+        "key": "spec1",
+        "title": "充電機能と付属品",
+        "text": "充電ポートや充電機能の動作、付属するケーブル類を確認します。",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "EQUIPMENT"
+      },
+      {
+        "key": "spec2",
+        "title": "室内と快適装備",
+        "text": "シートや内装の仕様と使用状態、画面・快適装備の動作を確認します。",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "CONDITION"
+      },
+      {
+        "key": "condition0",
+        "title": "内外装・使用状態",
+        "text": "ボディやシート、ホイールのキズ・損傷・補修の状態を確認します。",
+        "image": null,
+        "icon": "search",
+        "tone": "dark"
+      },
+      {
+        "key": "condition1",
+        "title": "整備・修理の記録",
+        "text": "点検記録や修理明細を確認し、整備の内容と現在の状態を照合します。",
+        "image": null,
+        "icon": "doc",
+        "tone": "dark"
+      },
+      {
+        "key": "condition2",
+        "title": "純正部品・付属品",
+        "text": "スペアキーや取扱説明書、保管している純正部品などを確認します。",
+        "image": null,
+        "icon": "wheel",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "モデル年",
+      "走行距離",
+      "整備記録",
+      "純正部品",
+      "使用・保管状況"
+    ],
+    "close": "車両の仕様や整備履歴が、まだ分からなくても大丈夫です。<br>まずは<strong>車検証とお車の写真</strong>からご相談ください。"
+  },
+  "faq": [
+    {
+      "q": "車検証の型式とボタンの文字が少し違います。",
+      "a": "型式ボタンは国内の型式表記から、先頭の排出ガス識別記号や一部の末尾英数字を省いた短い表記です。判断に迷う場合や一覧にない場合は「わからない」を選び、車検証の写真からご相談ください。"
+    },
+    {
+      "q": "一覧にない古い型やグレードも相談できますか？",
+      "a": "はい。選択肢は国内資料で確認できた一部の仕様です。一覧にない型式は「わからない」、グレードは「その他・わからない」を選択してください。"
+    },
+    {
+      "q": "追加した装備や使用感があっても相談できますか？",
+      "a": "はい。装着した用品と保管している純正部品、キズや損傷が分かる写真をお知らせください。状態を確認したうえでご案内します。"
+    },
+    {
+      "q": "充電ケーブルや点検記録も必要ですか？",
+      "a": "お手元にある充電ケーブルや付属品、点検記録をお知らせください。航続可能距離の表示だけでバッテリーの状態を断定せず、確認できる車両情報と整備履歴を照合します。"
+    },
+    {
+      "q": "SUVもこのページの対象ですか？",
+      "a": "このページはセダン系のEQEを対象としています。SUVとは型式やボディが異なります。判断に迷う場合は「わからない」を選び、車検証と写真からご相談ください。"
+    }
+  ],
+  "line": {
+    "title": "あなたの<span class=\"lp-en\">EQE</span>、<br>まずは写真で概算査定。",
+    "lead": "車全体・内装・メーターの写真をLINEで。<br>仕様が分からない場合もお気軽にご相談ください。<br><small>※AI生成のイメージです。実績写真ではありません。</small>",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "MERCEDES-BENZ EQE",
+    "title": "今の<span class=\"lp-en\">EQE</span>、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは車両情報と写真からご相談ください。"
+  },
+  "sitemap": {
+    "lastmod": "2026-11-10"
+  }
+}
