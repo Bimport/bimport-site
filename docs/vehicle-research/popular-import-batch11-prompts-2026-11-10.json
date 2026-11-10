@@ -1,0 +1,225 @@
+{
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "slug": "audi-s3",
+      "use": "hero",
+      "prompt": "Use case: ads-marketing. Create ONE photorealistic automotive advertising image, landscape 3:2 1536x1024. Subject: metallic blue 2020 Audi S3 8V five door Sportback. Scene: a quiet road beside pale limestone sea cliffs. Composition: front three-quarter view, nose pointing LEFT; entire car including all wheels and roof fully visible, car centered with generous margins on all sides, car fills about 65 percent of image width. Natural realistic lighting and reflections, correct production body proportions, no people or other cars. Blank license plate. No words, text, signage, watermarks or background logos. Original vehicle emblems allowed. This is a conceptual car image for an appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-d52a6505-8aac-4d74-bf90-fe25ab272976.png",
+      "projectFiles": [
+        "src/assets/images/audi-s3/hero-ai-1536.jpg",
+        "src/assets/images/audi-s3/hero-ai-1536.webp",
+        "src/assets/images/audi-s3/hero-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "audi-s3",
+      "use": "line",
+      "prompt": "Use case: ads-marketing. Create ONE photorealistic automotive advertising image, landscape 3:2 1536x1024. Subject: white 2020 Audi S3 8V four door sedan. Scene: an autumn hillside overlook. Composition: rear three-quarter view, nose pointing RIGHT; entire car including all wheels and roof fully visible, car centered with generous margins on all sides, car fills about 65 percent of image width. Natural realistic lighting and reflections, correct production body proportions, no people or other cars. Blank license plate. No words, text, signage, watermarks or background logos. Original vehicle emblems allowed. This is a conceptual car image for an appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-d11d21b2-2961-4bd9-88fa-1cbff2397477.png",
+      "projectFiles": [
+        "src/assets/images/audi-s3/line-image-ai-1536.jpg",
+        "src/assets/images/audi-s3/line-image-ai-1536.webp",
+        "src/assets/images/audi-s3/line-image-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "audi-s4",
+      "use": "hero",
+      "prompt": "Use case: ads-marketing. Create ONE photorealistic automotive advertising image, landscape 3:2 1536x1024. Subject: silver 2021 Audi S4 B9 8W four door sedan. Scene: a modern stone bridge over a green river. Composition: front three-quarter view, nose pointing LEFT; entire car including all wheels and roof fully visible, car centered with generous margins on all sides, car fills about 65 percent of image width. Natural realistic lighting and reflections, correct production body proportions, no people or other cars. Blank license plate. No words, text, signage, watermarks or background logos. Original vehicle emblems allowed. This is a conceptual car image for an appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-a9a67b81-c54b-4241-a547-ef3f543fdbcc.png",
+      "projectFiles": [
+        "src/assets/images/audi-s4/hero-ai-1536.jpg",
+        "src/assets/images/audi-s4/hero-ai-1536.webp",
+        "src/assets/images/audi-s4/hero-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "audi-s4",
+      "use": "line",
+      "prompt": "Use case: ads-marketing. Create ONE photorealistic automotive advertising image, landscape 3:2 1536x1024. Subject: deep blue 2021 Audi S4 Avant B9 8W station wagon. Scene: a quiet pine forest parking clearing. Composition: rear three-quarter view, nose pointing RIGHT; entire car including all wheels and roof fully visible, car centered with generous margins on all sides, car fills about 65 percent of image width. Natural realistic lighting and reflections, correct production body proportions, no people or other cars. Blank license plate. No words, text, signage, watermarks or background logos. Original vehicle emblems allowed. This is a conceptual car image for an appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-f86fd222-d655-4ebd-9120-eca017fda590.png",
+      "projectFiles": [
+        "src/assets/images/audi-s4/line-image-ai-1536.jpg",
+        "src/assets/images/audi-s4/line-image-ai-1536.webp",
+        "src/assets/images/audi-s4/line-image-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "audi-s6",
+      "use": "hero",
+      "prompt": "Use case: ads-marketing. Create ONE photorealistic automotive advertising image, landscape 3:2 1536x1024. Subject: dark grey 2021 Audi S6 C8 F2 four door sedan. Scene: a wide lakeside terrace before distant snowy peaks. Composition: front three-quarter view, nose pointing LEFT; entire car including all wheels and roof fully visible, car centered with generous margins on all sides, car fills about 65 percent of image width. Natural realistic lighting and reflections, correct production body proportions, no people or other cars. Blank license plate. No words, text, signage, watermarks or background logos. Original vehicle emblems allowed. This is a conceptual car image for an appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-e22b8df4-0a61-438c-9be5-e907c66b9332.png",
+      "projectFiles": [
+        "src/assets/images/audi-s6/hero-ai-1536.jpg",
+        "src/assets/images/audi-s6/hero-ai-1536.webp",
+        "src/assets/images/audi-s6/hero-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "audi-s6",
+      "use": "line",
+      "prompt": "Use case: ads-marketing. Create ONE photorealistic automotive advertising image, landscape 3:2 1536x1024. Subject: red 2021 Audi S6 Avant C8 F2 station wagon. Scene: a quiet stone courtyard beside olive trees. Composition: rear three-quarter view, nose pointing RIGHT; entire car including all wheels and roof fully visible, car centered with generous margins on all sides, car fills about 65 percent of image width. Natural realistic lighting and reflections, correct production body proportions, no people or other cars. Blank license plate. No words, text, signage, watermarks or background logos. Original vehicle emblems allowed. This is a conceptual car image for an appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-72493a71-331c-4936-8988-eca9b7ecd81c.png",
+      "projectFiles": [
+        "src/assets/images/audi-s6/line-image-ai-1536.jpg",
+        "src/assets/images/audi-s6/line-image-ai-1536.webp",
+        "src/assets/images/audi-s6/line-image-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "audi-rs3",
+      "use": "hero",
+      "prompt": "Use case: ads-marketing. Create ONE photorealistic automotive advertising image, landscape 3:2 1536x1024. Subject: red 2019 Audi RS3 8V five door Sportback. Scene: a dry volcanic plateau road with black lava rock. Composition: front three-quarter view, nose pointing LEFT; entire car including all wheels and roof fully visible, car centered with generous margins on all sides, car fills about 65 percent of image width. Natural realistic lighting and reflections, correct production body proportions, no people or other cars. Blank license plate. No words, text, signage, watermarks or background logos. Original vehicle emblems allowed. This is a conceptual car image for an appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-7a96b3e1-1eb0-4215-adfc-2e2f2a3e18cc.png",
+      "projectFiles": [
+        "src/assets/images/audi-rs3/hero-ai-1536.jpg",
+        "src/assets/images/audi-rs3/hero-ai-1536.webp",
+        "src/assets/images/audi-rs3/hero-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "audi-rs3",
+      "use": "line",
+      "prompt": "Use case: ads-marketing. Create ONE photorealistic automotive advertising image, landscape 3:2 1536x1024. Subject: grey 2019 Audi RS3 8V four door sedan. Scene: a modern open-air sculpture garden without art text. Composition: rear three-quarter view, nose pointing RIGHT; entire car including all wheels and roof fully visible, car centered with generous margins on all sides, car fills about 65 percent of image width. Natural realistic lighting and reflections, correct production body proportions, no people or other cars. Blank license plate. No words, text, signage, watermarks or background logos. Original vehicle emblems allowed. This is a conceptual car image for an appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-b84b9def-00d3-4157-858c-3281e832d69e.png",
+      "projectFiles": [
+        "src/assets/images/audi-rs3/line-image-ai-1536.jpg",
+        "src/assets/images/audi-rs3/line-image-ai-1536.webp",
+        "src/assets/images/audi-rs3/line-image-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "audi-rs4",
+      "use": "hero",
+      "prompt": "Use case: ads-marketing. Create ONE photorealistic automotive advertising image, landscape 3:2 1536x1024. Subject: green 2021 Audi RS4 Avant B9 8W station wagon. Scene: a rolling moorland road under soft morning clouds. Composition: front three-quarter view, nose pointing LEFT; entire car including all wheels and roof fully visible, car centered with generous margins on all sides, car fills about 65 percent of image width. Natural realistic lighting and reflections, correct production body proportions, no people or other cars. Blank license plate. No words, text, signage, watermarks or background logos. Original vehicle emblems allowed. This is a conceptual car image for an appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-ab747088-b655-4e31-b979-ba155d142557.png",
+      "projectFiles": [
+        "src/assets/images/audi-rs4/hero-ai-1536.jpg",
+        "src/assets/images/audi-rs4/hero-ai-1536.webp",
+        "src/assets/images/audi-rs4/hero-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "audi-rs4",
+      "use": "line",
+      "prompt": "Use case: ads-marketing. Create ONE photorealistic automotive advertising image, landscape 3:2 1536x1024. Subject: silver 2021 Audi RS4 Avant B9 8W station wagon. Scene: a calm marina stone promenade with no signage. Composition: rear three-quarter view, nose pointing RIGHT; entire car including all wheels and roof fully visible, car centered with generous margins on all sides, car fills about 65 percent of image width. Natural realistic lighting and reflections, correct production body proportions, no people or other cars. Blank license plate. No words, text, signage, watermarks or background logos. Original vehicle emblems allowed. This is a conceptual car image for an appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-a3b97bed-8311-4947-a8f1-f06165e0ad51.png",
+      "projectFiles": [
+        "src/assets/images/audi-rs4/line-image-ai-1536.jpg",
+        "src/assets/images/audi-rs4/line-image-ai-1536.webp",
+        "src/assets/images/audi-rs4/line-image-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "audi-rs5",
+      "use": "hero",
+      "prompt": "Use case: ads-marketing. Create ONE photorealistic automotive advertising image, landscape 3:2 1536x1024. Subject: deep blue 2021 Audi RS5 F5 two door coupe. Scene: a winding road beside terraced vineyards at dawn. Composition: front three-quarter view, nose pointing LEFT; entire car including all wheels and roof fully visible, car centered with generous margins on all sides, car fills about 65 percent of image width. Natural realistic lighting and reflections, correct production body proportions, no people or other cars. Blank license plate. No words, text, signage, watermarks or background logos. Original vehicle emblems allowed. This is a conceptual car image for an appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-ca489971-9420-4c54-b056-2dbd690183ed.png",
+      "projectFiles": [
+        "src/assets/images/audi-rs5/hero-ai-1536.jpg",
+        "src/assets/images/audi-rs5/hero-ai-1536.webp",
+        "src/assets/images/audi-rs5/hero-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "audi-rs5",
+      "use": "line",
+      "prompt": "Use case: ads-marketing. Create ONE photorealistic automotive advertising image, landscape 3:2 1536x1024. Subject: white 2021 Audi RS5 F5 five door Sportback. Scene: a sunlit contemporary villa courtyard. Composition: rear three-quarter view, nose pointing RIGHT; entire car including all wheels and roof fully visible, car centered with generous margins on all sides, car fills about 65 percent of image width. Natural realistic lighting and reflections, correct production body proportions, no people or other cars. Blank license plate. No words, text, signage, watermarks or background logos. Original vehicle emblems allowed. This is a conceptual car image for an appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-222ed08b-4266-44f3-8b88-950d66dbb001.png",
+      "projectFiles": [
+        "src/assets/images/audi-rs5/line-image-ai-1536.jpg",
+        "src/assets/images/audi-rs5/line-image-ai-1536.webp",
+        "src/assets/images/audi-rs5/line-image-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "mercedes-benz-eqa",
+      "use": "hero",
+      "prompt": "Use case: ads-marketing. Create ONE photorealistic automotive advertising image, landscape 3:2 1536x1024. Subject: white 2024 Mercedes-Benz EQA H243 compact electric crossover. Scene: a modern coastal promenade with palms and calm ocean. Composition: front three-quarter view, nose pointing LEFT; entire car including all wheels and roof fully visible, car centered with generous margins on all sides, car fills about 65 percent of image width. Natural realistic lighting and reflections, correct production body proportions, no people or other cars. Blank license plate. No words, text, signage, watermarks or background logos. Original vehicle emblems allowed. This is a conceptual car image for an appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-82357ee5-53ce-4e41-a048-f297b06973f0.png",
+      "projectFiles": [
+        "src/assets/images/mercedes-benz-eqa/hero-ai-1536.jpg",
+        "src/assets/images/mercedes-benz-eqa/hero-ai-1536.webp",
+        "src/assets/images/mercedes-benz-eqa/hero-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "mercedes-benz-eqa",
+      "use": "line",
+      "prompt": "Use case: ads-marketing. Create ONE photorealistic automotive advertising image, landscape 3:2 1536x1024. Subject: rose gold 2024 Mercedes-Benz EQA H243 compact electric crossover. Scene: a quiet birch forest road. Composition: rear three-quarter view, nose pointing RIGHT; entire car including all wheels and roof fully visible, car centered with generous margins on all sides, car fills about 65 percent of image width. Natural realistic lighting and reflections, correct production body proportions, no people or other cars. Blank license plate. No words, text, signage, watermarks or background logos. Original vehicle emblems allowed. This is a conceptual car image for an appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-b21196ad-ced0-4cb6-8412-84f6ae82bc01.png",
+      "projectFiles": [
+        "src/assets/images/mercedes-benz-eqa/line-image-ai-1536.jpg",
+        "src/assets/images/mercedes-benz-eqa/line-image-ai-1536.webp",
+        "src/assets/images/mercedes-benz-eqa/line-image-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "mercedes-benz-eqb",
+      "use": "hero",
+      "prompt": "Use case: ads-marketing. Create ONE photorealistic automotive advertising image, landscape 3:2 1536x1024. Subject: dark blue 2024 Mercedes-Benz EQB X243 squared electric SUV. Scene: a quiet mountain meadow road beside a timber cabin. Composition: front three-quarter view, nose pointing LEFT; entire car including all wheels and roof fully visible, car centered with generous margins on all sides, car fills about 65 percent of image width. Natural realistic lighting and reflections, correct production body proportions, no people or other cars. Blank license plate. No words, text, signage, watermarks or background logos. Original vehicle emblems allowed. This is a conceptual car image for an appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-f4a90113-85eb-4f4a-b11d-e1a5f3fc18fe.png",
+      "projectFiles": [
+        "src/assets/images/mercedes-benz-eqb/hero-ai-1536.jpg",
+        "src/assets/images/mercedes-benz-eqb/hero-ai-1536.webp",
+        "src/assets/images/mercedes-benz-eqb/hero-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "mercedes-benz-eqb",
+      "use": "line",
+      "prompt": "Use case: ads-marketing. Create ONE photorealistic automotive advertising image, landscape 3:2 1536x1024. Subject: silver 2024 Mercedes-Benz EQB X243 squared electric SUV. Scene: a modern red brick courtyard without signs. Composition: rear three-quarter view, nose pointing RIGHT; entire car including all wheels and roof fully visible, car centered with generous margins on all sides, car fills about 65 percent of image width. Natural realistic lighting and reflections, correct production body proportions, no people or other cars. Blank license plate. No words, text, signage, watermarks or background logos. Original vehicle emblems allowed. This is a conceptual car image for an appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-1a9882cd-359b-45de-b2a3-b57e33d2a85c.png",
+      "projectFiles": [
+        "src/assets/images/mercedes-benz-eqb/line-image-ai-1536.jpg",
+        "src/assets/images/mercedes-benz-eqb/line-image-ai-1536.webp",
+        "src/assets/images/mercedes-benz-eqb/line-image-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "mercedes-benz-eqe",
+      "use": "hero",
+      "prompt": "Use case: ads-marketing. Create ONE photorealistic automotive advertising image, landscape 3:2 1536x1024. Subject: silver 2023 Mercedes-Benz EQE V295 four door electric sedan not SUV. Scene: a modern low concrete pavilion by a still reflecting pool. Composition: front three-quarter view, nose pointing LEFT; entire car including all wheels and roof fully visible, car centered with generous margins on all sides, car fills about 65 percent of image width. Natural realistic lighting and reflections, correct production body proportions, no people or other cars. Blank license plate. No words, text, signage, watermarks or background logos. Original vehicle emblems allowed. This is a conceptual car image for an appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-c20c69fd-a99e-4a50-940e-1db3f973173c.png",
+      "projectFiles": [
+        "src/assets/images/mercedes-benz-eqe/hero-ai-1536.jpg",
+        "src/assets/images/mercedes-benz-eqe/hero-ai-1536.webp",
+        "src/assets/images/mercedes-benz-eqe/hero-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "mercedes-benz-eqe",
+      "use": "line",
+      "prompt": "Use case: ads-marketing. Create ONE photorealistic automotive advertising image, landscape 3:2 1536x1024. Subject: black 2023 Mercedes-Benz EQE V295 four door electric sedan not SUV. Scene: a spacious coastal gravel turnout at sunset. Composition: rear three-quarter view, nose pointing RIGHT; entire car including all wheels and roof fully visible, car centered with generous margins on all sides, car fills about 65 percent of image width. Natural realistic lighting and reflections, correct production body proportions, no people or other cars. Blank license plate. No words, text, signage, watermarks or background logos. Original vehicle emblems allowed. This is a conceptual car image for an appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-bd6da631-e83e-4ffd-aa9f-28fecbe938eb.png",
+      "projectFiles": [
+        "src/assets/images/mercedes-benz-eqe/line-image-ai-1536.jpg",
+        "src/assets/images/mercedes-benz-eqe/line-image-ai-1536.webp",
+        "src/assets/images/mercedes-benz-eqe/line-image-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "mercedes-benz-eqs",
+      "use": "hero",
+      "prompt": "Use case: ads-marketing. Create ONE photorealistic automotive advertising image, landscape 3:2 1536x1024. Subject: black 2023 Mercedes-Benz EQS V297 luxury electric liftback sedan not SUV. Scene: a monumental pale stone museum forecourt without lettering. Composition: front three-quarter view, nose pointing LEFT; entire car including all wheels and roof fully visible, car centered with generous margins on all sides, car fills about 65 percent of image width. Natural realistic lighting and reflections, correct production body proportions, no people or other cars. Blank license plate. No words, text, signage, watermarks or background logos. Original vehicle emblems allowed. This is a conceptual car image for an appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-5f16369d-8782-4061-89ee-c2417d8cb1a2.png",
+      "projectFiles": [
+        "src/assets/images/mercedes-benz-eqs/hero-ai-1536.jpg",
+        "src/assets/images/mercedes-benz-eqs/hero-ai-1536.webp",
+        "src/assets/images/mercedes-benz-eqs/hero-ai-1000.webp"
+      ]
+    },
+    {
+      "slug": "mercedes-benz-eqs",
+      "use": "line",
+      "prompt": "Use case: ads-marketing. Create ONE photorealistic automotive advertising image, landscape 3:2 1536x1024. Subject: metallic burgundy 2023 Mercedes-Benz EQS V297 luxury electric liftback sedan not SUV. Scene: a broad tree lined country estate driveway. Composition: rear three-quarter view, nose pointing RIGHT; entire car including all wheels and roof fully visible, car centered with generous margins on all sides, car fills about 65 percent of image width. Natural realistic lighting and reflections, correct production body proportions, no people or other cars. Blank license plate. No words, text, signage, watermarks or background logos. Original vehicle emblems allowed. This is a conceptual car image for an appraisal landing page, not a documentary purchase photo.",
+      "generatedSource": "/Users/macbook/.codex/generated_images/01a17240-82c0-7ae3-9e91-06b72265afe8/exec-2a354255-355e-4159-89fc-ace01ceb46ee.png",
+      "projectFiles": [
+        "src/assets/images/mercedes-benz-eqs/line-image-ai-1536.jpg",
+        "src/assets/images/mercedes-benz-eqs/line-image-ai-1536.webp",
+        "src/assets/images/mercedes-benz-eqs/line-image-ai-1000.webp"
+      ]
+    }
+  ]
+}
