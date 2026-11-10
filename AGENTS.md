@@ -101,3 +101,5 @@ GitHub に push 済みのブランチ（未マージ・`draft: true`）：
 2026-11-09追加下書き：ベンツSL・SLK・SLC・CLK・CL、アウディA8・Q4 e-tron、ボルボC30、ルノー アルカナ、フィアット パンダの10車種を実績未掲載版で制作。draft:true、型式選択、国内確認済みの一部グレード、AI画像2枚ずつ。公開未承認。詳細はdocs/vehicle-research/popular-import-batch9-2026-11-09.md。
 
 2026-11-09公開承認：追加10車種（SL・SLK・SLC・CLK・CL・A8・Q4 e-tron・C30・アルカナ・パンダ）を公開対象へ変更。公開後はmainを正とする。
+
+2026-11-10追加下書き：フィアット500X・アバルト595・スマート フォーツー・ジャガーFペイス/Eペイス/XF/XJ・ボルボV70/V50/C70の10車種。draft:true、実績未掲載、国内資料確認済みの型式フォーム、AI画像各2枚。公開未承認。詳細はdocs/vehicle-research/popular-import-batch10-2026-11-10.md。
