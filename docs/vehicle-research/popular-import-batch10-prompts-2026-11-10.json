@@ -1,0 +1,127 @@
+{
+  "date": "2026-11-10",
+  "tool": "image_gen (built-in)",
+  "sharedPrompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. {scene} Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+  "images": [
+    {
+      "slug": "fiat-500x",
+      "use": "hero",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A metallic copper red 2020 Fiat 500X five-door compact SUV, front three-quarter nose pointing LEFT, quiet paved coastal promenade beside pale rocky cliffs and silver olive trees, morning. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/fiat-500x/hero-ai-1536.webp"
+    },
+    {
+      "slug": "fiat-500x",
+      "use": "line",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A pearl white 2020 Fiat 500X SUV, rear three-quarter, empty courtyard of a warm terracotta ceramics gallery with a narrow rill and agaves, dusk. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/fiat-500x/line-image-ai-1536.webp"
+    },
+    {
+      "slug": "abarth-595",
+      "use": "hero",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A bright yellow 2018 Abarth 595 three-door small hot hatchback with hard roof, front three-quarter nose pointing LEFT, empty paved turnout beside mountain vineyards and a stone watchtower, morning. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/abarth-595/hero-ai-1536.webp"
+    },
+    {
+      "slug": "abarth-595",
+      "use": "line",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A metallic dark grey 2018 Abarth 595C three-door convertible hatchback with folded fabric roof, rear three-quarter, empty courtyard of a modern low redbrick studio beside ornamental grasses and a stone basin, afternoon. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/abarth-595/line-image-ai-1536.webp"
+    },
+    {
+      "slug": "smart-fortwo",
+      "use": "hero",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A metallic turquoise and dark grey safety cell 2017 smart fortwo third generation 453 TWO-seat TWO-door short city coupe with hard roof, front three-quarter nose pointing LEFT, empty paved square beside modern white geometric houses and potted citrus, morning. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/smart-fortwo/hero-ai-1536.webp"
+    },
+    {
+      "slug": "smart-fortwo",
+      "use": "line",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A pearl white with black safety cell 2017 smart fortwo 453 TWO-seat TWO-door cabriolet with fabric roof OPEN, rear three-quarter, quiet paved terrace of a small modern timber cafe beside lake reeds, sunset. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/smart-fortwo/line-image-ai-1536.webp"
+    },
+    {
+      "slug": "jaguar-f-pace",
+      "use": "hero",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A metallic British racing green 2021 facelift Jaguar F-PACE five-door SUV, front three-quarter nose pointing LEFT, quiet paved overlook above a broad misty moor with stone walls and heather, morning. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/jaguar-f-pace/hero-ai-1536.webp"
+    },
+    {
+      "slug": "jaguar-f-pace",
+      "use": "line",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A pearl white 2021 facelift Jaguar F-PACE SUV, rear three-quarter, empty pale stone courtyard of a modern arts pavilion with tall arched windows and a reflecting pond, afternoon. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/jaguar-f-pace/line-image-ai-1536.webp"
+    },
+    {
+      "slug": "jaguar-e-pace",
+      "use": "hero",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A metallic deep blue 2021 facelift Jaguar E-PACE compact SUV, front three-quarter nose pointing LEFT, quiet paved seaside lane beside pink flowering shrubs and rounded limestone boulders, morning. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/jaguar-e-pace/hero-ai-1536.webp"
+    },
+    {
+      "slug": "jaguar-e-pace",
+      "use": "line",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A metallic orange 2021 facelift Jaguar E-PACE compact SUV, rear three-quarter, empty grey granite courtyard of a modern lodge with a fern garden and narrow fountain, overcast daylight. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/jaguar-e-pace/line-image-ai-1536.webp"
+    },
+    {
+      "slug": "jaguar-xf",
+      "use": "hero",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A metallic silver 2018 Jaguar XF X260 four-door sedan, front three-quarter nose pointing LEFT, empty smooth paved forecourt beside a restrained Georgian country house and copper beech trees, afternoon. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/jaguar-xf/hero-ai-1536.webp"
+    },
+    {
+      "slug": "jaguar-xf",
+      "use": "line",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A metallic dark navy blue 2018 Jaguar XF Sportbrake X260 station wagon, rear three-quarter with long wagon roof, quiet contemporary limestone garden courtyard with tall grasses and a round pond, morning. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/jaguar-xf/line-image-ai-1536.webp"
+    },
+    {
+      "slug": "jaguar-xj",
+      "use": "hero",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A metallic deep burgundy 2016 facelift Jaguar XJ X351 luxury four-door sedan with black rear roof pillars, front three-quarter nose pointing LEFT, quiet paved lakeside overlook beneath silver birch trees, soft autumn morning. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/jaguar-xj/hero-ai-1536.webp"
+    },
+    {
+      "slug": "jaguar-xj",
+      "use": "line",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A pearl white 2016 facelift Jaguar XJ X351 luxury sedan, rear three-quarter clearly showing distinctive vertical red tail lamps and black rear roof pillars, empty sandstone hotel courtyard beside a long thin reflecting pool, dusk. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/jaguar-xj/line-image-ai-1536.webp"
+    },
+    {
+      "slug": "volvo-v70",
+      "use": "hero",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A metallic bronze 2014 facelift Volvo V70 third generation station wagon, front three-quarter nose pointing LEFT, empty paved shore beside a red wooden lighthouse and windswept coastal grasses, cloudy morning. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/volvo-v70/hero-ai-1536.webp"
+    },
+    {
+      "slug": "volvo-v70",
+      "use": "line",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A pearl white 2014 facelift Volvo V70 third generation long station wagon with tall rear lamps, rear three-quarter, quiet contemporary timber residence courtyard beside birch trees and a low stone pond, late afternoon. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/volvo-v70/line-image-ai-1536.webp"
+    },
+    {
+      "slug": "volvo-v50",
+      "use": "hero",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A metallic dark red 2011 facelift Volvo V50 compact station wagon, front three-quarter nose pointing LEFT, quiet paved road beside rolling green fields and traditional red barns, soft morning. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/volvo-v50/hero-ai-1536.webp"
+    },
+    {
+      "slug": "volvo-v50",
+      "use": "line",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A metallic silver 2011 facelift Volvo V50 compact station wagon with tall vertical rear lamps, rear three-quarter, empty pale brick greenhouse courtyard beside a small circular fountain and white flowering trees, diffuse daylight. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/volvo-v50/line-image-ai-1536.webp"
+    },
+    {
+      "slug": "volvo-c70",
+      "use": "hero",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A metallic light blue 2011 facelift Volvo C70 second generation two-door four-seat convertible, folding hardtop OPEN, front three-quarter nose pointing LEFT, quiet paved promontory overlooking calm blue sea and a pale stone lighthouse, morning. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/volvo-c70/hero-ai-1536.webp"
+    },
+    {
+      "slug": "volvo-c70",
+      "use": "line",
+      "prompt": "Photorealistic premium automotive editorial photograph, landscape 3:2. A pearl white 2011 facelift Volvo C70 second generation two-door four-seat convertible, folding hardtop CLOSED, rear three-quarter, empty modern dark timber gallery courtyard with a shallow rectangular pond and slender maples, evening. Correct recognizable vehicle model and proportions with accurate door count and factory design. Whole vehicle, all wheels and roof fully inside frame with generous 15 percent margins. No people, other cars, signs, readable lettering, watermark or added logos. Blank unlettered license plate. Small authentic vehicle emblems allowed. Natural realistic lighting, perspective, tires and reflections. Single photograph, not collage.",
+      "file": "src/assets/images/volvo-c70/line-image-ai-1536.webp"
+    }
+  ]
+}
