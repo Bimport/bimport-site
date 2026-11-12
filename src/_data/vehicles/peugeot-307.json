@@ -1,6 +1,6 @@
 {
   "slug": "peugeot-307",
-  "draft": true,
+  "draft": false,
   "theme": "import-imagery",
   "maker": "PEUGEOT",
   "makerJa": "プジョー",
@@ -181,6 +181,6 @@
     "lead": "売却未定でもOK。<br>まずは車両情報と写真からご相談ください。"
   },
   "sitemap": {
-    "lastmod": "2026-11-10"
+    "lastmod": "2026-11-12"
   }
 }
