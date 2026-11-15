@@ -1,0 +1,302 @@
+[
+  {
+    "slug": "mini-clubman",
+    "use": "hero",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2021 F54 MINI Clubman six-door wagon, paint burgundy. Parked outdoors on or at a limestone valley road. Front three-quarter, nose pointing left. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "mini-clubman",
+    "use": "line",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2021 F54 MINI Clubman six-door wagon, paint silver. Parked outdoors on or at a industrial brick sawtooth courtyard. Rear three-quarter, nose pointing right. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "mini-countryman",
+    "use": "hero",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2024 U25 MINI Countryman compact SUV, paint forest green. Parked outdoors on or at a wind-swept dune highway. Front three-quarter, nose pointing left. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "mini-countryman",
+    "use": "line",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2024 U25 MINI Countryman compact SUV, paint blue. Parked outdoors on or at a spacious outdoor stone arcade. Rear three-quarter, nose pointing right. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "mini-convertible",
+    "use": "hero",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2022 F57 MINI Convertible with soft top down, paint sky blue. Parked outdoors on or at a flower-lined seaside lane. Front three-quarter, nose pointing left. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "mini-convertible",
+    "use": "line",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2022 F57 MINI Convertible with soft top down, paint red. Parked outdoors on or at a open-air vineyard courtyard. Rear three-quarter, nose pointing right. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "mini-aceman",
+    "use": "hero",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2024 J05 MINI Aceman electric compact crossover, paint teal. Parked outdoors on or at a mountain reservoir road. Front three-quarter, nose pointing left. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "mini-aceman",
+    "use": "line",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2024 J05 MINI Aceman electric compact crossover, paint silver. Parked outdoors on or at a riverfront solar canopy. Rear three-quarter, nose pointing right. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "volvo-ex90",
+    "use": "hero",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2025 Volvo EX90 electric SUV, paint light blue. Parked outdoors on or at a Nordic lakeside route. Front three-quarter, nose pointing left. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "volvo-ex90",
+    "use": "line",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2025 Volvo EX90 electric SUV, paint black. Parked outdoors on or at a outdoor Scandinavian timber shelter. Rear three-quarter, nose pointing right. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "audi-q6-e-tron",
+    "use": "hero",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2025 Audi Q6 e-tron regular roof electric SUV, paint navy. Parked outdoors on or at a black pine pass. Front three-quarter, nose pointing left. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "audi-q6-e-tron",
+    "use": "line",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2025 Audi Q6 e-tron regular roof electric SUV, paint white. Parked outdoors on or at a slate-paved gallery approach. Rear three-quarter, nose pointing right. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "audi-q8-e-tron",
+    "use": "hero",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2024 Audi Q8 e-tron electric SUV facelift standard roof, paint gray. Parked outdoors on or at a broad terraced vineyard road. Front three-quarter, nose pointing left. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "audi-q8-e-tron",
+    "use": "line",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2024 Audi Q8 e-tron electric SUV facelift standard roof, paint blue. Parked outdoors on or at a historic red-brick estate drive. Rear three-quarter, nose pointing right. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "volkswagen-id-buzz",
+    "use": "hero",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2025 Volkswagen ID. Buzz passenger electric minivan, paint yellow and white. Parked outdoors on or at a green moorland causeway. Front three-quarter, nose pointing left. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "volkswagen-id-buzz",
+    "use": "line",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2025 Volkswagen ID. Buzz passenger electric minivan, paint blue and white. Parked outdoors on or at a countryside modern barn forecourt. Rear three-quarter, nose pointing right. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "abarth-695",
+    "use": "hero",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2023 Abarth 695 compact hatchback, paint yellow. Parked outdoors on or at a sunlit poplar avenue. Front three-quarter, nose pointing left. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "abarth-695",
+    "use": "line",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2023 Abarth 695 compact hatchback, paint gray. Parked outdoors on or at a iron gates beside an olive grove. Rear three-quarter, nose pointing right. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "fiat-600e",
+    "use": "hero",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2024 Fiat 600e electric crossover, paint orange. Parked outdoors on or at a copper-rock canyon lane. Front three-quarter, nose pointing left. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "fiat-600e",
+    "use": "line",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2024 Fiat 600e electric crossover, paint light blue. Parked outdoors on or at a light-stone village courtyard. Rear three-quarter, nose pointing right. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "lotus-exige",
+    "use": "hero",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2020 Lotus Exige Sport 410 coupe, paint orange. Parked outdoors on or at a highland dam road. Front three-quarter, nose pointing left. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "lotus-exige",
+    "use": "line",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2020 Lotus Exige Sport 410 coupe, paint yellow. Parked outdoors on or at a quiet outdoor racetrack lodge forecourt. Rear three-quarter, nose pointing right. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "lotus-evora",
+    "use": "hero",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2018 Lotus Evora GT410 Sport coupe, paint blue. Parked outdoors on or at a chalk cliff road. Front three-quarter, nose pointing left. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "lotus-evora",
+    "use": "line",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2018 Lotus Evora GT410 Sport coupe, paint silver. Parked outdoors on or at a coastal brick terrace. Rear three-quarter, nose pointing right. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "aston-martin-db11",
+    "use": "hero",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2021 Aston Martin DB11 coupe, paint dark green. Parked outdoors on or at a quiet approach to a Georgian estate. Front three-quarter, nose pointing left. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "aston-martin-db11",
+    "use": "line",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2021 Aston Martin DB11 coupe, paint gold. Parked outdoors on or at a walled English garden drive. Rear three-quarter, nose pointing right. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "aston-martin-vantage",
+    "use": "hero",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2021 Aston Martin Vantage two-door coupe, paint blue. Parked outdoors on or at a alpine valley paved road. Front three-quarter, nose pointing left. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "aston-martin-vantage",
+    "use": "line",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2021 Aston Martin Vantage two-door coupe, paint gray. Parked outdoors on or at a concrete sculpture pavilion outdoors. Rear three-quarter, nose pointing right. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "aston-martin-dbx",
+    "use": "hero",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2021 Aston Martin DBX SUV, paint silver. Parked outdoors on or at a wooded lake bluff road. Front three-quarter, nose pointing left. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "aston-martin-dbx",
+    "use": "line",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2021 Aston Martin DBX SUV, paint green. Parked outdoors on or at a covered equestrian forecourt open to daylight. Rear three-quarter, nose pointing right. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "bentley-bentayga",
+    "use": "hero",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2022 Bentley Bentayga SUV, paint burgundy. Parked outdoors on or at a sandstone river gorge road. Front three-quarter, nose pointing left. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "bentley-bentayga",
+    "use": "line",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2022 Bentley Bentayga SUV, paint silver. Parked outdoors on or at a paved estate entrance near palms. Rear three-quarter, nose pointing right. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "bentley-continental-gt",
+    "use": "hero",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2021 Bentley Continental GT coupe, paint navy. Parked outdoors on or at a granite uplands highway. Front three-quarter, nose pointing left. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "bentley-continental-gt",
+    "use": "line",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2021 Bentley Continental GT coupe, paint bronze. Parked outdoors on or at a granite museum forecourt. Rear three-quarter, nose pointing right. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "bentley-flying-spur",
+    "use": "hero",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2022 Bentley Flying Spur sedan, paint dark green. Parked outdoors on or at a country lane beside oak woodland. Front three-quarter, nose pointing left. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "bentley-flying-spur",
+    "use": "line",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2022 Bentley Flying Spur sedan, paint black. Parked outdoors on or at a cobblestone driveway beside tall cedars. Rear three-quarter, nose pointing right. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "ferrari-458-italia",
+    "use": "hero",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2013 Ferrari 458 Italia coupe, paint red. Parked outdoors on or at a Tuscan hillside route. Front three-quarter, nose pointing left. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "ferrari-458-italia",
+    "use": "line",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2013 Ferrari 458 Italia coupe, paint yellow. Parked outdoors on or at a open winery driveway. Rear three-quarter, nose pointing right. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "ferrari-california",
+    "use": "hero",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2012 Ferrari California convertible roof down, paint red. Parked outdoors on or at a quiet coastal bluff lane. Front three-quarter, nose pointing left. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "ferrari-california",
+    "use": "line",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2012 Ferrari California convertible roof down, paint silver. Parked outdoors on or at a terracotta villa courtyard. Rear three-quarter, nose pointing right. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "ferrari-portofino",
+    "use": "hero",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2020 Ferrari Portofino convertible roof down, paint deep red. Parked outdoors on or at a terraced island road. Front three-quarter, nose pointing left. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "ferrari-portofino",
+    "use": "line",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2020 Ferrari Portofino convertible roof down, paint light blue. Parked outdoors on or at a bright olive-mill courtyard. Rear three-quarter, nose pointing right. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "lamborghini-gallardo",
+    "use": "hero",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2009 Lamborghini Gallardo LP 560-4 coupe, paint yellow. Parked outdoors on or at a empty desert plateau road. Front three-quarter, nose pointing left. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "lamborghini-gallardo",
+    "use": "line",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2009 Lamborghini Gallardo LP 560-4 coupe, paint white. Parked outdoors on or at a outdoor geometric concrete gallery. Rear three-quarter, nose pointing right. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "lamborghini-aventador",
+    "use": "hero",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2014 Lamborghini Aventador LP 700-4 coupe, paint orange. Parked outdoors on or at a mountain road along volcanic gravel. Front three-quarter, nose pointing left. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "lamborghini-aventador",
+    "use": "line",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2014 Lamborghini Aventador LP 700-4 coupe, paint navy. Parked outdoors on or at a brick industrial terrace. Rear three-quarter, nose pointing right. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "chevrolet-tahoe",
+    "use": "hero",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2008 Chevrolet Tahoe full-size SUV, paint black. Parked outdoors on or at a prairie two-lane road. Front three-quarter, nose pointing left. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "chevrolet-tahoe",
+    "use": "line",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2008 Chevrolet Tahoe full-size SUV, paint silver. Parked outdoors on or at a desert ranch forecourt. Rear three-quarter, nose pointing right. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "hummer-h2",
+    "use": "hero",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2007 Hummer H2 standard SUV with rear enclosed body, not H3, paint black. Parked outdoors on or at a rugged redrock road. Front three-quarter, nose pointing left. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "hummer-h2",
+    "use": "line",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2007 Hummer H2 standard SUV with rear enclosed body, not H3, paint yellow. Parked outdoors on or at a open-air industrial depot. Rear three-quarter, nose pointing right. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "dodge-nitro",
+    "use": "hero",
+    "prompt": "One realistic automotive advertising photo, landscape 3:2. An accurate 2008 Dodge Nitro mid-size SUV, metallic warm gray, parked on an autumn orchard road, front three-quarter nose facing left, entire vehicle with breathing room. No other cars, people, signage, lettering, or watermarks. Blank number plate. Genuine production proportions."
+  },
+  {
+    "slug": "dodge-nitro",
+    "use": "line",
+    "prompt": "One photorealistic 3:2 automotive photo of an accurate burgundy 2008 Dodge Nitro mid-size SUV parked at a modern outdoor hotel entrance with concrete and tall bamboo. Rear three-quarter view, nose points right, full car centered with space all sides. No people, other vehicles, signs, text, or watermarks, blank license plate."
+  },
+  {
+    "slug": "chrysler-pt-cruiser",
+    "use": "hero",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2007 Chrysler PT Cruiser five-door hatchback, paint purple. Parked outdoors on or at a town street with an old brick mill. Front three-quarter, nose pointing left. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "chrysler-pt-cruiser",
+    "use": "line",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2007 Chrysler PT Cruiser five-door hatchback, paint cream. Parked outdoors on or at a quiet old railway courtyard. Rear three-quarter, nose pointing right. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "chrysler-voyager",
+    "use": "hero",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2005 Chrysler Voyager minivan with sliding passenger doors, paint light blue. Parked outdoors on or at a lakeside gravel turnoff. Front three-quarter, nose pointing left. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "chrysler-voyager",
+    "use": "line",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2005 Chrysler Voyager minivan with sliding passenger doors, paint silver. Parked outdoors on or at a outdoor farmstead entrance. Rear three-quarter, nose pointing right. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "ford-focus",
+    "use": "hero",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2014 Ford Focus Mk3 five-door hatchback, paint blue. Parked outdoors on or at a forest edge pavement. Front three-quarter, nose pointing left. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "ford-focus",
+    "use": "line",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2014 Ford Focus Mk3 five-door hatchback, paint red. Parked outdoors on or at a brick-lined suburban courtyard. Rear three-quarter, nose pointing right. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "opel-vita",
+    "use": "hero",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2003 Opel Vita Japanese market Opel Corsa C five-door hatchback, paint silver. Parked outdoors on or at a paved lane by a stream. Front three-quarter, nose pointing left. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  },
+  {
+    "slug": "opel-vita",
+    "use": "line",
+    "prompt": "Use case: ads-marketing. Create a single photorealistic, natural automotive advertising photograph, landscape 3:2. Car: 2003 Opel Vita Japanese market Opel Corsa C five-door hatchback, paint blue. Parked outdoors on or at a stone courtyard near an orchard. Rear three-quarter, nose pointing right. Keep genuine production design, true wheel and body proportions, entire car centered in frame with generous negative space all around, car occupies about 65% width. No people, other vehicles, lettering, signage, background logos or watermark; blank license plate; original manufacturer badges allowed."
+  }
+]
