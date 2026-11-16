@@ -122,3 +122,5 @@ GitHub に push 済みのブランチ（未マージ・`draft: true`）：
 2026-11-15追加下書き：第15弾30車種。MINIの専用LP、電動車、スポーツカーなどを実績未掲載版で作成。すべてdraft:true、車種イメージ各2枚、国内資料確認済みの型式とグレードのみ掲載。対象・出典はdocs/vehicle-research/popular-import-batch15-2026-11-15.md。公開はユーザー承認後。
 
 2026-11-15公開承認：第15弾30車種を公開対象へ変更。
+
+2026-11-16公開承認：第16弾の輸入車40車種を公開対象へ変更。対象・出典は docs/vehicle-research/popular-import-batch16-2026-11-16.md。
