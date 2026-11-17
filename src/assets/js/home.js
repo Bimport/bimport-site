@@ -40,7 +40,4 @@
   });
   window.addEventListener('resize', update);
   update();
-  document.querySelectorAll('[data-cta]').forEach(el => el.addEventListener('click', () => {
-    if (typeof gtag === 'function') gtag('event', 'cta_click', { cta_location: el.dataset.cta, cta_type: el.dataset.ctaType });
-  }));
 })();

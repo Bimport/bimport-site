@@ -1,7 +1,1 @@
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga4Id }}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', '{{ site.ga4Id }}');
-</script>
+<script src="/assets/js/analytics.js" defer data-ga4-id="{{ site.ga4Id }}" data-page-type="{% if v %}vehicle_lp{% elif page.url == '/' or page.url == '/index.html' %}home{% else %}other{% endif %}" data-vehicle-slug="{{ v.slug if v else '' }}"{% if v.draft %} data-draft="true"{% endif %}></script>

@@ -5,11 +5,13 @@
   "description": "B import 売却相談LP - 静的サイト（Eleventy）",
   "scripts": {
     "build": "eleventy",
+    "test:analytics": "npm run build && node --test tests/analytics.test.cjs",
     "build:preview": "LP_PREVIEW=1 eleventy",
     "serve": "eleventy --serve",
     "watch": "eleventy --watch"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0"
+    "@11ty/eleventy": "^3.0.0",
+    "jsdom": "^26.1.0"
   }
 }
