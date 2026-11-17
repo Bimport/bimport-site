@@ -26,10 +26,7 @@
   var doneBox = document.getElementById("estimate-done");
 
   function track(name, params) {
-    window.dataLayer = window.dataLayer || [];
-    var data = { event: name };
-    for (var k in params) data[k] = params[k];
-    window.dataLayer.push(data);
+    if (window.BimportAnalytics) window.BimportAnalytics.track(name, params);
   }
 
   /* ---------- 年式の選択肢（今年 → config.yearFrom） ---------- */
@@ -266,6 +263,7 @@
       return res.json();
     }).then(function (data) {
       if (!data || data.ok !== true) throw new Error((data && data.error) || "rejected");
+      return data;
     }).finally(function () {
       if (timer) clearTimeout(timer);
     });
@@ -291,15 +289,16 @@
     submitBtn.disabled = true;
     submitBtn.textContent = "送信中…";
 
-    sendEstimate(payload).then(function () {
+    sendEstimate(payload).then(function (result) {
       form.hidden = true;
       app.querySelector(".lp-progress").hidden = true;
       app.querySelector(".lp-form-card__title").hidden = true;
       doneBox.hidden = false;
       doneBox.focus({ preventScroll: true });
       app.scrollIntoView({ behavior: scrollBehavior, block: "start" });
-      track("estimate_submit", { vehicle_model: collect().model });
+      if (config.endpoint && result && result.ok === true && result.test !== true && !payload.website) track("generate_lead");
     }).catch(function () {
+      track("estimate_error");
       sending = false;
       submitBtn.disabled = false;
       submitBtn.textContent = "無料で概算査定を依頼する";

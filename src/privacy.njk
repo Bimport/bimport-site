@@ -12,7 +12,6 @@ permalink: "privacy.html"
 {% include "fonts.njk" %}
 
 <!-- Google tag (gtag.js) -->
-<!-- TODO: G-XXXXXXXXXX を実際のGA4測定IDに差し替えてください（index.htmlと同じIDにしてください） -->
 {% include "ga4.njk" %}
 
 <style>
@@ -128,6 +127,14 @@ permalink: "privacy.html"
       <p style="margin: 0; font-size: 13.5px; line-height: 1.85; color: #3A362E;">変更した場合は、当ページにてお知らせします。</p>
     </div>
 
+    <div id="analytics">
+      <h2 class="serif" style="margin: 0 0 10px; font-size: 17px; font-weight: 700; color: #16324F;">8．アクセス解析について</h2>
+      <p style="margin: 0 0 10px; font-size: 13.5px; line-height: 1.85; color: #3A362E;">当サイトは、サイトの利用状況や査定フォームの改善のため、Google LLCが提供するGoogle アナリティクスを使用します。Cookie等を利用して、閲覧ページ、利用端末、参照元、フォームの入力開始・送信完了などの情報をGoogleに送信します。フォームに入力された氏名・電話番号・自由入力内容はアクセス解析に送信しません。</p>
+      <p style="margin: 0 0 10px; font-size: 13.5px; line-height: 1.85; color: #3A362E;"><a href="https://policies.google.com/technologies/partner-sites?hl=ja" rel="noopener" target="_blank">Googleによるデータの使用について</a></p>
+      <p style="margin: 0 0 10px; font-size: 13.5px; line-height: 1.85; color: #3A362E;">このブラウザでのアクセス解析は、以下のリンクから停止・再開できます。設定はこのブラウザに保存されます。ブラウザのデータを削除した場合や、別の端末・ブラウザでは改めて設定してください。</p>
+      <p style="font-size: 13.5px; line-height: 2;"><a href="/privacy.html?analytics=off#analytics">アクセス解析を停止する</a><br><a href="/privacy.html?analytics=on#analytics">アクセス解析を再開する</a></p>
+      <p id="analytics-status" role="status" style="font-size: 13.5px; line-height: 1.85;"></p>
+    </div>
   </div>
 
   <!-- ============ 下部・戻る導線 ============ -->
