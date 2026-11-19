@@ -1,0 +1,30 @@
+<section class="home-network" id="group-stores" aria-labelledby="group-stores-title"><div class="wrap">
+ <div class="group-stores-heading"><div><p class="eyebrow">BGROUP NETWORK</p><h2 id="group-stores-title">各地の拠点。<br>ひとつの、Bgroup。</h2></div><p>Bimportを運営するBgroup株式会社の<br>主なグループ店舗をご紹介します。</p></div>
+ <div class="network-grid">
+  <div class="map-stage">
+   <div class="map-orbit" aria-hidden="true"></div>
+   <svg class="network-map" viewBox="0 0 600 500" role="group" aria-label="日本の主なグループ拠点">
+    <g class="map-land">{% for shape in homeNetwork.map.paths %}<path d="{{ shape }}"/>{% endfor %}</g>
+    <g aria-hidden="true">{% for point in homeNetwork.map.points %}{% if point.id != 'okayama' %}<path class="map-route" data-region="{{ point.id }}" style="--i:{{ loop.index0 }}" pathLength="1" d="{{ point.route }}"/>{% endif %}{% endfor %}</g>
+    <g>{% for point in homeNetwork.map.points %}<g class="map-point{% if point.id == 'okayama' %} active{% endif %}" data-region="{{ point.id }}" aria-label="{{ point.storeLabel }}の店舗写真">
+     <circle class="map-hit" cx="{{ point.x }}" cy="{{ point.y }}" r="19"/>
+     <circle class="map-pulse" style="--i:{{ loop.index0 }}" cx="{{ point.x }}" cy="{{ point.y }}" r="10"/>
+     <circle class="map-dot" cx="{{ point.x }}" cy="{{ point.y }}" r="5"/>
+     <path class="map-label-line" d="M{{ point.x }},{{ point.y }} L{{ point.labelX }},{{ point.labelY - 4 }}"/>
+     <text class="map-label" x="{{ point.labelX }}" y="{{ point.labelY }}">{{ point.name }}</text>
+    </g>{% endfor %}</g>
+   </svg>
+   <aside class="map-store-preview" id="map-store-preview" aria-label="選択した拠点の写真" aria-hidden="true" inert>
+    <div class="map-preview-frames">{% for store in homeNetwork.stores %}<figure class="map-preview-frame" data-store="{{ loop.index0 }}" aria-hidden="true">
+     <div class="map-preview-photo">{% if store.photo %}<img src="assets/images/home/group-stores/{{ store.photo }}" alt="{{ store.photoAlt }}" width="640" height="480" loading="lazy" decoding="async">{% else %}<div class="photo-missing"><span>{{ store.english }}</span><small>店舗写真は確認中</small></div>{% endif %}</div>
+     <figcaption><span>{{ store.english }}{% if store.id == 'nagoya' %}<em class="network-new">NEW</em>{% endif %}</span><strong>{{ store.name }}</strong><small>{{ store.address }}</small></figcaption>
+    </figure>{% endfor %}</div>
+    <button type="button" class="map-preview-close" aria-label="店舗写真を閉じる">×</button>
+   </aside>
+   <p class="map-caption" aria-hidden="true">LOCAL EXPERTISE.<br><span>CONNECTED BY BGROUP.</span></p>
+  </div>
+  <ul class="network-list">{% for store in homeNetwork.stores %}<li><button type="button" class="network-choice" data-store="{{ loop.index0 }}" data-store-id="{{ store.id }}" data-region="{{ store.regionId }}" aria-pressed="{% if store.id == 'okayama' %}true{% else %}false{% endif %}" aria-controls="map-store-preview"><span class="network-region">{{ store.region }}</span><span class="network-store"><strong>{{ store.name }}{% if store.id == 'nagoya' %}<em class="network-new">NEW</em>{% endif %}</strong><small>{{ store.address }}{% if store.opened %} · {{ store.opened }}{% endif %}</small></span></button></li>{% endfor %}</ul>
+ </div>
+ <p class="network-hint" hidden>拠点や店舗名にカーソルを合わせると、店舗の写真をご覧いただけます。<span>スマホではタップしてご覧ください。</span></p>
+ <div class="group-official-links"><span>運営：Bgroup株式会社</span><a class="text-link" href="https://auto-dealer.jp/company/" target="_blank" rel="noopener noreferrer">会社概要・店舗一覧 <span aria-hidden="true">↗</span><span class="visually-hidden">（新しいタブで開きます）</span></a></div>
+</div></section>

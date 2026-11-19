@@ -1,0 +1,24 @@
+const {test}=require('node:test');
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const {JSDOM}=require('jsdom');
+test('mobile menu contains focus and restores background and navigation focus',()=>{
+ const dom=new JSDOM(fs.readFileSync(process.env.HOME_PREVIEW_HTML,'utf8'),{url:'http://localhost/',runScripts:'outside-only'});
+ const w=dom.window,d=w.document;
+ const desktop={matches:false,addEventListener(type,cb){this.change=cb;}};
+ w.matchMedia=q=>q.includes('min-width')?desktop:{matches:true};
+ w.eval(fs.readFileSync('src/assets/js/home.js','utf8'));
+ const toggle=d.querySelector('.menu-toggle'),nav=d.getElementById('mobile-nav'),main=d.querySelector('main');
+ main.inert=false;
+ const links=[...nav.querySelectorAll('a')];
+ const key=(key,shiftKey=false)=>d.dispatchEvent(new w.KeyboardEvent('keydown',{key,shiftKey,cancelable:true}));
+ toggle.click();assert.equal(main.inert,true);assert.equal(d.activeElement,links[0]);
+ links.at(-1).focus();key('Tab');assert.equal(d.activeElement,toggle);
+ key('Tab',true);assert.equal(d.activeElement,links.at(-1));
+ key('Escape');assert.equal(nav.hidden,true);assert.equal(main.inert,false);assert.equal(d.activeElement,toggle);
+ toggle.click();nav.querySelector('[href="#faq"]').click();
+ assert.equal(nav.hidden,true);assert.equal(main.inert,false);assert.equal(d.activeElement,d.querySelector('#faq h2'));
+ toggle.click();desktop.matches=true;desktop.change();
+ assert.equal(nav.hidden,true);assert.equal(main.inert,false);assert.equal(d.activeElement,d.querySelector('.wordmark'));
+ dom.window.close();
+});

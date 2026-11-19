@@ -55,12 +55,14 @@
     var v = vehicles.find(function(v) { return v.maker === maker; });
     addOption(makerSelect, maker, v.makerJa || maker);
   });
-  addOption(makerSelect, "other", "その他（国産車など）");
+  addOption(makerSelect, "other", "その他・一覧にないメーカー");
   function updateModels() {
     modelSelect.innerHTML = "";
     modelSelect.disabled = !makerSelect.value;
     addOption(modelSelect, "", makerSelect.value ? "選択してください" : "メーカーを先に選択");
-    vehicles.filter(function(v) { return v.maker === makerSelect.value; }).forEach(function(v) {
+    vehicles.filter(function(v) { return v.maker === makerSelect.value; }).sort(function(a, b) {
+      return a.model.localeCompare(b.model, "ja", { numeric: true, sensitivity: "base" });
+    }).forEach(function(v) {
       addOption(modelSelect, v.model, v.nameJa);
     });
     addOption(modelSelect, "other", "その他・一覧にない車種");
@@ -100,7 +102,14 @@
     f.classList.add("is-invalid");
     var input = f.querySelector("input, select");
     if (input) input.setAttribute("aria-invalid", "true");
-    f.querySelector(".lp-error").textContent = msg;
+    var error = f.querySelector(".lp-error");
+    error.id = "home-error-" + name;
+    if (input) {
+      var descriptions = (input.getAttribute("aria-describedby") || "").split(/\s+/).filter(Boolean);
+      if (descriptions.indexOf(error.id) === -1) descriptions.push(error.id);
+      input.setAttribute("aria-describedby", descriptions.join(" "));
+    }
+    error.textContent = msg;
   }
   function clearError(f) {
     f.classList.remove("is-invalid");
@@ -152,9 +161,16 @@
       var i = Number(li.getAttribute("data-step-indicator"));
       li.classList.toggle("is-current", i === n);
       li.classList.toggle("is-done", i < n);
+      if (i === n) li.setAttribute("aria-current", "step");
+      else li.removeAttribute("aria-current");
     });
     if (stepNum) stepNum.textContent = n;
     if (n === 3) renderConfirm();
+    var stepHeading = form.querySelector('[data-step="' + n + '"] legend');
+    if (stepHeading) {
+      stepHeading.setAttribute("tabindex", "-1");
+      stepHeading.focus({ preventScroll: true });
+    }
     app.scrollIntoView({ behavior: scrollBehavior, block: "start" });
     track("estimate_step", { estimate_step: n });
   }
@@ -200,7 +216,9 @@
     var d = collect();
     var rows = [
       { group: "お車について", step: 1 },
-      ["車種", d.maker + " " + d.model],
+      ["車種", val("model") === "other"
+        ? (val("maker") === "other" ? d.maker : makerSelect.selectedOptions[0].textContent) + " " + d.model
+        : modelSelect.selectedOptions[0].textContent],
       hasBodyType ? [bodyTypeLabel, d.bodyType] : null,
       ["グレード", d.grade],
       ["年式", d.year],

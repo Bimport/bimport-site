@@ -1,0 +1,143 @@
+{
+  "stores": [
+    {
+      "id": "tokyo",
+      "region": "東京",
+      "regionId": "tokyo",
+      "english": "TOKYO",
+      "name": "オートディーラー東京",
+      "address": "東京都世田谷区",
+      "photo": "tokyo.jpg",
+      "photoAlt": "オートディーラー東京の商談スペース"
+    },
+    {
+      "id": "kasugai",
+      "region": "愛知・春日井",
+      "regionId": "aichi",
+      "english": "KASUGAI",
+      "name": "B auto",
+      "address": "愛知県春日井市",
+      "photo": "kasugai.jpg",
+      "photoAlt": "B autoのショールームに並ぶ展示車"
+    },
+    {
+      "id": "nagoya",
+      "region": "愛知・名古屋",
+      "regionId": "aichi",
+      "english": "NAGOYA",
+      "name": "オートディーラー名古屋",
+      "address": "愛知県名古屋市東区",
+      "photo": "nagoya.jpg",
+      "photoAlt": "オートディーラー名古屋の店舗外観とショールーム",
+      "opened": "2026年11月オープン"
+    },
+    {
+      "id": "gifu",
+      "region": "岐阜",
+      "regionId": "gifu",
+      "english": "GIFU",
+      "name": "オートディーラーセントラル",
+      "address": "岐阜県多治見市",
+      "photo": "gifu.jpg",
+      "photoAlt": "オートディーラーセントラルの店舗外観"
+    },
+    {
+      "id": "fukuoka",
+      "region": "福岡",
+      "regionId": "fukuoka",
+      "english": "FUKUOKA",
+      "name": "オートディーラー福岡",
+      "address": "福岡県福岡市",
+      "photo": "fukuoka.jpg",
+      "photoAlt": "オートディーラー福岡の夜の店舗外観"
+    },
+    {
+      "id": "fukushima",
+      "region": "福島",
+      "regionId": "fukushima",
+      "english": "FUKUSHIMA",
+      "name": "ClassiscBASE",
+      "address": "福島県いわき市",
+      "photo": "fukushima.jpg",
+      "photoAlt": "ClassiscBASEの木造ガレージと展示車"
+    },
+    {
+      "id": "okayama",
+      "region": "岡山",
+      "regionId": "okayama",
+      "english": "OKAYAMA",
+      "name": "Bimport",
+      "address": "岡山県岡山市",
+      "opened": "2026年8月オープン"
+    }
+  ],
+  "map": {
+    "paths": [
+      "M428.9,184.1 L403.9,211.3 L404.4,239.2 L394.2,260.7 L398.9,274.2 L384.8,293.3 L350.3,306.0 L302.9,307.6 L264.4,338.5 L246.3,328.1 L245.1,307.9 L198.2,313.8 L166.2,326.6 L134.6,327.1 L162.0,347.0 L144.0,392.8 L126.5,404.2 L113.5,393.7 L120.1,369.4 L103.0,361.5 L92.0,343.0 L117.6,334.7 L131.7,317.7 L158.9,303.8 L178.7,285.3 L232.4,277.2 L261.3,282.8 L289.5,234.8 L307.5,247.7 L347.2,220.7 L362.5,210.2 L379.5,177.2 L374.9,146.8 L386.3,129.7 L415.0,124.8 L429.7,162.2 L428.9,184.1 Z",
+      "M502.6,55.1 L521.7,43.6 L527.7,73.9 L487.6,81.3 L464.0,108.1 L421.5,89.7 L406.8,119.2 L376.8,119.6 L373.1,92.8 L386.4,72.0 L415.3,70.5 L423.1,33.2 L431.1,12.1 L462.9,40.2 L483.6,49.3 L502.6,55.1 Z",
+      "M172.0,338.5 L187.0,322.4 L202.3,325.5 L213.4,314.1 L233.2,320.0 L236.7,329.2 L221.5,345.6 L210.4,336.9 L196.6,343.2 L189.4,359.0 L171.8,351.3 L172.0,338.5 Z"
+    ],
+    "points": [
+      {
+        "id": "tokyo",
+        "name": "東京",
+        "x": 369.1,
+        "y": 280.8,
+        "labelX": 411,
+        "labelY": 302,
+        "route": "M213.8,306.2 Q291.45000000000005,225.8 369.1,280.8",
+        "storeLabel": "オートディーラー東京"
+      },
+      {
+        "id": "aichi",
+        "name": "愛知",
+        "x": 294.3,
+        "y": 292.1,
+        "labelX": 317,
+        "labelY": 350,
+        "route": "M213.8,306.2 Q254.05,237.10000000000002 294.3,292.1",
+        "storeLabel": "B auto・オートディーラー名古屋"
+      },
+      {
+        "id": "gifu",
+        "name": "岐阜",
+        "x": 300.5,
+        "y": 288.1,
+        "labelX": 268,
+        "labelY": 248,
+        "route": "M213.8,306.2 Q257.15,233.10000000000002 300.5,288.1",
+        "storeLabel": "オートディーラーセントラル"
+      },
+      {
+        "id": "fukuoka",
+        "name": "福岡",
+        "x": 118.8,
+        "y": 334.8,
+        "labelX": 68,
+        "labelY": 368,
+        "route": "M213.8,306.2 Q166.3,251.2 118.8,334.8",
+        "storeLabel": "オートディーラー福岡"
+      },
+      {
+        "id": "fukushima",
+        "name": "福島",
+        "x": 402.0,
+        "y": 241.7,
+        "labelX": 447,
+        "labelY": 224,
+        "route": "M213.8,306.2 Q307.9,186.7 402.0,241.7",
+        "storeLabel": "ClassiscBASE"
+      },
+      {
+        "id": "okayama",
+        "name": "岡山",
+        "x": 213.8,
+        "y": 306.2,
+        "labelX": 185,
+        "labelY": 270,
+        "route": "M213.8,306.2 Q213.8,251.2 213.8,306.2",
+        "storeLabel": "Bimport"
+      }
+    ]
+  }
+}

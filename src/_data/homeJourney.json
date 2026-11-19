@@ -1,0 +1,7 @@
+[
+  {"key":"porsche-911","maker":"PORSCHE","model":"911 Carrera","name":"ポルシェ 911 カレラ","alt":"海沿いの道に停まるシルバーのポルシェ911カレラのイメージ"},
+  {"key":"mercedes-g-class","maker":"MERCEDES-BENZ","model":"G-Class","name":"メルセデス・ベンツ Gクラス","alt":"モダンな建築の前に停まる黒いメルセデス・ベンツGクラスのイメージ"},
+  {"key":"bmw-x1","maker":"BMW","model":"X1","name":"BMW X1","alt":"緑の丘に囲まれた道に停まる白いBMW X1のイメージ"},
+  {"key":"mini-cooper","maker":"MINI","model":"Cooper 3 Door","name":"MINI クーパー 3ドア","alt":"石畳の街並みに停まる濃い緑のMINIクーパー3ドアのイメージ"},
+  {"key":"volkswagen-golf","maker":"VOLKSWAGEN","model":"Golf","name":"フォルクスワーゲン ゴルフ","alt":"開けた田園の道に停まる青いフォルクスワーゲンゴルフのイメージ"}
+]

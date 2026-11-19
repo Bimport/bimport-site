@@ -1,8 +1,135 @@
 [
- {"maker":"PORSCHE","model":"911","grade":"カレラ4 GTS PDK","year":"2022年","mileage":"23,784km","period":"2026年9月","area":"徳島県","price":"2,115","compare":"2位の会社より15万円高く買取","image":"assets/images/cases/case-porsche-911-gts.jpg","details":["外装クレヨン","セラミックコンポジットブレーキ","レザーインテリア","インテリアトリムパッケージ","フロントアクスルリフトシステム"]},
- {"maker":"JEEP","model":"グランドチェロキー","grade":"アルティテュード","year":"2019年","mileage":"29,800km","period":"2026年8月","area":"岡山県","price":"260","compare":"2位の会社より5万円高く買取","image":"assets/images/home/case-grand-cherokee.jpg","details":["ワンオーナー","200台限定車","内装スレ","下回りサビあり"],"note":"売却理由：乗り換え"},
- {"maker":"LAND ROVER","model":"ディフェンダー","grade":"90 イースナーエディション","year":"2023年","mileage":"17,780km","period":"2026年8月","area":"東京","price":"550","image":"assets/images/cases/case-landrover-defender-white-wall.jpg","details":["エアサスペンション","マットブラックラッピング","MERIDIANサウンド","純正20AW","ルーム内うす汚れ・小傷あり"]},
- {"maker":"RENAULT","model":"カングー","grade":"プルミエール エディション","year":"2023年","mileage":"44,000km","period":"2026年8月","area":"高知県","price":"197","compare":"2位の会社より3万円高く買取","image":"assets/images/home/case-kangoo.jpg","details":["ワンオーナー","純正ディスプレイオーディオ","左面修復歴あり","ルーム内うす汚れ、動物の毛あり"],"note":"売却理由：乗り換え"},
- {"maker":"MERCEDES-BENZ","model":"Eクラス","grade":"E450 4マチック エクスクルーシブ","year":"2018年","mileage":"34,696km","period":"2026年9月","area":"広島","price":"250","image":"assets/images/cases/case-mercedes-eclass.jpg","details":["セレナイトグレーメタリック","レーダーセーフティパッケージ","ブルメスターサウンド","パノラミックスライディングルーフ"],"note":"次の納車まで1ヶ月 金額保証付きで買取"},
- {"maker":"PEUGEOT","model":"408","grade":"GT フレンチ タッチ","year":"2024年","mileage":"9,700km","period":"2026年7月","area":"岡山県","price":"344","compare":"2位の会社より3万円高く買取","image":"assets/images/home/case-408.jpg","details":["ワンオーナー","ルーム内スレ・キズ"],"note":"売却理由：引っ越し"}
+  {
+    "maker": "PORSCHE",
+    "model": "911",
+    "grade": "カレラ4 GTS PDK",
+    "year": "2022年",
+    "mileage": "23,784km",
+    "period": "2026年9月",
+    "area": "徳島県",
+    "price": "2,115",
+    "compare": "2位の会社より15万円高く買取",
+    "image": "assets/images/cases/case-porsche-911-gts.jpg",
+    "details": [
+      "外装クレヨン",
+      "セラミックコンポジットブレーキ",
+      "レザーインテリア",
+      "インテリアトリムパッケージ",
+      "フロントアクスルリフトシステム"
+    ],
+    "storyTitle": "クレヨンの外装と、こだわりの装備。",
+    "storyText": "セラミックコンポジットブレーキやフロントアクスルリフトシステムを備えたカレラ4 GTS。レザーインテリアと内装のトリムも、この一台の特徴です。",
+    "compareDifference": 15,
+    "storySummary": "クレヨンの外装に、セラミックコンポジットブレーキとフロントアクスルリフトシステムを装備。"
+  },
+  {
+    "maker": "JEEP",
+    "model": "グランドチェロキー",
+    "grade": "アルティテュード",
+    "year": "2019年",
+    "mileage": "29,800km",
+    "period": "2026年8月",
+    "area": "岡山県",
+    "price": "260",
+    "compare": "2位の会社より5万円高く買取",
+    "image": "assets/images/home/case-grand-cherokee.jpg",
+    "details": [
+      "ワンオーナー",
+      "200台限定車",
+      "内装スレ",
+      "下回りサビあり"
+    ],
+    "note": "売却理由：乗り換え",
+    "storyTitle": "200台限定車。乗り換えのご相談から。",
+    "storyText": "ワンオーナーのアルティテュード。内装のスレや下回りのサビがある状態で、乗り換えを理由にお売りいただいた一台です。",
+    "compareDifference": 5,
+    "storySummary": "ワンオーナーの200台限定車。内装スレ・下回りのサビがある状態で、乗り換えに伴いお買取り。"
+  },
+  {
+    "maker": "LAND ROVER",
+    "model": "ディフェンダー",
+    "grade": "90 イースナーエディション",
+    "year": "2023年",
+    "mileage": "17,780km",
+    "period": "2026年8月",
+    "area": "東京",
+    "price": "550",
+    "image": "assets/images/cases/case-landrover-defender-white-wall.jpg",
+    "details": [
+      "エアサスペンション",
+      "マットブラックラッピング",
+      "MERIDIANサウンド",
+      "純正20AW",
+      "ルーム内うす汚れ・小傷あり"
+    ],
+    "storyTitle": "マットブラックに、音響と足まわり。",
+    "storyText": "マットブラックラッピングを施した90 イースナーエディション。エアサスペンション、MERIDIANサウンド、純正20AWを備え、室内にはうす汚れ・小傷がありました。",
+    "storySummary": "マットブラックラッピングに、エアサスペンション・MERIDIANサウンド・純正20AWを装備。"
+  },
+  {
+    "maker": "RENAULT",
+    "model": "カングー",
+    "grade": "プルミエール エディション",
+    "year": "2023年",
+    "mileage": "44,000km",
+    "period": "2026年8月",
+    "area": "高知県",
+    "price": "197",
+    "compare": "2位の会社より3万円高く買取",
+    "image": "assets/images/home/case-kangoo.jpg",
+    "details": [
+      "ワンオーナー",
+      "純正ディスプレイオーディオ",
+      "左面修復歴あり",
+      "ルーム内うす汚れ、動物の毛あり"
+    ],
+    "note": "売却理由：乗り換え",
+    "storyTitle": "修復歴も含めて、ご紹介する一台。",
+    "storyText": "ワンオーナーのプルミエール エディション。左面の修復歴、室内のうす汚れや動物の毛がある状態で、乗り換えに伴いお買取りしました。",
+    "compareDifference": 3,
+    "storySummary": "ワンオーナーで左面修復歴あり。室内のうす汚れ・動物の毛がある状態でお買取り。"
+  },
+  {
+    "maker": "MERCEDES-BENZ",
+    "model": "Eクラス",
+    "grade": "E450 4マチック エクスクルーシブ",
+    "year": "2018年",
+    "mileage": "34,696km",
+    "period": "2026年9月",
+    "area": "広島",
+    "price": "250",
+    "image": "assets/images/cases/case-mercedes-eclass.jpg",
+    "details": [
+      "セレナイトグレーメタリック",
+      "レーダーセーフティパッケージ",
+      "ブルメスターサウンド",
+      "パノラミックスライディングルーフ"
+    ],
+    "note": "次の納車まで1ヶ月 金額保証付きで買取",
+    "storyTitle": "次の納車まで、1ヶ月の金額保証。",
+    "storyText": "パノラミックスライディングルーフとブルメスターサウンドを備えたE450。次のお車の納車まで、1ヶ月の金額保証付きでお買取りした事例です。",
+    "storySummary": "ルーフと音響も充実したE450。次の納車まで1ヶ月、金額保証付きでお買取り。"
+  },
+  {
+    "maker": "PEUGEOT",
+    "model": "408",
+    "grade": "GT フレンチ タッチ",
+    "year": "2024年",
+    "mileage": "9,700km",
+    "period": "2026年7月",
+    "area": "岡山県",
+    "price": "344",
+    "compare": "2位の会社より3万円高く買取",
+    "image": "assets/images/home/case-408.jpg",
+    "details": [
+      "ワンオーナー",
+      "ルーム内スレ・キズ"
+    ],
+    "note": "売却理由：引っ越し",
+    "storyTitle": "引っ越しをきっかけに、お買取り。",
+    "storyText": "2024年式、走行9,700kmのGT フレンチ タッチ。ワンオーナーで室内にスレ・キズがあり、引っ越しを理由にお売りいただきました。",
+    "compareDifference": 3,
+    "storySummary": "2024年式・9,700kmのワンオーナー車。室内にスレ・キズがあり、引っ越しに伴いお買取り。",
+    "periodNote": "岡山店オープン前に、Bimportとして買い取った実績です。"
+  }
 ]
