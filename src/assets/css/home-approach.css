@@ -1,0 +1,138 @@
+/* Homepage only: the selected scroll story, integrated with the existing sections. */
+.appraisal-section {
+  --appraisal-top: 44px;
+  --appraisal-accent: #b3a183;
+  overflow: visible; /* Sticky photos must not acquire a scrolling ancestor. */
+  padding: 88px 0 96px;
+}
+.appraisal-heading { text-align: center; padding-bottom: 64px; }
+.appraisal-heading .eyebrow span { margin-left: 20px; letter-spacing: .08em; }
+.appraisal-heading h2 { font-size: clamp(32px, 3.8vw, 56px); line-height: 1.6; }
+.appraisal-lead { margin-top: 28px; color: var(--muted); font-size: 13px; line-height: 2.2; }
+.appraisal-scroll-hint { display: inline-flex; align-items: center; gap: 17px; margin-top: 26px; font-size: 8px; letter-spacing: .19em; color: #75817b; }
+.appraisal-scroll-hint i { font-size: 20px; font-style: normal; }
+.motion-enabled:not(.motion-paused) .appraisal-scroll-hint i { animation: home-scroll-hint 2s ease-in-out infinite; }
+.appraisal-story { display: grid; grid-template-columns: 1.15fr 1fr; gap: 9%; align-items: start; }
+.appraisal-visual { position: sticky; top: var(--appraisal-top); height: min(72svh, 670px); min-height: 410px; background: #172022; color: #fff; overflow: hidden; }
+.appraisal-images, .appraisal-image { position: absolute; inset: 0; }
+.appraisal-image { display: block; opacity: 0; transition: opacity 900ms ease; }
+.appraisal-image.is-active { opacity: 1; }
+.appraisal-image img { width: 100%; height: 100%; object-fit: cover; object-position: 60% center; transform: scale(1.06); transition: transform 1600ms var(--motion-ease); }
+.appraisal-image.is-active img { transform: scale(1); }
+.appraisal-image[data-appraisal-image="2"] img { object-fit: contain; object-position: center; }
+.appraisal-visual::after { content: ""; position: absolute; inset: 0; background: linear-gradient(0deg, #081418b3, transparent 42%); pointer-events: none; }
+.appraisal-caption { position: absolute; z-index: 1; left: 30px; right: 30px; bottom: 49px; display: flex; align-items: baseline; justify-content: space-between; gap: 15px; }
+.appraisal-counter { font: italic 60px/1 Georgia, serif; }
+.appraisal-counter b { font-weight: 400; }
+.appraisal-counter small { font: 11px var(--sans); letter-spacing: .1em; color: #d3d9d6; }
+.appraisal-label { font-size: 8px; letter-spacing: .16em; }
+.appraisal-image-note { position: absolute; z-index: 1; left: 30px; bottom: 18px; color: #d3d9d6; font-size: 9px; }
+.appraisal-progress { position: absolute; bottom: 0; z-index: 2; width: 100%; height: 3px; background: #ffffff38; }
+.appraisal-progress span { display: block; width: 33.333%; height: 100%; background: var(--appraisal-accent); transition: width 700ms var(--motion-ease); }
+.appraisal-step { min-height: max(480px, 63svh); padding: 65px 0; display: flex; flex-direction: column; justify-content: center; }
+.appraisal-ready .appraisal-step { opacity: .42; transition: opacity 650ms ease; }
+.appraisal-ready .appraisal-step.is-active { opacity: 1; }
+.appraisal-step-number { font: italic 20px/1.5 Georgia, serif; color: #8b7856; margin-bottom: 24px; }
+.appraisal-step-number span { font: 9px var(--sans); letter-spacing: .17em; color: var(--muted); margin-left: 20px; }
+.appraisal-step h3 { font: 500 clamp(27px, 2.8vw, 42px)/1.8 var(--serif); letter-spacing: .03em; margin-bottom: 26px; }
+.appraisal-step h3 em { font-style: normal; background: linear-gradient(transparent 81%, #d8c8a9 81%); background-repeat: no-repeat; background-size: 100% 100%; }
+.appraisal-ready .appraisal-step h3 em { background-size: 0 100%; transition: background-size 1100ms var(--motion-ease); }
+.appraisal-ready .appraisal-step.is-active h3 em { background-size: 100% 100%; }
+.appraisal-step > p:last-child { font-size: 13px; line-height: 2.3; max-width: 350px; color: var(--muted); }
+.appraisal-bridge { display: flex; align-items: center; justify-content: space-between; gap: 30px; padding-top: 42px; }
+.appraisal-bridge > p { color: var(--muted); font-size: 13px; line-height: 2.2; }
+.appraisal-bridge .text-link { white-space: nowrap; }
+.appraisal-section .comparison { margin-top: 46px; }
+.motion-paused .appraisal-section *, .motion-paused .appraisal-section *::before, .motion-paused .appraisal-section *::after { animation: none !important; transition: none !important; }
+.motion-paused .appraisal-image img { transform: none; }
+.motion-paused .appraisal-step { opacity: 1; }
+.motion-paused .appraisal-step h3 em { background-size: 100% 100%; }
+@media (min-width: 1600px) { .appraisal-step { min-height: 610px; } }
+@media (max-width: 1100px) {
+  .appraisal-story { gap: 6%; }
+  .appraisal-step h3 { font-size: 30px; }
+  .appraisal-caption { left: 23px; right: 23px; }
+  .appraisal-label { letter-spacing: .1em; }
+}
+@media (max-width: 767px) {
+  .appraisal-section { --appraisal-top: 16px; padding: 62px 0 66px; }
+  .appraisal-heading { padding-bottom: 34px; }
+  .appraisal-heading .eyebrow { font-size: 8px; letter-spacing: .17em; }
+  .appraisal-heading .eyebrow span { margin-left: 12px; }
+  .appraisal-heading h2 { font-size: clamp(26px, 7.6vw, 34px); letter-spacing: 0; line-height: 1.75; }
+  .appraisal-lead { font-size: 11px; margin-top: 22px; line-height: 2.1; }
+  .appraisal-lead br { display: none; }
+  .appraisal-scroll-hint { margin-top: 20px; font-size: 7px; }
+  .appraisal-story { display: block; }
+  .appraisal-visual { height: clamp(165px, 29svh, 230px); min-height: 0; z-index: 3; box-shadow: 0 -16px 0 16px var(--soft); }
+  .appraisal-reading .home-motion-toggle { top: 26px; bottom: auto; right: 34px; min-height: 34px; padding: 5px 9px; font-size: 9px; box-shadow: none; }
+  .appraisal-image img { object-position: 50% 52%; }
+  .appraisal-caption { left: 18px; right: 18px; bottom: 33px; }
+  .appraisal-counter { font-size: 38px; }
+  .appraisal-counter small { font-size: 9px; }
+  .appraisal-label { font-size: 7px; }
+  .appraisal-image-note { left: 18px; bottom: 12px; font-size: 8px; }
+  .appraisal-step { min-height: 350px; padding: 48px 8px 56px; scroll-margin-top: 275px; }
+  .appraisal-step-number { font-size: 18px; margin-bottom: 16px; }
+  .appraisal-step-number span { font-size: 8px; margin-left: 16px; }
+  .appraisal-step h3 { font-size: 27px; line-height: 1.8; margin-bottom: 20px; letter-spacing: .02em; }
+  .appraisal-step > p:last-child { font-size: 12px; line-height: 2.2; }
+  .appraisal-bridge { display: block; padding-top: 26px; }
+  .appraisal-bridge > p { font-size: 11px; }
+  .appraisal-bridge .text-link { margin-top: 18px; font-size: 12px; }
+  .appraisal-section .comparison { margin-top: 36px; }
+}
+@media (max-width: 359px) {
+  .appraisal-reading .home-motion-toggle { right: 30px; }
+  .appraisal-step { padding-inline: 0; }
+  .appraisal-step h3 { font-size: 25px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .appraisal-section * { animation: none !important; transition: none !important; }
+  .appraisal-image img { transform: none; }
+  .appraisal-ready .appraisal-step { opacity: 1; }
+  .appraisal-ready .appraisal-step h3 em { background-size: 100% 100%; }
+}
+
+/* Keep playback controls in the mobile action bar, clear of page content. */
+@media (max-width:767px) {
+ body .home-motion-toggle,
+ body.hero-in-view .home-motion-toggle,
+ body.appraisal-reading .home-motion-toggle {
+  position:fixed; top:auto; right:0; bottom:0; width:76px;
+  height:calc(59px + env(safe-area-inset-bottom)); min-height:59px;
+  padding:8px 4px calc(8px + env(safe-area-inset-bottom));
+  border:0; border-left:1px solid #aab5b5; box-shadow:none;
+  background:#f7f8f7; color:#35443e; font-size:9px; line-height:1.7; white-space:nowrap;
+ }
+ body:has(.home-motion-toggle:not([hidden])):not(.form-in-view):not(.menu-open) .mobile-contact { right:76px; }
+ .mobile-contact a { gap:5px; font-size:10px; }
+ .mobile-contact a i { display:none; }
+}
+
+/* Retain the three scroll-driven scenes with less space between explanations. */
+@media(max-width:767px) {
+ .appraisal-section { padding-top:46px; padding-bottom:46px; }
+ .appraisal-heading { padding-bottom:24px; }
+ .appraisal-lead { margin-top:16px; }
+ .appraisal-scroll-hint { margin-top:14px; }
+ .appraisal-visual { height:clamp(165px,25svh,200px); }
+ .appraisal-step { min-height:280px; padding:28px 8px 34px; scroll-margin-top:235px; }
+ .appraisal-step-number { margin-bottom:12px; }
+ .appraisal-step h3 { line-height:1.65; margin-bottom:14px; }
+ .appraisal-step > p:last-child { line-height:1.95; }
+ .appraisal-section .comparison { margin-top:24px; }
+}
+@media(max-width:359px) { .appraisal-step { padding-inline:0; } }
+
+/* Reserve the fixed dock area for anchor/focus scrolling on small screens. */
+@media (max-width:767px) {
+ html { scroll-padding-top:90px; scroll-padding-bottom:calc(83px + env(safe-area-inset-bottom)); }
+ body { padding-bottom:calc(83px + env(safe-area-inset-bottom)); }
+ body.form-in-view .mobile-contact,
+ body.menu-open .mobile-contact { visibility:hidden; pointer-events:none; }
+ body.form-in-view .home-motion-toggle { visibility:hidden; pointer-events:none; }
+ main :is(a,button,input,select,summary) { scroll-margin-bottom:calc(83px + env(safe-area-inset-bottom)); }
+}
+
+.case-period-note { margin:8px 0 0; font-size:11px; line-height:1.7; color:#53615b; overflow-wrap:anywhere; }

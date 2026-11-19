@@ -1,0 +1,43 @@
+/* Homepage gallery: five image scenes, with a static first scene without JS. */
+.journey-carousel { background:#152022;isolation:isolate;scroll-margin-top:90px; }
+.journey-stage { position:relative;aspect-ratio:16/10;overflow:hidden; }
+.journey-slides,.journey-slide,.journey-slide picture { position:absolute;inset:0; }
+.journey-slide { opacity:0;visibility:hidden;transition:opacity 1s ease-in-out,visibility 0s linear 1s; }
+.journey-slide.is-active { opacity:1;visibility:visible;transition-delay:0s;z-index:1; }
+.journey-carousel .journey-slide img { display:block;width:100%;height:100%;object-fit:cover; }
+.journey-slide::after { content:"";position:absolute;inset:0;background:linear-gradient(#07131566,transparent 28%,transparent 70%,#071315b0);pointer-events:none; }
+.journey-heading { position:absolute;z-index:2;top:30px;left:32px;right:24px;color:#fff;font:400 clamp(26px,3.5vw,50px)/1.12 Georgia,serif;letter-spacing:-.025em;text-shadow:0 2px 16px #0004;pointer-events:none; }
+.journey-car-caption { position:absolute;z-index:2;left:32px;right:24px;bottom:28px;color:#fff; }
+.journey-car-caption span { display:block;font:500 10px/1.4 var(--sans);letter-spacing:.22em;margin-bottom:6px; }
+.journey-car-caption strong { font:400 clamp(22px,2.7vw,36px)/1.1 Georgia,serif; }
+.journey-carousel .journey-toolbar { position:relative;inset:auto;background:#152022;padding:12px 25px;display:flex;align-items:center;gap:22px;min-height:68px; }
+.journey-select { display:flex;gap:8px; }
+.journey-select[hidden],.journey-pause[hidden] { display:none; }
+.journey-select button { position:relative;width:48px;min-height:44px;padding:0 0 7px;border:0;background:none;color:#aab6b3;cursor:pointer;font:12px/1 Georgia,serif; }
+.journey-select i { position:absolute;left:0;right:0;bottom:3px;height:2px;background:#ffffff30;overflow:hidden; }
+.journey-select i::after { content:"";display:block;width:100%;height:100%;background:#dfcba5;transform:scaleX(0);transform-origin:left; }
+.journey-select button[aria-pressed="true"] { color:#f0dfbd; }
+.journey-select button[aria-pressed="true"] i::after { transform:scaleX(1); }
+.journey-is-playing .journey-select button[aria-pressed="true"] i::after { animation:journey-progress 5s linear both; }
+.journey-carousel .journey-note { margin-left:auto;font-size:9px;color:#c2cac7;white-space:nowrap; }
+.journey-pause { flex-shrink:0;min-width:44px;min-height:44px;border:1px solid #64706b;background:none;color:#f0dfbd;cursor:pointer;font:15px/1 var(--sans); }
+.journey-select button:hover,.journey-pause:hover { background:#ffffff0d; }
+.journey-select button:focus-visible,.journey-pause:focus-visible { outline:2px solid #f0dfbd;outline-offset:3px; }
+.journey-is-paused .journey-slide,.motion-paused .journey-slide,.motion-background-paused .journey-slide { transition:none; }
+@keyframes journey-progress { from{transform:scaleX(0)}to{transform:scaleX(1)} }
+@media(max-width:767px) {
+ .journey-stage{aspect-ratio:3/2}
+ .journey-heading{top:20px;left:20px;right:20px;font-size:clamp(22px,5.5vw,34px)}
+ .journey-car-caption{left:20px;bottom:16px}
+ .journey-car-caption span{font-size:8px;margin-bottom:4px;letter-spacing:.16em}
+ .journey-car-caption strong{font-size:22px}
+ .journey-carousel .journey-toolbar{display:grid;grid-template-columns:1fr auto;gap:4px 10px;padding:9px 18px 12px;min-height:0}
+ .journey-select{gap:5px}
+ .journey-select button{width:40px;min-width:0}
+ .journey-carousel .journey-note{grid-column:1 / -1;grid-row:2;margin:2px 0 0;font-size:8px}
+ .journey-pause{grid-column:2;grid-row:1}
+}
+@media(prefers-reduced-motion:reduce) {
+ .journey-slide{transition:none}
+ .journey-is-playing .journey-select i::after{animation:none}
+}
