@@ -109,3 +109,40 @@ select.lp-input:disabled { background-color: #F7F7F5; color: var(--c-mute); }
 @media(max-width:480px){.lp-form-card{padding:24px 16px}.lp-form-card__title{font-size:20px}.lp-confirm>div{grid-template-columns:5em 1fr;padding:10px}.lp-step__actions .lp-btn--gold{font-size:16px}.lp-photo-list li{font-size:12px}.home-estimate-intro .text-link{font-size:12px}}
 
 .mobile-contact [data-cta-type="estimate"] i {background:#dbe3e4}
+
+/* Homepage form: short, action-triggered transitions; no continuous motion. */
+.home-estimate .lp-input,
+.home-estimate .lp-choice span {
+ transition:border-color 240ms ease,background-color 240ms ease,color 240ms ease,box-shadow 240ms ease;
+}
+.home-estimate select.lp-input.has-selection:not(:disabled) {
+ background-color:#e5eee8;border-color:#456957;box-shadow:inset 4px 0 0 #456957;
+}
+.home-estimate .lp-field.is-invalid .lp-input { border-color:var(--c-error); }
+.home-estimate .lp-input:focus { border-color:#647c70;box-shadow:0 0 0 3px #647c7026; }
+.home-estimate .lp-progress__steps::after {
+ content:"";position:absolute;top:5px;left:16.6%;right:16.6%;height:4px;
+ background:#456957;transform-origin:left;transform:scaleX(var(--estimate-progress,0));
+ transition:transform 480ms cubic-bezier(.2,.65,.3,1);pointer-events:none;
+}
+.home-estimate .lp-progress__steps li.is-done::after { display:none; }
+.home-estimate .lp-progress__steps i { transition:background-color 180ms ease,box-shadow 180ms ease; }
+.home-estimate .lp-step.step-entering:not([hidden]) { animation:estimate-step-in 360ms cubic-bezier(.2,.65,.3,1) both; }
+.home-estimate [data-step-direction="backward"] { --estimate-entry:-24px; }
+@keyframes estimate-step-in {
+ from { opacity:.35;transform:translateX(var(--estimate-entry,24px)); }
+ to { opacity:1;transform:translateX(0); }
+}
+.motion-paused .home-estimate *, .motion-paused .home-estimate *::after {
+ animation:none!important;transition:none!important;
+}
+@media(prefers-reduced-motion:reduce) {
+ .home-estimate *, .home-estimate *::after { animation:none!important;transition:none!important; }
+}
+
+/* Clarify the active step without adding continuous movement. */
+.home-estimate .lp-progress__steps li.is-current { color:#274c39; }
+.home-estimate .lp-progress__steps li.is-current i { background:#456957;box-shadow:0 0 0 3px #456957; }
+.home-estimate .lp-progress__steps li.is-done i { background:#456957; }
+.home-estimate .lp-progress__label { display:flex;flex-wrap:wrap;gap:0 5px;align-items:baseline; }
+.home-estimate .estimate-stage-title { font-size:14px;font-weight:700;color:#274c39;letter-spacing:0;margin-left:10px; }

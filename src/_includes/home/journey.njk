@@ -19,7 +19,7 @@
    <button type="button" data-journey-slide="{{ loop.index0 }}" aria-label="{{ car.name }}を表示" aria-pressed="{% if loop.first %}true{% else %}false{% endif %}" aria-controls="journey-slides"><span>0{{ loop.index }}</span><i aria-hidden="true"></i></button>
    {% endfor %}
   </div>
-  <small class="journey-note">AI生成の車種イメージ</small>
+
   <button type="button" class="journey-pause" aria-label="車の写真の自動切り替えを停止" aria-pressed="false" hidden><span aria-hidden="true">Ⅱ</span></button>
   <span class="visually-hidden journey-status" role="status"></span>
  </figcaption>

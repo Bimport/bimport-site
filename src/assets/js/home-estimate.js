@@ -11,8 +11,9 @@
   var currentStep = 1;
   var pageShownAt = Date.now();
   var sending = false;
-  var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  var scrollBehavior = reduceMotion ? "auto" : "smooth";
+  function scrollBehavior() {
+    return (window.matchMedia("(prefers-reduced-motion: reduce)").matches || document.body.classList.contains("motion-paused")) ? "auto" : "smooth";
+  }
 
   var app = document.getElementById("estimate-app");
   // トップページ専用フォーム。車種別LPのスクリプトは変更しない。
@@ -20,6 +21,11 @@
   var hasBodyType = !!bodyTypeField;
   var bodyTypeLabel = hasBodyType ? bodyTypeField.querySelector(".lp-label").firstChild.textContent.trim() : "";
   var stepNum = document.getElementById("estimate-step-num");
+  var stageTitle = document.createElement("span");
+  stageTitle.className = "estimate-stage-title";
+  stageTitle.textContent = "お車について";
+  var stageNames = ["お車について", "お客様情報", "入力内容の確認"];
+  app.querySelector(".lp-progress__label").appendChild(stageTitle);
   var yearSelect = document.getElementById("f-year");
   var confirmBox = document.getElementById("estimate-confirm");
   var submitBtn = document.getElementById("estimate-submit");
@@ -88,6 +94,16 @@
     clearOnEdit(e);
   });
 
+  // Filled selects receive a quiet color change, including the dependent model field.
+  function syncSelectionAppearance() {
+    form.querySelectorAll("select.lp-input").forEach(function (select) {
+      select.classList.toggle("has-selection", !!select.value && !select.disabled);
+    });
+  }
+  form.addEventListener("change", syncSelectionAppearance);
+  window.addEventListener("pageshow", syncSelectionAppearance);
+  syncSelectionAppearance();
+
   /* ---------- 入力チェック ---------- */
   function val(name) {
     var el = form.elements[name];
@@ -144,7 +160,7 @@
     errors.forEach(function (e) { setError(e[0], e[1]); });
     if (errors.length) {
       var first = fieldEl(errors[0][0]);
-      first.scrollIntoView({ behavior: scrollBehavior, block: "center" });
+      first.scrollIntoView({ behavior: scrollBehavior(), block: "center" });
       var focusable = first.querySelector("input, select");
       if (focusable) focusable.focus({ preventScroll: true });
     }
@@ -153,9 +169,14 @@
 
   /* ---------- STEP切り替え ---------- */
   function showStep(n) {
+    var direction = n >= currentStep ? "forward" : "backward";
     currentStep = n;
+    app.style.setProperty("--estimate-progress", String((n - 1) / 2));
+    app.setAttribute("data-step-direction", direction);
     form.querySelectorAll(".lp-step").forEach(function (s) {
+      s.classList.remove("step-entering");
       s.hidden = Number(s.getAttribute("data-step")) !== n;
+      if (!s.hidden) s.classList.add("step-entering");
     });
     app.querySelectorAll("[data-step-indicator]").forEach(function (li) {
       var i = Number(li.getAttribute("data-step-indicator"));
@@ -165,13 +186,14 @@
       else li.removeAttribute("aria-current");
     });
     if (stepNum) stepNum.textContent = n;
+    stageTitle.textContent = stageNames[n - 1];
     if (n === 3) renderConfirm();
     var stepHeading = form.querySelector('[data-step="' + n + '"] legend');
     if (stepHeading) {
       stepHeading.setAttribute("tabindex", "-1");
       stepHeading.focus({ preventScroll: true });
     }
-    app.scrollIntoView({ behavior: scrollBehavior, block: "start" });
+    app.scrollIntoView({ behavior: scrollBehavior(), block: "start" });
     track("estimate_step", { estimate_step: n });
   }
 
@@ -313,7 +335,7 @@
       app.querySelector(".lp-form-card__title").hidden = true;
       doneBox.hidden = false;
       doneBox.focus({ preventScroll: true });
-      app.scrollIntoView({ behavior: scrollBehavior, block: "start" });
+      app.scrollIntoView({ behavior: scrollBehavior(), block: "start" });
       if (config.endpoint && result && result.ok === true && result.test !== true && !payload.website) track("generate_lead");
     }).catch(function () {
       track("estimate_error");
