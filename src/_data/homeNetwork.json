@@ -42,6 +42,16 @@
       "photoAlt": "オートディーラーセントラルの店舗外観"
     },
     {
+      "id": "bgarage",
+      "region": "岐阜・御嵩",
+      "regionId": "gifu",
+      "english": "MITAKE",
+      "name": "Bgarage",
+      "address": "岐阜県可児郡御嵩町",
+      "photo": "bgarage.webp",
+      "photoAlt": "Bgarageの店内に並ぶ輸入車"
+    },
+    {
       "id": "fukuoka",
       "region": "福岡",
       "regionId": "fukuoka",
@@ -106,7 +116,7 @@
         "labelX": 268,
         "labelY": 248,
         "route": "M213.8,306.2 Q257.15,233.10000000000002 300.5,288.1",
-        "storeLabel": "オートディーラーセントラル"
+        "storeLabel": "オートディーラーセントラル・Bgarage"
       },
       {
         "id": "fukuoka",
