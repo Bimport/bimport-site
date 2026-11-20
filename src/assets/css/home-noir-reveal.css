@@ -1,0 +1,41 @@
+/* Homepage only. Full-width entrance to the existing appraisal story. */
+.appraisal-section { padding-top:0; }
+.appraisal-reveal { background:#080a09;color:#f4f2ec;--reveal-progress:1; }
+.appraisal-reveal-stage { position:relative; min-height:650px;height:90svh;overflow:hidden;isolation:isolate; }
+.appraisal-reveal-photo { position:absolute;inset:0;display:block;clip-path:inset(calc(27% * (1 - var(--reveal-progress))) calc(34% * (1 - var(--reveal-progress)))); }
+.appraisal-reveal-photo img { width:100%;height:100%;object-fit:cover;object-position:55% center;transform:scale(calc(1.12 - .12 * var(--reveal-progress))); }
+.appraisal-reveal-photo:after { content:'';position:absolute;inset:0;background:linear-gradient(0deg,#050807e6,transparent 70%),linear-gradient(90deg,#0007,transparent 75%); }
+.appraisal-reveal-heading { position:absolute;left:8%;right:8%;top:12%;z-index:2; }
+.appraisal-reveal-heading>p { font-size:12px;letter-spacing:.16em;color:#d2c8b5; }
+.appraisal-reveal-heading>p span { margin-left:22px;letter-spacing:.08em; }
+.appraisal-reveal-heading h2 { margin-top:30px;font:400 clamp(36px,4.8vw,72px)/1.55 var(--serif);letter-spacing:.01em;color:#fff; }
+.appraisal-reveal-caption { position:absolute;right:8%;left:40%;bottom:13%;z-index:2; }
+.appraisal-reveal-caption>p { font:400 clamp(24px,2.6vw,38px)/1.6 var(--serif);margin-bottom:18px;color:#fff; }
+.appraisal-reveal-caption>span { font-size:16px;line-height:2;color:#eceee8; }
+.appraisal-reveal-note { position:absolute;bottom:25px;right:8%;z-index:3;font-size:12px;color:#e2e4df; }
+.appraisal-after-reveal { padding-top:90px; }
+/* Enhancement only: without JS the photograph and all copy remain visible. */
+.motion-enabled:not(.motion-paused) .appraisal-reveal.is-enhanced { height:210svh; }
+.motion-enabled:not(.motion-paused) .appraisal-reveal.is-enhanced .appraisal-reveal-stage { position:sticky;top:0;height:100svh; }
+.motion-enabled:not(.motion-paused) .appraisal-reveal.is-enhanced .appraisal-reveal-caption { opacity:clamp(0,calc((var(--reveal-progress) - .3) * 2),1);transform:translateY(calc((1 - var(--reveal-progress)) * 45px)); }
+.motion-paused .appraisal-reveal { --reveal-progress:1!important; }
+@media(max-width:767px) {
+ .appraisal-reveal-stage { min-height:600px;height:85svh; }
+ .appraisal-reveal-photo { clip-path:inset(calc(24% * (1 - var(--reveal-progress))) calc(19% * (1 - var(--reveal-progress)))); }
+ .appraisal-reveal-heading { left:7%;right:7%;top:14%; }
+ .appraisal-reveal-heading>p { font-size:11px;letter-spacing:.08em; }
+ .appraisal-reveal-heading>p span { margin-left:12px; }
+ .appraisal-reveal-heading h2 { font-size:clamp(26px,7.3vw,38px);line-height:1.7;margin-top:24px; }
+ .appraisal-reveal-caption { left:7%;right:7%;bottom:19%; }
+ .appraisal-reveal-caption>p { font-size:24px;margin-bottom:14px; }
+ .appraisal-reveal-caption>span { font-size:14px;line-height:1.9; }
+ .appraisal-reveal-caption br { display:none; }
+ .appraisal-reveal-note { right:7%;bottom:105px;font-size:11px; }
+ .appraisal-after-reveal { padding-top:40px; }
+ .motion-enabled:not(.motion-paused) .appraisal-reveal.is-enhanced { height:185svh; }
+}
+@media(prefers-reduced-motion:reduce) {
+ .appraisal-reveal { --reveal-progress:1!important;height:auto!important; }
+ .appraisal-reveal-stage { position:relative!important;height:90svh!important; }
+ .appraisal-reveal-caption { opacity:1!important;transform:none!important; }
+}
