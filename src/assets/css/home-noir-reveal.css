@@ -25,7 +25,7 @@
  .appraisal-reveal-heading { left:7%;right:7%;top:14%; }
  .appraisal-reveal-heading>p { font-size:11px;letter-spacing:.08em; }
  .appraisal-reveal-heading>p span { margin-left:12px; }
- .appraisal-reveal-heading h2 { font-size:clamp(28px,7.7vw,38px);line-height:1.7;margin-top:24px; }
+ .appraisal-reveal-heading h2 { font-size:clamp(26px,7.3vw,38px);line-height:1.7;margin-top:24px; }
  .appraisal-reveal-caption { left:7%;right:7%;bottom:19%; }
  .appraisal-reveal-caption>p { font-size:24px;margin-bottom:14px; }
  .appraisal-reveal-caption>span { font-size:14px;line-height:1.9; }
