@@ -1,6 +1,6 @@
 # 買取LP下書き 第21弾（40車種）
 
-全件実績未掲載版・draft:true。国内資料で確認した型式とグレードの一部のみ掲載。未収載の仕様は「わからない」「その他・わからない」で受け付ける。
+全件実績未掲載版。2026-11-22にユーザーの公開承認を受けdraft:falseへ変更。国内資料で確認した型式とグレードの一部のみ掲載。未収載の仕様は「わからない」「その他・わからない」で受け付ける。
 
 | 車種 | 下書きURL | 画像 | 確認資料 |
 |---|---|---|---|
@@ -57,3 +57,50 @@
 確認用一覧：http://localhost:8094/batch21/
 
 型式未確認：renault-19, renault-25, renault-5, renault-4, renault-8, fiat-x1-9, fiat-124-sport-spider, alfa-romeo-montreal, alfa-romeo-alfetta, alfa-romeo-alfasud, alfa-romeo-sz, citroen-gs, citroen-gsa, citroen-ds, citroen-ami, citroen-lna, peugeot-104, peugeot-305, opel-kadett, opel-senator, opel-manta, maserati-222, maserati-228, maserati-430, maserati-karif, chrysler-stratus, fiat-bravissimo, peugeot-505, peugeot-604, chrysler-neon, alpine-a310
+
+## 公開承認
+
+2026-11-22、ユーザーが今回40件の公開とインデックス申請タスクへの追加を承認。公開後の正式URLは以下の一覧を正とする。
+
+| 車種 | 正式URL |
+|---|---|
+| ルノー ラグナ | https://bimport.jp/renault-laguna/ |
+| ルノー サフラン | https://bimport.jp/renault-safrane/ |
+| ルノー アヴァンタイム | https://bimport.jp/renault-avantime/ |
+| ルノー 21 | https://bimport.jp/renault-21/ |
+| ルノー 19 | https://bimport.jp/renault-19/ |
+| ルノー 25 | https://bimport.jp/renault-25/ |
+| ルノー 5 | https://bimport.jp/renault-5/ |
+| ルノー 4 | https://bimport.jp/renault-4/ |
+| ルノー 8 | https://bimport.jp/renault-8/ |
+| フィアット ブラビッシモ | https://bimport.jp/fiat-bravissimo/ |
+| フィアット X1/9 | https://bimport.jp/fiat-x1-9/ |
+| フィアット 124スポルトスパイダー | https://bimport.jp/fiat-124-sport-spider/ |
+| アルファロメオ モントリオール | https://bimport.jp/alfa-romeo-montreal/ |
+| アルファロメオ アルフェッタ | https://bimport.jp/alfa-romeo-alfetta/ |
+| アルファロメオ アルファスッド | https://bimport.jp/alfa-romeo-alfasud/ |
+| アルファロメオ SZ | https://bimport.jp/alfa-romeo-sz/ |
+| シトロエン GS | https://bimport.jp/citroen-gs/ |
+| シトロエン GSA | https://bimport.jp/citroen-gsa/ |
+| シトロエン DS | https://bimport.jp/citroen-ds/ |
+| シトロエン アミ | https://bimport.jp/citroen-ami/ |
+| シトロエン LNA | https://bimport.jp/citroen-lna/ |
+| プジョー 505 | https://bimport.jp/peugeot-505/ |
+| プジョー 604 | https://bimport.jp/peugeot-604/ |
+| プジョー 104 | https://bimport.jp/peugeot-104/ |
+| プジョー 305 | https://bimport.jp/peugeot-305/ |
+| オペル カデット | https://bimport.jp/opel-kadett/ |
+| オペル セネター | https://bimport.jp/opel-senator/ |
+| オペル マンタ | https://bimport.jp/opel-manta/ |
+| クライスラー ネオン | https://bimport.jp/chrysler-neon/ |
+| クライスラー ストラトス | https://bimport.jp/chrysler-stratus/ |
+| クライスラー 300M | https://bimport.jp/chrysler-300m/ |
+| シボレー ブレイザー | https://bimport.jp/chevrolet-blazer/ |
+| シボレー オプトラ | https://bimport.jp/chevrolet-optra/ |
+| シボレー MW | https://bimport.jp/chevrolet-mw/ |
+| シボレー クルーズ | https://bimport.jp/chevrolet-cruze/ |
+| マセラティ 222 | https://bimport.jp/maserati-222/ |
+| マセラティ 228 | https://bimport.jp/maserati-228/ |
+| マセラティ 430 | https://bimport.jp/maserati-430/ |
+| マセラティ カリフ | https://bimport.jp/maserati-karif/ |
+| アルピーヌ A310 | https://bimport.jp/alpine-a310/ |
