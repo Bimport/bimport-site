@@ -1,0 +1,502 @@
+{
+  "hyundai-ioniq-5": [
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/IONIQ_5/202205/",
+      "code": "NE2STD",
+      "grade": "ベースグレード"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/IONIQ_5/202205/",
+      "code": "NE2LRG",
+      "grade": "ボヤージュ"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/IONIQ_5/202205/",
+      "code": "NE2LRG",
+      "grade": "ラウンジ"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/IONIQ_5/202205/",
+      "code": "NE4LRG",
+      "grade": "ボヤージュ AWD"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/IONIQ_5/202205/",
+      "code": "NE4LRG",
+      "grade": "ラウンジ AWD"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/IONIQ_5/202205/",
+      "code": "NE21LRG",
+      "grade": "ボヤージュ"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/IONIQ_5/202205/",
+      "code": "NE41LRG",
+      "grade": "ボヤージュ AWD"
+    }
+  ],
+  "hyundai-ioniq-5-n": [
+    {
+      "url": "https://www.hyundai.com/jp/ioniq5n/spec",
+      "code": "NENLRG",
+      "grade": ""
+    }
+  ],
+  "hyundai-kona": [
+    {
+      "url": "https://static.hyundaijapan.com/static/upload/display/pdf/9000001005100020007/9098/20250618_Lithium%20Ion%20Battery%20Recovery%20Guide_0623.pdf",
+      "code": "SX2STD",
+      "grade": ""
+    },
+    {
+      "url": "https://static.hyundaijapan.com/static/upload/display/pdf/9000001005100020007/9098/20250618_Lithium%20Ion%20Battery%20Recovery%20Guide_0623.pdf",
+      "code": "SX2LRG",
+      "grade": ""
+    }
+  ],
+  "hyundai-inster": [
+    {
+      "url": "https://static.hyundaijapan.com/static/upload/display/pdf/9000001005100020007/9098/20250618_Lithium%20Ion%20Battery%20Recovery%20Guide_0623.pdf",
+      "code": "B1511",
+      "grade": ""
+    },
+    {
+      "url": "https://static.hyundaijapan.com/static/upload/display/pdf/9000001005100020007/9098/20250618_Lithium%20Ion%20Battery%20Recovery%20Guide_0623.pdf",
+      "code": "B1521",
+      "grade": ""
+    }
+  ],
+  "hyundai-nexo": [
+    {
+      "url": "https://www.hyundai.com/jp/purchase/downFile/nexo",
+      "code": "FE120",
+      "grade": ""
+    }
+  ],
+  "hyundai-grandeur": [
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/GRANDEUR/200601/",
+      "code": "TG33",
+      "grade": "3.3GLS"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/GRANDEUR/200601/",
+      "code": "TG33",
+      "grade": "3.3GLS Lパッケージ"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/GRANDEUR/200601/",
+      "code": "TG27L",
+      "grade": "Q270"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/GRANDEUR/200601/",
+      "code": "TG27L",
+      "grade": "Q270 Lパッケージ"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/GRANDEUR/200601/",
+      "code": "TG33",
+      "grade": "ブラックダイヤモンドバージョン"
+    }
+  ],
+  "hyundai-sonata": [
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/SONATA/200509/",
+      "code": "NF24",
+      "grade": "2.4GL"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/SONATA/200509/",
+      "code": "NF24",
+      "grade": "2.4GLS"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/SONATA/200509/",
+      "code": "NF24",
+      "grade": "2.4GLS Lパッケージ"
+    }
+  ],
+  "hyundai-coupe": [
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/HYUNDAI_COUPE/200204/",
+      "code": "GK27",
+      "grade": "FX"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/HYUNDAI_COUPE/200204/",
+      "code": "GK27",
+      "grade": "FX スペシャル"
+    }
+  ],
+  "hyundai-xg": [
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/XG/200105/",
+      "code": "TXG25",
+      "grade": "250"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/XG/200105/",
+      "code": "TXG30",
+      "grade": "300"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/XG/200105/",
+      "code": "TXG30",
+      "grade": "300L"
+    }
+  ],
+  "hyundai-tb": [
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://www.mlit.go.jp/common/000111205.pdf",
+      "code": "TB14",
+      "grade": ""
+    }
+  ],
+  "hyundai-jm": [
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/JM/200409/",
+      "code": "JM20",
+      "grade": "2.0GLS"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/JM/200409/",
+      "code": "JM27",
+      "grade": "2.7GLS"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/JM/200409/",
+      "code": "JM20",
+      "grade": "2.0GL"
+    }
+  ],
+  "hyundai-santa-fe": [
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/SANTA_FE/200101/",
+      "code": "SM24",
+      "grade": "2.4GLS"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/SANTA_FE/200101/",
+      "code": "SM27",
+      "grade": "2.7GLS"
+    }
+  ],
+  "hyundai-elantra": [
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://www.mlit.go.jp/common/000111205.pdf",
+      "code": "XD20",
+      "grade": ""
+    },
+    {
+      "url": "https://www.mlit.go.jp/common/000111205.pdf",
+      "code": "XD18",
+      "grade": ""
+    }
+  ],
+  "hyundai-trajet": [
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/TRAJET/200101/",
+      "code": "F20",
+      "grade": "2.0GLS"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/TRAJET/200101/",
+      "code": "F27",
+      "grade": "2.7GLS"
+    }
+  ],
+  "byd-atto-3": [
+    {
+      "url": "https://www.npa.go.jp/policies/application/license_renewal/list_support_car/list_byd_r080507.pdf",
+      "code": "SC2EXSQ",
+      "grade": ""
+    }
+  ],
+  "byd-dolphin": [
+    {
+      "url": "https://www.npa.go.jp/policies/application/license_renewal/list_support_car/list_byd_r080507.pdf",
+      "code": "EM2EXSF",
+      "grade": ""
+    },
+    {
+      "url": "https://www.npa.go.jp/policies/application/license_renewal/list_support_car/list_byd_r080507.pdf",
+      "code": "EM2EXSQ",
+      "grade": ""
+    }
+  ],
+  "byd-seal": [
+    {
+      "url": "https://jp.sharp/sunvista/v2h/v2h-connect/pdf/BYD-auto_japan.pdf",
+      "code": "EKXYC",
+      "grade": "SEAL"
+    },
+    {
+      "url": "https://jp.sharp/sunvista/v2h/v2h-connect/pdf/BYD-auto_japan.pdf",
+      "code": "EKXYA",
+      "grade": "SEAL AWD"
+    }
+  ],
+  "byd-sealion-7": [
+    {
+      "url": "https://www.jaia-jp.org/cms/wp-content/uploads/tokuteiseibi_20250515.pdf",
+      "code": "UKXYT",
+      "grade": "RWD"
+    },
+    {
+      "url": "https://www.jaia-jp.org/cms/wp-content/uploads/tokuteiseibi_20250515.pdf",
+      "code": "UKXYA",
+      "grade": "AWD"
+    }
+  ],
+  "mg-mgf": [
+    {
+      "url": "https://gazoo.com/catalog/maker/MG/MGF/199512/",
+      "code": "RD18K",
+      "grade": "1.8i"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/MG/MGF/199512/",
+      "code": "RD18K",
+      "grade": "1.8i VVC"
+    }
+  ],
+  "mg-tf": [
+    {
+      "url": "https://gazoo.com/catalog/maker/MG/TF/200307/",
+      "code": "RD18K",
+      "grade": "135"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/MG/TF/200307/",
+      "code": "RD18K",
+      "grade": "160"
+    }
+  ],
+  "mg-mgb": [
+    {
+      "url": "https://gazoo.com/catalog/maker/MG/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "mg-mga": [
+    {
+      "url": "https://gazoo.com/catalog/maker/MG/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "mg-midget": [
+    {
+      "url": "https://gazoo.com/catalog/maker/MG/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "mg-rv8": [
+    {
+      "url": "https://gazoo.com/catalog/maker/MG/MG_RV8/199404/",
+      "code": "RA48A",
+      "grade": "ベースグレード"
+    }
+  ],
+  "mg-zt": [
+    {
+      "url": "https://gazoo.com/catalog/maker/MG/ZT/200307/",
+      "code": "RJ25",
+      "grade": "ベースグレード"
+    }
+  ],
+  "lancia-delta": [
+    {
+      "url": "https://gazoo.com/catalog/maker/LANCIA/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "morgan-plus-six": [
+    {
+      "url": "https://www.morgan-cars.jp/plus-six/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "lancia-thema": [
+    {
+      "url": "https://gazoo.com/catalog/maker/LANCIA/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "lancia-dedra": [
+    {
+      "url": "https://gazoo.com/catalog/maker/LANCIA/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "morgan-plus-4": [
+    {
+      "url": "https://gazoo.com/catalog/maker/MORGAN/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "morgan-plus-8": [
+    {
+      "url": "https://gazoo.com/catalog/maker/MORGAN/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "morgan-4-4": [
+    {
+      "url": "https://gazoo.com/catalog/maker/MORGAN/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "morgan-3-wheeler": [
+    {
+      "url": "https://www.morgan-cars.jp/3-wheeler/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "morgan-aero-8": [
+    {
+      "url": "https://gazoo.com/catalog/maker/MORGAN/AERO8/200010/9002743/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "daimler": [
+    {
+      "url": "https://gazoo.com/catalog/maker/DAIMLER/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://www.mlit.go.jp/common/000111205.pdf",
+      "code": "D82TB",
+      "grade": ""
+    }
+  ],
+  "hyundai-i30": [
+    {
+      "url": "https://gazoo.com/catalog/maker/HYUNDAI/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://www.mlit.go.jp/common/000111205.pdf",
+      "code": "FD16",
+      "grade": ""
+    },
+    {
+      "url": "https://www.mlit.go.jp/common/000111205.pdf",
+      "code": "FD20",
+      "grade": ""
+    }
+  ],
+  "byd-sealion-6": [
+    {
+      "url": "https://jp.sharp/sunvista/v2h/v2h-connect/pdf/BYD-auto_japan.pdf",
+      "code": "SA3XYE",
+      "grade": "SEALION 6"
+    },
+    {
+      "url": "https://jp.sharp/sunvista/v2h/v2h-connect/pdf/BYD-auto_japan.pdf",
+      "code": "SA3XYG",
+      "grade": "SEALION 6 AWD"
+    }
+  ],
+  "morgan-roadster": [
+    {
+      "url": "https://www.morgan-cars.jp/roadster/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "caterham-seven": [
+    {
+      "url": "https://www.caterham-cars.jp/cars/seven-170S.html",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "renault-scenic": [
+    {
+      "url": "https://gazoo.com/catalog/maker/RENAULT/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/RENAULT/SCENIC/199905/",
+      "code": "AF4J2",
+      "grade": "RX4"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/RENAULT/SCENIC/199905/",
+      "code": "AF4J",
+      "grade": "RXT"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/RENAULT/SCENIC/199905/",
+      "code": "AF4J",
+      "grade": "RXE"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/RENAULT/SCENIC/199905/",
+      "code": "AF3RJ",
+      "grade": "カレード"
+    }
+  ]
+}
