@@ -1,0 +1,347 @@
+{
+  "renault-laguna": [
+    {
+      "url": "https://gazoo.com/catalog/maker/RENAULT/LAGUNA/200301/",
+      "code": "GL7X",
+      "grade": "5ドアV6"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/RENAULT/LAGUNA/200301/",
+      "code": "GL7X",
+      "grade": "ワゴンV6"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/RENAULT/LAGUNA/200301/",
+      "code": "GF4",
+      "grade": "ワゴン2.0"
+    }
+  ],
+  "renault-safrane": [
+    {
+      "url": "https://gazoo.com/catalog/maker/RENAULT/SAFRANE/199501/",
+      "code": "54Z7X",
+      "grade": "バカラ"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/RENAULT/SAFRANE/199501/",
+      "code": "54Z7X",
+      "grade": "RXE"
+    }
+  ],
+  "renault-avantime": [
+    {
+      "url": "https://gazoo.com/catalog/maker/RENAULT/AVANTIME/200211/",
+      "code": "EL7X",
+      "grade": "ベースグレード"
+    }
+  ],
+  "renault-21": [
+    {
+      "url": "https://gazoo.com/catalog/maker/RENAULT/21/198907/",
+      "code": "L485",
+      "grade": "ターボ"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/RENAULT/21/198907/",
+      "code": "L48K",
+      "grade": "TXE"
+    }
+  ],
+  "chevrolet-blazer": [
+    {
+      "url": "https://yanase.jp/chevrolet/catalog/chevrolet_blazer/",
+      "code": "CT34G",
+      "grade": "LS"
+    },
+    {
+      "url": "https://yanase.jp/chevrolet/catalog/chevrolet_blazer/",
+      "code": "CT34G",
+      "grade": "LT"
+    }
+  ],
+  "chevrolet-optra": [
+    {
+      "url": "https://gazoo.com/catalog/maker/CHEVROLET/CHEVROLET_OPTRA/200501/",
+      "code": "NA35Z",
+      "grade": "ワゴンLT"
+    },
+    {
+      "url": "https://www.suzuki.co.jp/about/recall/2006/1205a.htm",
+      "code": "NA19Z",
+      "grade": ""
+    }
+  ],
+  "chevrolet-mw": [
+    {
+      "url": "https://www.suzuki.co.jp/release/a/2007/1120/index.html",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://www.suzuki.co.jp/about/recall/2006/1205c.htm",
+      "code": "ME34S",
+      "grade": ""
+    }
+  ],
+  "chevrolet-cruze": [
+    {
+      "url": "https://www.globalsuzuki.com/ir/library/annualreport/pdf/2006/2006_jp.pdf",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://www.suzuki.co.jp/about/recall/2006/1205c.htm",
+      "code": "HR51S",
+      "grade": ""
+    },
+    {
+      "url": "https://www.suzuki.co.jp/about/recall/2006/1205c.htm",
+      "code": "HR52S",
+      "grade": ""
+    },
+    {
+      "url": "https://www.suzuki.co.jp/about/recall/2006/1205c.htm",
+      "code": "HR81S",
+      "grade": ""
+    },
+    {
+      "url": "https://www.suzuki.co.jp/about/recall/2006/1205c.htm",
+      "code": "HR82S",
+      "grade": ""
+    }
+  ],
+  "renault-19": [
+    {
+      "url": "https://gazoo.com/catalog/maker/RENAULT/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "renault-25": [
+    {
+      "url": "https://gazoo.com/catalog/maker/RENAULT/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "renault-5": [
+    {
+      "url": "https://gazoo.com/catalog/maker/RENAULT/5/199010/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "renault-4": [
+    {
+      "url": "https://gazoo.com/catalog/maker/RENAULT/4/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "renault-8": [
+    {
+      "url": "https://gazoo.com/catalog/maker/RENAULT/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "fiat-x1-9": [
+    {
+      "url": "https://gazoo.com/catalog/maker/FIAT/?indexNm=&page=2",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "fiat-124-sport-spider": [
+    {
+      "url": "https://gazoo.com/catalog/maker/FIAT/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "alfa-romeo-montreal": [
+    {
+      "url": "https://gazoo.com/catalog/maker/ALFA_ROMEO/?indexNm=&page=2",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "alfa-romeo-alfetta": [
+    {
+      "url": "https://gazoo.com/catalog/maker/ALFA_ROMEO/?indexNm=&page=2",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "alfa-romeo-alfasud": [
+    {
+      "url": "https://gazoo.com/catalog/maker/ALFA_ROMEO/?indexNm=&page=2",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "alfa-romeo-sz": [
+    {
+      "url": "https://gazoo.com/feature/gazoo-museum/meisha/frp/23/05/03/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "citroen-gs": [
+    {
+      "url": "https://gazoo.com/catalog/maker/CITROEN/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "citroen-gsa": [
+    {
+      "url": "https://gazoo.com/catalog/maker/CITROEN/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "citroen-ds": [
+    {
+      "url": "https://gazoo.com/catalog/maker/CITROEN/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "citroen-ami": [
+    {
+      "url": "https://gazoo.com/catalog/maker/CITROEN/AMI/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "citroen-lna": [
+    {
+      "url": "https://gazoo.com/catalog/maker/CITROEN/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "peugeot-104": [
+    {
+      "url": "https://gazoo.com/catalog/maker/PEUGEOT/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "peugeot-305": [
+    {
+      "url": "https://gazoo.com/catalog/maker/PEUGEOT/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "opel-kadett": [
+    {
+      "url": "https://gazoo.com/catalog/maker/OPEL/KADETTO/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "opel-senator": [
+    {
+      "url": "https://gazoo.com/catalog/maker/OPEL/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "opel-manta": [
+    {
+      "url": "https://gazoo.com/catalog/maker/OPEL/?indexNm=&page=2",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "maserati-222": [
+    {
+      "url": "https://gazoo.com/catalog/maker/MASERATI/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "maserati-228": [
+    {
+      "url": "https://gazoo.com/catalog/maker/MASERATI/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "maserati-430": [
+    {
+      "url": "https://gazoo.com/catalog/maker/MASERATI/430/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "maserati-karif": [
+    {
+      "url": "https://gazoo.com/catalog/maker/MASERATI/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "chrysler-stratus": [
+    {
+      "url": "https://gazoo.com/catalog/maker/CHRYSLER/CHRYSLER_STRATUS/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "chrysler-300m": [
+    {
+      "url": "https://gazoo.com/catalog/maker/CHRYSLER/CHRYSLER_300M/200006/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/CHRYSLER/CHRYSLER_300M/200006/",
+      "code": "LR35",
+      "grade": "3.5L"
+    }
+  ],
+  "fiat-bravissimo": [
+    {
+      "url": "https://gazoo.com/catalog/maker/FIAT/?indexNm=&page=3",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://www.fiat-jp.com/archives/FIAT_Bravissimo.php",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "peugeot-505": [
+    {
+      "url": "https://gazoo.com/catalog/maker/PEUGEOT/505/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "peugeot-604": [
+    {
+      "url": "https://gazoo.com/catalog/maker/PEUGEOT/604/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "chrysler-neon": [
+    {
+      "url": "https://gazoo.com/catalog/maker/CHRYSLER/CHRYSLER_NEON/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "alpine-a310": [
+    {
+      "url": "https://www.alpinecars.fr/modeles-historiques.html",
+      "code": "",
+      "grade": ""
+    }
+  ]
+}
