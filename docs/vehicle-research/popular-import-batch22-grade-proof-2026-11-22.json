@@ -1,0 +1,517 @@
+{
+  "mclaren-artura": [
+    {
+      "url": "https://www.jaia-jp.org/cms/wp-content/uploads/20240628_McLaren_Recycle-fee.pdf",
+      "code": "MA6",
+      "grade": "クーペ"
+    },
+    {
+      "url": "https://www.jaia-jp.org/cms/wp-content/uploads/20240628_McLaren_Recycle-fee.pdf",
+      "code": "MA6",
+      "grade": "スパイダー"
+    }
+  ],
+  "mclaren-570s": [
+    {
+      "url": "https://www.jaia-jp.org/cms/wp-content/uploads/20240628_McLaren_Recycle-fee.pdf",
+      "code": "P13S",
+      "grade": "クーペ"
+    },
+    {
+      "url": "https://www.jaia-jp.org/cms/wp-content/uploads/20240628_McLaren_Recycle-fee.pdf",
+      "code": "P13SP",
+      "grade": "スパイダー"
+    }
+  ],
+  "mclaren-540c": [
+    {
+      "url": "https://www.jaia-jp.org/cms/wp-content/uploads/20240628_McLaren_Recycle-fee.pdf",
+      "code": "P13C",
+      "grade": "クーペ"
+    }
+  ],
+  "mclaren-600lt": [
+    {
+      "url": "https://www.jaia-jp.org/cms/wp-content/uploads/20240628_McLaren_Recycle-fee.pdf",
+      "code": "P13SP",
+      "grade": "クーペ"
+    },
+    {
+      "url": "https://www.jaia-jp.org/cms/wp-content/uploads/20240628_McLaren_Recycle-fee.pdf",
+      "code": "P13SP",
+      "grade": "スパイダー"
+    }
+  ],
+  "mclaren-650s": [
+    {
+      "url": "https://www.jaia-jp.org/cms/wp-content/uploads/20240628_McLaren_Recycle-fee.pdf",
+      "code": "MP4-12CP",
+      "grade": "クーペ"
+    },
+    {
+      "url": "https://www.jaia-jp.org/cms/wp-content/uploads/20240628_McLaren_Recycle-fee.pdf",
+      "code": "MP4-12CSP",
+      "grade": "スパイダー"
+    }
+  ],
+  "mclaren-675lt": [
+    {
+      "url": "https://www.jaia-jp.org/cms/wp-content/uploads/20240628_McLaren_Recycle-fee.pdf",
+      "code": "MP4-12CLT",
+      "grade": "クーペ"
+    },
+    {
+      "url": "https://www.jaia-jp.org/cms/wp-content/uploads/20240628_McLaren_Recycle-fee.pdf",
+      "code": "MP4-12CLTS",
+      "grade": "スパイダー"
+    }
+  ],
+  "mclaren-720s": [
+    {
+      "url": "https://www.jaia-jp.org/cms/wp-content/uploads/20240628_McLaren_Recycle-fee.pdf",
+      "code": "P14S",
+      "grade": "720S"
+    },
+    {
+      "url": "https://www.jaia-jp.org/cms/wp-content/uploads/20240628_McLaren_Recycle-fee.pdf",
+      "code": "P14S",
+      "grade": "720Sスパイダー"
+    }
+  ],
+  "mclaren-750s": [
+    {
+      "url": "https://www.jaia-jp.org/cms/wp-content/uploads/20240628_McLaren_Recycle-fee.pdf",
+      "code": "P14S",
+      "grade": "クーペ"
+    },
+    {
+      "url": "https://www.jaia-jp.org/cms/wp-content/uploads/20240628_McLaren_Recycle-fee.pdf",
+      "code": "P14S",
+      "grade": "スパイダー"
+    }
+  ],
+  "mclaren-765lt": [
+    {
+      "url": "https://www.jaia-jp.org/cms/wp-content/uploads/20240628_McLaren_Recycle-fee.pdf",
+      "code": "P14R",
+      "grade": "クーペ"
+    },
+    {
+      "url": "https://www.jaia-jp.org/cms/wp-content/uploads/20240628_McLaren_Recycle-fee.pdf",
+      "code": "P14R",
+      "grade": "スパイダー"
+    }
+  ],
+  "mclaren-gt": [
+    {
+      "url": "https://www.jaia-jp.org/cms/wp-content/uploads/20240628_McLaren_Recycle-fee.pdf",
+      "code": "P22GT",
+      "grade": "GT"
+    }
+  ],
+  "mclaren-gts": [
+    {
+      "url": "https://www.jaia-jp.org/cms/wp-content/uploads/20240628_McLaren_Recycle-fee.pdf",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "mclaren-mp4-12c": [
+    {
+      "url": "https://www.jaia-jp.org/cms/wp-content/uploads/20240628_McLaren_Recycle-fee.pdf",
+      "code": "MP4-12C",
+      "grade": "MP4-12C"
+    },
+    {
+      "url": "https://www.jaia-jp.org/cms/wp-content/uploads/20240628_McLaren_Recycle-fee.pdf",
+      "code": "MP4-12CS",
+      "grade": "スパイダー"
+    }
+  ],
+  "mclaren-p1": [
+    {
+      "url": "https://www.jaia-jp.org/cms/wp-content/uploads/20240628_McLaren_Recycle-fee.pdf",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "mclaren-senna": [
+    {
+      "url": "https://www.jaia-jp.org/cms/wp-content/uploads/20240628_McLaren_Recycle-fee.pdf",
+      "code": "P15S",
+      "grade": "セナ"
+    }
+  ],
+  "mclaren-elva": [
+    {
+      "url": "https://www.jaia-jp.org/cms/wp-content/uploads/20240628_McLaren_Recycle-fee.pdf",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "mclaren-speedtail": [
+    {
+      "url": "https://www.jaia-jp.org/cms/wp-content/uploads/20240628_McLaren_Recycle-fee.pdf",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "saab-9-3": [
+    {
+      "url": "https://gazoo.com/catalog/maker/SAAB/93_SERIES/200301/",
+      "code": "FB207",
+      "grade": "スポーツセダン リニア"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/SAAB/93_SERIES/200301/",
+      "code": "FB207",
+      "grade": "スポーツセダン ヴェクター"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/SAAB/93_SERIES/200301/",
+      "code": "FB207",
+      "grade": "スポーツエステート リニア"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/SAAB/93_SERIES/200301/",
+      "code": "FB284",
+      "grade": "スポーツセダン エアロ2.8T V6 XWD"
+    }
+  ],
+  "saab-9-5": [
+    {
+      "url": "https://gazoo.com/catalog/maker/SAAB/95_SERIES/201103/",
+      "code": "GA20",
+      "grade": "セダン ヴェクター"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/SAAB/95_SERIES/201103/",
+      "code": "GA20",
+      "grade": "セダン ヴェクターXWD"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/SAAB/95_SERIES/201103/",
+      "code": "GA28",
+      "grade": "セダン エアロXWD"
+    }
+  ],
+  "rover-75": [
+    {
+      "url": "https://gazoo.com/catalog/maker/ROVER/75/199909/",
+      "code": "RJ25",
+      "grade": "2.5コニサー"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/ROVER/75/199909/",
+      "code": "RJ25",
+      "grade": "2.5クラブ"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/ROVER/75/199909/",
+      "code": "RJ25T",
+      "grade": "ツアラー"
+    }
+  ],
+  "saab-900": [
+    {
+      "url": "https://gazoo.com/catalog/maker/SAAB/900_SERIES/198910/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/SAAB/900_SERIES/198910/",
+      "code": "AB20I",
+      "grade": "900i16"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/SAAB/900_SERIES/198910/",
+      "code": "AB20S",
+      "grade": "900ターボ16S"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/SAAB/900_SERIES/198910/",
+      "code": "AB20SK",
+      "grade": "900ターボ16Sコンバーチブル"
+    }
+  ],
+  "saab-9000": [
+    {
+      "url": "https://gazoo.com/catalog/maker/SAAB/9000_SERIES/198810/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/SAAB/9000_SERIES/198810/",
+      "code": "CB234L",
+      "grade": "9000CS2.3ターボ"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/SAAB/9000_SERIES/198810/",
+      "code": "CB234I",
+      "grade": "9000CD2.3-16"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/SAAB/9000_SERIES/198810/",
+      "code": "CB20I",
+      "grade": "9000i16CD"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/SAAB/9000_SERIES/198810/",
+      "code": "CB20S",
+      "grade": "9000ターボ16"
+    }
+  ],
+  "rolls-royce-silver-shadow": [
+    {
+      "url": "https://gazoo.com/catalog/maker/ROLLSROYCE/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "rolls-royce-silver-spirit": [
+    {
+      "url": "https://gazoo.com/catalog/maker/ROLLSROYCE/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "rolls-royce-silver-spur": [
+    {
+      "url": "https://gazoo.com/catalog/maker/ROLLSROYCE/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "rolls-royce-corniche": [
+    {
+      "url": "https://gazoo.com/catalog/maker/ROLLSROYCE/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://www.bentleymotors.jp/pages/Environment/recycle_RollsRoyce.pdf",
+      "code": "AK",
+      "grade": ""
+    }
+  ],
+  "rolls-royce-phantom": [
+    {
+      "url": "https://gazoo.com/catalog/maker/ROLLSROYCE/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/ROLLSROYCE/PHANTOM/200310/",
+      "code": "681S",
+      "grade": "ベースグレード"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/ROLLSROYCE/PHANTOM/200310/",
+      "code": "681L",
+      "grade": "EWB"
+    },
+    {
+      "url": "https://wwwtb.mlit.go.jp/kanto/content/000248219.pdf",
+      "code": "687S",
+      "grade": ""
+    },
+    {
+      "url": "https://wwwtb.mlit.go.jp/kanto/content/000248219.pdf",
+      "code": "688L",
+      "grade": ""
+    },
+    {
+      "url": "https://wwwtb.mlit.go.jp/kanto/content/000248219.pdf",
+      "code": "TT62S",
+      "grade": ""
+    },
+    {
+      "url": "https://wwwtb.mlit.go.jp/kanto/content/000248219.pdf",
+      "code": "TT82L",
+      "grade": ""
+    }
+  ],
+  "rolls-royce-wraith": [
+    {
+      "url": "https://gazoo.com/catalog/maker/ROLLSROYCE/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/ROLLSROYCE/WRAITH/201304/",
+      "code": "665C",
+      "grade": "ベースグレード"
+    }
+  ],
+  "rolls-royce-ghost": [
+    {
+      "url": "https://gazoo.com/catalog/maker/ROLLSROYCE/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/ROLLSROYCE/GHOST/202010/",
+      "code": "TV02",
+      "grade": "ベースグレード"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/ROLLSROYCE/GHOST/202010/",
+      "code": "TV22",
+      "grade": "エクステンデッド"
+    },
+    {
+      "url": "https://wwwtb.mlit.go.jp/kanto/content/000248219.pdf",
+      "code": "22GZS",
+      "grade": ""
+    },
+    {
+      "url": "https://wwwtb.mlit.go.jp/kanto/content/000248219.pdf",
+      "code": "62GZL",
+      "grade": ""
+    }
+  ],
+  "rolls-royce-dawn": [
+    {
+      "url": "https://gazoo.com/catalog/maker/ROLLSROYCE/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/ROLLSROYCE/DAWN/201509/",
+      "code": "665C",
+      "grade": "ベースグレード"
+    }
+  ],
+  "rolls-royce-cullinan": [
+    {
+      "url": "https://gazoo.com/catalog/maker/ROLLSROYCE/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/ROLLSROYCE/CULLINAN/202408/",
+      "code": "689X",
+      "grade": "ベースグレード"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/ROLLSROYCE/CULLINAN/202408/",
+      "code": "689X",
+      "grade": "ブラックバッジ"
+    }
+  ],
+  "rolls-royce-park-ward": [
+    {
+      "url": "https://gazoo.com/catalog/maker/ROLLSROYCE/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://www.bentleymotors.jp/pages/Environment/recycle_RollsRoyce.pdf",
+      "code": "AD",
+      "grade": ""
+    }
+  ],
+  "rolls-royce-silver-seraph": [
+    {
+      "url": "https://gazoo.com/catalog/maker/ROLLSROYCE/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/ROLLSROYCE/SILVER_SERAPH/199803/",
+      "code": "AL",
+      "grade": "ベースグレード"
+    }
+  ],
+  "rolls-royce-spectre": [
+    {
+      "url": "https://www.mlit.go.jp/report/press/content/001857198.pdf",
+      "code": "TK2293",
+      "grade": ""
+    },
+    {
+      "url": "https://wwwtb.mlit.go.jp/kanto/content/000248219.pdf",
+      "code": "TK2293",
+      "grade": "スペクター"
+    },
+    {
+      "url": "https://wwwtb.mlit.go.jp/kanto/content/000248219.pdf",
+      "code": "TK2293",
+      "grade": "ブラックバッジ スペクター"
+    }
+  ],
+  "rover-mini": [
+    {
+      "url": "https://gazoo.com/catalog/maker/ROVER/MINI/198904/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/ROVER/MINI/198904/",
+      "code": "XN12A",
+      "grade": "クーパー1.3i"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/ROVER/MINI/198904/",
+      "code": "XN12A",
+      "grade": "メイフェア1.3i"
+    }
+  ],
+  "rover-200": [
+    {
+      "url": "https://gazoo.com/catalog/maker/ROVER/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "rover-400": [
+    {
+      "url": "https://gazoo.com/catalog/maker/ROVER/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "rover-600": [
+    {
+      "url": "https://gazoo.com/catalog/maker/ROVER/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "rover-800": [
+    {
+      "url": "https://gazoo.com/catalog/maker/ROVER/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "smart-roadster": [
+    {
+      "url": "https://www.mlit.go.jp/jidosha/nenpi/nenpilist/07-3-09.pdf",
+      "code": "452434",
+      "grade": "ロードスター"
+    },
+    {
+      "url": "https://www.mlit.go.jp/jidosha/nenpi/nenpilist/07-3-09.pdf",
+      "code": "452334",
+      "grade": "ロードスタークーペ"
+    },
+    {
+      "url": "https://www.mlit.go.jp/jidosha/nenpi/nenpilist/07-3-09.pdf",
+      "code": "452437",
+      "grade": "ロードスター BRABUS"
+    },
+    {
+      "url": "https://www.mlit.go.jp/jidosha/nenpi/nenpilist/07-3-09.pdf",
+      "code": "452337",
+      "grade": "ロードスタークーペ BRABUS"
+    }
+  ],
+  "tesla-roadster": [
+    {
+      "url": "https://www.cev-pc.or.jp/kiso/spec_pop_14.html",
+      "code": "",
+      "grade": ""
+    }
+  ]
+}
