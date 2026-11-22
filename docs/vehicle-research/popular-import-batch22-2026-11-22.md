@@ -1,6 +1,6 @@
 # 買取LP下書き 第22弾（40車種）
 
-全件実績未掲載版・draft:true。国内資料で確認した型式とグレードの一部のみ掲載。未収載の仕様は「わからない」「その他・わからない」で受け付ける。
+全件実績未掲載版。2026-11-22にユーザーの公開承認を受けdraft:falseへ変更。国内資料で確認した型式とグレードの一部のみ掲載。未収載の仕様は「わからない」「その他・わからない」で受け付ける。
 
 | 車種 | 下書きURL | 画像 | 確認資料 |
 |---|---|---|---|
@@ -45,7 +45,7 @@
 | スマート ロードスター | `/smart-roadster/` | 2/2 | [452434](https://www.mlit.go.jp/jidosha/nenpi/nenpilist/07-3-09.pdf)、[452334](https://www.mlit.go.jp/jidosha/nenpi/nenpilist/07-3-09.pdf)、[452437](https://www.mlit.go.jp/jidosha/nenpi/nenpilist/07-3-09.pdf)、[452337](https://www.mlit.go.jp/jidosha/nenpi/nenpilist/07-3-09.pdf) |
 | テスラ ロードスター | `/tesla-roadster/` | 2/2 | [資料](https://www.cev-pc.or.jp/kiso/spec_pop_14.html) |
 
-## 確認結果
+## 下書き時の確認結果
 
 - 40件すべて実績未掲載版・draft:true。AI車種イメージ各2枚、AI注記付き。実績の数字は作成していない。
 - 1440/375/320pxの全120画面と40件の型式・グレード・フォーム確認画面を検証。横スクロール、選択肢の文字切れ、画像欠落なし。本番送信なし。
@@ -58,3 +58,50 @@
 確認用一覧：http://localhost:8095/batch22/
 
 型式未確定：mclaren-gts, mclaren-p1, mclaren-elva, mclaren-speedtail, rolls-royce-silver-shadow, rolls-royce-silver-spirit, rolls-royce-silver-spur, rover-200, rover-400, rover-600, rover-800, tesla-roadster
+
+## 公開承認
+
+2026-11-22、今回40件の公開とインデックス申請タスクへの追加をユーザーが承認。
+
+| 車種 | 正式URL |
+|---|---|
+| マクラーレン アルトゥーラ | https://bimport.jp/mclaren-artura/ |
+| マクラーレン 570S | https://bimport.jp/mclaren-570s/ |
+| マクラーレン 540C | https://bimport.jp/mclaren-540c/ |
+| マクラーレン 600LT | https://bimport.jp/mclaren-600lt/ |
+| マクラーレン 650S | https://bimport.jp/mclaren-650s/ |
+| マクラーレン 675LT | https://bimport.jp/mclaren-675lt/ |
+| マクラーレン 720S | https://bimport.jp/mclaren-720s/ |
+| マクラーレン 750S | https://bimport.jp/mclaren-750s/ |
+| マクラーレン 765LT | https://bimport.jp/mclaren-765lt/ |
+| マクラーレン GT | https://bimport.jp/mclaren-gt/ |
+| マクラーレン GTS | https://bimport.jp/mclaren-gts/ |
+| マクラーレン MP4-12C | https://bimport.jp/mclaren-mp4-12c/ |
+| マクラーレン P1 | https://bimport.jp/mclaren-p1/ |
+| マクラーレン セナ | https://bimport.jp/mclaren-senna/ |
+| マクラーレン エルバ | https://bimport.jp/mclaren-elva/ |
+| マクラーレン スピードテール | https://bimport.jp/mclaren-speedtail/ |
+| ロールスロイス ゴースト | https://bimport.jp/rolls-royce-ghost/ |
+| ロールスロイス ファントム | https://bimport.jp/rolls-royce-phantom/ |
+| ロールスロイス レイス | https://bimport.jp/rolls-royce-wraith/ |
+| ロールスロイス ドーン | https://bimport.jp/rolls-royce-dawn/ |
+| ロールスロイス カリナン | https://bimport.jp/rolls-royce-cullinan/ |
+| ロールスロイス スペクター | https://bimport.jp/rolls-royce-spectre/ |
+| ロールスロイス シルバーセラフ | https://bimport.jp/rolls-royce-silver-seraph/ |
+| ロールスロイス シルバースピリット | https://bimport.jp/rolls-royce-silver-spirit/ |
+| ロールスロイス シルバースパー | https://bimport.jp/rolls-royce-silver-spur/ |
+| ロールスロイス シルバーシャドウ | https://bimport.jp/rolls-royce-silver-shadow/ |
+| ロールスロイス コーニッシュ | https://bimport.jp/rolls-royce-corniche/ |
+| ロールスロイス パークウォード | https://bimport.jp/rolls-royce-park-ward/ |
+| サーブ 9-3 | https://bimport.jp/saab-9-3/ |
+| サーブ 9-5 | https://bimport.jp/saab-9-5/ |
+| サーブ 900 | https://bimport.jp/saab-900/ |
+| サーブ 9000 | https://bimport.jp/saab-9000/ |
+| ローバー ミニ | https://bimport.jp/rover-mini/ |
+| ローバー 75 | https://bimport.jp/rover-75/ |
+| ローバー 200 | https://bimport.jp/rover-200/ |
+| ローバー 400 | https://bimport.jp/rover-400/ |
+| ローバー 600 | https://bimport.jp/rover-600/ |
+| ローバー 800 | https://bimport.jp/rover-800/ |
+| スマート ロードスター | https://bimport.jp/smart-roadster/ |
+| テスラ ロードスター | https://bimport.jp/tesla-roadster/ |
