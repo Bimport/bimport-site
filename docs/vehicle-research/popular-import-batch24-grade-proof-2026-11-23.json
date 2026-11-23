@@ -1,0 +1,592 @@
+{
+  "lincoln-navigator": [
+    {
+      "url": "https://gazoo.com/catalog/maker/LINCOLN/LINCOLN_NAVIGATOR/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "lincoln-town-car": [
+    {
+      "url": "https://gazoo.com/catalog/maker/LINCOLN/LINCOLN_TOWNCAR/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "lincoln-continental": [
+    {
+      "url": "https://gazoo.com/catalog/maker/LINCOLN/LINCOLN_CONTINENTAL/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "lincoln-ls": [
+    {
+      "url": "https://gazoo.com/catalog/maker/LINCOLN/LINCOLN_LS/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/LINCOLN/LINCOLN_LS/199910/",
+      "code": "1LNAM87",
+      "grade": "V8"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/LINCOLN/LINCOLN_LS/199910/",
+      "code": "1LNSM86",
+      "grade": "V6"
+    }
+  ],
+  "lincoln-mkx": [
+    {
+      "url": "https://gazoo.com/catalog/maker/LINCOLN/LINCOLN_MKX/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "lincoln-mark-viii": [
+    {
+      "url": "https://gazoo.com/catalog/maker/LINCOLN/LINCOLN_MARK_VIII/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "pontiac-firebird": [
+    {
+      "url": "https://gazoo.com/catalog/maker/PONTIAC/PONTIAC_FIREBIRD/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/PONTIAC/PONTIAC_FIREBIRD/198910/",
+      "code": "PF24A",
+      "grade": "トランザム"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/PONTIAC/PONTIAC_FIREBIRD/198910/",
+      "code": "PF25B",
+      "grade": "トランザムGTA"
+    }
+  ],
+  "pontiac-grand-am": [
+    {
+      "url": "https://gazoo.com/catalog/maker/PONTIAC/PONTIAC_GRAND_AM/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "pontiac-grand-prix": [
+    {
+      "url": "https://gazoo.com/catalog/maker/PONTIAC/PONTIAC_GRAND_PRIX/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/PONTIAC/PONTIAC_GRAND_PRIX/199003/",
+      "code": "PW13C",
+      "grade": "LE3100"
+    }
+  ],
+  "pontiac-bonneville": [
+    {
+      "url": "https://gazoo.com/catalog/maker/PONTIAC/PONTIAC_BONNEVILLE/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/PONTIAC/PONTIAC_BONNEVILLE/198910/",
+      "code": "PH23D",
+      "grade": "SSEiセダン"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/PONTIAC/PONTIAC_BONNEVILLE/198910/",
+      "code": "PH23A",
+      "grade": "SSEセダン"
+    }
+  ],
+  "cadillac-fleetwood": [
+    {
+      "url": "https://gazoo.com/catalog/maker/CADILLAC/CADILLAC_FLEETWOOD/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/CADILLAC/CADILLAC_FLEETWOOD/198910/",
+      "code": "AD25B",
+      "grade": "ブロアムセダンエレガンス"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/CADILLAC/CADILLAC_FLEETWOOD/198910/",
+      "code": "AC54J",
+      "grade": "エレガンスセダン"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/CADILLAC/CADILLAC_FLEETWOOD/198910/",
+      "code": "AC54J",
+      "grade": "60スペシャル"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/CADILLAC/CADILLAC_FLEETWOOD/198910/",
+      "code": "AC54H",
+      "grade": "エレガンスセダン"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/CADILLAC/CADILLAC_FLEETWOOD/198910/",
+      "code": "AC54H",
+      "grade": "60スペシャル"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/CADILLAC/CADILLAC_FLEETWOOD/198910/",
+      "code": "AC15B",
+      "grade": "ブロアムセダンエレガンス"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/CADILLAC/CADILLAC_FLEETWOOD/198910/",
+      "code": "AC24H",
+      "grade": "エレガンスクーペ"
+    }
+  ],
+  "cadillac-concours": [
+    {
+      "url": "https://gazoo.com/catalog/maker/CADILLAC/CADILLAC_CONCOURS/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/CADILLAC/CADILLAC_CONCOURS/199311/",
+      "code": "AK44K",
+      "grade": "ベースグレード"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/CADILLAC/CADILLAC_CONCOURS/199311/",
+      "code": "AK44K",
+      "grade": "エグゼクティブ"
+    }
+  ],
+  "cadillac-allante": [
+    {
+      "url": "https://gazoo.com/catalog/maker/CADILLAC/CADILLAC_ALLANTE/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/CADILLAC/CADILLAC_ALLANTE/198910/",
+      "code": "AV14K",
+      "grade": "ベースグレード"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/CADILLAC/CADILLAC_ALLANTE/198910/",
+      "code": "AV14F",
+      "grade": "ベースグレード"
+    }
+  ],
+  "cadillac-xts": [
+    {
+      "url": "https://gazoo.com/catalog/maker/CADILLAC/CADILLAC_XTS/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "buick-regal": [
+    {
+      "url": "https://gazoo.com/catalog/maker/BUICK/BUICK_REGAL/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/BUICK/BUICK_REGAL/198910/",
+      "code": "BA43C",
+      "grade": "セダン"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/BUICK/BUICK_REGAL/198910/",
+      "code": "BA43CW",
+      "grade": "エステートワゴン"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/BUICK/BUICK_REGAL/198910/",
+      "code": "BA43B",
+      "grade": "セダン"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/BUICK/BUICK_REGAL/198910/",
+      "code": "BA43BW",
+      "grade": "エステートワゴン"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/BUICK/BUICK_REGAL/198910/",
+      "code": "BW13A",
+      "grade": "リミテッドクーペ"
+    }
+  ],
+  "buick-park-avenue": [
+    {
+      "url": "https://gazoo.com/catalog/maker/BUICK/BUICK_PARK_AVENUE/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/BUICK/BUICK_PARK_AVENUE/199011/",
+      "code": "BC33A",
+      "grade": "ベースグレード"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/BUICK/BUICK_PARK_AVENUE/199011/",
+      "code": "BC33D",
+      "grade": "ウルトラ"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/BUICK/BUICK_PARK_AVENUE/199011/",
+      "code": "BC33A",
+      "grade": "ウルトラ"
+    }
+  ],
+  "mercury-cougar": [
+    {
+      "url": "https://gazoo.com/catalog/maker/MERCURY/MERCURY_COUGAR/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/MERCURY/MERCURY_COUGAR/199906/",
+      "code": "1ZWCLC",
+      "grade": "ベースグレード"
+    }
+  ],
+  "mercury-grand-marquis": [
+    {
+      "url": "https://gazoo.com/catalog/maker/MERCURY/MERCURY_GRAND_MARQUIS/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/MERCURY/MERCURY_GRAND_MARQUIS/200001/",
+      "code": "1MEWM75",
+      "grade": "LS アルティメイト"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/MERCURY/MERCURY_GRAND_MARQUIS/200001/",
+      "code": "1MEWM75",
+      "grade": "LS"
+    }
+  ],
+  "rover-100": [
+    {
+      "url": "https://gazoo.com/catalog/maker/ROVER/100/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/ROVER/100/199108/",
+      "code": "XP14K2",
+      "grade": "114SLi"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/ROVER/100/199108/",
+      "code": "XP14K2",
+      "grade": "114Si"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/ROVER/100/199108/",
+      "code": "XP14K4",
+      "grade": "114GTi"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/ROVER/100/199108/",
+      "code": "XP14K2",
+      "grade": "114GSi"
+    }
+  ],
+  "lotus-elan": [
+    {
+      "url": "https://gazoo.com/catalog/maker/LOTUS/ERAN/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "lotus-elite": [
+    {
+      "url": "https://gazoo.com/catalog/maker/LOTUS/ERITO/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "lotus-excel": [
+    {
+      "url": "https://gazoo.com/catalog/maker/LOTUS/EXCEL/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "lotus-eclat": [
+    {
+      "url": "https://gazoo.com/catalog/maker/LOTUS/EKURA/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "lotus-340r": [
+    {
+      "url": "https://gazoo.com/catalog/maker/LOTUS/340R/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "lotus-2-eleven": [
+    {
+      "url": "https://www.lotus-cars.jp/news/news/698/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "lotus-3-eleven": [
+    {
+      "url": "https://gazoo.com/catalog/maker/LOTUS/3_ELEVEN/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "tvr-griffith": [
+    {
+      "url": "https://gazoo.com/catalog/maker/TVR/GRIFFITH/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "tvr-chimaera": [
+    {
+      "url": "https://gazoo.com/catalog/maker/TVR/CHIMAERA/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "tvr-cerbera": [
+    {
+      "url": "https://gazoo.com/catalog/maker/TVR/CERBERA/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "tvr-tuscan": [
+    {
+      "url": "https://gazoo.com/catalog/maker/TVR/TUSCAN/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "lancia-prisma": [
+    {
+      "url": "https://gazoo.com/catalog/maker/LANCIA/PRISMA/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "tvr-tamora": [
+    {
+      "url": "https://gazoo.com/catalog/maker/TVR/TAMORA/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "tvr-t350": [
+    {
+      "url": "https://gazoo.com/catalog/maker/TVR/T350/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "autobianchi-a112": [
+    {
+      "url": "https://gazoo.com/catalog/maker/AUTOBIANCHI/A112/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "autobianchi-y10": [
+    {
+      "url": "https://gazoo.com/catalog/maker/AUTOBIANCHI/Y10/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "daewoo-matiz": [
+    {
+      "url": "https://gazoo.com/catalog/maker/DAEWOO/MATIZ/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/DAEWOO/MATIZ/199911/",
+      "code": "KLA4M",
+      "grade": "MG"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/DAEWOO/MATIZ/199911/",
+      "code": "KLA4M",
+      "grade": "AM"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/DAEWOO/MATIZ/199911/",
+      "code": "KLA4M",
+      "grade": "AA"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/DAEWOO/MATIZ/199911/",
+      "code": "KLA4M",
+      "grade": "ME"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/DAEWOO/MATIZ/199911/",
+      "code": "KLA4M",
+      "grade": "AG"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/DAEWOO/MATIZ/199911/",
+      "code": "KLA4M",
+      "grade": "AX"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/DAEWOO/MATIZ/199911/",
+      "code": "KLA4M",
+      "grade": "M-I"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/DAEWOO/MATIZ/199911/",
+      "code": "KLA4M",
+      "grade": "M-II"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/DAEWOO/MATIZ/199911/",
+      "code": "KLA4M",
+      "grade": "A-O"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/DAEWOO/MATIZ/199911/",
+      "code": "KLA4M",
+      "grade": "A-I"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/DAEWOO/MATIZ/199911/",
+      "code": "KLA4M",
+      "grade": "A-II"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/DAEWOO/MATIZ/199911/",
+      "code": "KLA4M",
+      "grade": "A-III"
+    }
+  ],
+  "saturn-s-series": [
+    {
+      "url": "https://gazoo.com/catalog/maker/SATURN/SATURN_SL2_SEDAN/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/SATURN/SATURN_SL2_SEDAN/199704/",
+      "code": "S8Z",
+      "grade": "Gパッケージ"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/SATURN/SATURN_SL2_SEDAN/199704/",
+      "code": "S8Z",
+      "grade": "ベースグレード"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/SATURN/SATURN_SL2_SEDAN/199704/",
+      "code": "S8Z",
+      "grade": "GLパッケージ"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/SATURN/SATURN_SL2_SEDAN/199704/",
+      "code": "S8Z",
+      "grade": "SEパッケージ"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/SATURN/SATURN_SC2_COUPE/199704/",
+      "code": "S8ZC",
+      "grade": "マルチDVDナビパッケージ"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/SATURN/SATURN_SC2_COUPE/199704/",
+      "code": "S8ZC",
+      "grade": "3ドアクーペ"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/SATURN/SATURN_SC2_COUPE/199704/",
+      "code": "S8ZC",
+      "grade": "3ドアクーペ Gパッケージ"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/SATURN/SATURN_SC2_COUPE/199704/",
+      "code": "S8ZC",
+      "grade": "3ドアクーペ GLパッケージ"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/SATURN/SATURN_SC2_COUPE/199704/",
+      "code": "S8ZC",
+      "grade": "ベースグレード"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/SATURN/SATURN_SC2_COUPE/199704/",
+      "code": "S8ZC",
+      "grade": "Gパッケージ"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/SATURN/SATURN_SC2_COUPE/199704/",
+      "code": "S8ZC",
+      "grade": "GLパッケージ"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/SATURN/SATURN_SW2_WAGON/199704/",
+      "code": "S8Z",
+      "grade": "マルチDVDナビパッケージ"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/SATURN/SATURN_SW2_WAGON/199704/",
+      "code": "S8Z",
+      "grade": "ベースグレード"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/SATURN/SATURN_SW2_WAGON/199704/",
+      "code": "S8Z",
+      "grade": "Gパッケージ"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/SATURN/SATURN_SW2_WAGON/199704/",
+      "code": "S8Z",
+      "grade": "GLパッケージ"
+    }
+  ],
+  "dodge-avenger": [
+    {
+      "url": "https://gazoo.com/catalog/maker/DODGE/DODGE_AVENGER/",
+      "code": "",
+      "grade": ""
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/DODGE/DODGE_AVENGER/200706/",
+      "code": "JSD27",
+      "grade": "SXT ベーシック"
+    },
+    {
+      "url": "https://gazoo.com/catalog/maker/DODGE/DODGE_AVENGER/200706/",
+      "code": "JSD27",
+      "grade": "SXT"
+    }
+  ],
+  "ford-f150": [
+    {
+      "url": "https://gazoo.com/catalog/maker/FORD/F150/",
+      "code": "",
+      "grade": ""
+    }
+  ],
+  "ford-expedition": [
+    {
+      "url": "https://gazoo.com/catalog/maker/FORD/EXPEDITION/",
+      "code": "",
+      "grade": ""
+    }
+  ]
+}
