@@ -1,0 +1,176 @@
+{
+  "slug": "chrysler-prowler",
+  "draft": false,
+  "theme": "import-imagery",
+  "maker": "CHRYSLER",
+  "makerJa": "クライスラー",
+  "model": "PROWLER",
+  "modelShort": "PROWLER",
+  "nameJa": "クライスラー プロウラー",
+  "seo": {
+    "title": "クライスラー プロウラーの買取・査定ならBimport｜輸入車専門",
+    "description": "クライスラー プロウラーの買取・査定はBimportへ。プロウラーの仕様・整備記録をはじめ、仕様や装備、内外装と整備履歴を確認します。売却未定でも60秒の入力で概算査定をご相談いただけます。査定無料・全国対応。車検証と写真からもご相談ください。"
+  },
+  "images": {
+    "hero": {
+      "webp": [
+        {
+          "src": "assets/images/chrysler-prowler/hero-ai-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/chrysler-prowler/hero-ai-1536.webp",
+          "width": 1536
+        }
+      ],
+      "width": 1536,
+      "height": 1024,
+      "alt": "クライスラー プロウラーのAI生成イメージ",
+      "position": "50% 50%",
+      "positionPc": "50% 50%",
+      "src": "assets/images/chrysler-prowler/hero-ai-1536.jpg"
+    },
+    "final": {
+      "src": "assets/images/chrysler-prowler/hero-ai-1536.jpg"
+    },
+    "line": {
+      "webp": [
+        {
+          "src": "assets/images/chrysler-prowler/line-ai-1000.webp",
+          "width": 1000
+        },
+        {
+          "src": "assets/images/chrysler-prowler/line-ai-1536.webp",
+          "width": 1536
+        }
+      ],
+      "width": 1536,
+      "height": 1024,
+      "alt": "クライスラー プロウラーのAI生成イメージ",
+      "position": "50% 50%",
+      "positionPc": "50% 50%",
+      "fallback": "assets/images/chrysler-prowler/line-ai-1536.jpg"
+    }
+  },
+  "hero": {
+    "label": "クライスラー プロウラー 買取・査定",
+    "catch": "そのPROWLER、本当の価値まで<br>評価されていますか？",
+    "lead": "売却未定でもOK。<br>まずは概算価格からお気軽にご相談ください。<br><small>※画像はAI生成の車種イメージです。</small>",
+    "buy": "買取・査定",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "bodyTypeLabel": "型式",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 1997,
+    "yearOlderLabel": "1996年以前"
+  },
+  "cases": [],
+  "casesEmpty": {
+    "title": "買取実績は現在未掲載です",
+    "message": "このページのプロウラーの買取実績は、現在未掲載です。掲載できる実績を確認でき次第、ご紹介します。"
+  },
+  "points": {
+    "lead": "プロウラーの仕様・装備と、<br>整備履歴や使用状態を確認します。",
+    "items": [
+      {
+        "key": "spec0",
+        "title": "プロウラーの仕様・整備記録",
+        "text": "現車の状態と、関連する部品の点検・交換記録を照合し、一台ずつ確認します。",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "SPECIFICATION"
+      },
+      {
+        "key": "spec1",
+        "title": "幌と開閉部",
+        "text": "屋根の開閉、幌やシールの傷み、雨漏りの痕跡と関連する修理記録を確認します。",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "EQUIPMENT"
+      },
+      {
+        "key": "spec2",
+        "title": "内装と保管環境",
+        "text": "シートやダッシュボードの状態と、使用・保管していた環境をお伺いします。",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "CONDITION"
+      },
+      {
+        "key": "condition0",
+        "title": "内外装・使用状態",
+        "text": "ボディやシート、ホイールのキズ・損傷・補修の状態を確認します。",
+        "image": null,
+        "icon": "search",
+        "tone": "dark"
+      },
+      {
+        "key": "condition1",
+        "title": "整備・修理の記録",
+        "text": "点検記録や修理明細を確認し、整備の内容と現在の状態を照合します。",
+        "image": null,
+        "icon": "doc",
+        "tone": "dark"
+      },
+      {
+        "key": "condition2",
+        "title": "純正部品・付属品",
+        "text": "スペアキーや取扱説明書、保管している純正部品などを確認します。",
+        "image": null,
+        "icon": "wheel",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "モデル年",
+      "走行距離",
+      "整備記録",
+      "純正部品",
+      "使用・保管状況"
+    ],
+    "close": "車両の仕様や整備履歴が、まだ分からなくても大丈夫です。<br>まずは<strong>車検証とお車の写真</strong>からご相談ください。"
+  },
+  "faq": [
+    {
+      "q": "型式のボタンと車検証の表記が違う場合は？",
+      "a": "型式は「わからない」を選んで進められます。車検証の「型式」欄と車両の写真をお知らせいただければ、仕様を確認したうえでご案内します。"
+    },
+    {
+      "q": "並行輸入車や仕様が分からない車も相談できますか？",
+      "a": "ご相談いただけます。輸入時の書類や整備記録、車検証と車両の写真をお知らせください。走行距離の単位や登録年とモデル年が異なる場合も、資料を確認してご案内します。"
+    },
+    {
+      "q": "追加した装備や使用感があっても相談できますか？",
+      "a": "はい。装着した用品と保管している純正部品、キズや損傷が分かる写真をお知らせください。状態を確認したうえでご案内します。"
+    },
+    {
+      "q": "屋根の開閉に不具合があっても相談できますか？",
+      "a": "ご相談いただけます。無理に開閉させず、症状や最後に作動した時期、状態が分かる写真をお知らせください。"
+    },
+    {
+      "q": "プリムス名義のプロウラーも相談できますか？",
+      "a": "ご相談いただけます。プリムス／クライスラーの表記は、車検証や輸入時の書類と車両の写真を確認してご案内します。"
+    }
+  ],
+  "line": {
+    "title": "あなたの<span class=\"lp-en\">PROWLER</span>、<br>まずは写真で概算査定。",
+    "lead": "車全体・内装・メーターの写真をLINEで。<br>仕様が分からない場合もお気軽にご相談ください。<br><small>※画像はAI生成の車種イメージです。</small>",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "CHRYSLER PROWLER",
+    "title": "今の<span class=\"lp-en\">PROWLER</span>、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは車両情報と写真からご相談ください。"
+  },
+  "sitemap": {
+    "lastmod": "2026-11-24"
+  }
+}
