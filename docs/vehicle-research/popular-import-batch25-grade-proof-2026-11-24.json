@@ -1,0 +1,1317 @@
+[
+  {
+    "slug": "chevrolet-suburban",
+    "model": "SUBURBAN",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/chevrolet?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-silverado",
+    "model": "SILVERADO",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/chevrolet?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "ford-bronco",
+    "model": "BRONCO",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/ford?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "gmc-yukon",
+    "model": "YUKON",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/gmc?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "dodge-durango",
+    "model": "DURANGO",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/dodge?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "ram-pickup",
+    "model": "PICKUP",
+    "identitySource": "https://www.ramtrucks.com/",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "ford-mustang-mach-e",
+    "model": "MUSTANG MACH-E",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/ford?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-colorado",
+    "model": "COLORADO",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/chevrolet?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "gmc-sierra",
+    "model": "SIERRA",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/gmc?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "ford-ranger",
+    "model": "RANGER",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/ford?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "ford-bronco-sport",
+    "model": "BRONCO SPORT",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/ford?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "ford-maverick",
+    "model": "MAVERICK",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/ford?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "hummer-h1",
+    "model": "H1",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/hummer?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "hummer-ev",
+    "model": "HUMMER EV",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/gmc?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "lincoln-aviator",
+    "model": "AVIATOR",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/lincoln?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "lincoln-nautilus",
+    "model": "NAUTILUS",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/lincoln?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "lincoln-corsair",
+    "model": "CORSAIR",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/lincoln?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-avalanche",
+    "model": "AVALANCHE",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/chevrolet?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-express",
+    "model": "EXPRESS",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/chevrolet?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "gmc-savana",
+    "model": "SAVANA",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/gmc?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "ford-edge",
+    "model": "EDGE",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/ford?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "ford-flex",
+    "model": "FLEX",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/ford?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "ford-fusion",
+    "model": "FUSION",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/ford?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "ford-transit",
+    "model": "TRANSIT",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/ford?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "ford-transit-connect",
+    "model": "TRANSIT CONNECT",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/ford?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "ram-promaster",
+    "model": "PROMASTER",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/ram?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "ram-promaster-city",
+    "model": "PROMASTER CITY",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/ram?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "gmc-acadia",
+    "model": "ACADIA",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/gmc?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "gmc-terrain",
+    "model": "TERRAIN",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/gmc?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "gmc-envoy",
+    "model": "ENVOY",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/gmc?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "dodge-viper",
+    "model": "VIPER",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/dodge?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "dodge-magnum",
+    "model": "MAGNUM",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/dodge?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "dodge-dakota",
+    "model": "DAKOTA",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/dodge?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "dodge-ram-van",
+    "model": "RAM VAN",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/dodge?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "dodge-caravan",
+    "model": "CARAVAN",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/dodge?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "dodge-dart",
+    "model": "DART",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/dodge?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "dodge-intrepid",
+    "model": "INTREPID",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/dodge?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "dodge-stealth",
+    "model": "STEALTH",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/dodge?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-s10",
+    "model": "S-10",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/chevrolet?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-c-k",
+    "model": "C/K",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/chevrolet?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-el-camino",
+    "model": "EL CAMINO",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/chevrolet?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-caprice",
+    "model": "CAPRICE",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/chevrolet?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-impala",
+    "model": "IMPALA",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/chevrolet?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-chevelle",
+    "model": "CHEVELLE",
+    "identitySource": "https://www.gm.com/heritage/collection/chevrolet",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-nova",
+    "model": "NOVA",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/chevrolet?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-monte-carlo",
+    "model": "MONTE CARLO",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/chevrolet?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-bel-air",
+    "model": "BEL AIR",
+    "identitySource": "https://www.gm.com/heritage/collection/chevrolet",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "gmc-typhoon",
+    "model": "TYPHOON",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/gmc?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "gmc-syclone",
+    "model": "SYCLONE",
+    "identitySource": "https://www.sytyregistry.com/sytysogt-faqs/",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "ford-super-duty",
+    "model": "SUPER DUTY",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/ford?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "ford-puma",
+    "model": "PUMA",
+    "identitySource": "https://www.ford.co.uk/cars/puma",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "ford-galaxy",
+    "model": "GALAXY",
+    "identitySource": "https://gazoo.com/catalog/maker/EUROPE_FORD/GALAXY/199801/",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "WFOGY5",
+        "label": "WFOGY5",
+        "grades": [
+          "GLX"
+        ]
+      },
+      {
+        "value": "WFOGAA",
+        "label": "WFOGAA",
+        "grades": [
+          "GHIA"
+        ]
+      },
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "ford-c-max",
+    "model": "C-MAX",
+    "identitySource": "https://gazoo.com/catalog/maker/EUROPE_FORD/",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "ford-escort",
+    "model": "ESCORT",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/ford?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "ford-sierra",
+    "model": "SIERRA",
+    "identitySource": "https://media.ford.com/content/dam/fordmedia/Europe/de/2022/05/Sammelmappe-60JahreMotorenwerk_DE.pdf",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "ford-scorpio",
+    "model": "SCORPIO",
+    "identitySource": "https://media.ford.com/content/dam/fordmedia/Europe/de/2022/05/Sammelmappe-60JahreMotorenwerk_DE.pdf",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "ford-capri",
+    "model": "CAPRI",
+    "identitySource": "https://media.ford.com/content/dam/fordmedia/Europe/en/2024/07/Capri/PDFS/2024FordCapri_Timeline_EU_new.pdf",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "lincoln-mkc",
+    "model": "MKC",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/lincoln?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "lincoln-mks",
+    "model": "MKS",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/lincoln?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "lincoln-mkt",
+    "model": "MKT",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/lincoln?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "lincoln-mkz",
+    "model": "MKZ",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/lincoln?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "lincoln-blackwood",
+    "model": "BLACKWOOD",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/lincoln?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ],
+    "shapeReference": "https://xr793.com/wp-content/uploads/2024/01/2002-Lincoln-Blackwood.pdf"
+  },
+  {
+    "slug": "lincoln-mark-lt",
+    "model": "MARK LT",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/lincoln?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "buick-enclave",
+    "model": "ENCLAVE",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/buick?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "buick-encore",
+    "model": "ENCORE",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/buick?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "buick-envision",
+    "model": "ENVISION",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/buick?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "buick-lacrosse",
+    "model": "LACROSSE",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/buick?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "buick-roadmaster",
+    "model": "ROADMASTER",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/buick?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "buick-riviera",
+    "model": "RIVIERA",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/buick?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "buick-reatta",
+    "model": "REATTA",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/buick?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "buick-lesabre",
+    "model": "LESABRE",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/buick?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "buick-skylark",
+    "model": "SKYLARK",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/buick?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "buick-century",
+    "model": "CENTURY",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/buick?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "buick-electra",
+    "model": "ELECTRA",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/buick?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "buick-cascada",
+    "model": "CASCADA",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/buick?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "buick-verano",
+    "model": "VERANO",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/buick?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "chrysler-pacifica",
+    "model": "PACIFICA",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/chrysler?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "chrysler-sebring",
+    "model": "SEBRING",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/chrysler?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "chrysler-lebaron",
+    "model": "LEBARON",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/chrysler?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "chrysler-new-yorker",
+    "model": "NEW YORKER",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/chrysler?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "chrysler-prowler",
+    "model": "PROWLER",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/chrysler?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "chrysler-vision",
+    "model": "VISION",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/chrysler?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "plymouth-barracuda",
+    "model": "BARRACUDA",
+    "identitySource": "https://historicdb.fia.com/range/barracuda",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "plymouth-road-runner",
+    "model": "ROAD RUNNER",
+    "identitySource": "https://starparts.chrysler.com/starlibrary/dto/PerformancePartsCatalog.pdf",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "plymouth-gtx",
+    "model": "GTX",
+    "identitySource": "https://starparts.chrysler.com/starlibrary/dto/PerformancePartsCatalog.pdf",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "plymouth-fury",
+    "model": "FURY",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/plymouth?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "plymouth-duster",
+    "model": "DUSTER",
+    "identitySource": "https://starparts.chrysler.com/starlibrary/dto/PerformancePartsCatalog.pdf",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "pontiac-gto",
+    "model": "GTO",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/pontiac?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "pontiac-fiero",
+    "model": "FIERO",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/pontiac?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "pontiac-solstice",
+    "model": "SOLSTICE",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/pontiac?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "pontiac-trans-sport",
+    "model": "TRANS SPORT",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/pontiac?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "pontiac-catalina",
+    "model": "CATALINA",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/pontiac?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "pontiac-lemans",
+    "model": "LEMANS",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/pontiac?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "pontiac-sunfire",
+    "model": "SUNFIRE",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/pontiac?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "pontiac-sunbird",
+    "model": "SUNBIRD",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/pontiac?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "pontiac-g6",
+    "model": "G6",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/pontiac?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "pontiac-g8",
+    "model": "G8",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/pontiac?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "pontiac-torrent",
+    "model": "TORRENT",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/pontiac?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "oldsmobile-cutlass",
+    "model": "CUTLASS",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/oldsmobile?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "oldsmobile-toronado",
+    "model": "TORONADO",
+    "identitySource": "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/oldsmobile?format=json",
+    "formPolicy": "国内型式・グレードの確認がないものはunknownで受付",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  }
+]
