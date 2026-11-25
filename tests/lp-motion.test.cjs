@@ -1,0 +1,22 @@
+const {test}=require('node:test');
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const {JSDOM}=require('jsdom');
+for(const slug of ['bmw-3-series','jeep-avenger']) for(const reduced of [false,true]) test(`${slug}: motion isolated, reduced=${reduced}`,()=>{
+ const dom=new JSDOM(fs.readFileSync(`dist/${slug}/index.html`,'utf8'),{url:`https://bimport.jp/${slug}/`,runScripts:'outside-only'});
+ const w=dom.window,d=w.document;const before=d.querySelector('#estimate').outerHTML;const observed=[];const animations=[];
+ w.matchMedia=()=>({matches:reduced,addEventListener(){}});
+ w.IntersectionObserver=class{constructor(cb){this.cb=cb;w.observer=this}observe(e){observed.push(e)}unobserve(){}};
+ w.Element.prototype.animate=function(frames){animations.push(this);return {finished:Promise.resolve(),cancel(){}}};
+ w.eval(fs.readFileSync('src/assets/js/lp-motion.js','utf8'));
+ assert.equal(d.querySelector('#estimate').outerHTML,before);
+ assert.ok(observed.includes(d.querySelector('.lp-review')));
+ assert.ok(!observed.includes(d.querySelector('.lp-reviews')));
+ w.observer.cb(observed.map(target=>({target,isIntersecting:true})));
+ assert.ok(!animations.some(e=>e.closest('#estimate')));
+ assert.ok(!animations.some(e=>e.matches('.lp-case')));
+ if(reduced)assert.equal(animations.length,0);
+ d.querySelector('.lp-motion-toggle').click();
+ assert.equal(d.body.classList.contains('lp-motion-stopped'),!reduced);
+ dom.window.close();
+});

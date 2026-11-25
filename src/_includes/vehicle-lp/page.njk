@@ -40,8 +40,9 @@
 
 <link rel="stylesheet" href="../assets/css/lp-store-review.css"><!-- Google tag (gtag.js) -->
 {% include "ga4.njk" %}
+<link rel="stylesheet" href="../assets/css/lp-motion.css?v=20261125">
 </head>
-<body{% if v.theme %} class="lp-theme-{{ v.theme }}"{% endif %}>
+<body class="lp-motion-enabled{% if v.theme %} lp-theme-{{ v.theme }}{% endif %}">
 
 {% include "vehicle-lp/sections/header.njk" %}
 
@@ -73,5 +74,6 @@
 
 <script src="../assets/js/estimate-form.js?v=20261117-ga4" defer></script>
 <script src="../assets/js/vehicle-lp.js" defer></script>
+<script src="../assets/js/lp-motion.js?v=20261125" defer></script>
 </body>
 </html>
