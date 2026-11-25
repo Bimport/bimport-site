@@ -2,7 +2,7 @@
 
 ユーザー承認済み。新規URL追加なし、既存の全公開LPへおすすめ案を適用。トップ・プライバシー・サイトマップ・車両データは変更なし。
 
-検証：公開LP768件のHTMLは追加CSS/JSとbodyクラス以外一致。フォーム・計測22件、トップ回帰2件、動きの個別監視・減速設定・フォーム非干渉4件が通過。
+検証：公開LP868件のHTMLは追加CSS/JSとbodyクラス以外一致。フォーム・計測22件、トップ回帰2件、動きの個別監視・減速設定・フォーム非干渉4件が通過。
 
 Search Console：全URLの再検査は未実施。新規URLなし。既存のサイトマップを維持。
 
@@ -14,6 +14,19 @@ Search Console：全URLの再検査は未実施。新規URLなし。既存のサ
 | アバルト アバルト500e | https://bimport.jp/abarth-500e/ |
 | アバルト アバルト 595 | https://bimport.jp/abarth-595/ |
 | アバルト アバルト 695 | https://bimport.jp/abarth-695/ |
+| アキュラ アキュラ CL | https://bimport.jp/acura-cl/ |
+| アキュラ アキュラ ILX | https://bimport.jp/acura-ilx/ |
+| アキュラ アキュラ インテグラ | https://bimport.jp/acura-integra/ |
+| アキュラ アキュラ レジェンド | https://bimport.jp/acura-legend/ |
+| アキュラ アキュラ MDX | https://bimport.jp/acura-mdx/ |
+| アキュラ アキュラ RDX | https://bimport.jp/acura-rdx/ |
+| アキュラ アキュラ RL | https://bimport.jp/acura-rl/ |
+| アキュラ アキュラ RLX | https://bimport.jp/acura-rlx/ |
+| アキュラ アキュラ RSX | https://bimport.jp/acura-rsx/ |
+| アキュラ アキュラ TL | https://bimport.jp/acura-tl/ |
+| アキュラ アキュラ TLX | https://bimport.jp/acura-tlx/ |
+| アキュラ アキュラ TSX | https://bimport.jp/acura-tsx/ |
+| アキュラ アキュラ ZDX | https://bimport.jp/acura-zdx/ |
 | アルファロメオ アルファロメオ 147 | https://bimport.jp/alfa-romeo-147/ |
 | アルファロメオ アルファロメオ 155 | https://bimport.jp/alfa-romeo-155/ |
 | アルファロメオ アルファロメオ 156 | https://bimport.jp/alfa-romeo-156/ |
@@ -168,6 +181,7 @@ Search Console：全URLの再検査は未実施。新規URLなし。既存のサ
 | ビュイック ビュイック アンクレイブ | https://bimport.jp/buick-enclave/ |
 | ビュイック ビュイック アンコール | https://bimport.jp/buick-encore/ |
 | ビュイック ビュイック エンビジョン | https://bimport.jp/buick-envision/ |
+| ビュイック ビュイック エンビスタ | https://bimport.jp/buick-envista/ |
 | ビュイック ビュイック ラクロス | https://bimport.jp/buick-lacrosse/ |
 | ビュイック ビュイック ルセーバー | https://bimport.jp/buick-lesabre/ |
 | ビュイック ビュイック パークアベニュー | https://bimport.jp/buick-park-avenue/ |
@@ -185,13 +199,17 @@ Search Console：全URLの再検査は未実施。新規URLなし。既存のサ
 | キャデラック キャデラック アランテ | https://bimport.jp/cadillac-allante/ |
 | キャデラック キャデラック ATS | https://bimport.jp/cadillac-ats/ |
 | キャデラック キャデラック コンコース | https://bimport.jp/cadillac-concours/ |
+| キャデラック キャデラック CT4 | https://bimport.jp/cadillac-ct4/ |
 | キャデラック キャデラック CT5 | https://bimport.jp/cadillac-ct5/ |
 | キャデラック キャデラック CT6 | https://bimport.jp/cadillac-ct6/ |
 | キャデラック キャデラック CTS | https://bimport.jp/cadillac-cts/ |
+| キャデラック キャデラック ELR | https://bimport.jp/cadillac-elr/ |
 | キャデラック キャデラックエスカレード | https://bimport.jp/cadillac-escalade/ |
 | キャデラック キャデラック フリートウッド | https://bimport.jp/cadillac-fleetwood/ |
 | キャデラック キャデラック リリック | https://bimport.jp/cadillac-lyriq/ |
+| キャデラック キャデラック オプティック | https://bimport.jp/cadillac-optiq/ |
 | キャデラック キャデラック SRXクロスオーバー | https://bimport.jp/cadillac-srx-crossover/ |
+| キャデラック キャデラック ヴィスティック | https://bimport.jp/cadillac-vistiq/ |
 | キャデラック キャデラック XLR | https://bimport.jp/cadillac-xlr/ |
 | キャデラック キャデラックXT4 | https://bimport.jp/cadillac-xt4/ |
 | キャデラック キャデラック XT5 | https://bimport.jp/cadillac-xt5/ |
@@ -202,6 +220,7 @@ Search Console：全URLの再検査は未実施。新規URLなし。既存のサ
 | シボレー シボレー アバランチ | https://bimport.jp/chevrolet-avalanche/ |
 | シボレー シボレー ベルエア | https://bimport.jp/chevrolet-bel-air/ |
 | シボレー シボレー ブレイザー | https://bimport.jp/chevrolet-blazer/ |
+| シボレー シボレー ボルト（BOLT） | https://bimport.jp/chevrolet-bolt/ |
 | シボレー シボレー C/Kシリーズ | https://bimport.jp/chevrolet-c-k/ |
 | シボレー シボレーカマロ | https://bimport.jp/chevrolet-camaro/ |
 | シボレー シボレー カプリス | https://bimport.jp/chevrolet-caprice/ |
@@ -211,9 +230,11 @@ Search Console：全URLの再検査は未実施。新規URLなし。既存のサ
 | シボレー シボレーコルベット | https://bimport.jp/chevrolet-corvette/ |
 | シボレー シボレー クルーズ | https://bimport.jp/chevrolet-cruze/ |
 | シボレー シボレー エルカミーノ | https://bimport.jp/chevrolet-el-camino/ |
+| シボレー シボレー エクイノックス | https://bimport.jp/chevrolet-equinox/ |
 | シボレー シボレー エクスプレス | https://bimport.jp/chevrolet-express/ |
 | シボレー シボレー HHR | https://bimport.jp/chevrolet-hhr/ |
 | シボレー シボレー インパラ | https://bimport.jp/chevrolet-impala/ |
+| シボレー シボレー マリブ | https://bimport.jp/chevrolet-malibu/ |
 | シボレー シボレー モンテカルロ | https://bimport.jp/chevrolet-monte-carlo/ |
 | シボレー シボレー MW | https://bimport.jp/chevrolet-mw/ |
 | シボレー シボレー ノバ | https://bimport.jp/chevrolet-nova/ |
@@ -221,9 +242,12 @@ Search Console：全URLの再検査は未実施。新規URLなし。既存のサ
 | シボレー シボレー S-10 | https://bimport.jp/chevrolet-s10/ |
 | シボレー シボレー シルバラード | https://bimport.jp/chevrolet-silverado/ |
 | シボレー シボレー ソニック | https://bimport.jp/chevrolet-sonic/ |
+| シボレー シボレー SSR | https://bimport.jp/chevrolet-ssr/ |
 | シボレー シボレー サバーバン | https://bimport.jp/chevrolet-suburban/ |
 | シボレー シボレー タホ | https://bimport.jp/chevrolet-tahoe/ |
 | シボレー シボレー トレイルブレイザー | https://bimport.jp/chevrolet-trailblazer/ |
+| シボレー シボレー トラバース | https://bimport.jp/chevrolet-traverse/ |
+| シボレー シボレー ボルト（VOLT） | https://bimport.jp/chevrolet-volt/ |
 | クライスラー クライスラー300 | https://bimport.jp/chrysler-300/ |
 | クライスラー クライスラー 300M | https://bimport.jp/chrysler-300m/ |
 | クライスラー クライスラー クロスファイア | https://bimport.jp/chrysler-crossfire/ |
@@ -264,6 +288,10 @@ Search Console：全URLの再検査は未実施。新規URLなし。既存のサ
 | シトロエン シトロエン XM | https://bimport.jp/citroen-xm/ |
 | シトロエン シトロエン クサラピカソ | https://bimport.jp/citroen-xsara-picasso/ |
 | シトロエン シトロエン クサラ | https://bimport.jp/citroen-xsara/ |
+| クプラ クプラ ボーン | https://bimport.jp/cupra-born/ |
+| クプラ クプラ フォーメンター | https://bimport.jp/cupra-formentor/ |
+| クプラ クプラ タバスカン | https://bimport.jp/cupra-tavascan/ |
+| クプラ クプラ テラマール | https://bimport.jp/cupra-terramar/ |
 | 大宇 大宇 マティス | https://bimport.jp/daewoo-matiz/ |
 | ダイハツ ダイハツハイゼットトラック | https://bimport.jp/daihatsu-hijet-truck/ |
 | ダイハツ ダイハツミラジーノ | https://bimport.jp/daihatsu-mira-gino/ |
@@ -365,7 +393,14 @@ Search Console：全URLの再検査は未実施。新規URLなし。既存のサ
 | フォード フォード スーパーデューティ | https://bimport.jp/ford-super-duty/ |
 | フォード フォード トランジットコネクト | https://bimport.jp/ford-transit-connect/ |
 | フォード フォード トランジット | https://bimport.jp/ford-transit/ |
+| ジェネシス ジェネシス G70 | https://bimport.jp/genesis-g70/ |
+| ジェネシス ジェネシス G80 | https://bimport.jp/genesis-g80/ |
+| ジェネシス ジェネシス G90 | https://bimport.jp/genesis-g90/ |
+| ジェネシス ジェネシス GV60 | https://bimport.jp/genesis-gv60/ |
+| ジェネシス ジェネシス GV70 | https://bimport.jp/genesis-gv70/ |
+| ジェネシス ジェネシス GV80 | https://bimport.jp/genesis-gv80/ |
 | GMC GMC アカディア | https://bimport.jp/gmc-acadia/ |
+| GMC GMC キャニオン | https://bimport.jp/gmc-canyon/ |
 | GMC GMC エンボイ | https://bimport.jp/gmc-envoy/ |
 | GMC GMC サバナ | https://bimport.jp/gmc-savana/ |
 | GMC GMC シエラ | https://bimport.jp/gmc-sierra/ |
@@ -383,18 +418,39 @@ Search Console：全URLの再検査は未実施。新規URLなし。既存のサ
 | ヒョンデ ヒョンデ クーペ | https://bimport.jp/hyundai-coupe/ |
 | ヒョンデ ヒョンデ エラントラ | https://bimport.jp/hyundai-elantra/ |
 | ヒョンデ ヒョンデ グレンジャー | https://bimport.jp/hyundai-grandeur/ |
+| ヒョンデ ヒョンデ i20 | https://bimport.jp/hyundai-i20/ |
 | ヒョンデ ヒョンデ i30 | https://bimport.jp/hyundai-i30/ |
 | ヒョンデ ヒョンデ インスター | https://bimport.jp/hyundai-inster/ |
 | ヒョンデ ヒョンデ アイオニック5 N | https://bimport.jp/hyundai-ioniq-5-n/ |
 | ヒョンデ ヒョンデ アイオニック5 | https://bimport.jp/hyundai-ioniq-5/ |
+| ヒョンデ ヒョンデ アイオニック | https://bimport.jp/hyundai-ioniq/ |
+| ヒョンデ ヒョンデ アイオニック6 | https://bimport.jp/hyundai-ioniq6/ |
 | ヒョンデ ヒョンデ JM | https://bimport.jp/hyundai-jm/ |
 | ヒョンデ ヒョンデ コナ | https://bimport.jp/hyundai-kona/ |
 | ヒョンデ ヒョンデ ネッソ | https://bimport.jp/hyundai-nexo/ |
+| ヒョンデ ヒョンデ パリセード | https://bimport.jp/hyundai-palisade/ |
 | ヒョンデ ヒョンデ サンタフェ | https://bimport.jp/hyundai-santa-fe/ |
 | ヒョンデ ヒョンデ ソナタ | https://bimport.jp/hyundai-sonata/ |
+| ヒョンデ ヒョンデ スターリア | https://bimport.jp/hyundai-staria/ |
 | ヒョンデ ヒョンデ TB | https://bimport.jp/hyundai-tb/ |
 | ヒョンデ ヒョンデ トラジェ | https://bimport.jp/hyundai-trajet/ |
+| ヒョンデ ヒョンデ ツーソン | https://bimport.jp/hyundai-tucson/ |
+| ヒョンデ ヒョンデ ヴェロスター | https://bimport.jp/hyundai-veloster/ |
+| ヒョンデ ヒョンデ ベニュー | https://bimport.jp/hyundai-venue/ |
 | ヒョンデ ヒョンデ XG | https://bimport.jp/hyundai-xg/ |
+| インフィニティ インフィニティ Gシリーズ | https://bimport.jp/infiniti-g/ |
+| インフィニティ インフィニティ J30 | https://bimport.jp/infiniti-j30/ |
+| インフィニティ インフィニティ Q30 | https://bimport.jp/infiniti-q30/ |
+| インフィニティ インフィニティ Q45 | https://bimport.jp/infiniti-q45/ |
+| インフィニティ インフィニティ Q50 | https://bimport.jp/infiniti-q50/ |
+| インフィニティ インフィニティ Q60 | https://bimport.jp/infiniti-q60/ |
+| インフィニティ インフィニティ Q70 | https://bimport.jp/infiniti-q70/ |
+| インフィニティ インフィニティ QX30 | https://bimport.jp/infiniti-qx30/ |
+| インフィニティ インフィニティ QX50 | https://bimport.jp/infiniti-qx50/ |
+| インフィニティ インフィニティ QX55 | https://bimport.jp/infiniti-qx55/ |
+| インフィニティ インフィニティ QX60 | https://bimport.jp/infiniti-qx60/ |
+| インフィニティ インフィニティ QX70 | https://bimport.jp/infiniti-qx70/ |
+| インフィニティ インフィニティ QX80 | https://bimport.jp/infiniti-qx80/ |
 | ジャガー ジャガー Eペイス | https://bimport.jp/jaguar-e-pace/ |
 | ジャガー ジャガー Eタイプ | https://bimport.jp/jaguar-e-type/ |
 | ジャガー ジャガー Fペイス | https://bimport.jp/jaguar-f-pace/ |
@@ -420,6 +476,16 @@ Search Console：全URLの再検査は未実施。新規URLなし。既存のサ
 | ジープ ジープレネゲード | https://bimport.jp/jeep-renegade/ |
 | ジープ ジープワゴニア | https://bimport.jp/jeep-wagoneer/ |
 | ジープ ラングラー | https://bimport.jp/jeep-wrangler/ |
+| キア キア カーニバル | https://bimport.jp/kia-carnival/ |
+| キア キア EV6 | https://bimport.jp/kia-ev6/ |
+| キア キア EV9 | https://bimport.jp/kia-ev9/ |
+| キア キア K5 | https://bimport.jp/kia-k5/ |
+| キア キア ニロ | https://bimport.jp/kia-niro/ |
+| キア キア ソレント | https://bimport.jp/kia-sorento/ |
+| キア キア ソウル | https://bimport.jp/kia-soul/ |
+| キア キア スポーテージ | https://bimport.jp/kia-sportage/ |
+| キア キア スティンガー | https://bimport.jp/kia-stinger/ |
+| キア キア テルライド | https://bimport.jp/kia-telluride/ |
 | ランボルギーニ ランボルギーニ アヴェンタドール | https://bimport.jp/lamborghini-aventador/ |
 | ランボルギーニ ランボルギーニ カウンタック | https://bimport.jp/lamborghini-countach/ |
 | ランボルギーニ ランボルギーニ ディアブロ | https://bimport.jp/lamborghini-diablo/ |
@@ -472,6 +538,8 @@ Search Console：全URLの再検査は未実施。新規URLなし。既存のサ
 | ロータス ロータス エヴォーラ | https://bimport.jp/lotus-evora/ |
 | ロータス ロータス エクセル | https://bimport.jp/lotus-excel/ |
 | ロータス ロータス エキシージ | https://bimport.jp/lotus-exige/ |
+| ルーシッド ルーシッド エア | https://bimport.jp/lucid-air/ |
+| ルーシッド ルーシッド グラビティ | https://bimport.jp/lucid-gravity/ |
 | マセラティ マセラティ 222 | https://bimport.jp/maserati-222/ |
 | マセラティ マセラティ 228 | https://bimport.jp/maserati-228/ |
 | マセラティ マセラティ 3200GT | https://bimport.jp/maserati-3200gt/ |
@@ -538,6 +606,7 @@ Search Console：全URLの再検査は未実施。新規URLなし。既存のサ
 | メルセデス・ベンツ メルセデス・ベンツ SLC | https://bimport.jp/mercedes-benz-slc/ |
 | メルセデス・ベンツ メルセデス・ベンツ SLK | https://bimport.jp/mercedes-benz-slk/ |
 | メルセデス・ベンツ メルセデス・ベンツ SLRマクラーレン | https://bimport.jp/mercedes-benz-slr-mclaren/ |
+| メルセデス・ベンツ メルセデス・ベンツ スプリンター | https://bimport.jp/mercedes-benz-sprinter/ |
 | メルセデス・ベンツ メルセデス・ベンツ Vクラス | https://bimport.jp/mercedes-benz-v-class/ |
 | メルセデス・ベンツ メルセデス・ベンツ バネオ | https://bimport.jp/mercedes-benz-vaneo/ |
 | メルセデス・ベンツ メルセデス・ベンツ ビアノ | https://bimport.jp/mercedes-benz-viano/ |
@@ -546,13 +615,17 @@ Search Console：全URLの再検査は未実施。新規URLなし。既存のサ
 | メルセデス・マイバッハ メルセデス・マイバッハ SL | https://bimport.jp/mercedes-maybach-sl/ |
 | マーキュリー マーキュリー クーガー | https://bimport.jp/mercury-cougar/ |
 | マーキュリー マーキュリー グランドマーキー | https://bimport.jp/mercury-grand-marquis/ |
+| MG MG サイバースター | https://bimport.jp/mg-cyberster/ |
+| MG MG HS | https://bimport.jp/mg-hs/ |
 | MG MG MGA | https://bimport.jp/mg-mga/ |
 | MG MG MGB | https://bimport.jp/mg-mgb/ |
 | MG MG MGF | https://bimport.jp/mg-mgf/ |
 | MG MG ミジェット | https://bimport.jp/mg-midget/ |
 | MG MG RV8 | https://bimport.jp/mg-rv8/ |
 | MG MG TF | https://bimport.jp/mg-tf/ |
+| MG MG ZS | https://bimport.jp/mg-zs/ |
 | MG MG ZT | https://bimport.jp/mg-zt/ |
+| MG MG4 | https://bimport.jp/mg4/ |
 | MINI MINI エースマン | https://bimport.jp/mini-aceman/ |
 | MINI MINI クラブマン | https://bimport.jp/mini-clubman/ |
 | MINI MINI コンバーチブル | https://bimport.jp/mini-convertible/ |
@@ -611,6 +684,10 @@ Search Console：全URLの再検査は未実施。新規URLなし。既存のサ
 | プリムス プリムス フューリー | https://bimport.jp/plymouth-fury/ |
 | プリムス プリムス GTX | https://bimport.jp/plymouth-gtx/ |
 | プリムス プリムス ロードランナー | https://bimport.jp/plymouth-road-runner/ |
+| ポールスター ポールスター 1 | https://bimport.jp/polestar-1/ |
+| ポールスター ポールスター 2 | https://bimport.jp/polestar-2/ |
+| ポールスター ポールスター 3 | https://bimport.jp/polestar-3/ |
+| ポールスター ポールスター 4 | https://bimport.jp/polestar-4/ |
 | ポンティアック ポンティアック ボンネビル | https://bimport.jp/pontiac-bonneville/ |
 | ポンティアック ポンティアック カタリナ | https://bimport.jp/pontiac-catalina/ |
 | ポンティアック ポンティアック フィエロ | https://bimport.jp/pontiac-fiero/ |
@@ -668,6 +745,8 @@ Search Console：全URLの再検査は未実施。新規URLなし。既存のサ
 | ルノー ルノー セニック | https://bimport.jp/renault-scenic/ |
 | ルノー ルノー トゥインゴ | https://bimport.jp/renault-twingo/ |
 | ルノー ルノー ウインド | https://bimport.jp/renault-wind/ |
+| リヴィアン リヴィアン R1S | https://bimport.jp/rivian-r1s/ |
+| リヴィアン リヴィアン R1T | https://bimport.jp/rivian-r1t/ |
 | ロールスロイス ロールスロイス コーニッシュ | https://bimport.jp/rolls-royce-corniche/ |
 | ロールスロイス ロールスロイス カリナン | https://bimport.jp/rolls-royce-cullinan/ |
 | ロールスロイス ロールスロイス ドーン | https://bimport.jp/rolls-royce-dawn/ |
@@ -687,11 +766,32 @@ Search Console：全URLの再検査は未実施。新規URLなし。既存のサ
 | ローバー ローバー 75 | https://bimport.jp/rover-75/ |
 | ローバー ローバー 800 | https://bimport.jp/rover-800/ |
 | ローバー ローバー ミニ | https://bimport.jp/rover-mini/ |
+| サーブ サーブ 9-2X | https://bimport.jp/saab-9-2x/ |
 | サーブ サーブ 9-3 | https://bimport.jp/saab-9-3/ |
+| サーブ サーブ 9-4X | https://bimport.jp/saab-9-4x/ |
 | サーブ サーブ 9-5 | https://bimport.jp/saab-9-5/ |
+| サーブ サーブ 9-7X | https://bimport.jp/saab-9-7x/ |
 | サーブ サーブ 900 | https://bimport.jp/saab-900/ |
 | サーブ サーブ 9000 | https://bimport.jp/saab-9000/ |
 | サターン サターン Sシリーズ | https://bimport.jp/saturn-s-series/ |
+| セアト セアト アルハンブラ | https://bimport.jp/seat-alhambra/ |
+| セアト セアト アローナ | https://bimport.jp/seat-arona/ |
+| セアト セアト アテカ | https://bimport.jp/seat-ateca/ |
+| セアト セアト イビサ | https://bimport.jp/seat-ibiza/ |
+| セアト セアト レオン | https://bimport.jp/seat-leon/ |
+| セアト セアト タラッコ | https://bimport.jp/seat-tarraco/ |
+| シュコダ シュコダ エンヤック | https://bimport.jp/skoda-enyaq/ |
+| シュコダ シュコダ ファビア | https://bimport.jp/skoda-fabia/ |
+| シュコダ シュコダ カミック | https://bimport.jp/skoda-kamiq/ |
+| シュコダ シュコダ カロック | https://bimport.jp/skoda-karoq/ |
+| シュコダ シュコダ コディアック | https://bimport.jp/skoda-kodiaq/ |
+| シュコダ シュコダ オクタビア | https://bimport.jp/skoda-octavia/ |
+| シュコダ シュコダ ルームスター | https://bimport.jp/skoda-roomster/ |
+| シュコダ シュコダ スカーラ | https://bimport.jp/skoda-scala/ |
+| シュコダ シュコダ スペルブ | https://bimport.jp/skoda-superb/ |
+| シュコダ シュコダ イエティ | https://bimport.jp/skoda-yeti/ |
+| スマート スマート #1 | https://bimport.jp/smart-1/ |
+| スマート スマート #3 | https://bimport.jp/smart-3/ |
 | スマート スマートフォーフォー | https://bimport.jp/smart-forfour/ |
 | スマート スマート フォーツー | https://bimport.jp/smart-fortwo/ |
 | スマート スマート ロードスター | https://bimport.jp/smart-roadster/ |
