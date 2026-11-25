@@ -1,0 +1,1830 @@
+[
+  {
+    "slug": "acura-mdx",
+    "name": "アキュラ MDX",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/acura?format=json",
+      "https://www.acura.com/"
+    ],
+    "manufacturerSubmittedNames": [
+      "MDX"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "acura-rdx",
+    "name": "アキュラ RDX",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/acura?format=json",
+      "https://www.acura.com/"
+    ],
+    "manufacturerSubmittedNames": [
+      "RDX"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "acura-tlx",
+    "name": "アキュラ TLX",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/acura?format=json",
+      "https://www.acura.com/"
+    ],
+    "manufacturerSubmittedNames": [
+      "TLX"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "acura-integra",
+    "name": "アキュラ インテグラ",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/acura?format=json",
+      "https://www.acura.com/"
+    ],
+    "manufacturerSubmittedNames": [
+      "Integra"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "acura-zdx",
+    "name": "アキュラ ZDX",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/acura?format=json",
+      "https://www.acura.com/"
+    ],
+    "manufacturerSubmittedNames": [
+      "ZDX"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "acura-ilx",
+    "name": "アキュラ ILX",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/acura?format=json",
+      "https://www.acura.com/"
+    ],
+    "manufacturerSubmittedNames": [
+      "ILX"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "acura-tl",
+    "name": "アキュラ TL",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/acura?format=json",
+      "https://www.acura.com/"
+    ],
+    "manufacturerSubmittedNames": [
+      "TL"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "acura-tsx",
+    "name": "アキュラ TSX",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/acura?format=json",
+      "https://www.acura.com/"
+    ],
+    "manufacturerSubmittedNames": [
+      "TSX"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "acura-rl",
+    "name": "アキュラ RL",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/acura?format=json",
+      "https://www.acura.com/"
+    ],
+    "manufacturerSubmittedNames": [
+      "RL"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "acura-rlx",
+    "name": "アキュラ RLX",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/acura?format=json",
+      "https://www.acura.com/"
+    ],
+    "manufacturerSubmittedNames": [
+      "RLX"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "acura-rsx",
+    "name": "アキュラ RSX",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/acura?format=json",
+      "https://www.acura.com/"
+    ],
+    "manufacturerSubmittedNames": [
+      "RSX"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "acura-legend",
+    "name": "アキュラ レジェンド",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/acura?format=json",
+      "https://www.acura.com/"
+    ],
+    "manufacturerSubmittedNames": [
+      "Legend"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "acura-cl",
+    "name": "アキュラ CL",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/acura?format=json",
+      "https://www.acura.com/"
+    ],
+    "manufacturerSubmittedNames": [
+      "CL"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "infiniti-qx80",
+    "name": "インフィニティ QX80",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/infiniti?format=json",
+      "https://www.infinitiusa.com/vehicles/discontinued-vehicles.html"
+    ],
+    "manufacturerSubmittedNames": [
+      "QX80"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "infiniti-qx60",
+    "name": "インフィニティ QX60",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/infiniti?format=json",
+      "https://www.infinitiusa.com/vehicles/discontinued-vehicles.html"
+    ],
+    "manufacturerSubmittedNames": [
+      "QX60"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "infiniti-qx50",
+    "name": "インフィニティ QX50",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/infiniti?format=json",
+      "https://www.infinitiusa.com/vehicles/discontinued-vehicles.html"
+    ],
+    "manufacturerSubmittedNames": [
+      "QX50"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "infiniti-qx55",
+    "name": "インフィニティ QX55",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/infiniti?format=json",
+      "https://www.infinitiusa.com/vehicles/discontinued-vehicles.html"
+    ],
+    "manufacturerSubmittedNames": [
+      "QX55"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "infiniti-q50",
+    "name": "インフィニティ Q50",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/infiniti?format=json",
+      "https://www.infinitiusa.com/vehicles/discontinued-vehicles.html"
+    ],
+    "manufacturerSubmittedNames": [
+      "Q50"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "infiniti-q60",
+    "name": "インフィニティ Q60",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/infiniti?format=json",
+      "https://www.infinitiusa.com/vehicles/discontinued-vehicles.html"
+    ],
+    "manufacturerSubmittedNames": [
+      "Q60"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "infiniti-q70",
+    "name": "インフィニティ Q70",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/infiniti?format=json",
+      "https://www.infinitiusa.com/vehicles/discontinued-vehicles.html"
+    ],
+    "manufacturerSubmittedNames": [
+      "Q70"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "infiniti-qx70",
+    "name": "インフィニティ QX70",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/infiniti?format=json",
+      "https://www.infinitiusa.com/vehicles/discontinued-vehicles.html"
+    ],
+    "manufacturerSubmittedNames": [
+      "QX70"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "infiniti-qx30",
+    "name": "インフィニティ QX30",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/infiniti?format=json",
+      "https://www.infinitiusa.com/vehicles/discontinued-vehicles.html"
+    ],
+    "manufacturerSubmittedNames": [
+      "QX30"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "infiniti-q45",
+    "name": "インフィニティ Q45",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/infiniti?format=json",
+      "https://www.infinitiusa.com/vehicles/discontinued-vehicles.html"
+    ],
+    "manufacturerSubmittedNames": [
+      "Q45"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "infiniti-g",
+    "name": "インフィニティ Gシリーズ",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/infiniti?format=json",
+      "https://www.infinitiusa.com/vehicles/discontinued-vehicles.html"
+    ],
+    "manufacturerSubmittedNames": [
+      "G35",
+      "G37",
+      "G25"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "infiniti-j30",
+    "name": "インフィニティ J30",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/infiniti?format=json",
+      "https://www.infinitiusa.com/vehicles/discontinued-vehicles.html"
+    ],
+    "manufacturerSubmittedNames": [
+      "J30"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "infiniti-q30",
+    "name": "インフィニティ Q30",
+    "sources": [
+      "https://www.infinitiusa.com/vehicles/discontinued-vehicles.html"
+    ],
+    "manufacturerSubmittedNames": [],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "genesis-gv80",
+    "name": "ジェネシス GV80",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/genesis?format=json",
+      "https://www.genesis.com/us/en/home"
+    ],
+    "manufacturerSubmittedNames": [
+      "GV80"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "genesis-gv70",
+    "name": "ジェネシス GV70",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/genesis?format=json",
+      "https://www.genesis.com/us/en/home"
+    ],
+    "manufacturerSubmittedNames": [
+      "GV70"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "genesis-gv60",
+    "name": "ジェネシス GV60",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/genesis?format=json",
+      "https://www.genesis.com/us/en/home"
+    ],
+    "manufacturerSubmittedNames": [
+      "GV60"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "genesis-g80",
+    "name": "ジェネシス G80",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/genesis?format=json",
+      "https://www.genesis.com/us/en/home"
+    ],
+    "manufacturerSubmittedNames": [
+      "G80"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "genesis-g70",
+    "name": "ジェネシス G70",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/genesis?format=json",
+      "https://www.genesis.com/us/en/home"
+    ],
+    "manufacturerSubmittedNames": [
+      "G70"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "genesis-g90",
+    "name": "ジェネシス G90",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/genesis?format=json",
+      "https://www.genesis.com/us/en/home"
+    ],
+    "manufacturerSubmittedNames": [
+      "G90"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-ev6",
+    "name": "キア EV6",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/kia?format=json",
+      "https://www.kia.com/us/en/vehicles"
+    ],
+    "manufacturerSubmittedNames": [
+      "EV6"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-ev9",
+    "name": "キア EV9",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/kia?format=json",
+      "https://www.kia.com/us/en/vehicles"
+    ],
+    "manufacturerSubmittedNames": [
+      "EV9"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-stinger",
+    "name": "キア スティンガー",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/kia?format=json",
+      "https://www.kia.com/us/en/vehicles"
+    ],
+    "manufacturerSubmittedNames": [
+      "Stinger"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-sportage",
+    "name": "キア スポーテージ",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/kia?format=json",
+      "https://www.kia.com/us/en/vehicles"
+    ],
+    "manufacturerSubmittedNames": [
+      "Sportage"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-sorento",
+    "name": "キア ソレント",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/kia?format=json",
+      "https://www.kia.com/us/en/vehicles"
+    ],
+    "manufacturerSubmittedNames": [
+      "Sorento"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-telluride",
+    "name": "キア テルライド",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/kia?format=json",
+      "https://www.kia.com/us/en/vehicles"
+    ],
+    "manufacturerSubmittedNames": [
+      "Telluride"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-carnival",
+    "name": "キア カーニバル",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/kia?format=json",
+      "https://www.kia.com/us/en/vehicles"
+    ],
+    "manufacturerSubmittedNames": [
+      "Carnival"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-k5",
+    "name": "キア K5",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/kia?format=json",
+      "https://www.kia.com/us/en/vehicles"
+    ],
+    "manufacturerSubmittedNames": [
+      "K5"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-niro",
+    "name": "キア ニロ",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/kia?format=json",
+      "https://www.kia.com/us/en/vehicles"
+    ],
+    "manufacturerSubmittedNames": [
+      "Niro"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-soul",
+    "name": "キア ソウル",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/kia?format=json",
+      "https://www.kia.com/us/en/vehicles"
+    ],
+    "manufacturerSubmittedNames": [
+      "Soul"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "skoda-octavia",
+    "name": "シュコダ オクタビア",
+    "sources": [
+      "https://www.skoda-storyboard.com/en/",
+      "https://cdn.skoda-storyboard.com/2025/11/SKODAosa25.11CMYKcz3_1_17b9351b.pdf"
+    ],
+    "manufacturerSubmittedNames": [],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "skoda-superb",
+    "name": "シュコダ スペルブ",
+    "sources": [
+      "https://www.skoda-storyboard.com/en/",
+      "https://cdn.skoda-storyboard.com/2025/11/SKODAosa25.11CMYKcz3_1_17b9351b.pdf"
+    ],
+    "manufacturerSubmittedNames": [],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "skoda-kodiaq",
+    "name": "シュコダ コディアック",
+    "sources": [
+      "https://www.skoda-storyboard.com/en/",
+      "https://cdn.skoda-storyboard.com/2025/11/SKODAosa25.11CMYKcz3_1_17b9351b.pdf"
+    ],
+    "manufacturerSubmittedNames": [],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "skoda-karoq",
+    "name": "シュコダ カロック",
+    "sources": [
+      "https://www.skoda-storyboard.com/en/",
+      "https://cdn.skoda-storyboard.com/2025/11/SKODAosa25.11CMYKcz3_1_17b9351b.pdf"
+    ],
+    "manufacturerSubmittedNames": [],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "skoda-kamiq",
+    "name": "シュコダ カミック",
+    "sources": [
+      "https://www.skoda-storyboard.com/en/",
+      "https://cdn.skoda-storyboard.com/2025/11/SKODAosa25.11CMYKcz3_1_17b9351b.pdf"
+    ],
+    "manufacturerSubmittedNames": [],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "skoda-fabia",
+    "name": "シュコダ ファビア",
+    "sources": [
+      "https://www.skoda-storyboard.com/en/",
+      "https://cdn.skoda-storyboard.com/2025/11/SKODAosa25.11CMYKcz3_1_17b9351b.pdf"
+    ],
+    "manufacturerSubmittedNames": [],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "skoda-scala",
+    "name": "シュコダ スカーラ",
+    "sources": [
+      "https://www.skoda-storyboard.com/en/",
+      "https://cdn.skoda-storyboard.com/2025/11/SKODAosa25.11CMYKcz3_1_17b9351b.pdf"
+    ],
+    "manufacturerSubmittedNames": [],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "skoda-enyaq",
+    "name": "シュコダ エンヤック",
+    "sources": [
+      "https://www.skoda-storyboard.com/en/",
+      "https://cdn.skoda-storyboard.com/2025/11/SKODAosa25.11CMYKcz3_1_17b9351b.pdf"
+    ],
+    "manufacturerSubmittedNames": [],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "skoda-yeti",
+    "name": "シュコダ イエティ",
+    "sources": [
+      "https://www.skoda-storyboard.com/en/",
+      "https://cdn.skoda-storyboard.com/2025/11/SKODAosa25.11CMYKcz3_1_17b9351b.pdf"
+    ],
+    "manufacturerSubmittedNames": [],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "skoda-roomster",
+    "name": "シュコダ ルームスター",
+    "sources": [
+      "https://www.skoda-storyboard.com/en/",
+      "https://cdn.skoda-storyboard.com/2025/11/SKODAosa25.11CMYKcz3_1_17b9351b.pdf"
+    ],
+    "manufacturerSubmittedNames": [],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "seat-leon",
+    "name": "セアト レオン",
+    "sources": [
+      "https://www.seat.com/",
+      "https://www.seat.es/coches-seat/como-elegir-tu-acabado-favorito-de-tu-coche-seat"
+    ],
+    "manufacturerSubmittedNames": [],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "seat-ibiza",
+    "name": "セアト イビサ",
+    "sources": [
+      "https://www.seat.com/",
+      "https://www.seat.es/coches-seat/como-elegir-tu-acabado-favorito-de-tu-coche-seat"
+    ],
+    "manufacturerSubmittedNames": [],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "seat-arona",
+    "name": "セアト アローナ",
+    "sources": [
+      "https://www.seat.com/",
+      "https://www.seat.es/coches-seat/como-elegir-tu-acabado-favorito-de-tu-coche-seat"
+    ],
+    "manufacturerSubmittedNames": [],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "seat-ateca",
+    "name": "セアト アテカ",
+    "sources": [
+      "https://www.seat.com/",
+      "https://www.seat.es/coches-seat/como-elegir-tu-acabado-favorito-de-tu-coche-seat"
+    ],
+    "manufacturerSubmittedNames": [],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "seat-alhambra",
+    "name": "セアト アルハンブラ",
+    "sources": [
+      "https://www.seat.com/",
+      "https://www.seat.es/coches-seat/como-elegir-tu-acabado-favorito-de-tu-coche-seat"
+    ],
+    "manufacturerSubmittedNames": [],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "seat-tarraco",
+    "name": "セアト タラッコ",
+    "sources": [
+      "https://www.seat.com/",
+      "https://www.seat.es/coches-seat/como-elegir-tu-acabado-favorito-de-tu-coche-seat"
+    ],
+    "manufacturerSubmittedNames": [],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "cupra-formentor",
+    "name": "クプラ フォーメンター",
+    "sources": [
+      "https://www.cupra.com/en/cars"
+    ],
+    "manufacturerSubmittedNames": [],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "cupra-born",
+    "name": "クプラ ボーン",
+    "sources": [
+      "https://www.cupra.com/en/cars"
+    ],
+    "manufacturerSubmittedNames": [],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "cupra-tavascan",
+    "name": "クプラ タバスカン",
+    "sources": [
+      "https://www.cupra.com/en/cars"
+    ],
+    "manufacturerSubmittedNames": [],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "cupra-terramar",
+    "name": "クプラ テラマール",
+    "sources": [
+      "https://www.cupra.com/en/cars"
+    ],
+    "manufacturerSubmittedNames": [],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "polestar-1",
+    "name": "ポールスター 1",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/polestar?format=json",
+      "https://www.polestar.com/global/"
+    ],
+    "manufacturerSubmittedNames": [
+      "Polestar 1"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "polestar-2",
+    "name": "ポールスター 2",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/polestar?format=json",
+      "https://www.polestar.com/global/"
+    ],
+    "manufacturerSubmittedNames": [
+      "Polestar 2"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "polestar-3",
+    "name": "ポールスター 3",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/polestar?format=json",
+      "https://www.polestar.com/global/"
+    ],
+    "manufacturerSubmittedNames": [
+      "Polestar 3"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "polestar-4",
+    "name": "ポールスター 4",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/polestar?format=json",
+      "https://www.polestar.com/global/"
+    ],
+    "manufacturerSubmittedNames": [
+      "Polestar 4"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "rivian-r1s",
+    "name": "リヴィアン R1S",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/rivian?format=json",
+      "https://rivian.com/"
+    ],
+    "manufacturerSubmittedNames": [
+      "R1S"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "rivian-r1t",
+    "name": "リヴィアン R1T",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/rivian?format=json",
+      "https://rivian.com/"
+    ],
+    "manufacturerSubmittedNames": [
+      "R1T"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "lucid-air",
+    "name": "ルーシッド エア",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/lucid?format=json",
+      "https://lucidmotors.com/"
+    ],
+    "manufacturerSubmittedNames": [
+      "Air"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "lucid-gravity",
+    "name": "ルーシッド グラビティ",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/lucid?format=json",
+      "https://lucidmotors.com/"
+    ],
+    "manufacturerSubmittedNames": [
+      "Gravity"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "mg4",
+    "name": "MG4",
+    "sources": [
+      "https://www.mg.co.uk/"
+    ],
+    "manufacturerSubmittedNames": [],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "mg-zs",
+    "name": "MG ZS",
+    "sources": [
+      "https://www.mg.co.uk/"
+    ],
+    "manufacturerSubmittedNames": [],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "mg-hs",
+    "name": "MG HS",
+    "sources": [
+      "https://www.mg.co.uk/"
+    ],
+    "manufacturerSubmittedNames": [],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "mg-cyberster",
+    "name": "MG サイバースター",
+    "sources": [
+      "https://www.mg.co.uk/"
+    ],
+    "manufacturerSubmittedNames": [],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "hyundai-ioniq6",
+    "name": "ヒョンデ アイオニック6",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/hyundai?format=json",
+      "https://www.hyundai.com/worldwide/en/vehicles"
+    ],
+    "manufacturerSubmittedNames": [
+      "Ioniq 6"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "hyundai-tucson",
+    "name": "ヒョンデ ツーソン",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/hyundai?format=json",
+      "https://www.hyundai.com/worldwide/en/vehicles"
+    ],
+    "manufacturerSubmittedNames": [
+      "Tucson"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "hyundai-palisade",
+    "name": "ヒョンデ パリセード",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/hyundai?format=json",
+      "https://www.hyundai.com/worldwide/en/vehicles"
+    ],
+    "manufacturerSubmittedNames": [
+      "Palisade"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "hyundai-ioniq",
+    "name": "ヒョンデ アイオニック",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/hyundai?format=json",
+      "https://www.hyundai.com/worldwide/en/vehicles"
+    ],
+    "manufacturerSubmittedNames": [
+      "Ioniq"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "hyundai-veloster",
+    "name": "ヒョンデ ヴェロスター",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/hyundai?format=json",
+      "https://www.hyundai.com/worldwide/en/vehicles"
+    ],
+    "manufacturerSubmittedNames": [
+      "Veloster"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "hyundai-venue",
+    "name": "ヒョンデ ベニュー",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/hyundai?format=json",
+      "https://www.hyundai.com/worldwide/en/vehicles"
+    ],
+    "manufacturerSubmittedNames": [
+      "Venue"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "hyundai-i20",
+    "name": "ヒョンデ i20",
+    "sources": [
+      "https://www.hyundai.com/worldwide/en/vehicles"
+    ],
+    "manufacturerSubmittedNames": [],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "hyundai-staria",
+    "name": "ヒョンデ スターリア",
+    "sources": [
+      "https://www.hyundai.com/worldwide/en/vehicles"
+    ],
+    "manufacturerSubmittedNames": [],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-traverse",
+    "name": "シボレー トラバース",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/chevrolet?format=json",
+      "https://www.chevrolet.com/"
+    ],
+    "manufacturerSubmittedNames": [
+      "Traverse"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-equinox",
+    "name": "シボレー エクイノックス",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/chevrolet?format=json",
+      "https://www.chevrolet.com/"
+    ],
+    "manufacturerSubmittedNames": [
+      "Equinox"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-malibu",
+    "name": "シボレー マリブ",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/chevrolet?format=json",
+      "https://www.chevrolet.com/"
+    ],
+    "manufacturerSubmittedNames": [
+      "Malibu"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-ssr",
+    "name": "シボレー SSR",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/chevrolet?format=json",
+      "https://www.chevrolet.com/"
+    ],
+    "manufacturerSubmittedNames": [
+      "SSR"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-volt",
+    "name": "シボレー ボルト（VOLT）",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/chevrolet?format=json",
+      "https://www.chevrolet.com/"
+    ],
+    "manufacturerSubmittedNames": [
+      "Volt"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-bolt",
+    "name": "シボレー ボルト（BOLT）",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/chevrolet?format=json",
+      "https://www.chevrolet.com/"
+    ],
+    "manufacturerSubmittedNames": [
+      "Bolt"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "gmc-canyon",
+    "name": "GMC キャニオン",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/gmc?format=json",
+      "https://www.gmc.com/"
+    ],
+    "manufacturerSubmittedNames": [
+      "Canyon"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "buick-envista",
+    "name": "ビュイック エンビスタ",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/buick?format=json",
+      "https://www.buick.com/"
+    ],
+    "manufacturerSubmittedNames": [
+      "Envista"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "mercedes-benz-sprinter",
+    "name": "メルセデス・ベンツ スプリンター",
+    "sources": [
+      "https://www.mbvans.com/en/sprinter",
+      "https://www.mbvans.com/en/vehicle-information"
+    ],
+    "manufacturerSubmittedNames": [],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "smart-1",
+    "name": "スマート #1",
+    "sources": [
+      "https://global.smart.com/",
+      "https://manual.smart.com/"
+    ],
+    "manufacturerSubmittedNames": [],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "smart-3",
+    "name": "スマート #3",
+    "sources": [
+      "https://global.smart.com/",
+      "https://manual.smart.com/"
+    ],
+    "manufacturerSubmittedNames": [],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "saab-9-2x",
+    "name": "サーブ 9-2X",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/saab?format=json"
+    ],
+    "manufacturerSubmittedNames": [
+      "9-2X"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "saab-9-4x",
+    "name": "サーブ 9-4X",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/saab?format=json"
+    ],
+    "manufacturerSubmittedNames": [
+      "9-4x"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "saab-9-7x",
+    "name": "サーブ 9-7X",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/saab?format=json"
+    ],
+    "manufacturerSubmittedNames": [
+      "9-7X"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "cadillac-ct4",
+    "name": "キャデラック CT4",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/cadillac?format=json",
+      "https://www.cadillac.com/"
+    ],
+    "manufacturerSubmittedNames": [
+      "CT4"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "cadillac-elr",
+    "name": "キャデラック ELR",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/cadillac?format=json",
+      "https://www.cadillac.com/"
+    ],
+    "manufacturerSubmittedNames": [
+      "ELR"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "cadillac-optiq",
+    "name": "キャデラック オプティック",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/cadillac?format=json",
+      "https://www.cadillac.com/"
+    ],
+    "manufacturerSubmittedNames": [
+      "Optiq"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "cadillac-vistiq",
+    "name": "キャデラック ヴィスティック",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/cadillac?format=json",
+      "https://www.cadillac.com/"
+    ],
+    "manufacturerSubmittedNames": [
+      "Vistiq"
+    ],
+    "formPolicy": "国内の認定型式とグレードを対応確認できる資料がないため、未確認の選択肢を作らず「わからない」「その他・わからない」で受付。海外のグレードを国内確認済みとして扱わない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  }
+]
