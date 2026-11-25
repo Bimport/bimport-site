@@ -24,8 +24,8 @@
         }
       ],
       "alt": "フェラーリ F50のAI生成イメージ（前方から）",
-      "width": 1536,
-      "height": 1024,
+      "width": 1200,
+      "height": 800,
       "position": "50% 50%",
       "positionPc": "50% 50%",
       "src": "assets/images/ferrari-f50/hero-ai-1536.jpg"
@@ -45,8 +45,8 @@
         }
       ],
       "alt": "フェラーリ F50のAI生成イメージ（後方から）",
-      "width": 1536,
-      "height": 1024,
+      "width": 1200,
+      "height": 800,
       "position": "50% 50%",
       "positionPc": "50% 50%",
       "fallback": "assets/images/ferrari-f50/line-ai-1536.jpg"

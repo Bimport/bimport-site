@@ -24,8 +24,8 @@
         }
       ],
       "alt": "アストンマーティン DB9のAI生成イメージ（前方から）",
-      "width": 1536,
-      "height": 1024,
+      "width": 1200,
+      "height": 800,
       "position": "50% 50%",
       "positionPc": "50% 50%",
       "src": "assets/images/aston-martin-db9/hero-ai-1536.jpg"
@@ -45,8 +45,8 @@
         }
       ],
       "alt": "アストンマーティン DB9のAI生成イメージ（後方から）",
-      "width": 1536,
-      "height": 1024,
+      "width": 1200,
+      "height": 800,
       "position": "50% 50%",
       "positionPc": "50% 50%",
       "fallback": "assets/images/aston-martin-db9/line-ai-1536.jpg"
