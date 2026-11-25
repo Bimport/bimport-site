@@ -1,11 +1,19 @@
 {%- from "vehicle-lp/macros.njk" import lineMark -%}
 {%- set fin = v.final or {} -%}
+{%- set heroImg = v.images.hero if (v.images and v.images.hero) else null -%}
 {%- set finalImg = v.images.final if (v.images and v.images.final) else (v.images.hero if (v.images and v.images.hero) else null) -%}
   <!-- ============ 最終CTA ============ -->
   <section class="lp-final">
     <div class="lp-final__bg" aria-hidden="true">
       {%- if finalImg %}
+      {%- if heroImg and finalImg.src == heroImg.src and heroImg.webp and heroImg.webp.length %}
+      <picture>
+        <source type="image/webp" srcset="{% for s in heroImg.webp %}../{{ s.src }} {{ s.width }}w{% if not loop.last %}, {% endif %}{% endfor %}" sizes="(min-width: 900px) 65vw, 100vw">
+        <img src="../{{ finalImg.src }}" alt="" loading="lazy" decoding="async">
+      </picture>
+      {%- else %}
       <img src="../{{ finalImg.src }}" alt="" loading="lazy" decoding="async">
+      {%- endif %}
       {%- endif %}
     </div>
     <div class="lp-container lp-final__inner">
