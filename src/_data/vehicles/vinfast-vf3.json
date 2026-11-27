@@ -1,0 +1,161 @@
+{
+  "slug": "vinfast-vf3",
+  "draft": false,
+  "theme": "import-imagery",
+  "maker": "VINFAST",
+  "makerJa": "ビンファスト",
+  "model": "VF3",
+  "modelShort": "VF3",
+  "nameJa": "ビンファスト VF3",
+  "seo": {
+    "title": "ビンファスト VF3の買取・査定ならBimport｜輸入車専門",
+    "description": "ビンファスト VF3の買取・査定はBimportへ。VF3の仕様・整備記録をはじめ、仕様や装備、内外装と整備履歴を確認します。売却未定でも60秒の入力で概算査定をご相談いただけます。査定無料・全国対応。車検証と写真からもご相談ください。"
+  },
+  "images": {
+    "hero": {
+      "webp": [
+        {
+          "src": "assets/images/vinfast-vf3/hero-ai-1000.webp",
+          "width": 1000
+        }
+      ],
+      "width": 1200,
+      "height": 800,
+      "alt": "ビンファスト VF3のAI生成イメージ",
+      "position": "50% 50%",
+      "positionPc": "50% 50%",
+      "src": "assets/images/vinfast-vf3/hero-ai-1200.jpg"
+    },
+    "final": {
+      "src": "assets/images/vinfast-vf3/hero-ai-1200.jpg"
+    },
+    "line": {
+      "webp": [
+        {
+          "src": "assets/images/vinfast-vf3/line-ai-1000.webp",
+          "width": 1000
+        }
+      ],
+      "width": 1200,
+      "height": 800,
+      "alt": "ビンファスト VF3のAI生成イメージ",
+      "position": "50% 50%",
+      "positionPc": "50% 50%",
+      "fallback": "assets/images/vinfast-vf3/line-ai-1200.jpg"
+    }
+  },
+  "hero": {
+    "label": "ビンファスト VF3 買取・査定",
+    "catch": "そのVF3、本当の価値まで<br>評価されていますか？",
+    "lead": "売却未定でもOK。<br>まずは概算価格からお気軽にご相談ください。<br><small>※画像はAI生成の車種イメージです。</small>",
+    "buy": "買取・査定",
+    "cta": "60秒で概算査定"
+  },
+  "form": {
+    "bodyTypeLabel": "型式",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ],
+    "gradeFallback": "その他・わからない",
+    "yearFrom": 1970,
+    "yearOlderLabel": "1969年以前"
+  },
+  "cases": [],
+  "casesEmpty": {
+    "title": "買取実績は現在未掲載です",
+    "message": "このページのVF3の買取実績は、現在未掲載です。掲載できる実績を確認でき次第、ご紹介します。"
+  },
+  "points": {
+    "lead": "VF3の仕様・装備と、<br>整備履歴や使用状態を確認します。",
+    "items": [
+      {
+        "key": "spec0",
+        "title": "VF3の仕様・整備記録",
+        "text": "現車の状態と、関連する部品の点検・交換記録を照合し、一台ずつ確認します。",
+        "image": null,
+        "icon": "car",
+        "placeholderLabel": "SPECIFICATION"
+      },
+      {
+        "key": "spec1",
+        "title": "充電・駆動用電池の情報",
+        "text": "充電に対応する仕様は、充電時の作動や警告、充電用の付属品と点検記録を確認します。車両ごとの仕様を資料と写真で照合します。",
+        "image": null,
+        "icon": "badge",
+        "placeholderLabel": "EQUIPMENT"
+      },
+      {
+        "key": "spec2",
+        "title": "駆動系と足回り",
+        "text": "走行時の異音や警告表示、足回りの傷み、点検・修理の記録を確認します。",
+        "image": null,
+        "icon": "form",
+        "placeholderLabel": "CONDITION"
+      },
+      {
+        "key": "condition0",
+        "title": "内外装・使用状態",
+        "text": "ボディやシート、ホイールのキズ・損傷・補修の状態を確認します。",
+        "image": null,
+        "icon": "search",
+        "tone": "dark"
+      },
+      {
+        "key": "condition1",
+        "title": "整備・修理の記録",
+        "text": "点検記録や修理明細を確認し、整備の内容と現在の状態を照合します。",
+        "image": null,
+        "icon": "doc",
+        "tone": "dark"
+      },
+      {
+        "key": "condition2",
+        "title": "純正部品・付属品",
+        "text": "スペアキーや取扱説明書、保管している純正部品などを確認します。",
+        "image": null,
+        "icon": "wheel",
+        "tone": "dark"
+      }
+    ],
+    "more": [
+      "モデル年",
+      "走行距離",
+      "整備記録",
+      "純正部品",
+      "使用・保管状況"
+    ],
+    "close": "車両の仕様や整備履歴が、まだ分からなくても大丈夫です。<br>まずは<strong>車検証とお車の写真</strong>からご相談ください。"
+  },
+  "faq": [
+    {
+      "q": "型式のボタンと車検証の表記が違う場合は？",
+      "a": "型式は「わからない」を選んで進められます。車検証の「型式」欄と車両の写真をお知らせいただければ、仕様を確認したうえでご案内します。"
+    },
+    {
+      "q": "並行輸入車や仕様が分からない車も相談できますか？",
+      "a": "ご相談いただけます。輸入時の書類や整備記録、車検証と車両の写真をお知らせください。走行距離の単位や登録年とモデル年が異なる場合も、資料を確認してご案内します。"
+    },
+    {
+      "q": "海外仕様の充電口や付属品も確認したほうがよいですか？",
+      "a": "充電に対応する車両は、充電口・充電ケーブル・車載機器の写真と、国内での使用状況をお知らせください。販売地域や年式により仕様が異なるため、書類と現車の情報を確認してご案内します。"
+    },
+    {
+      "q": "長期間保管していた車も相談できますか？",
+      "a": "ご相談いただけます。保管期間、最後に走行・点検した時期、始動の可否をお知らせください。状態の分かる写真や整備明細を確認したうえでご案内します。"
+    }
+  ],
+  "line": {
+    "title": "あなたの<span class=\"lp-en\">VF3</span>、<br>まずは写真で概算査定。",
+    "lead": "車全体・内装・メーターの写真をLINEで。<br>仕様が分からない場合もお気軽にご相談ください。<br><small>※画像はAI生成の車種イメージです。</small>",
+    "ctaText": "LINEで写真査定する"
+  },
+  "final": {
+    "label": "VINFAST VF3",
+    "title": "今の<span class=\"lp-en\">VF3</span>、<br>いくらになる？",
+    "lead": "売却未定でもOK。<br>まずは車両情報と写真からご相談ください。"
+  }
+}
