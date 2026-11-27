@@ -1,0 +1,1650 @@
+[
+  {
+    "slug": "skoda-rapid",
+    "name": "シュコダ ラピッド",
+    "sources": [
+      "https://cdn.skoda-storyboard.com/2025/11/SKODAosa25.11CMYKen3_1_06e8e3db.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "skoda-citigo",
+    "name": "シュコダ シティゴ",
+    "sources": [
+      "https://cdn.skoda-storyboard.com/2025/11/SKODAosa25.11CMYKen3_1_06e8e3db.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "skoda-felicia",
+    "name": "シュコダ フェリシア",
+    "sources": [
+      "https://cdn.skoda-storyboard.com/2025/11/SKODAosa25.11CMYKen3_1_06e8e3db.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "skoda-favorit",
+    "name": "シュコダ ファヴォリット",
+    "sources": [
+      "https://cdn.skoda-storyboard.com/2025/11/SKODAosa25.11CMYKen3_1_06e8e3db.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "seat-toledo",
+    "name": "セアト トレド",
+    "sources": [
+      "https://www.seat.com/content/dam/public/seat-website/company/annual-report/overview/pdf/others-annual-report-2020-march-2021.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "seat-cordoba",
+    "name": "セアト コルドバ",
+    "sources": [
+      "https://www.seat.com/content/dam/public/seat-website/company/annual-report/overview/pdf/others-annual-report-2020-march-2021.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "seat-exeo",
+    "name": "セアト エクセオ",
+    "sources": [
+      "https://www.seat.com/content/dam/public/seat-website/company/annual-report/overview/pdf/others-annual-report-2020-march-2021.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "seat-altea",
+    "name": "セアト アルテア",
+    "sources": [
+      "https://www.seat.com/content/dam/public/seat-website/company/annual-report/overview/pdf/others-annual-report-2020-march-2021.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "seat-arosa",
+    "name": "セアト アローサ",
+    "sources": [
+      "https://www.seat.com/content/dam/public/seat-website/company/annual-report/overview/pdf/others-annual-report-2020-march-2021.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "seat-mii",
+    "name": "セアト ミー",
+    "sources": [
+      "https://www.seat.com/content/dam/public/seat-website/company/annual-report/overview/pdf/others-annual-report-2020-march-2021.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "seat-malaga",
+    "name": "セアト マラガ",
+    "sources": [
+      "https://www.seat.com/content/dam/public/seat-website/company/annual-report/overview/pdf/others-annual-report-2020-march-2021.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "seat-marbella",
+    "name": "セアト マルベーリャ",
+    "sources": [
+      "https://www.seat.com/content/dam/public/seat-website/company/annual-report/overview/pdf/others-annual-report-2020-march-2021.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "seat-ronda",
+    "name": "セアト ロンダ",
+    "sources": [
+      "https://www.seat.com/content/dam/public/seat-website/company/annual-report/overview/pdf/others-annual-report-2020-march-2021.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-ceed",
+    "name": "キア シード",
+    "sources": [
+      "https://preprod2-press.kia.com/ie/en/home/corporate/history.html",
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/kia?format=json"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-rio",
+    "name": "キア リオ",
+    "sources": [
+      "https://preprod2-press.kia.com/ie/en/home/corporate/history.html",
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/kia?format=json"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-picanto",
+    "name": "キア ピカント",
+    "sources": [
+      "https://preprod2-press.kia.com/ie/en/home/corporate/history.html",
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/kia?format=json"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-cadenza",
+    "name": "キア カデンツァ",
+    "sources": [
+      "https://preprod2-press.kia.com/ie/en/home/corporate/history.html",
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/kia?format=json"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-k900",
+    "name": "キア K900",
+    "sources": [
+      "https://preprod2-press.kia.com/ie/en/home/corporate/history.html",
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/kia?format=json"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-k4",
+    "name": "キア K4",
+    "sources": [
+      "https://preprod2-press.kia.com/ie/en/home/corporate/history.html",
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/kia?format=json"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-seltos",
+    "name": "キア セルトス",
+    "sources": [
+      "https://preprod2-press.kia.com/ie/en/home/corporate/history.html",
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/kia?format=json"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-sonet",
+    "name": "キア ソネット",
+    "sources": [
+      "https://preprod2-press.kia.com/ie/en/home/corporate/history.html",
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/kia?format=json"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-carens",
+    "name": "キア カレンス",
+    "sources": [
+      "https://preprod2-press.kia.com/ie/en/home/corporate/history.html",
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/kia?format=json"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-venga",
+    "name": "キア ヴェンガ",
+    "sources": [
+      "https://preprod2-press.kia.com/ie/en/home/corporate/history.html",
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/kia?format=json"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-xceed",
+    "name": "キア エクシード",
+    "sources": [
+      "https://preprod2-press.kia.com/ie/en/home/corporate/history.html",
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/kia?format=json"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-proceed",
+    "name": "キア プロシード",
+    "sources": [
+      "https://preprod2-press.kia.com/ie/en/home/corporate/history.html",
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/kia?format=json"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-borrego",
+    "name": "キア ボレゴ",
+    "sources": [
+      "https://preprod2-press.kia.com/ie/en/home/corporate/history.html",
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/kia?format=json"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-retona",
+    "name": "キア レトナ",
+    "sources": [
+      "https://preprod2-press.kia.com/ie/en/home/corporate/history.html",
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/kia?format=json"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-pride",
+    "name": "キア プライド",
+    "sources": [
+      "https://preprod2-press.kia.com/ie/en/home/corporate/history.html",
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/kia?format=json"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-sephia",
+    "name": "キア セフィア",
+    "sources": [
+      "https://preprod2-press.kia.com/ie/en/home/corporate/history.html",
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/kia?format=json"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-spectra",
+    "name": "キア スペクトラ",
+    "sources": [
+      "https://preprod2-press.kia.com/ie/en/home/corporate/history.html",
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/kia?format=json"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-clarus",
+    "name": "キア クラルス",
+    "sources": [
+      "https://preprod2-press.kia.com/ie/en/home/corporate/history.html",
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/kia?format=json"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "hyundai-equus",
+    "name": "ヒョンデ エクウス",
+    "sources": [
+      "https://www.hyundai.com/worldwide/en/footer/corporate/vehicle-history",
+      "https://www.hyundai.com/content/dam/hyundai/ww/en/images/about-hyundai/ir/financial-statements/annual-report/hw026554.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "hyundai-aslan",
+    "name": "ヒョンデ アスラン",
+    "sources": [
+      "https://www.hyundai.com/worldwide/en/footer/corporate/vehicle-history",
+      "https://www.hyundai.com/content/dam/hyundai/ww/en/images/about-hyundai/ir/financial-statements/annual-report/hw026554.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "hyundai-veracruz",
+    "name": "ヒョンデ ベラクルーズ",
+    "sources": [
+      "https://www.hyundai.com/worldwide/en/footer/corporate/vehicle-history",
+      "https://www.hyundai.com/content/dam/hyundai/ww/en/images/about-hyundai/ir/financial-statements/annual-report/hw026554.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "hyundai-galloper",
+    "name": "ヒョンデ ギャロッパー",
+    "sources": [
+      "https://www.hyundai.com/worldwide/en/footer/corporate/vehicle-history",
+      "https://www.hyundai.com/content/dam/hyundai/ww/en/images/about-hyundai/ir/financial-statements/annual-report/hw026554.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "hyundai-terracan",
+    "name": "ヒョンデ テラカン",
+    "sources": [
+      "https://www.hyundai.com/worldwide/en/footer/corporate/vehicle-history",
+      "https://www.hyundai.com/content/dam/hyundai/ww/en/images/about-hyundai/ir/financial-statements/annual-report/hw026554.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "hyundai-matrix",
+    "name": "ヒョンデ マトリックス",
+    "sources": [
+      "https://www.hyundai.com/worldwide/en/footer/corporate/vehicle-history",
+      "https://www.hyundai.com/content/dam/hyundai/ww/en/images/about-hyundai/ir/financial-statements/annual-report/hw026554.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "hyundai-atos",
+    "name": "ヒョンデ アトス",
+    "sources": [
+      "https://www.hyundai.com/worldwide/en/footer/corporate/vehicle-history",
+      "https://www.hyundai.com/content/dam/hyundai/ww/en/images/about-hyundai/ir/financial-statements/annual-report/hw026554.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "hyundai-accent",
+    "name": "ヒョンデ アクセント",
+    "sources": [
+      "https://www.hyundai.com/worldwide/en/footer/corporate/vehicle-history",
+      "https://www.hyundai.com/content/dam/hyundai/ww/en/images/about-hyundai/ir/financial-statements/annual-report/hw026554.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "hyundai-porter",
+    "name": "ヒョンデ ポーター",
+    "sources": [
+      "https://www.hyundai.com/worldwide/en/footer/corporate/vehicle-history",
+      "https://www.hyundai.com/content/dam/hyundai/ww/en/images/about-hyundai/ir/financial-statements/annual-report/hw026554.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "hyundai-stargazer",
+    "name": "ヒョンデ スターゲイザー",
+    "sources": [
+      "https://www.hyundai.com/worldwide/en/footer/corporate/vehicle-history",
+      "https://www.hyundai.com/content/dam/hyundai/ww/en/images/about-hyundai/ir/financial-statements/annual-report/hw026554.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "hyundai-custo",
+    "name": "ヒョンデ クスト",
+    "sources": [
+      "https://www.hyundai.com/worldwide/en/footer/corporate/vehicle-history",
+      "https://www.hyundai.com/content/dam/hyundai/ww/en/images/about-hyundai/ir/financial-statements/annual-report/hw026554.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "hyundai-mistra",
+    "name": "ヒョンデ ミストラ",
+    "sources": [
+      "https://www.hyundai.com/worldwide/en/footer/corporate/vehicle-history",
+      "https://www.hyundai.com/content/dam/hyundai/ww/en/images/about-hyundai/ir/financial-statements/annual-report/hw026554.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "hyundai-lafesta",
+    "name": "ヒョンデ ラフェスタ",
+    "sources": [
+      "https://www.hyundai.com/worldwide/en/footer/corporate/vehicle-history",
+      "https://www.hyundai.com/content/dam/hyundai/ww/en/images/about-hyundai/ir/financial-statements/annual-report/hw026554.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "vinfast-vf3",
+    "name": "ビンファスト VF3",
+    "sources": [
+      "https://static-cms-prod.vinfastauto.com/202600522_thong-bao-chinh-sach-gia-ban-cac-dong-xe-vinfast-thang-05.2026_1.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "vinfast-vf5",
+    "name": "ビンファスト VF5",
+    "sources": [
+      "https://static-cms-prod.vinfastauto.com/202600522_thong-bao-chinh-sach-gia-ban-cac-dong-xe-vinfast-thang-05.2026_1.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "vinfast-vf6",
+    "name": "ビンファスト VF6",
+    "sources": [
+      "https://static-cms-prod.vinfastauto.com/202600522_thong-bao-chinh-sach-gia-ban-cac-dong-xe-vinfast-thang-05.2026_1.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "vinfast-vf7",
+    "name": "ビンファスト VF7",
+    "sources": [
+      "https://static-cms-prod.vinfastauto.com/202600522_thong-bao-chinh-sach-gia-ban-cac-dong-xe-vinfast-thang-05.2026_1.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "vinfast-vf8",
+    "name": "ビンファスト VF8",
+    "sources": [
+      "https://static-cms-prod.vinfastauto.com/202600522_thong-bao-chinh-sach-gia-ban-cac-dong-xe-vinfast-thang-05.2026_1.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "vinfast-vf9",
+    "name": "ビンファスト VF9",
+    "sources": [
+      "https://static-cms-prod.vinfastauto.com/202600522_thong-bao-chinh-sach-gia-ban-cac-dong-xe-vinfast-thang-05.2026_1.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "nio-es6",
+    "name": "NIO ES6",
+    "sources": [
+      "https://www.nio.com/",
+      "https://www.sec.gov/Archives/edgar/data/1736541/000141057825000661/nio-20241231x20f.htm"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "nio-es7",
+    "name": "NIO ES7",
+    "sources": [
+      "https://www.nio.com/",
+      "https://www.sec.gov/Archives/edgar/data/1736541/000141057825000661/nio-20241231x20f.htm"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "nio-es8",
+    "name": "NIO ES8",
+    "sources": [
+      "https://www.nio.com/",
+      "https://www.sec.gov/Archives/edgar/data/1736541/000141057825000661/nio-20241231x20f.htm"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "nio-ec6",
+    "name": "NIO EC6",
+    "sources": [
+      "https://www.nio.com/",
+      "https://www.sec.gov/Archives/edgar/data/1736541/000141057825000661/nio-20241231x20f.htm"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "nio-ec7",
+    "name": "NIO EC7",
+    "sources": [
+      "https://www.nio.com/",
+      "https://www.sec.gov/Archives/edgar/data/1736541/000141057825000661/nio-20241231x20f.htm"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "nio-et5",
+    "name": "NIO ET5",
+    "sources": [
+      "https://www.nio.com/",
+      "https://www.sec.gov/Archives/edgar/data/1736541/000141057825000661/nio-20241231x20f.htm"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "nio-et7",
+    "name": "NIO ET7",
+    "sources": [
+      "https://www.nio.com/",
+      "https://www.sec.gov/Archives/edgar/data/1736541/000141057825000661/nio-20241231x20f.htm"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "nio-et9",
+    "name": "NIO ET9",
+    "sources": [
+      "https://www.nio.com/",
+      "https://www.sec.gov/Archives/edgar/data/1736541/000141057825000661/nio-20241231x20f.htm"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "xpeng-g3",
+    "name": "シャオペン G3",
+    "sources": [
+      "https://www.xpeng.com/"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "xpeng-g6",
+    "name": "シャオペン G6",
+    "sources": [
+      "https://www.xpeng.com/"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "xpeng-g9",
+    "name": "シャオペン G9",
+    "sources": [
+      "https://www.xpeng.com/"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "xpeng-p5",
+    "name": "シャオペン P5",
+    "sources": [
+      "https://www.xpeng.com/"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "xpeng-p7",
+    "name": "シャオペン P7",
+    "sources": [
+      "https://www.xpeng.com/"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "xpeng-x9",
+    "name": "シャオペン X9",
+    "sources": [
+      "https://www.xpeng.com/"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "zeekr-001",
+    "name": "ジーカー 001",
+    "sources": [
+      "https://www.zeekrgroup.com/about"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "zeekr-007",
+    "name": "ジーカー 007",
+    "sources": [
+      "https://www.zeekrgroup.com/about"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "zeekr-009",
+    "name": "ジーカー 009",
+    "sources": [
+      "https://www.zeekrgroup.com/about"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "zeekr-7x",
+    "name": "ジーカー 7X",
+    "sources": [
+      "https://www.zeekrgroup.com/about"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "zeekr-x",
+    "name": "ジーカー X",
+    "sources": [
+      "https://www.zeekrgroup.com/about"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "leapmotor-t03",
+    "name": "リープモーター T03",
+    "sources": [
+      "https://www.stellantis.com/content/dam/stellantis-corporate/news/press-releases/2024/july/30-07-24/15-00/en/EN-20240730-Leapmotor-Vehicles-Shipped-to-Europe.pdf",
+      "https://www.leapmotor.net/"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "leapmotor-c01",
+    "name": "リープモーター C01",
+    "sources": [
+      "https://www.stellantis.com/content/dam/stellantis-corporate/news/press-releases/2024/july/30-07-24/15-00/en/EN-20240730-Leapmotor-Vehicles-Shipped-to-Europe.pdf",
+      "https://www.leapmotor.net/"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "leapmotor-c10",
+    "name": "リープモーター C10",
+    "sources": [
+      "https://www.stellantis.com/content/dam/stellantis-corporate/news/press-releases/2024/july/30-07-24/15-00/en/EN-20240730-Leapmotor-Vehicles-Shipped-to-Europe.pdf",
+      "https://www.leapmotor.net/"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "leapmotor-c11",
+    "name": "リープモーター C11",
+    "sources": [
+      "https://www.stellantis.com/content/dam/stellantis-corporate/news/press-releases/2024/july/30-07-24/15-00/en/EN-20240730-Leapmotor-Vehicles-Shipped-to-Europe.pdf",
+      "https://www.leapmotor.net/"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "leapmotor-c16",
+    "name": "リープモーター C16",
+    "sources": [
+      "https://www.stellantis.com/content/dam/stellantis-corporate/news/press-releases/2024/july/30-07-24/15-00/en/EN-20240730-Leapmotor-Vehicles-Shipped-to-Europe.pdf",
+      "https://www.leapmotor.net/"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "leapmotor-b10",
+    "name": "リープモーター B10",
+    "sources": [
+      "https://www.stellantis.com/content/dam/stellantis-corporate/news/press-releases/2024/july/30-07-24/15-00/en/EN-20240730-Leapmotor-Vehicles-Shipped-to-Europe.pdf",
+      "https://www.leapmotor.net/"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "aiways-u5",
+    "name": "アイウェイズ U5",
+    "sources": [
+      "https://ai-ways.eu/"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "aiways-u6",
+    "name": "アイウェイズ U6",
+    "sources": [
+      "https://ai-ways.eu/"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "fisker-ocean",
+    "name": "フィスカー オーシャン",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/fisker?format=json"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "fisker-karma",
+    "name": "フィスカー カルマ",
+    "sources": [
+      "https://vpic.nhtsa.dot.gov/api/vehicles/getmodelsformake/fisker?format=json"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "denza-d9",
+    "name": "デンツァ D9",
+    "sources": [
+      "https://www.denza.com/"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "denza-n7",
+    "name": "デンツァ N7",
+    "sources": [
+      "https://www.denza.com/"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "denza-z9",
+    "name": "デンツァ Z9",
+    "sources": [
+      "https://www.denza.com/"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "hongqi-h5",
+    "name": "紅旗 H5",
+    "sources": [
+      "https://www.hongqi-auto.com/"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "hongqi-h9",
+    "name": "紅旗 H9",
+    "sources": [
+      "https://www.hongqi-auto.com/"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "hongqi-hs5",
+    "name": "紅旗 HS5",
+    "sources": [
+      "https://www.hongqi-auto.com/"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "hongqi-hs7",
+    "name": "紅旗 HS7",
+    "sources": [
+      "https://www.hongqi-auto.com/"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "hongqi-e-hs9",
+    "name": "紅旗 E-HS9",
+    "sources": [
+      "https://www.hongqi-auto.com/"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "chery-tiggo7",
+    "name": "チェリー Tiggo7",
+    "sources": [
+      "https://www.cheryinternational.com/pc/home/",
+      "https://www.cheryholding.com/attachment/20221110/8d0507a89cf947338c5d5b9efcbfa731.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "chery-tiggo8",
+    "name": "チェリー Tiggo8",
+    "sources": [
+      "https://www.cheryinternational.com/pc/home/",
+      "https://www.cheryholding.com/attachment/20221110/8d0507a89cf947338c5d5b9efcbfa731.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "chery-arrizo8",
+    "name": "チェリー Arrizo8",
+    "sources": [
+      "https://www.cheryinternational.com/pc/home/",
+      "https://www.cheryholding.com/attachment/20221110/8d0507a89cf947338c5d5b9efcbfa731.pdf"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "omoda-c5",
+    "name": "オモダ C5",
+    "sources": [
+      "https://www.omodajaecoo.com/"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "omoda-c9",
+    "name": "オモダ C9",
+    "sources": [
+      "https://www.omodajaecoo.com/"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "jaecoo-j7",
+    "name": "ジェイクー J7",
+    "sources": [
+      "https://www.omodajaecoo.com/"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "jaecoo-j8",
+    "name": "ジェイクー J8",
+    "sources": [
+      "https://www.omodajaecoo.com/"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "lynkco-01",
+    "name": "リンク・アンド・コー 01",
+    "sources": [
+      "https://www.lynkco.com/nl-nl/t/cash"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "lynkco-02",
+    "name": "リンク・アンド・コー 02",
+    "sources": [
+      "https://www.lynkco.com/nl-nl/t/cash"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "lynkco-03",
+    "name": "リンク・アンド・コー 03",
+    "sources": [
+      "https://www.lynkco.com/nl-nl/t/cash"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "lynkco-05",
+    "name": "リンク・アンド・コー 05",
+    "sources": [
+      "https://www.lynkco.com/nl-nl/t/cash"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "lynkco-06",
+    "name": "リンク・アンド・コー 06",
+    "sources": [
+      "https://www.lynkco.com/nl-nl/t/cash"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "lynkco-08",
+    "name": "リンク・アンド・コー 08",
+    "sources": [
+      "https://www.lynkco.com/nl-nl/t/cash"
+    ],
+    "formPolicy": "国内の認定型式とグレードの対応を裏付けられないため、型式は「わからない」、グレードは「その他・わからない」で受付。海外資料は車種名・外観の照合用であり国内仕様の証明には使わない。",
+    "yearSelection": "1970年から現行年までと、それ以前・わからないを選択できる受付範囲。発売年の断定ではない。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  }
+]
