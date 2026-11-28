@@ -32,7 +32,7 @@
       {%- endif %}
       <ul class="lp-hero__badges">
         <li>{{ icon("yen") }}<span>査定<br>無料</span></li>
-        <li>{{ icon("truck") }}<span>全国<br>対応</span></li>
+        <li>{{ icon("truck") }}<span>{{ (hero.areaLabel or "全国<br>対応") | safe }}</span></li>
         <li>{{ icon("doc") }}<span>概算だけ<br>でもOK</span></li>
       </ul>
     </div>

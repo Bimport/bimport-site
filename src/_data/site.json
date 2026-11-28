@@ -17,5 +17,6 @@
   "ga4Id": "G-3PE9XDNZLG",
   "googleReviewsUrl": "https://maps.app.goo.gl/87ga9kHTRH8Cpysi6?g_st=ipc",
   "siteUrl": "https://bimport.jp",
-  "estimateEndpoint": "https://script.google.com/macros/s/AKfycbz7bcbtAzPeU_TigwjPaRIA7kmAakSFKurvso6PppETKyEN_snDtDTxvoyqAqcUdXA/exec"
+  "estimateEndpoint": "https://script.google.com/macros/s/AKfycbz7bcbtAzPeU_TigwjPaRIA7kmAakSFKurvso6PppETKyEN_snDtDTxvoyqAqcUdXA/exec",
+  "catalogEnabled": true
 }

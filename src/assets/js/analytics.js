@@ -35,8 +35,8 @@
   var referrer = "";
   try {
     var ref = new URL(document.referrer);
-    // The external domain is enough for organic/referral attribution; omit search queries.
-    referrer = ref.origin + (/^(www\.)?bimport\.jp$/.test(ref.hostname) ? ref.pathname : "/");
+    // Keep the referring origin only. Same-site paths may contain private case/photo identifiers too.
+    referrer = ref.origin + "/";
   } catch (_) {}
 
   window.dataLayer = window.dataLayer || [];
@@ -53,10 +53,37 @@
     allow_google_signals: false,
     allow_ad_personalization_signals: false
   };
+  // Only public, explicitly reviewed campaign labels may cross the clean-URL boundary.
+  // Unknown/ambiguous values are not forwarded as campaign configuration.
+  var campaignRecipes = {
+    consultation_checklist_20261124: { sources: ["instagram", "tiktok", "youtube", "x"], medium: "organic_social", contentSources: ["x"] },
+    gbp_profile: { sources: ["google"], medium: "organic", contentSources: [] },
+    gbp_posts: { sources: ["google"], medium: "organic", contentSources: ["google"] }
+  };
+  var campaignKeys = ["source", "content", "utm_source", "utm_medium", "utm_campaign", "utm_content"];
+  function applyReviewedCampaign() {
+    if (campaignKeys.some(function (key) { return query.getAll(key).length > 1; })) return;
+    var campaign = query.get("utm_campaign");
+    if (!Object.prototype.hasOwnProperty.call(campaignRecipes, campaign || "")) return;
+    var recipe = campaignRecipes[campaign];
+    var source = query.get("utm_source");
+    if (recipe.sources.indexOf(source) === -1 || query.get("utm_medium") !== recipe.medium) return;
+    if (query.has("source") && query.get("source") !== source) return;
+    var content = query.get("utm_content");
+    if (query.has("content") && (!content || query.get("content") !== content)) return;
+    if (query.has("utm_content") && (recipe.contentSources.indexOf(source) === -1 || ["checklist-1", "checklist-2", "checklist-3", "checklist-4", "checklist-5", "checklist-6"].indexOf(content) === -1)) return;
+    config.campaign_source = source;
+    config.campaign_medium = recipe.medium;
+    config.campaign_name = campaign;
+    if (content) config.campaign_content = content;
+  }
+  applyReviewedCampaign();
   if (debug) config.debug_mode = true;
   window.gtag("config", id, config); // Exactly one automatic page_view per document.
 
   var once = {};
+  var pilotForm = document.getElementById("estimate-form");
+  var formVariant = pilotForm && pilotForm.getAttribute("data-details-optional") === "true" && pilotForm.getAttribute("data-contact-first") === "true" ? "contact_first_v1" : "";
   var allowedEvents = ["estimate_start", "estimate_step", "generate_lead", "estimate_error", "cta_click"];
   window.BimportAnalytics.track = function (name, params) {
     // Analytics must never interrupt form delivery or its success UI.
@@ -64,6 +91,7 @@
       if (allowedEvents.indexOf(name) === -1) return;
       params = params || {};
       var data = { page_type: pageType, vehicle_slug: slug, form_id: "estimate-form" };
+      if (formVariant) data.form_variant = formVariant;
       if (name === "estimate_step") {
         var step = Number(params.estimate_step);
         if ([1, 2, 3].indexOf(step) === -1) return;

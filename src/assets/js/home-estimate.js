@@ -309,6 +309,32 @@
     });
   }
 
+  // Received GAS v3 silently drops elapsed<5s or >24h while returning ok:true.
+  // Wait the real remaining time for every form; never fabricate elapsedMs or lower server limits.
+  function prepareEstimate(payload) {
+    return new Promise(function (resolve, reject) {
+      var elapsed = Date.now() - pageShownAt;
+      if (!isFinite(elapsed) || elapsed < 0 || elapsed > 24 * 60 * 60 * 1000) {
+        reject(new Error("form clock outside accepted window")); return;
+      }
+      var remaining = Math.max(0, 5000 - elapsed);
+      function deliver() {
+        var actual = Date.now() - pageShownAt;
+        if (!isFinite(actual) || actual < 5000 || actual > 24 * 60 * 60 * 1000) {
+          reject(new Error("form clock outside accepted window")); return;
+        }
+        payload.elapsedMs = actual;
+        payload.submittedAt = new Date().toISOString();
+        submitBtn.textContent = "送信中…";
+        sendEstimate(payload).then(resolve, reject);
+      }
+      if (remaining) {
+        submitBtn.textContent = "送信準備中…";
+        setTimeout(deliver, remaining);
+      } else deliver();
+    });
+  }
+
   form.addEventListener("submit", function (e) {
     e.preventDefault();
     if (currentStep !== 3 || sending) return; // 送信中の二重送信を防ぐ
@@ -329,7 +355,7 @@
     submitBtn.disabled = true;
     submitBtn.textContent = "送信中…";
 
-    sendEstimate(payload).then(function (result) {
+    prepareEstimate(payload).then(function (result) {
       form.hidden = true;
       app.querySelector(".lp-progress").hidden = true;
       app.querySelector(".lp-form-card__title").hidden = true;
@@ -342,7 +368,15 @@
       sending = false;
       submitBtn.disabled = false;
       submitBtn.textContent = "無料で概算査定を依頼する";
-      errBox.textContent = "送信できませんでした。時間をおいて再度お試しいただくか、LINEからご相談ください。";
+      errBox.textContent = "送信を確認できませんでした。入力内容は残っています。再送する前に、LINE・電話でご相談ください。";
     });
   });
+  // Keep native inputs inert until every setup step and the submit handler are ready.
+  // A failed/absent script leaves the existing telephone/LINE alternatives available.
+  form.querySelectorAll("fieldset[data-init-locked]").forEach(function (step) {
+    step.disabled = false;
+    step.removeAttribute("data-init-locked");
+  });
+  var initFallback = document.getElementById("estimate-init-fallback");
+  if (initFallback) initFallback.hidden = true;
 })();

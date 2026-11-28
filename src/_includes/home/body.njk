@@ -72,7 +72,7 @@
 
  <section class="contact-section" id="contact"><div class="contact-word" aria-hidden="true">YOUR NEXT CHAPTER.</div><div class="wrap"><p class="eyebrow">LET'S TALK ABOUT YOUR CAR.</p><h2>その一台のお話を、<br>お聞かせください。</h2><p>売却未定でも、お気軽に。<br>車両情報と写真から、概算額をご案内します。</p><div class="contact-methods" aria-label="ご相談方法を選ぶ"><a class="contact-method contact-method-primary" href="#estimate" data-cta="final" data-cta-type="estimate"><small>まずは金額感を知りたい方へ</small><strong>フォームで無料査定 <span aria-hidden="true">↗</span></strong><p>車種・年式・走行距離などを入力。</p></a><a class="contact-method" href="{{ site.lineUrl }}" data-cta="final" data-cta-type="line"><small>写真で状態を伝えたい方へ</small><strong>LINEで相談 <span aria-hidden="true">↗</span></strong><p>お車の写真と、わかる範囲の情報を。</p></a><a class="contact-method" href="{{ site.phoneHref }}" data-cta="final" data-cta-type="tel"><small>直接話して相談したい方へ</small><strong>電話で相談 <span aria-hidden="true">↗</span></strong><p>{{ site.phoneDisplay }}</p></a></div></div></section>
 </main>
-<footer class="home-footer wrap"><a class="footer-wordmark" href="./">Bimport</a><p>運営：Bgroup株式会社</p><a href="privacy.html">プライバシーポリシー</a><small>© Bgroup Co., Ltd.</small></footer>
+<footer class="home-footer wrap"><a class="footer-wordmark" href="./">Bimport</a><p>運営：Bgroup株式会社</p>{% if vehicleCatalog.enabled %}<a href="cars/">車種から査定相談</a>{% endif %}<a href="privacy.html">プライバシーポリシー</a><small>© Bgroup Co., Ltd.</small></footer>
 <div class="mobile-contact"><a href="{{ site.phoneHref }}" data-cta="sticky" data-cta-type="tel">電話で相談 <span>↗</span></a><a href="#estimate" data-cta="sticky" data-cta-type="estimate"><i aria-hidden="true"></i> 無料査定を依頼 <span>↗</span></a></div>
 
 <button class="home-motion-toggle" type="button" aria-pressed="false" hidden>Ⅱ 動きを停止</button>

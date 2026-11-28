@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>車種から査定・売却を相談｜Bimport</title>
+<meta name="description" content="Bimportの公開中の車種別ページをメーカー・車種名から探せます。査定ポイントを確認し、その車種の情報を引き継いで無料査定をご相談いただけます。一覧にない車種はLINE・電話でもご相談ください。">
+<link rel="canonical" href="{{ site.siteUrl }}/cars/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Bimport">
+<meta property="og:title" content="車種から査定・売却を相談｜Bimport">
+<meta property="og:description" content="メーカー・車種名から、公開中の査定ページを探せます。">
+<meta property="og:url" content="{{ site.siteUrl }}/cars/">
+<meta property="og:locale" content="ja_JP">
+{%- if vehicleCatalog.preview %}
+<meta name="robots" content="noindex, nofollow">
+{%- endif %}
+{% include "fonts.njk" %}
+<link rel="stylesheet" href="../assets/css/vehicle-catalog.css">
+<script type="application/ld+json">{{ vehicleCatalog.structuredData | safe }}</script>
+{%- if not vehicleCatalog.preview %}{% include "ga4.njk" %}{% endif %}
+<script src="../assets/js/vehicle-catalog.js" defer></script>
+</head>
+<body class="catalog-page">
+<a class="catalog-skip" href="#main">車種一覧へスキップ</a>
+<header class="catalog-header"><div class="catalog-wrap"><a class="catalog-logo" href="../" aria-label="Bimport トップページ">Bimport</a><a class="catalog-phone" href="{{ site.phoneHref }}" data-cta="header" data-cta-type="tel">電話で相談<span>{{ site.phoneDisplay }}</span></a></div></header>
+<main id="main" class="catalog-wrap">
+<nav class="catalog-breadcrumb" aria-label="パンくず"><a href="../">Bimport</a><span aria-hidden="true">／</span><span aria-current="page">車種から相談</span></nav>
+<div class="catalog-intro"><p class="catalog-eyebrow">FIND YOUR CAR</p><h1>その一台から、<br>ご相談ください。</h1><p>お車のページで査定ポイントを確認し、<br class="catalog-wide">車種の情報を引き継いでご相談いただけます。</p><p class="catalog-intro-note">売却未定でも、お気軽に。<br>一覧にない車種は、LINE・電話でもご相談ください。</p></div>
+<section class="catalog-tools" aria-label="車種を探す">
+ <div class="catalog-search" role="search" aria-label="メーカー・車種名で絞り込み" hidden>
+  <div><label for="catalog-query">車種名で探す</label><input id="catalog-query" type="search" autocomplete="off" maxlength="100" placeholder="例：BMW X1、911、ジムニー"></div>
+  <div><label for="catalog-maker">メーカーを選ぶ</label><select id="catalog-maker"><option value="">すべてのメーカー</option>{% for group in vehicleCatalog.groups %}<option value="{{ group.id }}">{{ group.label | escape }}</option>{% endfor %}</select></div>
+  <button id="catalog-reset" type="button">条件をクリア</button>
+ </div>
+ <p id="catalog-count" class="catalog-count" role="status" aria-live="polite">公開中の{{ vehicleCatalog.total }}ページ</p>
+ <noscript><p class="catalog-note">メーカー名を開くと車種のリンクを確認できます。絞り込みを使わずにご相談いただけます。</p></noscript>
+</section>
+<div id="catalog-empty" class="catalog-empty" hidden><h2>一致する車種が見つかりませんでした</h2><p>別の表記で探すか、条件をクリアしてください。一覧にない車種も、下のLINE・電話からご相談いただけます。</p></div>
+<div class="catalog-groups">
+{%- for group in vehicleCatalog.groups %}
+<details class="catalog-group" data-maker="{{ group.id }}" open>
+ <summary><h2>{{ group.label | escape }}</h2><span class="catalog-group-count">{{ group.items.length }}車種</span></summary>
+ <ul>{% for car in group.items %}<li data-catalog-row data-search="{{ car.search | escape }}"><a href="../{{ car.slug }}/"><strong>{{ car.name | escape }}</strong><span>査定ポイント・相談へ</span></a></li>{% endfor %}</ul>
+</details>
+{%- endfor %}
+</div>
+<section class="catalog-contact" aria-labelledby="catalog-contact-heading"><p class="catalog-eyebrow">LET'S TALK</p><h2 id="catalog-contact-heading">車種が分からなくても、<br>まずはご相談ください。</h2><p>売却を決める前の金額感や、<br>写真からのご相談もお受けしています。</p><div class="catalog-contact-links"><a class="catalog-button catalog-button-line" href="{{ site.lineUrl }}" data-cta="final" data-cta-type="line">LINEで相談</a><a class="catalog-button" href="{{ site.phoneHref }}" data-cta="final" data-cta-type="tel">電話で相談<span>{{ site.phoneDisplay }}</span></a><a class="catalog-button" href="../#estimate" data-cta="final" data-cta-type="estimate">フォームで査定相談</a></div></section>
+</main>
+<footer class="catalog-footer"><div class="catalog-wrap"><a class="catalog-logo" href="../">Bimport</a><p>運営：Bgroup株式会社</p><nav aria-label="フッターメニュー"><a href="../#company">店舗・会社情報</a><a href="../privacy.html">プライバシーポリシー</a><a href="#main">車種一覧へ戻る</a></nav><small>© Bimport All Rights Reserved.</small></div></footer>
+</body>
+</html>

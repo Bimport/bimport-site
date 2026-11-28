@@ -40,7 +40,7 @@
 
 <link rel="stylesheet" href="../assets/css/lp-store-review.css"><!-- Google tag (gtag.js) -->
 {% include "ga4.njk" %}
-<link rel="stylesheet" href="../assets/css/lp-motion.css?v=20261125">
+<link rel="stylesheet" href="../assets/css/lp-motion.css?v=20261125">{% if v.form.detailsOptional == true and v.form.contactFirst == true %}<link rel="stylesheet" href="../assets/css/estimate-contact-first.css">{% endif %}
 </head>
 <body class="lp-motion-enabled{% if v.theme %} lp-theme-{{ v.theme }}{% endif %}">
 
@@ -64,7 +64,7 @@
 
 {% include "vehicle-lp/sections/flow.njk" %}
 
-{% include "vehicle-lp/sections/faq.njk" %}
+{% if v.slug in ["bmw-x1", "mercedes-benz-g-class", "abarth-124-spider", "porsche-911"] and v.form.detailsOptional == true and v.form.contactFirst == true %}{% include "vehicle-lp/sections/contact-first-faq.njk" %}{% else %}{% include "vehicle-lp/sections/faq.njk" %}{% endif %}
 
 {% include "vehicle-lp/sections/store-review.njk" %}{% include "vehicle-lp/sections/final.njk" %}
 
@@ -72,7 +72,7 @@
 
 {% include "vehicle-lp/sections/footer.njk" %}
 
-<script src="../assets/js/estimate-form.js?v=20261117-ga4" defer></script>
+<script src="../assets/js/estimate-form.js?v=20261126-init-ready107" defer></script>
 <script src="../assets/js/vehicle-lp.js" defer></script>
 <script src="../assets/js/lp-motion.js?v=20261125" defer></script>
 </body>

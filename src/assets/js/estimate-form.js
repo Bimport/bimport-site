@@ -15,6 +15,8 @@
 
   var config = JSON.parse(configEl.textContent);
   var unknown = config.unknownLabel || "わからない";
+  var optionalDetails = form.getAttribute("data-details-optional") === "true";
+  var contactFirst = optionalDetails && form.getAttribute("data-contact-first") === "true";
   var currentStep = 1;
   var pageShownAt = Date.now();
   var sending = false;
@@ -32,6 +34,7 @@
   var confirmBox = document.getElementById("estimate-confirm");
   var submitBtn = document.getElementById("estimate-submit");
   var doneBox = document.getElementById("estimate-done");
+  var submitLabel = submitBtn.textContent;
 
   function track(name, params) {
     if (window.BimportAnalytics) window.BimportAnalytics.track(name, params);
@@ -103,31 +106,76 @@
     var f = fieldEl(name);
     f.classList.add("is-invalid");
     f.querySelector(".lp-error").textContent = msg;
+    if (contactFirst) {
+      var error = f.querySelector(".lp-error");
+      error.id = "estimate-error-" + name;
+      f.querySelectorAll("input, select").forEach(function (control) {
+        control.setAttribute("aria-invalid", "true");
+        var descriptions = (control.getAttribute("aria-describedby") || "").split(/\s+/).filter(Boolean);
+        if (descriptions.indexOf(error.id) < 0) descriptions.push(error.id);
+        control.setAttribute("aria-describedby", descriptions.join(" "));
+      });
+      var details = f.closest(".lp-optional-details");
+      if (details) details.open = true;
+    }
   }
   function clearError(f) {
     f.classList.remove("is-invalid");
     var err = f.querySelector(".lp-error");
     if (err) err.textContent = "";
+    if (contactFirst) f.querySelectorAll("input, select").forEach(function (control) {
+      control.removeAttribute("aria-invalid");
+      if (err) {
+        var descriptions = (control.getAttribute("aria-describedby") || "").split(/\s+/).filter(function (id) { return id && id !== err.id; });
+        if (descriptions.length) control.setAttribute("aria-describedby", descriptions.join(" "));
+        else control.removeAttribute("aria-describedby");
+      }
+    });
   }
   function normalizePhone(s) {
     return s.replace(/[０-９]/g, function (c) { return String.fromCharCode(c.charCodeAt(0) - 0xFEE0); })
             .replace(/[ー－‐―−\-\s()（）]/g, "");
   }
 
+  // An explicit per-page pilot only: missing details remain unknown, never invented.
+  function chooseUnknown(select, value) {
+    if (!select || select.value || select.disabled) return;
+    for (var i = 0; i < select.options.length; i++) {
+      if (select.options[i].value === value) { select.value = value; return; }
+    }
+  }
+  function fillMissingDetails() {
+    if (!optionalDetails) return;
+    if (hasBodyType && !val("bodyType")) {
+      var radios = form.querySelectorAll('input[name="bodyType"]');
+      for (var i = 0; i < radios.length; i++) {
+        if (radios[i].getAttribute("data-body") === "unknown" && radios[i].value === unknown) {
+          radios[i].checked = true;
+          renderGrades("unknown");
+          break;
+        }
+      }
+    }
+    chooseUnknown(gradeSelect, config.gradeFallback);
+    chooseUnknown(yearSelect, unknown);
+    chooseUnknown(form.elements.mileage, unknown);
+  }
+
   function validate(step) {
     var errors = [];
     form.querySelectorAll('[data-step="' + step + '"] .lp-field').forEach(clearError);
-    if (step === 1) {
-      if (hasBodyType && !val("bodyType")) errors.push(["bodyType", bodyTypeLabel + "を選択してください"]);
-      if (!val("grade")) errors.push(["grade", (!hasBodyType || val("bodyType")) ? "グレードを選択してください" : bodyTypeLabel + "を選択すると、グレードを選べます"]);
-      if (!val("year")) errors.push(["year", "年式を選択してください（不明な場合は「わからない」）"]);
-      if (!val("mileage")) errors.push(["mileage", "走行距離を選択してください"]);
-    }
-    if (step === 2) {
+    if (step === 2 || (contactFirst && step === 1)) {
       if (!val("name")) errors.push(["name", "お名前を入力してください（名字だけでも大丈夫です）"]);
       var phone = normalizePhone(val("phone"));
       if (!phone) errors.push(["phone", "電話番号を入力してください"]);
       else if (!/^0\d{9,10}$/.test(phone)) errors.push(["phone", "電話番号をご確認ください（例：090-1234-5678）"]);
+    }
+    if (step === 1 && (!contactFirst || errors.length === 0)) {
+      fillMissingDetails();
+      if (hasBodyType && !val("bodyType")) errors.push(["bodyType", bodyTypeLabel + "を選択してください"]);
+      if (!val("grade")) errors.push(["grade", (!hasBodyType || val("bodyType")) ? "グレードを選択してください" : bodyTypeLabel + "を選択すると、グレードを選べます"]);
+      if (!val("year")) errors.push(["year", "年式を選択してください（不明な場合は「わからない」）"]);
+      if (!val("mileage")) errors.push(["mileage", "走行距離を選択してください"]);
     }
     errors.forEach(function (e) { setError(e[0], e[1]); });
     if (errors.length) {
@@ -141,6 +189,7 @@
 
   /* ---------- STEP切り替え ---------- */
   function showStep(n) {
+    if (contactFirst && n === 2) n = 1;
     currentStep = n;
     form.querySelectorAll(".lp-step").forEach(function (s) {
       s.hidden = Number(s.getAttribute("data-step")) !== n;
@@ -149,21 +198,39 @@
       var i = Number(li.getAttribute("data-step-indicator"));
       li.classList.toggle("is-current", i === n);
       li.classList.toggle("is-done", i < n);
+      if (contactFirst) {
+        if (i === n) li.setAttribute("aria-current", "step");
+        else li.removeAttribute("aria-current");
+      }
     });
-    if (stepNum) stepNum.textContent = n;
+    if (stepNum) stepNum.textContent = contactFirst && n === 3 ? 2 : n;
     if (n === 3) renderConfirm();
     app.scrollIntoView({ behavior: scrollBehavior, block: "start" });
+    if (contactFirst) {
+      var legend = form.querySelector('[data-step="' + n + '"] legend');
+      if (legend) legend.focus({ preventScroll: true });
+    }
     track("estimate_step", { estimate_step: n });
   }
 
   form.addEventListener("click", function (e) {
     var t = e.target;
     if (t.hasAttribute("data-next")) {
-      if (validate(currentStep)) showStep(currentStep + 1);
+      if (currentStep === 1 && optionalDetails) track("estimate_start");
+      if (validate(currentStep)) showStep(contactFirst && currentStep === 1 ? 3 : currentStep + 1);
     } else if (t.hasAttribute("data-prev")) {
-      showStep(currentStep - 1);
+      showStep(contactFirst && currentStep === 3 ? 1 : currentStep - 1);
     } else if (t.hasAttribute("data-goto")) {
       showStep(Number(t.getAttribute("data-goto")));
+      if (contactFirst && t.getAttribute("data-edit-details") === "true") {
+        var details = document.getElementById("optional-vehicle-details");
+        if (details) {
+          details.open = true;
+          var first = details.querySelector("input, select:not([disabled])");
+          if (first) first.focus({ preventScroll: true });
+          details.scrollIntoView({ behavior: scrollBehavior, block: "center" });
+        }
+      }
     }
   });
 
@@ -207,17 +274,20 @@
       ["電話番号", normalizePhone(d.phone)],
       ["都道府県", d.prefecture || "未選択"]
     ];
+    if (contactFirst) rows = rows.slice(6).concat(rows.slice(0, 6));
     confirmBox.innerHTML = "";
     rows.filter(Boolean).forEach(function (r) {
       var row = document.createElement("div");
       if (r.group) {
         row.className = "lp-confirm__group";
         var title = document.createElement("span");
-        title.textContent = r.group;
+        title.textContent = contactFirst && r.step === 2 ? "ご連絡先" : r.group;
         var edit = document.createElement("button");
         edit.type = "button";
         edit.className = "lp-confirm__edit";
-        edit.setAttribute("data-goto", r.step);
+        edit.setAttribute("data-goto", contactFirst ? 1 : r.step);
+        if (contactFirst && r.step === 1) edit.setAttribute("data-edit-details", "true");
+        if (contactFirst) edit.setAttribute("aria-label", r.step === 1 ? "車両情報を修正" : "ご連絡先を修正");
         edit.textContent = "修正する";
         row.appendChild(title);
         row.appendChild(edit);
@@ -245,9 +315,7 @@
 
   // Content-Type を text/plain にして、Apps Script が対応していない事前確認（CORSプリフライト）を起こさない
   function sendEstimate(payload) {
-    if (!config.endpoint) {
-      return new Promise(function (resolve) { setTimeout(resolve, 500); });
-    }
+    if (!config.endpoint) return Promise.reject(new Error("missing intake destination"));
     var controller = "AbortController" in window ? new AbortController() : null;
     var timer = controller ? setTimeout(function () { controller.abort(); }, 20000) : null;
     return fetch(config.endpoint, {
@@ -266,11 +334,44 @@
     });
   }
 
+  // Received GAS v3 silently drops elapsed<5s or >24h while returning ok:true.
+  // Wait the real remaining time for every form; never fabricate elapsedMs or lower server limits.
+  function prepareEstimate(payload) {
+    return new Promise(function (resolve, reject) {
+      var elapsed = Date.now() - pageShownAt;
+      if (!isFinite(elapsed) || elapsed < 0 || elapsed > 24 * 60 * 60 * 1000) {
+        reject(new Error("form clock outside accepted window")); return;
+      }
+      var remaining = Math.max(0, 5000 - elapsed);
+      function deliver() {
+        var actual = Date.now() - pageShownAt;
+        if (!isFinite(actual) || actual < 5000 || actual > 24 * 60 * 60 * 1000) {
+          reject(new Error("form clock outside accepted window")); return;
+        }
+        payload.elapsedMs = actual;
+        payload.submittedAt = new Date().toISOString();
+        submitBtn.textContent = "送信中…";
+        sendEstimate(payload).then(resolve, reject);
+      }
+      if (remaining) {
+        submitBtn.textContent = "送信準備中…";
+        setTimeout(deliver, remaining);
+      } else deliver();
+    });
+  }
+
   form.addEventListener("submit", function (e) {
     e.preventDefault();
     if (currentStep !== 3 || sending) return; // 送信中の二重送信を防ぐ
-    if (!validate(1)) { showStep(1); return; }
-    if (!validate(2)) { showStep(2); return; }
+    if (!validate(1)) {
+      showStep(1);
+      if (contactFirst) {
+        var invalid = form.querySelector('[data-step="1"] .is-invalid input, [data-step="1"] .is-invalid select');
+        if (invalid) invalid.focus({ preventScroll: true });
+      }
+      return;
+    }
+    if (!contactFirst && !validate(2)) { showStep(2); return; }
 
     var payload = collect();
     payload.phone = normalizePhone(payload.phone);
@@ -286,7 +387,7 @@
     submitBtn.disabled = true;
     submitBtn.textContent = "送信中…";
 
-    sendEstimate(payload).then(function (result) {
+    prepareEstimate(payload).then(function (result) {
       form.hidden = true;
       app.querySelector(".lp-progress").hidden = true;
       app.querySelector(".lp-form-card__title").hidden = true;
@@ -298,8 +399,18 @@
       track("estimate_error");
       sending = false;
       submitBtn.disabled = false;
-      submitBtn.textContent = "無料で概算査定を依頼する";
-      errBox.textContent = "送信できませんでした。時間をおいて再度お試しいただくか、LINEからご相談ください。";
+      submitBtn.textContent = submitLabel;
+      errBox.textContent = "送信を確認できませんでした。入力内容は残っています。再送する前に、LINE・電話でご相談ください。";
+      var fallback = document.getElementById("estimate-contact-fallback");
+      if (contactFirst && fallback) fallback.hidden = false;
     });
   });
+  // Keep native inputs inert until every setup step and the submit handler are ready.
+  // A failed/absent script leaves the existing telephone/LINE alternatives available.
+  form.querySelectorAll("fieldset[data-init-locked]").forEach(function (step) {
+    step.disabled = false;
+    step.removeAttribute("data-init-locked");
+  });
+  var initFallback = document.getElementById("estimate-init-fallback");
+  if (initFallback) initFallback.hidden = true;
 })();

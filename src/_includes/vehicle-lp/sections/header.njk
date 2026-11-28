@@ -12,7 +12,7 @@
       <a href="#points">査定ポイント</a>
       <a href="#flow">買取の流れ</a>
       <a href="#faq">よくある質問</a>
-      <a class="lp-btn lp-btn--gold lp-btn--sm lp-nav__cta" href="#estimate" data-cta="header">60秒で概算査定</a>
+      <a class="lp-btn lp-btn--gold lp-btn--sm lp-nav__cta" href="#estimate" data-cta="header">{{ "無料で査定相談" if (v.form.detailsOptional == true and v.form.contactFirst == true) else "60秒で概算査定" }}</a>
       <a class="lp-nav__line" href="{{ site.lineUrl }}" data-cta="header" data-cta-type="line">LINEで写真査定</a>
     </nav>
     <button class="lp-menu-btn" type="button" aria-controls="lp-nav" aria-expanded="false" aria-label="メニューを開く">
