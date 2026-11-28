@@ -1,0 +1,1629 @@
+[
+  {
+    "slug": "dacia-duster",
+    "name": "ダチア ダスター",
+    "sources": [
+      "https://www.dacia.ro/despre-dacia/istoric.html",
+      "https://media.dacia.ro/news/uzina-mioveni-a-produs-vehiculul-dacia-cu-numarul-8-milioane"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "dacia-sandero",
+    "name": "ダチア サンデロ",
+    "sources": [
+      "https://www.dacia.ro/despre-dacia/istoric.html",
+      "https://media.dacia.ro/news/uzina-mioveni-a-produs-vehiculul-dacia-cu-numarul-8-milioane"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "dacia-logan",
+    "name": "ダチア ロガン",
+    "sources": [
+      "https://www.dacia.ro/despre-dacia/istoric.html",
+      "https://media.dacia.ro/news/uzina-mioveni-a-produs-vehiculul-dacia-cu-numarul-8-milioane"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "dacia-jogger",
+    "name": "ダチア ジョガー",
+    "sources": [
+      "https://www.dacia.ro/despre-dacia/istoric.html",
+      "https://media.dacia.ro/news/uzina-mioveni-a-produs-vehiculul-dacia-cu-numarul-8-milioane"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "dacia-spring",
+    "name": "ダチア スプリング",
+    "sources": [
+      "https://www.dacia.ro/despre-dacia/istoric.html",
+      "https://media.dacia.ro/news/uzina-mioveni-a-produs-vehiculul-dacia-cu-numarul-8-milioane"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "dacia-lodgy",
+    "name": "ダチア ロッジー",
+    "sources": [
+      "https://www.dacia.ro/despre-dacia/istoric.html",
+      "https://media.dacia.ro/news/uzina-mioveni-a-produs-vehiculul-dacia-cu-numarul-8-milioane"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "dacia-dokker",
+    "name": "ダチア ドッカー",
+    "sources": [
+      "https://www.dacia.ro/despre-dacia/istoric.html",
+      "https://media.dacia.ro/news/uzina-mioveni-a-produs-vehiculul-dacia-cu-numarul-8-milioane"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "dacia-solenza",
+    "name": "ダチア ソレンツァ",
+    "sources": [
+      "https://www.dacia.ro/despre-dacia/istoric.html",
+      "https://media.dacia.ro/news/uzina-mioveni-a-produs-vehiculul-dacia-cu-numarul-8-milioane"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "dacia-nova",
+    "name": "ダチア ノヴァ",
+    "sources": [
+      "https://www.dacia.ro/despre-dacia/istoric.html",
+      "https://media.dacia.ro/news/uzina-mioveni-a-produs-vehiculul-dacia-cu-numarul-8-milioane"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "dacia-1300",
+    "name": "ダチア 1300",
+    "sources": [
+      "https://www.dacia.ro/despre-dacia/istoric.html",
+      "https://media.dacia.ro/news/uzina-mioveni-a-produs-vehiculul-dacia-cu-numarul-8-milioane"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "dacia-1100",
+    "name": "ダチア 1100",
+    "sources": [
+      "https://www.dacia.ro/despre-dacia/istoric.html",
+      "https://media.dacia.ro/news/uzina-mioveni-a-produs-vehiculul-dacia-cu-numarul-8-milioane"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "dacia-bigster",
+    "name": "ダチア ビッグスター",
+    "sources": [
+      "https://www.dacia.ro/despre-dacia/istoric.html",
+      "https://media.dacia.ro/news/uzina-mioveni-a-produs-vehiculul-dacia-cu-numarul-8-milioane"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kgm-rexton",
+    "name": "サンヨン／KGM レクストン",
+    "sources": [
+      "https://en.kg-mobility.com/br/brand/heritage/product-history",
+      "https://epc.kg-mobility.com/catalog/res3151i/partList.do"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kgm-korando",
+    "name": "サンヨン／KGM コランド",
+    "sources": [
+      "https://en.kg-mobility.com/br/brand/heritage/product-history",
+      "https://epc.kg-mobility.com/catalog/res3151i/partList.do"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kgm-tivoli",
+    "name": "サンヨン／KGM ティボリ",
+    "sources": [
+      "https://en.kg-mobility.com/br/brand/heritage/product-history",
+      "https://epc.kg-mobility.com/catalog/res3151i/partList.do"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kgm-torres",
+    "name": "サンヨン／KGM トーレス",
+    "sources": [
+      "https://en.kg-mobility.com/br/brand/heritage/product-history",
+      "https://epc.kg-mobility.com/catalog/res3151i/partList.do"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kgm-actyon",
+    "name": "サンヨン／KGM アクティオン",
+    "sources": [
+      "https://en.kg-mobility.com/br/brand/heritage/product-history",
+      "https://epc.kg-mobility.com/catalog/res3151i/partList.do"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kgm-musso",
+    "name": "サンヨン／KGM ムッソ",
+    "sources": [
+      "https://en.kg-mobility.com/br/brand/heritage/product-history",
+      "https://epc.kg-mobility.com/catalog/res3151i/partList.do"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kgm-rodius",
+    "name": "サンヨン／KGM ロディウス",
+    "sources": [
+      "https://en.kg-mobility.com/br/brand/heritage/product-history",
+      "https://epc.kg-mobility.com/catalog/res3151i/partList.do"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kgm-chairman",
+    "name": "サンヨン／KGM チェアマン",
+    "sources": [
+      "https://en.kg-mobility.com/br/brand/heritage/product-history",
+      "https://epc.kg-mobility.com/catalog/res3151i/partList.do"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kgm-kyron",
+    "name": "サンヨン／KGM カイロン",
+    "sources": [
+      "https://en.kg-mobility.com/br/brand/heritage/product-history",
+      "https://epc.kg-mobility.com/catalog/res3151i/partList.do"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kgm-istana",
+    "name": "サンヨン／KGM イスタナ",
+    "sources": [
+      "https://en.kg-mobility.com/br/brand/heritage/product-history",
+      "https://epc.kg-mobility.com/catalog/res3151i/partList.do"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "mahindra-thar",
+    "name": "マヒンドラ Thar",
+    "sources": [
+      "https://auto.mahindra.com/",
+      "https://www.mahindra.com/investor-relations"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "mahindra-scorpio",
+    "name": "マヒンドラ Scorpio",
+    "sources": [
+      "https://auto.mahindra.com/",
+      "https://www.mahindra.com/investor-relations"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "mahindra-xuv700",
+    "name": "マヒンドラ XUV700",
+    "sources": [
+      "https://auto.mahindra.com/",
+      "https://www.mahindra.com/investor-relations"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "mahindra-xuv500",
+    "name": "マヒンドラ XUV500",
+    "sources": [
+      "https://auto.mahindra.com/",
+      "https://www.mahindra.com/investor-relations"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "mahindra-xuv300",
+    "name": "マヒンドラ XUV300",
+    "sources": [
+      "https://auto.mahindra.com/",
+      "https://www.mahindra.com/investor-relations"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "mahindra-xuv400",
+    "name": "マヒンドラ XUV400",
+    "sources": [
+      "https://auto.mahindra.com/",
+      "https://www.mahindra.com/investor-relations"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "mahindra-xuv3xo",
+    "name": "マヒンドラ XUV 3XO",
+    "sources": [
+      "https://auto.mahindra.com/",
+      "https://www.mahindra.com/investor-relations"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "mahindra-bolero",
+    "name": "マヒンドラ Bolero",
+    "sources": [
+      "https://auto.mahindra.com/",
+      "https://www.mahindra.com/investor-relations"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "mahindra-marazzo",
+    "name": "マヒンドラ Marazzo",
+    "sources": [
+      "https://auto.mahindra.com/",
+      "https://www.mahindra.com/investor-relations"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "mahindra-alturasg4",
+    "name": "マヒンドラ Alturas G4",
+    "sources": [
+      "https://auto.mahindra.com/",
+      "https://www.mahindra.com/investor-relations"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "mahindra-kuv100",
+    "name": "マヒンドラ KUV100",
+    "sources": [
+      "https://auto.mahindra.com/",
+      "https://www.mahindra.com/investor-relations"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "mahindra-verito",
+    "name": "マヒンドラ Verito",
+    "sources": [
+      "https://auto.mahindra.com/",
+      "https://www.mahindra.com/investor-relations"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "mahindra-quanto",
+    "name": "マヒンドラ Quanto",
+    "sources": [
+      "https://auto.mahindra.com/",
+      "https://www.mahindra.com/investor-relations"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "mahindra-tuv300",
+    "name": "マヒンドラ TUV300",
+    "sources": [
+      "https://auto.mahindra.com/",
+      "https://www.mahindra.com/investor-relations"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "tata-nexon",
+    "name": "タタ Nexon",
+    "sources": [
+      "https://www.tatamotors.com/our-history-new/",
+      "https://testcv.tatamotors.com/assets/cv/files/investors/2023/10/ar-12-13.pdf",
+      "https://cars.tatamotors.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "tata-harrier",
+    "name": "タタ Harrier",
+    "sources": [
+      "https://www.tatamotors.com/our-history-new/",
+      "https://testcv.tatamotors.com/assets/cv/files/investors/2023/10/ar-12-13.pdf",
+      "https://cars.tatamotors.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "tata-safari",
+    "name": "タタ Safari",
+    "sources": [
+      "https://www.tatamotors.com/our-history-new/",
+      "https://testcv.tatamotors.com/assets/cv/files/investors/2023/10/ar-12-13.pdf",
+      "https://cars.tatamotors.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "tata-tiago",
+    "name": "タタ Tiago",
+    "sources": [
+      "https://www.tatamotors.com/our-history-new/",
+      "https://testcv.tatamotors.com/assets/cv/files/investors/2023/10/ar-12-13.pdf",
+      "https://cars.tatamotors.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "tata-tigor",
+    "name": "タタ Tigor",
+    "sources": [
+      "https://www.tatamotors.com/our-history-new/",
+      "https://testcv.tatamotors.com/assets/cv/files/investors/2023/10/ar-12-13.pdf",
+      "https://cars.tatamotors.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "tata-altroz",
+    "name": "タタ Altroz",
+    "sources": [
+      "https://www.tatamotors.com/our-history-new/",
+      "https://testcv.tatamotors.com/assets/cv/files/investors/2023/10/ar-12-13.pdf",
+      "https://cars.tatamotors.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "tata-punch",
+    "name": "タタ Punch",
+    "sources": [
+      "https://www.tatamotors.com/our-history-new/",
+      "https://testcv.tatamotors.com/assets/cv/files/investors/2023/10/ar-12-13.pdf",
+      "https://cars.tatamotors.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "tata-sierra",
+    "name": "タタ Sierra",
+    "sources": [
+      "https://www.tatamotors.com/our-history-new/",
+      "https://testcv.tatamotors.com/assets/cv/files/investors/2023/10/ar-12-13.pdf",
+      "https://cars.tatamotors.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "tata-curvv",
+    "name": "タタ Curvv",
+    "sources": [
+      "https://www.tatamotors.com/our-history-new/",
+      "https://testcv.tatamotors.com/assets/cv/files/investors/2023/10/ar-12-13.pdf",
+      "https://cars.tatamotors.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "tata-hexa",
+    "name": "タタ Hexa",
+    "sources": [
+      "https://www.tatamotors.com/our-history-new/",
+      "https://testcv.tatamotors.com/assets/cv/files/investors/2023/10/ar-12-13.pdf",
+      "https://cars.tatamotors.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "tata-aria",
+    "name": "タタ Aria",
+    "sources": [
+      "https://www.tatamotors.com/our-history-new/",
+      "https://testcv.tatamotors.com/assets/cv/files/investors/2023/10/ar-12-13.pdf",
+      "https://cars.tatamotors.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "tata-sumo",
+    "name": "タタ Sumo",
+    "sources": [
+      "https://www.tatamotors.com/our-history-new/",
+      "https://testcv.tatamotors.com/assets/cv/files/investors/2023/10/ar-12-13.pdf",
+      "https://cars.tatamotors.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "tata-indica",
+    "name": "タタ Indica",
+    "sources": [
+      "https://www.tatamotors.com/our-history-new/",
+      "https://testcv.tatamotors.com/assets/cv/files/investors/2023/10/ar-12-13.pdf",
+      "https://cars.tatamotors.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "tata-indigo",
+    "name": "タタ Indigo",
+    "sources": [
+      "https://www.tatamotors.com/our-history-new/",
+      "https://testcv.tatamotors.com/assets/cv/files/investors/2023/10/ar-12-13.pdf",
+      "https://cars.tatamotors.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "tata-nano",
+    "name": "タタ Nano",
+    "sources": [
+      "https://www.tatamotors.com/our-history-new/",
+      "https://testcv.tatamotors.com/assets/cv/files/investors/2023/10/ar-12-13.pdf",
+      "https://cars.tatamotors.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "tata-bolt",
+    "name": "タタ Bolt",
+    "sources": [
+      "https://www.tatamotors.com/our-history-new/",
+      "https://testcv.tatamotors.com/assets/cv/files/investors/2023/10/ar-12-13.pdf",
+      "https://cars.tatamotors.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "tata-zest",
+    "name": "タタ Zest",
+    "sources": [
+      "https://www.tatamotors.com/our-history-new/",
+      "https://testcv.tatamotors.com/assets/cv/files/investors/2023/10/ar-12-13.pdf",
+      "https://cars.tatamotors.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "tata-estate",
+    "name": "タタ Estate",
+    "sources": [
+      "https://www.tatamotors.com/our-history-new/",
+      "https://testcv.tatamotors.com/assets/cv/files/investors/2023/10/ar-12-13.pdf",
+      "https://cars.tatamotors.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "tata-telcoline",
+    "name": "タタ Telcoline",
+    "sources": [
+      "https://www.tatamotors.com/our-history-new/",
+      "https://testcv.tatamotors.com/assets/cv/files/investors/2023/10/ar-12-13.pdf",
+      "https://cars.tatamotors.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "tata-xenon",
+    "name": "タタ Xenon",
+    "sources": [
+      "https://www.tatamotors.com/our-history-new/",
+      "https://testcv.tatamotors.com/assets/cv/files/investors/2023/10/ar-12-13.pdf",
+      "https://cars.tatamotors.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "proton-x50",
+    "name": "プロトン X50",
+    "sources": [
+      "https://www.proton.com/corporate/milestones",
+      "https://www.proton.com/happenings/2024/october/from-saga-to-s70-proton-champions-sedan-sales-in-malaysia",
+      "https://www.proton.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "proton-x70",
+    "name": "プロトン X70",
+    "sources": [
+      "https://www.proton.com/corporate/milestones",
+      "https://www.proton.com/happenings/2024/october/from-saga-to-s70-proton-champions-sedan-sales-in-malaysia",
+      "https://www.proton.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "proton-x90",
+    "name": "プロトン X90",
+    "sources": [
+      "https://www.proton.com/corporate/milestones",
+      "https://www.proton.com/happenings/2024/october/from-saga-to-s70-proton-champions-sedan-sales-in-malaysia",
+      "https://www.proton.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "proton-saga",
+    "name": "プロトン Saga",
+    "sources": [
+      "https://www.proton.com/corporate/milestones",
+      "https://www.proton.com/happenings/2024/october/from-saga-to-s70-proton-champions-sedan-sales-in-malaysia",
+      "https://www.proton.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "proton-persona",
+    "name": "プロトン Persona",
+    "sources": [
+      "https://www.proton.com/corporate/milestones",
+      "https://www.proton.com/happenings/2024/october/from-saga-to-s70-proton-champions-sedan-sales-in-malaysia",
+      "https://www.proton.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "proton-iriz",
+    "name": "プロトン Iriz",
+    "sources": [
+      "https://www.proton.com/corporate/milestones",
+      "https://www.proton.com/happenings/2024/october/from-saga-to-s70-proton-champions-sedan-sales-in-malaysia",
+      "https://www.proton.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "proton-s70",
+    "name": "プロトン S70",
+    "sources": [
+      "https://www.proton.com/corporate/milestones",
+      "https://www.proton.com/happenings/2024/october/from-saga-to-s70-proton-champions-sedan-sales-in-malaysia",
+      "https://www.proton.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "proton-preve",
+    "name": "プロトン Preve",
+    "sources": [
+      "https://www.proton.com/corporate/milestones",
+      "https://www.proton.com/happenings/2024/october/from-saga-to-s70-proton-champions-sedan-sales-in-malaysia",
+      "https://www.proton.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "proton-suprimas",
+    "name": "プロトン Suprima S",
+    "sources": [
+      "https://www.proton.com/corporate/milestones",
+      "https://www.proton.com/happenings/2024/october/from-saga-to-s70-proton-champions-sedan-sales-in-malaysia",
+      "https://www.proton.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "proton-exora",
+    "name": "プロトン Exora",
+    "sources": [
+      "https://www.proton.com/corporate/milestones",
+      "https://www.proton.com/happenings/2024/october/from-saga-to-s70-proton-champions-sedan-sales-in-malaysia",
+      "https://www.proton.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "proton-wira",
+    "name": "プロトン Wira",
+    "sources": [
+      "https://www.proton.com/corporate/milestones",
+      "https://www.proton.com/happenings/2024/october/from-saga-to-s70-proton-champions-sedan-sales-in-malaysia",
+      "https://www.proton.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "proton-waja",
+    "name": "プロトン Waja",
+    "sources": [
+      "https://www.proton.com/corporate/milestones",
+      "https://www.proton.com/happenings/2024/october/from-saga-to-s70-proton-champions-sedan-sales-in-malaysia",
+      "https://www.proton.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "proton-satria",
+    "name": "プロトン Satria",
+    "sources": [
+      "https://www.proton.com/corporate/milestones",
+      "https://www.proton.com/happenings/2024/october/from-saga-to-s70-proton-champions-sedan-sales-in-malaysia",
+      "https://www.proton.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "proton-putra",
+    "name": "プロトン Putra",
+    "sources": [
+      "https://www.proton.com/corporate/milestones",
+      "https://www.proton.com/happenings/2024/october/from-saga-to-s70-proton-champions-sedan-sales-in-malaysia",
+      "https://www.proton.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "proton-perdana",
+    "name": "プロトン Perdana",
+    "sources": [
+      "https://www.proton.com/corporate/milestones",
+      "https://www.proton.com/happenings/2024/october/from-saga-to-s70-proton-champions-sedan-sales-in-malaysia",
+      "https://www.proton.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "proton-juara",
+    "name": "プロトン Juara",
+    "sources": [
+      "https://www.proton.com/corporate/milestones",
+      "https://www.proton.com/happenings/2024/october/from-saga-to-s70-proton-champions-sedan-sales-in-malaysia",
+      "https://www.proton.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "proton-arena",
+    "name": "プロトン Arena",
+    "sources": [
+      "https://www.proton.com/corporate/milestones",
+      "https://www.proton.com/happenings/2024/october/from-saga-to-s70-proton-champions-sedan-sales-in-malaysia",
+      "https://www.proton.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "proton-savvy",
+    "name": "プロトン Savvy",
+    "sources": [
+      "https://www.proton.com/corporate/milestones",
+      "https://www.proton.com/happenings/2024/october/from-saga-to-s70-proton-champions-sedan-sales-in-malaysia",
+      "https://www.proton.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "proton-inspira",
+    "name": "プロトン Inspira",
+    "sources": [
+      "https://www.proton.com/corporate/milestones",
+      "https://www.proton.com/happenings/2024/october/from-saga-to-s70-proton-champions-sedan-sales-in-malaysia",
+      "https://www.proton.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "proton-emas7",
+    "name": "プロトン e.MAS 7",
+    "sources": [
+      "https://www.proton.com/corporate/milestones",
+      "https://www.proton.com/happenings/2024/october/from-saga-to-s70-proton-champions-sedan-sales-in-malaysia",
+      "https://www.proton.com/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "perodua-myvi",
+    "name": "プロドゥア Myvi",
+    "sources": [
+      "https://eownersmanual.perodua.com.my/ourcars/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "perodua-axia",
+    "name": "プロドゥア Axia",
+    "sources": [
+      "https://eownersmanual.perodua.com.my/ourcars/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "perodua-bezza",
+    "name": "プロドゥア Bezza",
+    "sources": [
+      "https://eownersmanual.perodua.com.my/ourcars/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "perodua-alza",
+    "name": "プロドゥア Alza",
+    "sources": [
+      "https://eownersmanual.perodua.com.my/ourcars/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "perodua-ativa",
+    "name": "プロドゥア Ativa",
+    "sources": [
+      "https://eownersmanual.perodua.com.my/ourcars/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "perodua-aruz",
+    "name": "プロドゥア Aruz",
+    "sources": [
+      "https://eownersmanual.perodua.com.my/ourcars/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "perodua-kancil",
+    "name": "プロドゥア Kancil",
+    "sources": [
+      "https://eownersmanual.perodua.com.my/ourcars/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "perodua-kelisa",
+    "name": "プロドゥア Kelisa",
+    "sources": [
+      "https://eownersmanual.perodua.com.my/ourcars/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "perodua-kenari",
+    "name": "プロドゥア Kenari",
+    "sources": [
+      "https://eownersmanual.perodua.com.my/ourcars/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "perodua-kembara",
+    "name": "プロドゥア Kembara",
+    "sources": [
+      "https://eownersmanual.perodua.com.my/ourcars/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "perodua-rusa",
+    "name": "プロドゥア Rusa",
+    "sources": [
+      "https://eownersmanual.perodua.com.my/ourcars/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "perodua-nautica",
+    "name": "プロドゥア Nautica",
+    "sources": [
+      "https://eownersmanual.perodua.com.my/ourcars/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "perodua-viva",
+    "name": "プロドゥア Viva",
+    "sources": [
+      "https://eownersmanual.perodua.com.my/ourcars/"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-ev3",
+    "name": "キア EV3",
+    "sources": [
+      "https://www.kia.com/worldwide/vehicles",
+      "https://preprod2-press.kia.com/ie/en/home/corporate/history.html"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-ev4",
+    "name": "キア EV4",
+    "sources": [
+      "https://www.kia.com/worldwide/vehicles",
+      "https://preprod2-press.kia.com/ie/en/home/corporate/history.html"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-ev5",
+    "name": "キア EV5",
+    "sources": [
+      "https://www.kia.com/worldwide/vehicles",
+      "https://preprod2-press.kia.com/ie/en/home/corporate/history.html"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-pv5",
+    "name": "キア PV5",
+    "sources": [
+      "https://www.kia.com/worldwide/vehicles",
+      "https://preprod2-press.kia.com/ie/en/home/corporate/history.html"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-tasman",
+    "name": "キア Tasman",
+    "sources": [
+      "https://www.kia.com/worldwide/vehicles",
+      "https://preprod2-press.kia.com/ie/en/home/corporate/history.html"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-stonic",
+    "name": "キア Stonic",
+    "sources": [
+      "https://www.kia.com/worldwide/vehicles",
+      "https://preprod2-press.kia.com/ie/en/home/corporate/history.html"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-visto",
+    "name": "キア Visto",
+    "sources": [
+      "https://www.kia.com/worldwide/vehicles",
+      "https://preprod2-press.kia.com/ie/en/home/corporate/history.html"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-joice",
+    "name": "キア Joice",
+    "sources": [
+      "https://www.kia.com/worldwide/vehicles",
+      "https://preprod2-press.kia.com/ie/en/home/corporate/history.html"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-potentia",
+    "name": "キア Potentia",
+    "sources": [
+      "https://www.kia.com/worldwide/vehicles",
+      "https://preprod2-press.kia.com/ie/en/home/corporate/history.html"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-enterprise",
+    "name": "キア Enterprise",
+    "sources": [
+      "https://www.kia.com/worldwide/vehicles",
+      "https://preprod2-press.kia.com/ie/en/home/corporate/history.html"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  },
+  {
+    "slug": "kia-elan",
+    "name": "キア Elan",
+    "sources": [
+      "https://www.kia.com/worldwide/vehicles",
+      "https://preprod2-press.kia.com/ie/en/home/corporate/history.html"
+    ],
+    "formPolicy": "国内資料で認定型式とグレードの対応を未確認のため、未確認選択肢を作らず「わからない」「その他・わからない」で受付。海外資料は車種名と車種の照合用。",
+    "bodyTypes": [
+      {
+        "value": "unknown",
+        "label": "わからない",
+        "grades": []
+      }
+    ]
+  }
+]
