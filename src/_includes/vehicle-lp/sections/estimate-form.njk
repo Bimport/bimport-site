@@ -2,6 +2,8 @@
 {%- set bodyTypes = v.form.bodyTypes or [] -%}
 {%- set hasBodyType = bodyTypes.length > 0 -%}
 {%- set bodyTypeLabel = v.form.bodyTypeLabel or "ボディタイプ" -%}
+{%- set detailsOptional = v.form.detailsOptional == true -%}
+{%- set contactFirst = detailsOptional and v.form.contactFirst == true -%}
   <!-- ============ 60秒概算査定フォーム ============ -->
   <section class="lp-estimate" id="estimate">
     <div class="lp-container">
@@ -19,33 +21,33 @@
       <script type="application/json" id="estimate-config">{{ formConfig | dump | safe }}</script>
 
       <div class="lp-form-card" id="estimate-app">
-        <h2 class="lp-form-card__title">かんたん<em>60</em><small>秒</small>で概算査定</h2>
+        <h2 class="lp-form-card__title">{% if detailsOptional %}無料で査定相談{% else %}かんたん<em>60</em><small>秒</small>で概算査定{% endif %}</h2>
         <div class="lp-form-card__meta">
           <p class="lp-form-card__vehicle"><span>対象車種</span>{{ v.maker }} {{ v.model }}</p>
-          <p class="lp-form-card__easy">お車の情報{{ 4 if hasBodyType else 3 }}項目＋お名前・電話番号だけ</p>
+          <p class="lp-form-card__easy">{% if detailsOptional %}車種は入力済み。お名前・電話番号と、分かる項目から{% else %}お車の情報{{ 4 if hasBodyType else 3 }}項目＋お名前・電話番号だけ{% endif %}</p>
         </div>
 
-        <div class="lp-progress" aria-label="入力ステップ">
-          <p class="lp-progress__label">STEP <span id="estimate-step-num">1</span>/3</p>
+        <div class="lp-progress{% if contactFirst %} lp-progress--contact-first{% endif %}" aria-label="入力ステップ">
+          <p class="lp-progress__label">STEP <span id="estimate-step-num">1</span>/{{ 2 if contactFirst else 3 }}</p>
           <ol class="lp-progress__steps">
-            <li class="is-current" data-step-indicator="1"><i></i>お車について</li>
-            <li data-step-indicator="2"><i></i>お客様情報</li>
+            <li class="is-current" data-step-indicator="1"{% if contactFirst %} aria-current="step"{% endif %}><i></i>{{ "ご連絡先" if contactFirst else "お車について" }}</li>{% if not contactFirst %}
+            <li data-step-indicator="2"><i></i>お客様情報</li>{% endif %}
             <li data-step-indicator="3"><i></i>確認</li>
           </ol>
         </div>
 
-        <form id="estimate-form" novalidate>
+        <form id="estimate-form" method="post" novalidate{% if detailsOptional %} data-details-optional="true"{% endif %}{% if contactFirst %} data-contact-first="true" class="lp-contact-first"{% endif %}>
           <!-- 迷惑送信対策（人には見えない欄。入力があった送信は受け付け側で破棄する） -->
           <div class="lp-hp" aria-hidden="true">
             <label>Website<input type="text" name="website" tabindex="-1" autocomplete="off"></label>
           </div>
-          <!-- STEP 1 -->
-          <fieldset class="lp-step" data-step="1">
-            <legend class="lp-visually-hidden">STEP 1｜お車について</legend>
+{% if contactFirst %}{% include "vehicle-lp/sections/contact-first-fields.njk" %}{% else %}          <!-- STEP 1 -->
+          <fieldset class="lp-step" data-step="1" disabled data-init-locked>
+            <legend class="lp-visually-hidden">STEP 1｜お車について</legend>{% if detailsOptional %}<p class="lp-step__lead">年式・距離・グレードは、分かる項目だけで大丈夫です。未入力の項目は「わからない」として進めます。</p>{% endif %}
 
             {%- if hasBodyType %}
             <div class="lp-field" data-field="bodyType">
-              <p class="lp-label">{{ bodyTypeLabel }}<span class="lp-req">必須</span></p>
+              <p class="lp-label">{{ bodyTypeLabel }}<span class="{{ "lp-opt" if detailsOptional else "lp-req" }}">{{ "任意" if detailsOptional else "必須" }}</span></p>
               <div class="lp-choices" role="radiogroup">
                 {%- for b in bodyTypes %}
                 <label class="lp-choice"><input type="radio" name="bodyType" value="{{ b.label }}" data-body="{{ b.value }}"><span>{{ b.label }}</span></label>
@@ -56,7 +58,7 @@
             {%- endif %}
 
             <div class="lp-field" data-field="grade">
-              <label class="lp-label" for="f-grade">グレード<span class="lp-req">必須</span></label>
+              <label class="lp-label" for="f-grade">グレード<span class="{{ "lp-opt" if detailsOptional else "lp-req" }}">{{ "任意" if detailsOptional else "必須" }}</span></label>
               {%- if hasBodyType %}
               <select class="lp-input" id="f-grade" name="grade" disabled>
                 <option value="">{{ bodyTypeLabel }}を先に選択</option>
@@ -70,7 +72,7 @@
             </div>
 
             <div class="lp-field" data-field="year">
-              <label class="lp-label" for="f-year">年式<span class="lp-req">必須</span></label>
+              <label class="lp-label" for="f-year">年式<span class="{{ "lp-opt" if detailsOptional else "lp-req" }}">{{ "任意" if detailsOptional else "必須" }}</span></label>
               <select class="lp-input" id="f-year" name="year">
                 <option value="">選択してください</option>
               </select>
@@ -78,7 +80,7 @@
             </div>
 
             <div class="lp-field" data-field="mileage">
-              <label class="lp-label" for="f-mileage">走行距離<span class="lp-req">必須</span></label>
+              <label class="lp-label" for="f-mileage">走行距離<span class="{{ "lp-opt" if detailsOptional else "lp-req" }}">{{ "任意" if detailsOptional else "必須" }}</span></label>
               <select class="lp-input" id="f-mileage" name="mileage">
                 <option value="">選択してください</option>
                 {%- for m in (v.form.mileageOptions or estimateForm.mileageOptions) %}
@@ -94,7 +96,7 @@
           </fieldset>
 
           <!-- STEP 2 -->
-          <fieldset class="lp-step" data-step="2" hidden>
+          <fieldset class="lp-step" data-step="2" hidden disabled data-init-locked>
             <legend class="lp-visually-hidden">STEP 2｜お客様情報</legend>
 
             <div class="lp-field" data-field="name">
@@ -127,40 +129,40 @@
             </div>
           </fieldset>
 
-          <!-- STEP 3 -->
-          <fieldset class="lp-step" data-step="3" hidden>
-            <legend class="lp-visually-hidden">STEP 3｜入力内容の確認</legend>
+{% endif %}          <!-- STEP 3 -->
+          <fieldset class="lp-step" data-step="3" hidden disabled data-init-locked>
+            <legend class="lp-visually-hidden"{% if contactFirst %} tabindex="-1"{% endif %}>STEP {{ 2 if contactFirst else 3 }}｜入力内容の確認</legend>
             <p class="lp-step__lead">入力内容をご確認ください</p>
             <dl class="lp-confirm" id="estimate-confirm"></dl>
             <div class="lp-step__actions lp-step__actions--confirm">
-              <button type="submit" class="lp-btn lp-btn--gold lp-btn--block lp-btn--next" id="estimate-submit">無料で概算査定を依頼する</button>
+              <button type="submit" class="lp-btn lp-btn--gold lp-btn--block lp-btn--next" id="estimate-submit">{{ "この内容で査定相談を送る" if contactFirst else "無料で概算査定を依頼する" }}</button>
               <button type="button" class="lp-btn lp-btn--ghost lp-btn--block" data-prev>入力内容を修正する</button>
             </div>
             <p class="lp-note lp-note--center">送信いただいた内容は<a href="../privacy.html">プライバシーポリシー</a>に基づき取り扱います。</p>
-            <p class="lp-error lp-error--submit" aria-live="polite"></p>
+            <p class="lp-error lp-error--submit" aria-live="polite"></p>{% if contactFirst %}<p id="estimate-contact-fallback" class="lp-note lp-contact-first__fallback" hidden><a href="{{ site.lineUrl }}" data-cta="form-error" data-cta-type="line">LINEで相談</a><a href="{{ site.phoneHref }}" data-cta="form-error" data-cta-type="tel">電話で相談（{{ site.phoneDisplay }}）</a></p>{% endif %}
           </fieldset>
         </form>
 
         <!-- 送信完了 -->
         <div class="lp-done" id="estimate-done" hidden tabindex="-1">
           <p class="lp-done__mark" aria-hidden="true">✓</p>
-          <p class="lp-done__title">査定依頼を受け付けました</p>
-          <p class="lp-done__text">担当者よりご連絡のうえ、<br>概算査定額をご案内します。</p>
+          <p class="lp-done__title">{% if contactFirst %}相談内容を送信しました{% else %}ご相談内容を送信しました{% endif %}</p>
+          <p class="lp-done__text">{% if contactFirst %}お送りいただいた連絡先へ、<br>担当者からご連絡します。{% else %}担当者よりご連絡のうえ、<br>概算査定額をご案内します。{% endif %}</p>
           <div class="lp-done__line">
-            <p class="lp-done__line-lead">より詳しい概算査定をご希望の場合は、<br>LINEでお車の写真を送ってください。</p>
+            <p class="lp-done__line-lead">{% if contactFirst %}写真は後からで大丈夫です。<br>必要な写真や送る方法は、ご相談時にご案内します。{% else %}写真は後からで大丈夫です。<br>必要な写真や送る方法は、ご相談時にご案内します。{% endif %}</p>{% if not contactFirst %}
             <ul class="lp-photo-list">
               <li>車全体</li>
               <li>内装</li>
               <li>メーター</li>
               <li>車検証<small>（任意）</small></li>
-            </ul>
-            <a class="lp-btn lp-btn--line lp-btn--block" href="{{ site.lineUrl }}" data-cta="done" data-cta-type="line">{{ lineMark() }}LINEで写真を送る</a>
+            </ul>{% endif %}
+            {% if contactFirst %}<div class="lp-step__actions lp-step__actions--confirm">{% endif %}<a class="lp-btn lp-btn--line lp-btn--block" href="{{ site.lineUrl }}" data-cta="done" data-cta-type="line">{{ lineMark() }}{{ "LINEで相談を続ける" if contactFirst else "LINEで写真を送る" }}</a>{% if contactFirst %}
+              <a class="lp-btn lp-btn--ghost lp-btn--block" href="{{ site.phoneHref }}" data-cta="done" data-cta-type="tel">電話で相談する</a>
+            </div>{% endif %}{% if not contactFirst %}<p class="lp-done__text">LINEのご利用は任意です。<br><a href="{{ site.phoneHref }}" data-cta="done" data-cta-type="tel">電話（{{ site.phoneDisplay }}）でも相談する</a></p>{% endif %}
           </div>
         </div>
 
-        <noscript>
-          <p class="lp-noscript">フォームのご利用にはJavaScriptを有効にしてください。<a href="{{ site.lineUrl }}">公式LINE</a>からもご相談いただけます。</p>
-        </noscript>
+        <p class="lp-noscript" id="estimate-init-fallback">フォームが使えない場合は、<a href="{{ site.phoneHref }}" data-cta="form" data-cta-type="tel">お電話（{{ site.phoneDisplay }}）</a>または<a href="{{ site.lineUrl }}" data-cta="form" data-cta-type="line">公式LINE</a>からご相談ください。</p>
 
         <p class="lp-form-notice">※ ご入力いただいた車両情報をもとに、担当者より概算査定額をご案内します。正式な買取金額は実車査定後にご提示いたします。</p>
       </div>

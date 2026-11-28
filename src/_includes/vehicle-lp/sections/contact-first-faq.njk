@@ -1,0 +1,42 @@
+  <!-- ============ FAQ ============ -->
+  <section class="lp-section" id="faq">
+    <div class="lp-container lp-container--mid">
+      <h2 class="lp-h2">よくあるご質問</h2>
+      <div class="lp-faq">
+        <details>
+          <summary>概算金額だけ知りたいのですが大丈夫ですか？</summary>
+          <p>はい。売却が決まっていない段階でも、まずは概算価格だけお気軽にご相談いただけます。</p>
+        </details>
+        <details>
+          <summary>概算査定と正式な買取金額は違いますか？</summary>
+          <p>概算査定は入力いただいた車両情報をもとにした目安です。正式な買取金額は実際のお車を確認した後にご提示します。</p>
+        </details>
+        <details>
+          <summary>査定は無料ですか？</summary>
+          <p>はい。査定は無料です。</p>
+        </details>
+        <details>
+          <summary>遠方でも対応できますか？</summary>
+          <p>全国からのご相談に対応しています。車両情報・売却のご意向や移動条件を確認したうえで、対応可否を個別にご案内します。</p>
+        </details>
+        <details>
+          <summary>売却するかまだ決めていません。</summary>
+          <p>問題ありません。相場確認だけでもお気軽にご利用いただけます。</p>
+        </details>
+        <details>
+          <summary>写真や車検証が手元になくても相談できますか？</summary>
+          <p>はい。まずは分かる範囲の車両情報と連絡先からご相談ください。写真や詳しい情報は、ご相談の中で必要な内容と送付方法をご案内します。</p>
+        </details>
+        <details>
+          <summary>LINEを使っていない場合は？</summary>
+          <p>このページのフォーム、または電話でもご相談いただけます。フォームではお名前と電話番号が必要です。</p>
+        </details>
+        {%- for f in (v.faq or []) %}
+        <details>
+          <summary>{{ f.q }}</summary>
+          <p>{{ f.a | safe }}</p>
+        </details>
+        {%- endfor %}
+      </div>
+    </div>
+  </section>

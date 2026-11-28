@@ -2,7 +2,7 @@
   <div class="lp-container">
     <p class="lp-footer__logo"><span class="lp-logo__name">Bimport</span><span class="lp-logo__sub">輸入車専門買取店</span></p>
     <p class="lp-footer__links">
-      <a href="../">Bimport トップページ</a><a href="../#company">店舗・会社情報</a><a href="https://auto-dealer.jp/company/" target="_blank" rel="noopener noreferrer">運営会社・グループ店舗 ↗</a>
+      <a href="../">Bimport トップページ</a>{% if vehicleCatalog.enabled %}<a href="../cars/">車種から査定相談</a>{% endif %}<a href="../#company">店舗・会社情報</a><a href="https://auto-dealer.jp/company/" target="_blank" rel="noopener noreferrer">運営会社・グループ店舗 ↗</a>
       <a href="../privacy.html">プライバシーポリシー</a>
       <a href="#estimate">お問い合わせ</a>
     </p>
@@ -17,6 +17,6 @@
 
 <!-- スマートフォン固定CTA -->
 <div class="lp-sticky" id="lp-sticky" aria-hidden="true">
-  <a class="lp-btn lp-btn--gold lp-sticky__main" href="#estimate" data-cta="sticky" tabindex="-1">60秒で概算査定</a>
+  <a class="lp-btn lp-btn--gold lp-sticky__main" href="#estimate" data-cta="sticky" tabindex="-1">{{ "無料で査定相談" if (v.form.detailsOptional == true and v.form.contactFirst == true) else "60秒で概算査定" }}</a>
   <a class="lp-btn lp-sticky__line" href="{{ site.lineUrl }}" data-cta="sticky" data-cta-type="line" tabindex="-1">LINE</a>
 </div>

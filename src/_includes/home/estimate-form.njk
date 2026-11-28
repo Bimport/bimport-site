@@ -21,13 +21,13 @@
           </ol>
         </div>
 
-        <form id="estimate-form" novalidate>
+        <form id="estimate-form" method="post" novalidate>
           <!-- 迷惑送信対策（人には見えない欄。入力があった送信は受け付け側で破棄する） -->
           <div class="lp-hp" aria-hidden="true">
             <label>Website<input type="text" name="website" tabindex="-1" autocomplete="off"></label>
           </div>
           <!-- STEP 1 -->
-          <fieldset class="lp-step" data-step="1">
+          <fieldset class="lp-step" data-step="1" disabled data-init-locked>
             <legend class="lp-visually-hidden">STEP 1｜お車について</legend>
 
 <div class="lp-field" data-field="maker"><label class="lp-label" for="f-maker">メーカー<span class="lp-req">必須</span></label><select class="lp-input" id="f-maker" name="maker"><option value="">選択してください</option></select><p class="lp-error" aria-live="polite"></p></div>
@@ -60,7 +60,7 @@
           </fieldset>
 
           <!-- STEP 2 -->
-          <fieldset class="lp-step" data-step="2" hidden>
+          <fieldset class="lp-step" data-step="2" hidden disabled data-init-locked>
             <legend class="lp-visually-hidden">STEP 2｜お客様情報</legend>
 
             <div class="lp-field" data-field="name">
@@ -94,7 +94,7 @@
           </fieldset>
 
           <!-- STEP 3 -->
-          <fieldset class="lp-step" data-step="3" hidden>
+          <fieldset class="lp-step" data-step="3" hidden disabled data-init-locked>
             <legend class="lp-visually-hidden">STEP 3｜入力内容の確認</legend>
             <p class="lp-step__lead">入力内容をご確認ください</p>
             <dl class="lp-confirm" id="estimate-confirm"></dl>
@@ -110,10 +110,10 @@
         <!-- 送信完了 -->
         <div class="lp-done" id="estimate-done" hidden tabindex="-1">
           <p class="lp-done__mark" aria-hidden="true">✓</p>
-          <p class="lp-done__title">査定依頼を受け付けました</p>
+          <p class="lp-done__title">ご相談内容を送信しました</p>
           <p class="lp-done__text">担当者よりご連絡のうえ、<br>概算査定額をご案内します。</p>
           <div class="lp-done__line">
-            <p class="lp-done__line-lead">より詳しい概算査定をご希望の場合は、<br>LINEでお車の写真を送ってください。</p>
+            <p class="lp-done__line-lead">写真は後からで大丈夫です。<br>必要な写真や送る方法は、ご相談時にご案内します。</p>
             <ul class="lp-photo-list">
               <li>車全体</li>
               <li>内装</li>
@@ -121,12 +121,11 @@
               <li>車検証<small>（任意）</small></li>
             </ul>
             <a class="lp-btn lp-btn--line lp-btn--block" href="{{ site.lineUrl }}" data-cta="done" data-cta-type="line">{{ lineMark() }}LINEで写真を送る</a>
+            <p class="lp-done__text">LINEのご利用は任意です。<br><a href="{{ site.phoneHref }}" data-cta="done" data-cta-type="tel">電話（{{ site.phoneDisplay }}）でも相談する</a></p>
           </div>
         </div>
 
-        <noscript>
-          <p class="lp-noscript">フォームのご利用にはJavaScriptを有効にしてください。<a href="{{ site.lineUrl }}">公式LINE</a>からもご相談いただけます。</p>
-        </noscript>
+        <p class="lp-noscript" id="estimate-init-fallback">フォームが使えない場合は、<a href="{{ site.phoneHref }}" data-cta="form" data-cta-type="tel">お電話（{{ site.phoneDisplay }}）</a>または<a href="{{ site.lineUrl }}" data-cta="form" data-cta-type="line">公式LINE</a>からご相談ください。</p>
 
         <p class="lp-form-notice">※ ご入力いただいた車両情報をもとに、担当者より概算査定額をご案内します。正式な買取金額は実車査定後にご提示いたします。</p>
       </div>

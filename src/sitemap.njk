@@ -12,6 +12,11 @@ eleventyExcludeFromCollections: true
   <url>
     <loc>{{ site.siteUrl }}/</loc>
   </url>
+{%- if vehicleCatalog.published %}
+  <url>
+    <loc>{{ site.siteUrl }}/cars/</loc>
+  </url>
+{%- endif %}
 {%- for v in vehiclePages %}
 {%- if not v.draft %}
   <url>

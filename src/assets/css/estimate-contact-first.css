@@ -1,0 +1,19 @@
+.lp-progress--contact-first .lp-progress__steps{grid-template-columns:repeat(2,minmax(0,1fr))}
+.lp-progress--contact-first .lp-progress__steps:before{left:25%;right:25%}
+.lp-progress--contact-first .lp-progress__steps li,.lp-progress--contact-first .lp-progress__label{font-size:14px}
+.lp-contact-first .lp-note{font-size:14px;line-height:1.8}
+.lp-contact-first__privacy{margin:0 0 18px}.lp-contact-first__privacy a,.lp-contact-first__photo a,.lp-contact-first__fallback a{text-decoration:underline;text-underline-offset:.2em}
+.lp-optional-details{margin-top:20px;border:1px solid #b9b5aa;border-radius:8px;background:#fff}
+.lp-optional-details summary{display:flex;align-items:center;flex-wrap:wrap;gap:6px;padding:16px;min-height:54px;font-size:15px;font-weight:700;line-height:1.7;list-style:none;cursor:pointer}
+.lp-optional-details summary::-webkit-details-marker{display:none}
+.lp-optional-details summary:after{content:"＋";margin-left:auto;font-size:20px;line-height:1}
+.lp-optional-details[open] summary:after{content:"−"}
+.lp-optional-details summary:focus-visible{outline:3px solid #886929;outline-offset:3px}
+.lp-optional-details__body{padding:16px;border-top:1px solid #dedbd4}
+.lp-optional-details__body .lp-field:last-child{margin-bottom:0}
+.lp-contact-first__photo{margin-top:14px}.lp-contact-first__fallback{margin-top:14px}
+.lp-contact-first__fallback a{display:inline-flex;align-items:center;min-height:44px;margin-right:16px;font-size:15px}
+@media(max-width:374px){.lp-optional-details summary{padding:14px;font-size:14px}.lp-optional-details__body{padding:14px}}
+
+/* Keep optional model-code choices readable inside the narrower details panel. */
+@media(max-width:600px){.lp-contact-first .lp-choices{grid-template-columns:repeat(2,minmax(0,1fr))}}

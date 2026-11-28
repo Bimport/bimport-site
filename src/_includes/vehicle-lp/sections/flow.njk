@@ -8,7 +8,7 @@
         <li>
           <span class="lp-flow__num">01</span>
           <span class="lp-flow__icon">{{ icon("form") }}</span>
-          <div><p class="lp-flow__title">概算査定を依頼<em class="lp-flow__tag">概算査定</em></p><p class="lp-flow__text">フォームまたはLINEからご依頼（最短60秒）</p></div>
+          <div><p class="lp-flow__title">概算査定を依頼<em class="lp-flow__tag">概算査定</em></p><p class="lp-flow__text">{{ "フォーム・LINE・電話からご相談ください" if (v.form.detailsOptional == true and v.form.contactFirst == true) else "フォームまたはLINEからご依頼（最短60秒）" }}</p></div>
         </li>
         <li>
           <span class="lp-flow__num">02</span>

@@ -11,7 +11,7 @@ const path = require("path");
 
 const VEHICLE_DIR = path.join(__dirname, "vehicles");
 const REQUIRED = ["slug", "maker", "makerJa", "model", "nameJa", "seo.title", "seo.description", "form.gradeFallback", "form.yearFrom"];
-const RESERVED_SLUGS = ["assets", "privacy.html", "index.html"];
+const RESERVED_SLUGS = ["assets", "cars", "privacy.html", "index.html"];
 
 function get(obj, keyPath) {
   return keyPath.split(".").reduce((o, k) => (o == null ? undefined : o[k]), obj);

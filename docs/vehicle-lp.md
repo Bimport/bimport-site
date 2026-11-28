@@ -99,6 +99,7 @@ docs/
 | `form.bodyTypes` | | ボディタイプ（型式など）とグレード一覧。未指定ならボディタイプ欄は出さない |
 | `form.bodyTypeLabel` | | ボディタイプ欄の見出し（例：「世代」「型式」）。既定は「ボディタイプ」。通知メールの項目名にも使われる（20文字まで） |
 | `form.grades` | | ボディタイプがない車種のグレード一覧 |
+| `form.detailsOptional` | | 明示trueの対象だけ詳細入力を任意にする。未入力は既存unknown選択肢を使い、車種を引き継ぎ、名前/電話を必須とする。GAS v3の5秒〜24時間の実経過時間を守って送信。既定は従来どおり。未知の選択肢がない車種へ一括で有効化しない |
 | `form.gradeFallback` | ○ | グレードの最後の選択肢（例：「その他・わからない」） |
 | `form.yearFrom` / `form.yearOlderLabel` | ○ / | 年式の選択肢（今年〜yearFrom、＋それ以前、＋わからない） |
 | `form.mileageOptions` | | 走行距離の選択肢（未指定なら共通の選択肢） |
@@ -109,6 +110,8 @@ docs/
 | `final.label` / `final.title` / `final.lead` / `final.lineText` | | 最終CTAの文言 |
 | `theme` | | 車種専用の配色・装飾。`src/assets/css/themes/<theme>.css` を読み込み、`<body class="lp-theme-<theme>">` になる（例：`"porsche"`）。未指定なら共通デザイン |
 | `hero.cta` | | ファーストビュー内にCTAボタンを出す場合の文言（例：「60秒で概算査定」） |
+| `hero.areaLabel` | | 対応範囲のバッジに使う任意の文言（`<br>`で2行）。未指定時は従来の「全国／対応」のまま。出張可否・費用の条件は本文やFAQと一致させる |
+| `final.formText` | | 最終CTAのフォームボタンの任意の文言。未指定時は従来の「60秒で概算査定」のまま。送信先・フォーム構造・計測イベントは変えない |
 | `images.hero.position` / `positionPc` | | テーマ側でファーストビュー写真を切り抜く場合の `object-position`（スマホ／PC） |
 | `images.hero.webp` | | ファーストビュー画像のWebP版 `[{src, width}]`。指定すると `<picture>` で配信し、`src` はフォールバックになる |
 | `images.line.position` / `positionPc` | | LINE写真査定の画像の `object-position`（スマホ／PC）。未指定なら共通の位置 |
@@ -131,6 +134,8 @@ docs/
 
 ## 共通設定（車種データに書かないもの）
 
+車種一覧の無効既定・確認フラグ・footer/sitemapへの条件付き追加は[vehicle-catalog.md](vehicle-catalog.md)を参照。`site.catalogEnabled=false`では既存LPの出力を変えず、確認/有効化時だけ一覧への通常リンクを追加する。車種データ・画像・フォームを複製しない。
+
 LINE URL・Google口コミURL・サイトURL・GAS送信先（`estimateEndpoint`）・電話番号・店舗情報・GA4 は、
 すべて `src/_data/site.json` から読み込みます。車種データに重複して書かないでください。
 通知先メールアドレスなどの秘密情報は Google Apps Script のスクリプトプロパティで管理し、リポジトリには入れません。
@@ -144,6 +149,10 @@ LINE URL・Google口コミURL・サイトURL・GAS送信先（`estimateEndpoint`
 | 最終CTA | ファーストビュー画像を使用。それもなければ黒背景 |
 | 買取実績 | 車のアイコンのタイル |
 | 査定ポイント | アイコン（＋任意の英字ラベル）のタイル |
+
+## 名前・電話から始める4車種の案
+
+4車種の2段階相談案は[contact-first-review.md](contact-first-review.md)を参照。`form.contactFirst=true`と`form.detailsOptional=true`の両方があるときだけ名前/電話から始め、車両詳細は任意欄へ置く。未指定ページの3STEP/必須詳細を保持する。GAS/DBの重複・通知・正式案件連携を完成させる変更ではない。
 
 ## 問い合わせの流入LPの見分け方
 
